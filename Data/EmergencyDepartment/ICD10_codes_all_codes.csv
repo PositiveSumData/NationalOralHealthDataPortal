@@ -1,0 +1,304 @@
+icd10_code,description
+A69.0,Necrotizing ulcerative stomatitis
+K00.0,Anodontia
+K00.1,Supernumerary teeth
+K00.2,Abnormalities of size and form of teeth
+K00.3,Mottled teeth
+K00.4,Disturbances in tooth formation
+K00.5,Hereditary disturbances in tooth structure
+K00.6,Disturbances in tooth eruption
+K00.7,Teething syndrome
+K00.8,Other disorders of tooth development
+K00.9,"Disorder of tooth development, unspecified"
+K01.0,Embedded teeth
+K01.1,Impacted teeth
+K02.3,Arrested dental caries
+K02.51,Dental caries on pit and fissure surface limited to enamel
+K02.52,Dental caries on pit and fissure surface penetrat into dentin
+K02.53,Dental caries on pit and fissure surface penetrat into pulp
+K02.61,Dental caries on smooth surface limited to enamel
+K02.62,Dental caries on smooth surface penetrating into dentin
+K02.63,Dental caries on smooth surface penetrating into pulp
+K02.7,Dental root caries
+K02.9,"Dental caries, unspecified"
+K03.0,Excessive attrition of teeth
+K03.1,Abrasion of teeth
+K03.2,Erosion of teeth
+K03.3,Pathological resorption of teeth
+K03.4,Hypercementosis
+K03.5,Ankylosis of teeth
+K03.6,Deposits [accretions] on teeth
+K03.7,Posteruptive color changes of dental hard tissues
+K03.81,Cracked tooth
+K03.89,Other specified diseases of hard tissues of teeth
+K03.9,
+K04.01,Reversible pulpitis
+K04.02,Irreversible pulpitis
+K04.1,Necrosis of pulp
+K04.2,Pulp degeneration
+K04.3,Abnormal hard tissue formation in pulp
+K04.4,Acute apical periodontitis of pulpal origin
+K04.5,Chronic apical periodontitis
+K04.6,Periapical abcess with sinus
+K04.7,Periapical abcess without sinus
+K04.8,Radicular cyst
+K04.90,Unspecified diseases of pulp and periapical tissues
+K04.99,Other diseases of pulp and periapical tissues
+K05.00,"Acute gingivitis, plaque induced"
+K05.01,"Acute gingivitis, non-plaque induced"
+K05.10,"Chronic gingivitis, plaque induced"
+K05.11,"Chronic gingivitis, non-plaque induced"
+K05.20,"Aggressive periodontitis, unspecified"
+K05.211,"Aggressive periodontitis, localized, slight"
+K05.212,"Aggressive periodontitis, localized, moderate"
+K05.213,"Aggressive periodontitis, localized, severe"
+K05.219,"Aggressive periodontitis, localized, unspecified severity"
+K05.221,"Aggressive periodontitis, generalized, slight"
+K05.222,"Aggressive periodontitis, generalized, moderate"
+K05.223,"Aggressive periodontitis, generalized, severe"
+K05.229,"Aggressive periodontitis, generalized, unspecified severity"
+K05.30,"Chronic periodontitis, unspecified"
+K05.311,"Chronic periodontitis, localized, slight"
+K05.312,"Chronic periodontitis, localized, moderate"
+K05.313,"Chronic periodontitis, localized, severe"
+K05.319,"Chronic periodontitis, localized, unspecified severity"
+K05.321,"Chronic periodontitis, generalized, slight"
+K05.322,"Chronic periodontitis, generalized, moderate"
+K05.323,"Chronic periodontitis, generalized, severe"
+K05.329,"Chronic periodontitis, generalized, unspecified severity"
+K05.4,Periodontitis
+K05.5,Other periodontal diseases
+K05.6,"Periodontal disease, unspecified"
+K06.1,Gingival enlargement
+K06.2,Gingival & edentulous alveolar ridge lesions associated with trauma
+K06.3,Horizontal alveolar bone loss
+K06.8,Other specified disorders of gingiva and edentulous alveolar ridge
+K06.9,"Disorder of ginviva and edentulous alveolar ridge, unspecified"
+K08.0,Exfoliation of teeth due to systemic causes
+K08.101,"Complete loss of teeth, unspecified cause, class I"
+K08.102,"Complete loss of teeth, unspecified cause, class II"
+K08.103,"Complete loss of teeth, unspecified cause, class III"
+K08.104,"Complete loss of teeth, unspecified cause, class IV"
+K08.109,"Complete loss of teeth, unspecified cause, unspecified class"
+K08.111,"Complete loss of teeth due to trauma, class I"
+K08.112,"Complete loss of teeth due to trauma, class II"
+K08.113,"Complete loss of teeth due to trauma, class III"
+K08.114,"Complete loss of teeth due to trauma, class IV"
+K08.119,"Complete loss of teeth due to trauma, unspecified class"
+K08.121,"Complete loss of teeth due to periodontal disease, class I"
+K08.122,"Complete loss of teeth due to periodontal disease, class II"
+K08.123,"Complete loss of teeth due to periodontal disease, class III"
+K08.124,"Complete loss of teeth due to periodontal disease, class IV"
+K08.129,"Complete loss of teeth due to periodontal disease, unspecified class"
+K08.131,"Complete loss of teeth due to caries, class I"
+K08.132,"Complete loss of teeth due to caries, class II"
+K08.133,"Complete loss of teeth due to caries, class III"
+K08.134,"Complete loss of teeth due to caries, class IV"
+K08.139,"Complete loss of teeth due to caries, unspecified class"
+K08.191,"Complete loss of teeth due to other specified cause, class I"
+K08.192,"Complete loss of teeth due to other specified cause, class II"
+K08.193,"Complete loss of teeth due to other specified cause, class III"
+K08.194,"Complete loss of teeth due to other specified cause, class IV"
+K08.199,"Complete loss of teeth due to other specified cause, unspecified class"
+K08.20,Unspecified atrophy of edentulous alveolar ridge
+K08.21,Minimal atrophy of the mandible
+K08.22,Moderate atrophy of the mandible
+K08.23,Severe atrophy of the mandible
+K08.24,Minimal atrophy of maxilla
+K08.25,Moderate atrophy of the maxilla
+K08.26,Severe atrophy of the maxilla
+K08.3,Retained dental root
+K08.401,"Partial loss of teeth, unspecified, class I"
+K08.402,"Partial loss of teeth, unspecified, class II"
+K08.403,"Partial loss of teeth, unspecified, class II"
+K08.404,"Partial loss of teeth, unspecified, class IV"
+K08.409,"Partial loss of teeth, unspecified cause, unspecified class"
+K08.411,"Partial loss of teeth due to trauma, class I"
+K08.412,"Partial loss of teeth due to trauma, class II"
+K08.413,"Partial loss of teeth due to trauma, class III"
+K08.414,"Partial loss of teeth due to trauma, class IV"
+K08.419,"Partial loss of teeth due to trauma, unspecified class"
+K08.421,"Partial loss of teeth due to periodontal diseases, class I"
+K08.422,"Partial loss of teeth due to periodontal diseases, class II"
+K08.423,"Partial loss of teeth due to periodontal diseases, class III"
+K08.424,"Partial loss of teeth due to periodontal diseases, class IV"
+K08.429,"Partial loss of teeth due to periodontal disease, unspecified class"
+K08.431,"Partial loss of teeth due to caries, class I"
+K08.432,"Partial loss of teeth due to caries, class II"
+K08.433,"Partial loss of teeth due to caries, class II"
+K08.434,"Partial loss of teeth due to caries, class III"
+K08.439,"Partial loss of teeth due to caries, unspecified class"
+K08.491,"Partial loss of teeth due to other specified cause, class I"
+K08.492,"Partial loss of teeth due to other specified cause, class II"
+K08.493,"Partial loss of teeth due to other specified cause, class III"
+K08.494,"Partial loss of teeth due to other specified cause, class IV"
+K08.499,"Partial loss of teeth due to other cause, unspecifed class"
+K08.50,"Unsatisfactory restoration of tooth, unspecified"
+K08.51,Open restoration margins of tooth
+K08.52,Unrepairable overhanging of dental restorative materials
+K08.530,Fractured dental restorative material without loss of material
+K08.531,Fractured dental restorative material with loss of material
+K08.539,"Fracture dental restorative material, unspecified"
+K08.54,Contour of existing restoration of tooth biologically incompatible with oral health
+K08.55,Allergy to existing dental restorative material
+K08.56,Poor aesthetic of existing restoration of tooth
+K08.59,Other unsatisfactory restoration of tooth
+K08.81,Primary occlusal trauma
+K08.82,Secondary occlusal trauma
+K08.89,Other specified disorders of teeth and supporting structures
+K08.9,"Disorder of teeth and supporting structures, unspecified"
+K09.0,Developmental odontogenic cysts
+K09.1,Developmental (nonodontogenic) cysts of oral region
+K09.8,"Other cyst of oral region, not elsewhere classified"
+K09.9,"Cyst of oral region, unspecified"
+K11.0,Atrophy of salivary gland
+K11.1,Hypertrophy of salivary gland
+K11.20,"Sialodenitis, unspecified"
+K11.21,Acute sialoadenitis
+K11.22,Acute recurrent sialoadenitis
+K11.23,Chronic sialoadenitis
+K11.3,Ascess of salivary gland
+K11.4,Fistula of salivary gland
+K11.5,Sialolithiasis
+K11.6,Mucocele of salivary gland
+K11.7,Dusturbances of salivary secretion
+K11.8,Other diseases of salivary glands
+K11.9,"Disease of salivary gland, unspecified"
+K12.0,Recurrent oral aphtae
+K12.1,Other ofrms of stomatitis
+K12.2,Cellultis and abscess of mouth
+K12.30,"Oral mucositis (ulcerative), unspecified"
+K12.31,"Oral mucositis (ulcerative), due to antineoplastic therapy"
+K12.32,"Oral mucositis (ulcerative), due to other drugs"
+K12.33,"Oral mucosisit (ulcerative), due to radiation"
+K12.39,Other oral mucositis (ulcerative)
+K13.0,Disease of lips
+K13.1,Cheek and lip biting
+K13.21,"Leukoplakia and other disturbances of oral epithelium, including tongue"
+K13.22,Minimal keratinized residual ridge mucosa
+K13.23,Excessive keratinized residual ridge mucosa
+K13.24,Leukokeratosis nicotina palati
+K13.29,"Other disturbances of oral epithelium, including tongue"
+K13.3,Hairy leukoplakia
+K13.4,Granuloma and granuloma-like mesions of oral mucosa
+K13.5,Oral submucous fibrosis
+K13.6,Irritave hyperplasia of oral mucosa
+K13.70,Unspecified lesions of oral mucosa
+K13.79,Other lesions of oral mucosa
+K14.0,Glossitis
+K14.1,Geographic tongue
+K14.2,Median rhomboid glossitis
+K14.3,Hypertrophy of tongue papillae
+K14.4,Atrophy of tongue papillae
+K14.5,Plicated tongue
+K14.6,Glossodynia
+K14.8,Other diseases of tongue
+K14.9,"Disease of tongue, unspecified"
+M26.00,Unspecified anomaly of jaw size
+M26.01,Maxillary hyperplasia
+M26.02,Maxillary hypoplasia
+M26.03,Mandibular hyperplasia
+M26.04,Mandibular hypoplasia
+M26.05,Macrogenia
+M26.06,Microgenia
+M26.07,Excessive tuberosity of jaw
+M26.09,Other specified anomalies of jaw size
+M26.10,Unspecified anomaly of jaw-cranial base relationship
+M26.11,Maxillary asymmetry
+M26.12,Other jaw assymmetry
+M29.19,Other specified anomalies of jaw-cranial base relationship
+M26.20,Unspecified anomaly of dental arch relationship
+M26.211,"Malocclusion, Angle's class I"
+M26.212,"Malocclusion, Angle's class II"
+M26.213,"Malocclusion, Angle's class III"
+M26.219,"Malocclusion, Angle's class unspecified"
+M26.220,Open anterior occlusal relationship
+M26.221,Open posterior occlusal relationship
+M26.23,Excessive horizontal overlap
+M26.24,Reverse articulation
+M26.25,Anomalies of interarch distance
+M26.29,Other anomalies of dental arch relationship
+M26.30,Unspecified anomaly of tooth position of fully erupted tooth/teeth
+M26.31,Crowding of fully erupted teeth
+M26.32,Excessive spacing of fully erupted teeth
+M26.33,Horizontal displacement of fully erupted tooth or teeth
+M26.34,Vertical displacement of fully erupted tooth or teeth
+M26.35,Rotation of fully erupted tooth or teeth
+M26.36,Insufficient interocclusal distance of fully erupted teeth
+M26.37,Excessive interocclusal distance of fully erupted teeth
+M26.39,Other anomalies of tooth position of fully erupted tooth/teeth
+M26.4,"Malocclusion, unspecified"
+M26.50,"Dentofacial function abnormalities, unspecified"
+M26.51,Abnormal jaw closure
+M26.52,Limited mandibular range of motion
+M26.53,Deviation in opening and closing of the mandible
+M26.54,Insufficient anterior guidance
+M26.55,Centric occlusion maximum intercuspation discrepancy
+M26.56,Non-workign side interference
+M26.57,Lack of posterior occlusal support
+M26.59,Other dentofacial functional abnormalities
+M26.60,
+M26.601,"Right temproromandibular joint disorder, unspecified"
+M26.602,"Left termporomandibular joint disorder, unspecified"
+M26.603,"Bilateral termporomandibular joint disorder, unspecified"
+M26.609,"Unspecified TMJ joint disorder, unspecified side"
+M26.611,Adhesions and ankylosis of right temporomandibular joint
+M26.612,Adhesions and ankylosis of left temporomandibular joint
+M26.613,Adhesions and ankylosis of bilateral temporomandibular joint
+M26.619,"Adhesions and ankylosis of TMJ joint, unspecified side"
+M26.621,Arthralgia of right temporomandibular joint
+M26.622,Arthralgia of left temporomandibular joint
+M26.623,Arthralgia of bilateral termporomandibular joint
+M26.629,"Arthralgia of temporomandibular joint, unspecified side"
+M26.631,Articular disc disorder of right termporomandibular joint
+M26.632,Articular disc disorder of left temporomandibular joint
+M26.633,Articular disc disorder of bilateral temporomandibular joint
+M26.639,"Articular disc disorder of TMJ joint, unspecified side"
+M26.69,Other specified disorders of temporomandibular joint
+M26.70,Unspecified alveolar anomaly
+M26.71,Alveolar maxillary hyperplasia
+M26.72,Alveolar mandibular hyperplasia
+M26.73,Alveolar maxillary hypoplasia
+M26.74,Alveolar mandibular hypoplasia
+M26.79,Other specified alveolar anomalies
+M26.81,Anterior soft tissue impingement
+M26.82,Posterior soft tissue impingement
+M26.89,Other dentofacial anomalies
+M26.9,"Dentofacial anomaly, unspecified"
+M27.0,Developmental disorders of jaws
+M27.1,"Giant cell granuloma, central"
+M27.2,Inflammatory conditions of jaws
+M27.3,Alveolitis of jaws
+M27.40,Unspecified cyst of jaw
+M27.49,Other cyst s of jaw
+M27.51,Perforation of root canal space due to endodontic treatment
+M27.52,Endodontic overfill
+M27.53,Endodontic underfill
+M27.59,Other periradicular pathology associated with preventive endodontic treatment
+M27.61,Osseointegration failure of dental implant
+M27.62,Post-osseointegration of biological failure of dental implant
+M27.63,Post-osseointegration mechanical failur of dental implant
+M27.69,Other endosseous dentla implant failure
+M27.8,Other specified diseases of jaws
+M27.9,"Disease of jaws, unspecified"
+R68.2,"Dry mouth, unspecified"
+R68.84,Jaw pain
+R85.9,Unspecified abnormal finding in specimens from digsetive organs and abdominal cavity
+S01.409A,"Unspecified open wound of unspecified cheek and temporomandibular area, initial encounter"
+S01.422A,"Laceration with foreign body of left cheek and temporomandibular area, initial encounter"
+S01.501A,"Unspecified open wound of lip, initial encounter"
+S01.502A,"Unspecified open wound of oral cavity, initial encounter"
+S01.512A,"Laceration without foreign body of oral cavity, initial encounter"
+S01.521A,"Laceration with foreign body of lip, initial encounter"
+S01.522A,"Laceration with foreign body of oral cavity, initial encounter"
+S01.80XA,"Unspecified open wound of other part of head, initial encounter"
+S01.82XA,"Laceration with foreign body of other part of head, initial encounter"
+S02.5XXA,"Fracture of tooth (traumatic), initial encounter for closed fracture"
+S02.5XXB,"Fracture of tooth (traumatic), initial encounter for open fracture"
+S03.0XXA,"Dislocation of jaw, initial encounter"
+S03.4XXA,"Sprain of jaw, initial encounter"
+S09.93XA,"Unspecified injury of face, initial encounter"
+Z01.20,Encounter for dental examination and cleaning without abnormal findings
+Z01.21,Encounter for dental examination and cleanign with abnormal findings
+Z46.3,Encounter for fitting and adjustment of dental prosthetic device
+Z46.4,Encounter for fitting and adjustment of orthodontic device

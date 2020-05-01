@@ -1,0 +1,59 @@
+ICD10_code,description
+K02.3,Arrested dental caries
+K02.51,Dental caries on pit and fissure surface limited to enamel
+K02.61,Dental caries on smooth surface limited to enamel
+K02.62,Dental caries on smooth surface penetrating into dentin
+K02.63,Dental caries on smooth surface penetrating into pulp
+K02.7,Dental root caries
+K02.9,"Dental caries, unspecified"
+K03.6,Deposits [accretions] on teeth
+K03.81,Cracked tooth
+K03.89,Other specified diseases of hard tissues of teeth
+K03.9,
+K04.1,Necrosis of pulp
+K04.2,Pulp degeneration
+K04.4,Acute apical periodontitis of pulpal origin
+K04.5,Chronic apical periodontitis
+K04.6,Periapical abcess with sinus
+K04.7,Periapical abcess without sinus
+K04.90,Unspecified diseases of pulp and periapical tissues
+K04.99,Other diseases of pulp and periapical tissues
+K05.00,"Acute gingivitis, plaque induced"
+K05.01,"Acute gingivitis, non-plaque induced"
+K05.10,"Chronic gingivitis, plaque induced"
+K05.11,"Chronic gingivitis, non-plaque induced"
+K05.20,"Aggressive periodontitis, unspecified"
+K05.30,"Chronic periodontitis, unspecified"
+K05.5,Other periodontal diseases
+K05.6,"Periodontal disease, unspecified"
+K06.1,Gingival enlargement
+K08.401,"Partial loss of teeth, unspecified, class I"
+K08.402,"Partial loss of teeth, unspecified, class II"
+K08.403,"Partial loss of teeth, unspecified, class II"
+K08.404,"Partial loss of teeth, unspecified, class IV"
+K08.409,"Partial loss of teeth, unspecified cause, unspecified class"
+K08.429,"Partial loss of teeth due to periodontal disease, unspecified class"
+K08.439,"Partial loss of teeth due to caries, unspecified class"
+K08.499,"Partial loss of teeth due to other cause, unspecifed class"
+K08.50,"Unsatisfactory restoration of tooth, unspecified"
+K08.51,Open restoration margins of tooth
+K08.52,Unrepairable overhanging of dental restorative materials
+K08.530,Fractured dental restorative material without loss of material
+K08.531,Fractured dental restorative material with loss of material
+K08.54,Contour of existing restoration of tooth biologically incompatible with oral health
+K08.55,Allergy to existing dental restorative material
+K08.56,Poor aesthetic of existing restoration of tooth
+K08.59,Other unsatisfactory restoration of tooth
+M27.51,Perforation of root canal space due to endodontic treatment
+M27.52,Endodontic overfill
+M27.53,Endodontic underfill
+M27.59,Other periradicular pathology associated with preventive endodontic treatment
+M27.61,Osseointegration failure of dental implant
+M27.62,Post-osseointegration of biological failure of dental implant
+M27.63,Post-osseointegration mechanical failur of dental implant
+M27.69,Other endosseous dentla implant failure
+R68.84,Jaw pain
+Z01.20,Encounter for dental examination and cleaning without abnormal findings
+Z01.21,Encounter for dental examination and cleanign with abnormal findings
+Z46.3,Encounter for fitting and adjustment of dental prosthetic device
+Z46.4,Encounter for fitting and adjustment of orthodontic device
