@@ -19,7 +19,7 @@ The emergency department is not the ideal acces point for most oral health condi
 
 There are generally two paths people take when they visit an emergency department. They are treated in the ED and then (1) 'discharged' to go home or they are (2) 'admitted' to the hospital for a longer-term inpatient stay. The main ED measures are therefore visits, discharges, admissions, and cost for setting.
 
-A very thorough background on ED data can be found in the ASTDD document authored by Mike Manz, [Recommended Guidelines for Surveillance of Non-Traumatic Dental Care in Emergency Departments] ().
+A very thorough background on ED data can be found in the ASTDD document authored by Mike Manz, [Recommended Guidelines for Surveillance of Non-Traumatic Dental Care in Emergency Departments] (https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/EmergencyDepartment/ed-dental-care-protocols-w-appendices-july-6-2017.pdf).
 
 ### AHRQ 
 
