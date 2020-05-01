@@ -159,7 +159,8 @@ FIPS codes are federally-assigned, unique IDs for nearly every geography in the 
 * We have decided not to use the length of stay or hospital admissions measures, since these are such rare occurences.
 * HCUP and the state emergency department databases do not use the same race/ethnicity categories as the US census. This makes calculating population rates by race/ethnicity difficult. We will need to find another solution.
 * HCUPnet can be difficult to query when using many filters, so we may need to work with HCUPnet staff if there are any problems with our data processing. There is already an issue of 2016 state-level data disappearing from the database but as of 4/30 they tell me they are working on fixing it.
-* We have chosed to focus only on ICD10 codes. The earlier ICD9 codes were used in US hospitals until 2015, at which point they switched to ICD10 codes. There were significant cahnges in codes, with ICD10 beign much more expansive. There are crosswalks for mapping ICD9 codes to ICD10 codes. But the change was abrupt enought to cause some validation issues with comparing pre-2015 ICD9 analysis with post-2015 ICD10 queries. We have chosen to start fresh with 
+* We have chosed to focus only on ICD10 codes. The earlier ICD9 codes were used in US hospitals until 2015, at which point they switched to ICD10 codes. There were significant cahnges in codes, with ICD10 beign much more expansive. There are crosswalks for mapping ICD9 codes to ICD10 codes. But the change was abrupt enought to cause some validation issues with comparing pre-2015 ICD9 analysis with post-2015 ICD10 queries. We have chosen to start fresh with.
+* HCUPnet is a realy slick, impressive data query program that was significantly upgraded a few years ago. One of the drawbacks, however, is that the queries must be submitted manually instead of through an API, and it can get tedious clicking each individual ICD10 code as part of each code set.
 
 ## Project status
 
