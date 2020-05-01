@@ -80,14 +80,21 @@ We determine when people visit the ED for a dental condition based on the ICD 10
 
 ### Diagnosis Priorities
 
-Patients can present with multiple conditions at the same time. All of these conditions are all recorded as ICD10 diagnosis codes. When patients express the main reason for their ED visit, this reason is econded as the 'principal' or 'first-listed' diagnosis. If someone visits the ED for stomach pain but the physician then notics a cavity, the cavity would **not** be listed as the primary reson, but it will still be recorded. Researchers must choose if they wish to query for when oral health was the main reason someone visited the emergency department, or all instances when oral health was recorded. 
+Patients can present with multiple conditions at the same time. All of these conditions are all recorded as ICD10 diagnosis codes. When patients express the main reason for their ED visit, this reason is econded as the 'principal' or 'first-listed' diagnosis. If someone visits the ED for stomach pain but the physician then notics a cavity, the cavity would **not** be listed as the primary reson, but it will still be recorded. Researchers must choose if they wish to query for when oral health was the main reason someone visited the emergency department, or all instances when oral health was recorded. Both are valuable to our project and can be selected during an HCUPnet query.
 
 ### Dimensions
 
+HCUPnet allows users to query by a few population characteristics:
+* All visits
+* Age group (1-17 | 18-44 | 45-64 | 65-84)
+* Sex (Male | Female)
+* Payer (Medicare | Medicaid | Private Insurance | Other)
+* Race/ethnicity (White | Black | Hispanic | Native American)
+
+We plan to use these characteristics as the base query from which to reqest data from states not in HCUPnet.
+
 ### Database diagram
 * states included, missing
-* purpose and uses of the dataset
-* questions the dataset could answer
 * ERD diagram
 
 
