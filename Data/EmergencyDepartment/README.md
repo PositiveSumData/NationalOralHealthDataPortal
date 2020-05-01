@@ -29,36 +29,58 @@ These databases include samples of their state populations of hospital utilizers
 
 Our project is most interested in SEDD and NEDS, which illuminates state adn national-level ED visits that did not result in an admission. Hospital admission for dental conditions is a serious event that is rare enough to make statistically significant conclusions difficult. 
 
-### HCUPnet
+#### HCUPnet
 
 AHRQ offers the HCUPnet platform (https://hcupnet.ahrq.gov/#setup) for querying some of these databases. Queries are a manual process of selecting the appriate database, choosing types of results to display, selecting the year and code sets, and then fine-tuning with pouplation characteristics. Results are aggregated and censored to protect patient confidentiality when cell sizes are small. The results are provided as a downloadable CSV. No more than 15 states have data included in the HCUPnet system, and state availablility depends on the year and other selectors chosen. The only HCUPnet option with county or regional granularity is the 'Community' setting database, which unfortunately in our case only includes cases resulting in hospital admission. The HCUPnet CSVs must be cleaned up and reformatted before they can be entered in the ASTDD database.
 
-### Citation
+#### Citation
 
 The citation recommendation attached to each HCUPnet CSV download is: 
 ```
 HCUPnet, Healthcare Cost and Utilization Project. Agency for Healthcare Research and Quality, Rockville, MD. http://10.35.1.231/. For more information about HCUP data see http://www.hcup-us.ahrq.gov/
 ```
 
-### Data use agreements
+#### Data use agreements
 
 To download HCUPnet datasets, users must agree to a user agreement that they will not attempt to identify individuals with the data. More strict user agreements come attached with micro data from HCUP or individual states.
 
-## Individual states
+### Individual states
 
 Data not available in HCUPnet or the wider HCUP project is usually available by direct relationship with a state. The steward of each state's ED data varies. It may be the department of health, or the hospital association, or another entity. They may charge various rates for obtaining their data, and data definitions may or may not be consistent between states. This section will be updated as more information on state-based entities becomes available.
 
-## Structure
+## Data Structure
+
+The trickiest part of managing emergency department data is that it comes from so many different stewards, each of whom may have different formats, definitions, and availability. As a projet we must also balance our data needs and wants, because some of the more complicated data requests require a lot more time and money to purchase.
 
 ### Measures
 
+There are 4 main situations we want to measure:
 
+* Visits
+* Visits resulting in discharge
+* Visits resulting in admission
+* Visit charges ($) 
 
-### Code sets
+Because hospital admissions due to dental conditions is so low, we proritize the visit measure. Cost is the second priority, but cost is usually attached to admission than it is to ED in these databases, so cost may or may not be available.
 
-#### NTDC
-#### Any dental
-#### CPP
+HCUPnet makes available an additional measure, length of stay, that is not a priority in oral health research and therefore we have chosen to de-prioritize.
+
+Within visits, we want to examine three measures:
+* Counts. E.g. the total # of people who visited the ED for a dental condition
+* ED rates. E.g. the # of people who visited the the ED for a dental condition / 10,000 people who visited the ED for any reason
+* Population rates. E.g. the # of people who visited the ED for a dental condition / 100,000 population 
+
+### Reasons & Code sets
+
+We determine when people visit the ED for a dental condition based on the ICD 10 diagnosis code assigned by hospital staff during the visit. These ICD10 codes are kept as part of the patient record and are included as part of the datasets. Researchers must decide if they want to query for every diagnosis code related to oral health or if a more narrow set of codes is more appropriate. ASTDD's Mike Manz has identified three code sets that researchers may wish to use. These code sets are available in this folder as CSV files.
+
+* [Any dental condition](). These would include diagnoses for any reason that pertains to oral health for any reason. 
+* [Non-traumtic dental conditions (NTDC)](). By excluding trauma-related diagnoses, researchers may get a better sense of how often the ED is utilized for sub-optimal reasons. It's understandable when someone visits the ED for breaking a tooth falling off a bike. It's less ideal when someone visits the ED for cavities that have been developing over time.
+* [Caries / Perio / Prevention (CPP)](). These are a subset of NTDC restricted only to conditions that are commonly addressed by routine access to general dental care.
+
+### Diagnosis Priorities
+
+Patients can present with multiple conditions at the same time. All of these conditions are all recorded as ICD10 diagnosis codes. When patients express the main reason for their ED visit, this reason is econded as the 'principal' or 'first-listed' diagnosis. If someone visits the ED for stomach pain but the physician then notics a cavity, the cavity would **not** be listed as the primary reson, but it will still be recorded. Researchers must choose if they wish to query for when oral health was the main reason someone visited the emergency department, or all instances when oral health was recorded. 
 
 ### Dimensions
 
@@ -67,17 +89,20 @@ Data not available in HCUPnet or the wider HCUP project is usually available by 
 * purpose and uses of the dataset
 * questions the dataset could answer
 * ERD diagram
-* citation
-* URL to HCUPnet
-* backbone is HCUPnet
-* code sets
 
 
 
 
 
 ## Issues & Decisions
+ignore lenght of stay
+race/ethnicity codes
+ignore admission
 
-# Tutorial
+### Inclusions & Exclusions
+
+We have chosed to focus only on ICD10 codes. The earlier ICD9 codes were used in US hospitals until 2015, at which point they switched to ICD10 codes. There were significant cahnges in codes, with ICD10 beign much more expansive. There are crosswalks for mapping ICD9 codes to ICD10 codes. But the change was abrupt enought to cause some validation issues with comparing pre-2015 ICD9 analysis with post-2015 ICD10 queries. We have chosen to start fresh with 
+
+## Tutorial
 
 This section to be updated with a video tutorial as more data becomes available
