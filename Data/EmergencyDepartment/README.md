@@ -93,22 +93,73 @@ HCUPnet allows users to query by a few population characteristics:
 
 We plan to use these characteristics as the base query from which to reqest data from states not in HCUPnet.
 
-### Database diagram
-* states included, missing
-* ERD diagram
+### Database Design
 
+The entity relationship diagram (ERD) for this dataset is available online as a [Lucid Chart](https://www.lucidchart.com/invitations/accept/695abb67-018e-4000-b1e4-271ba776d26a). We have constructed 4 tables, one of which comes directly from the ED data itself and three of which describe data as foreign keys or are used to find population rates.
 
+#### ED_visit
+This table is the meat of our ED data. It contains our visit counts for each unique combination of geography, year, code set, reason priority, and population subgroup. Since the geography can be state, country, county, region, or city, we have used the federal FIPS code identifier. A table of expounding on the FIPS code is described below.
 
+Fields:
+* data_id (PK)
+* FIPS_code (FK)
+* px_group
+* px_subgroup
+* year
+* code_set
+* priority
+* count_visit
 
+#### ED_population
+
+To determine rates of ED visit per 100,000 people, we need to obtain separate census data. We store the census data in a separate table. To obtain the population rates we join the two takes on the fields they have in common and then divide count_visits / pop_count *100,000.
+
+Fields:
+* data_id (PK)
+* FIPS_code (FK)
+* px_group
+* px_subgroup
+* year
+* code_set
+* priority
+* pop_count
+
+#### source
+
+This table includes information pertaining to each dataset we have in our larger project. Each row is a different dataset, which has a steward (e.g. AHRQ), title (HCUPnet), and a url to where additional information can be found online and where a project description is located in our Github folder. This table gets linked to every dataset in our larger database. 
+
+Fields:
+* source_id
+* source_steward
+* source_title
+* citation
+* source_url
+* source_git
+
+#### source_data_id 
+
+This is a bridge table, linking our ED_visit and E_population tables to our source table. The bridge table exists so that we only need to modify a given source once if, say, their url needs updating.
+
+Fields:
+* source_id
+* data_id
+
+#### FIPS
+
+FIPS codes are federally-assigned, unique IDs for nearly every geography in the country. The FIPS code is a number for every geography except the country itself, which for international standardization reasons is simply *US*. Therefore the FIPS code can't be an integer.
+
+* FIPS_code
+* geographic_type
+* short_name
+* full_name
+* abbreviation
 
 ## Issues & Decisions
-ignore lenght of stay
-race/ethnicity codes
-ignore admission
-
-### Inclusions & Exclusions
-
-We have chosed to focus only on ICD10 codes. The earlier ICD9 codes were used in US hospitals until 2015, at which point they switched to ICD10 codes. There were significant cahnges in codes, with ICD10 beign much more expansive. There are crosswalks for mapping ICD9 codes to ICD10 codes. But the change was abrupt enought to cause some validation issues with comparing pre-2015 ICD9 analysis with post-2015 ICD10 queries. We have chosen to start fresh with 
+*Standardizing data across states will be important for showing comparisons. We have decided to use the formatting and variable definitions in HCUPnet as our base for querying other states. We hope that age categories and race/ethnicity and payer groups will be defined consistently across states not in HCUPnet.
+*We have decided not to use the length of stay or hospital admissions measures, since these are such rare occurences.
+*HCUP and the state emergency department databases do not use the same race/ethnicity categories as the US census. This makes calculating population rates by race/ethnicity difficult. We will need to find another solution.
+*HCUPnet can be difficult to query when using many filters, so we may need to work with HCUPnet staff if there are any problems with our data processing. There is already an issue of 2016 state-level data disappearing from the database but as of 4/30 they tell me they are working on fixing it.
+*We have chosed to focus only on ICD10 codes. The earlier ICD9 codes were used in US hospitals until 2015, at which point they switched to ICD10 codes. There were significant cahnges in codes, with ICD10 beign much more expansive. There are crosswalks for mapping ICD9 codes to ICD10 codes. But the change was abrupt enought to cause some validation issues with comparing pre-2015 ICD9 analysis with post-2015 ICD10 queries. We have chosen to start fresh with 
 
 ## Tutorial
 
