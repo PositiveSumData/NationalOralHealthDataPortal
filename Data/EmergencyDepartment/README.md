@@ -95,7 +95,7 @@ We plan to use these characteristics as the base query from which to reqest data
 
 ### Database Design
 
-The entity relationship diagram (ERD) for this dataset is available online as a [Lucid Chart](https://www.lucidchart.com/invitations/accept/695abb67-018e-4000-b1e4-271ba776d26a). We have constructed 4 tables, one of which comes directly from the ED data itself and three of which describe data as foreign keys or are used to find population rates.
+The entity relationship diagram (ERD) for this dataset is available online as a [Lucid Chart](https://www.lucidchart.com/invitations/accept/695abb67-018e-4000-b1e4-271ba776d26a). We have constructed 5 tables, one of which comes directly from the ED data itself and four of which describe data as foreign keys or are used to find population rates.
 
 #### ED_visit
 This table is the meat of our ED data. It contains our visit counts for each unique combination of geography, year, code set, reason priority, and population subgroup. Since the geography can be state, country, county, region, or city, we have used the federal FIPS code identifier. A table of expounding on the FIPS code is described below.
