@@ -16,7 +16,7 @@ The emergency department is not the ideal acces point for most oral health condi
 * Did national rates of ED visits change before and after 2018?
 
 ## Stewardship
-citation
+Some of the data we are collecting comes from the Agency for Healthcare Research and Quality's [HCUPnet database](https://hcupnet.ahrq.gov/#setup). 
 owner
 Data use agreement
 
