@@ -74,9 +74,9 @@ Within visits, we want to examine three measures:
 
 We determine when people visit the ED for a dental condition based on the ICD 10 diagnosis code assigned by hospital staff during the visit. These ICD10 codes are kept as part of the patient record and are included as part of the datasets. Researchers must decide if they want to query for every diagnosis code related to oral health or if a more narrow set of codes is more appropriate. ASTDD's Mike Manz has identified three code sets that researchers may wish to use. These code sets are available in this folder as CSV files.
 
-* [Any dental condition](). These would include diagnoses for any reason that pertains to oral health for any reason. 
-* [Non-traumtic dental conditions (NTDC)](). By excluding trauma-related diagnoses, researchers may get a better sense of how often the ED is utilized for sub-optimal reasons. It's understandable when someone visits the ED for breaking a tooth falling off a bike. It's less ideal when someone visits the ED for cavities that have been developing over time.
-* [Caries / Perio / Prevention (CPP)](). These are a subset of NTDC restricted only to conditions that are commonly addressed by routine access to general dental care.
+* [Any dental condition](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/EmergencyDepartment/ICD10_codes_any_dental.csv). These would include diagnoses for any reason that pertains to oral health for any reason. 
+* [Non-traumtic dental conditions (NTDC)](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/EmergencyDepartment/ICD10_codes_NTDC.csv). By excluding trauma-related diagnoses, researchers may get a better sense of how often the ED is utilized for sub-optimal reasons. It's understandable when someone visits the ED for breaking a tooth falling off a bike. It's less ideal when someone visits the ED for cavities that have been developing over time.
+* [Caries / Perio / Prevention (CPP)](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/EmergencyDepartment/ICD10_codes_CPP.csv). These are a subset of NTDC restricted only to conditions that are commonly addressed by routine access to general dental care.
 
 ### Diagnosis Priorities
 
