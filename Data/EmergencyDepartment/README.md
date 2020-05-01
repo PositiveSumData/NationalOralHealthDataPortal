@@ -19,6 +19,8 @@ The emergency department is not the ideal acces point for most oral health condi
 
 There are generally two paths people take when they visit an emergency department. They are treated in the ED and then (1) 'discharged' to go home or they are (2) 'admitted' to the hospital for a longer-term inpatient stay. The main ED measures are therefore visits, discharges, admissions, and cost for setting.
 
+A very thorough background on ED data can be found in the ASTDD document authored by Mike Manz, [Recommended Guidelines for Surveillance of Non-Traumatic Dental Care in Emergency Departments] ().
+
 ### AHRQ 
 
 Some of the data we are collecting comes from the Agency for Healthcare Research and Quality's [HCUP project](https://www.ahrq.gov/data/hcup/index.html). HCUP is a collection of related hospital databases, including the Kid's Inpatient Database (KID), Nationwide Emergency Department Sample (NEDS), Nationwide Readmissions Database (NRD), State Inpatient Databases (SID), State Ambulatory Surgery and Services Databases (SASD), and State Emgerency Departmetn Databases (SEDD). These are each collections of state databases that may or may not have universal participation. HCUP facilitates the research of these datasets. To study individual-level data a researcher will need to purchase data from HCUP and sign data use agreements. 
@@ -35,30 +37,30 @@ AHRQ offers the HCUPnet platform (https://hcupnet.ahrq.gov/#setup) for querying 
 
 The citation recommendation attached to each HCUPnet CSV download is: 
 ```
-Citation: HCUPnet, Healthcare Cost and Utilization Project. Agency for Healthcare Research and Quality, Rockville, MD. http://10.35.1.231/. For more information about HCUP data see http://www.hcup-us.ahrq.gov/
+HCUPnet, Healthcare Cost and Utilization Project. Agency for Healthcare Research and Quality, Rockville, MD. http://10.35.1.231/. For more information about HCUP data see http://www.hcup-us.ahrq.gov/
 ```
 
-### Individual states
+### Data use agreements
+
+To download HCUPnet datasets, users must agree to a user agreement that they will not attempt to identify individuals with the data. More strict user agreements come attached with micro data from HCUP or individual states.
+
+## Individual states
 
 Data not available in HCUPnet or the wider HCUP project is usually available by direct relationship with a state. The steward of each state's ED data varies. It may be the department of health, or the hospital association, or another entity. They may charge various rates for obtaining their data, and data definitions may or may not be consistent between states. This section will be updated as more information on state-based entities becomes available.
 
-
-
-# Tutorial
-. 
-
-
-owner
-Data use agreement
-
 ## Structure
 
-### Code sets
-NTDC
-Any dental
-CPP
+### Measures
 
-### Fields
+
+
+### Code sets
+
+#### NTDC
+#### Any dental
+#### CPP
+
+### Dimensions
 
 ### Database diagram
 * states included, missing
@@ -71,25 +73,11 @@ CPP
 * code sets
 
 
-## Heading 2
 
-hello
-
-```
-test 1
-```
-
-### Heading 2.1
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-### Heading 2.2
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 
 ## Issues & Decisions
+
+# Tutorial
+
+This section to be updated with a video tutorial as more data becomes available
