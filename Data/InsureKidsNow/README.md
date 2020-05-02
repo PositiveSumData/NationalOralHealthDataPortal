@@ -1,4 +1,4 @@
-# Insure Kids Now dental provider database
+# Insure Kids Now (IKN) dental provider database
 
 The [InsureKidsNow.gov](https://www.insurekidsnow.gov/) website is designed to provide help inform caregivers about their Medicaid-enrolled child's dental benefit and to help them locate Medicaid-participating dentists. Given an address and search criteria, the website presents caregivers with a list of dentists and their contact information. A copy of this database was kindly provided to Positive Sum Health Informatics for the National Oral Health Data Portal project. The dataset could illuminate all sorts of aspects of our dental safety net. Although, as the database was not designed for public health analysis, it has its issues. The technical team at CMS is looking into these issues so that we can reliably include it in our portal. 
 
@@ -24,7 +24,9 @@ There is no other public dataset can can identify the number of Medicaid-partici
 
 ## Orientation & Stewardship  
 
-The 
+The IKN database and the [dentist locator tool](https://www.insurekidsnow.gov/find-a-dentist/index.html) is owned and managed by the Centers for Medicare and Medicaid Services (CMS) in partnership with the Health Resources & Services Administration (HRSA). Data is uploaded on a quarterly basis to the IKN Data Management System by individual state Medicaid agencies according to specific data submission guidelines as outlined in a Nov. 2019 [technical brief](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/InsureKidsNow/Insure%20Kids%20Now%20Technical%20Guidance_November%202019.pdf). 
+
+Each record submitted is a uniqe combination of provider, coverage plan, and service location. This means a dentist enrolled in 2 plans at 3 sites would be represented on 6 rows. 
 
 #### Citation
 
@@ -35,10 +37,23 @@ CMS does not have a recommended citation listed on their webiste. Positive Sum h
 
 #### Data use agreements
 
-The IKN database was provided to Positive Sum Health Informatics without requiring a data use agreement.
+The IKN database was provided to Positive Sum without requiring a data use agreement.
 
 ## Data Structure
 
+The IKN database was emailed to Positive Sum as a pipe-delimited text file. The file included the 27 fields that states may submit to the IKN Data Management System:
+
+
+| Data Element Name | Description | Required/Optional |
+| ----------------- | ----------- | ----------------- |
+| Provider_ID | UniqueProviderIdentifier | Required |
+| Prov_AFF | ProviderAffiliation | Optional |
+| First_Nm | Provider First Name | Required, if applicable |
+| Middle_Nm | Provider Middle Name | Optional |
+
+manadatory submission fields
+additional added fields later
+pipe separated text file
 
 ### Measures
 
