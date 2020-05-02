@@ -1,10 +1,10 @@
 # Insure Kids Now (IKN) dental provider database
 
-The [InsureKidsNow.gov](https://www.insurekidsnow.gov/) website is designed to provide help inform caregivers about their Medicaid-enrolled child's dental benefit and to help them locate Medicaid-participating dentists. Given an address and search criteria, the website presents caregivers with a list of dentists and their contact information. A copy of this database was kindly provided to Positive Sum Health Informatics for the National Oral Health Data Portal project. The dataset could illuminate all sorts of aspects of our dental safety net. Although, as the database was not designed for public health analysis, it has its issues. The technical team at CMS is looking into these issues so that we can reliably include it in our portal. 
+The [InsureKidsNow.gov](https://www.insurekidsnow.gov/) website is designed to provide help inform caregivers about their Medicaid-enrolled child's dental benefit and to help them locate Medicaid-participating dentists. Given an address and search criteria, the website presents caregivers with a list of dentists and their contact information. A copy of this database was kindly provided to Positive Sum Health Informatics for the National Oral Health Data Portal project. The dataset could illuminate all sorts of aspects of our dental safety net. Although, as the database was not designed for public health analysis, it has its, it has its limitations. These limitations may be too great to include in the oral health data portal project at this time.
 
 ## Utility
 
-There is no other public dataset can can identify the number of Medicaid-participating dentists at specific sites or in a geographic area. The IKN database should be able to help us examine distances Medicaid-enrollees may need to travel to access dental care as well as characteristics of those dentists. The data can be used for point-level mapping or aggregated to city, county, state, or national levels.
+There is no other public dataset can identify the number of Medicaid-participating dentists at specific sites or in a geographic area. The IKN database should be able to help us examine distances Medicaid-enrollees may need to travel to access dental care as well as characteristics of those dentists. The data can be used for point-level mapping or aggregated to city, county, state, or national levels.
 
 ### Questions this dataset could help answer
 
@@ -24,13 +24,13 @@ There is no other public dataset can can identify the number of Medicaid-partici
 
 ## Orientation & Stewardship  
 
-The IKN database and the [dentist locator tool](https://www.insurekidsnow.gov/find-a-dentist/index.html) is owned and managed by the Centers for Medicare and Medicaid Services (CMS) in partnership with the Health Resources & Services Administration (HRSA). Data is uploaded on a quarterly basis to the IKN Data Management System by individual state Medicaid agencies according to specific data submission guidelines as outlined in a Nov. 2019 [technical brief](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/InsureKidsNow/Insure%20Kids%20Now%20Technical%20Guidance_November%202019.pdf). 
+The IKN database and the [dentist locator tool](https://www.insurekidsnow.gov/find-a-dentist/index.html) are owned and managed by the Centers for Medicare and Medicaid Services (CMS) in partnership with the Health Resources & Services Administration (HRSA). Data is uploaded on a quarterly basis to the IKN Data Management System by individual state Medicaid agencies according to specific data submission guidelines as outlined in a Nov. 2019 [technical brief](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/InsureKidsNow/Insure%20Kids%20Now%20Technical%20Guidance_November%202019.pdf). 
 
-Each record submitted is a uniqe combination of provider, coverage plan, and service location. This means a dentist enrolled in 2 plans at 3 sites would be represented on 6 rows. 
+Each state is required submit data according to the following structure: each row is a unique combination of provider, coverage plan, and service location. This means a dentist enrolled in 2 plans at 3 sites would be represented on 6 rows.  
 
 #### Citation
 
-CMS does not have a recommended citation listed on their webiste. Positive Sum has inquired to see if there is a citation style they prefer.
+CMS does not have a recommended citation listed on their website. Positive Sum has inquired to see if there is a citation style they prefer.
 ```
 
 ```
@@ -75,7 +75,7 @@ The IKN database was emailed to Positive Sum as a pipe-delimited text file. The 
 | Sedation | Facility Can Provide Sedation for Children with Complex Medical or Behavioral Conditions | Optional |
 | Services_Intellectual_Disability | Facility Can Provider Sedation for Children with Complex Medical or Behavioral Conditions | Optional |
 
-These field names as described in the technical documentation do not directly line up with the fields in the file emailed to Positive Sum. The fields provided are listed below, which inlcude additions generated by IKN technical staff, most notably geographic identifiers like longitude, latitude, and electoral districts.
+These field names as described in the technical documentation do not directly line up with the fields in the file emailed to Positive Sum. The fields provided in the flat file are listed below, which include additions generated by IKN technical staff, most notably geographic identifiers like longitude, latitude, and electoral districts. There was no technical documentation attached.
 
 | Field |
 | ----- |
@@ -154,26 +154,58 @@ These field names as described in the technical documentation do not directly li
 
 The technical documentation says the National Provider Identification number (NPI) is the preferred value for Provider_ID but that other 'persistent' and unique IDs are allowed. 
 
-
-
-
 ### Database Design
+
+The primary data submission guideline for states is that each row represents a unique provider at a unique site in a unique plan. Thinking in terms of a relational database, this means we are dealing with three unique types of entities that should each have their own tables: providers, plans, and sites. These three entities should be connected via a bridge table. Two additional tables are needed to normalize provider specialties and provider languages.
 
 [This LucidChart](https://www.lucidchart.com/invitations/accept/07b9b85f-44cc-4ce0-873d-5513514fddf2) shows how we have broken the IKN flat file into 6 tables. 
 
-#### 
+Many fields available in the flat file were dropped as not being useful to our project. These include fields such as electoral district, submission date, provider name pronunciation, and region.
 
-Fields:
-*
-#### 
+Fields are mapped to the table where each row is unique. For instance, each provider_id should have the same name. Each plan should have the same name and program type. Each site should have the same address. Many fields are only specific to bridge table: accepting new patients, serving children with special needs, or having sedation services varies within a site, within a provider, and within a plan. A provider may be accepting new patients at one site but not another, and a site may have some but not all of its dentists accepting new patients, so the only unique table for ACCEPTS_NEW_PATIENTS_IND is the bridge table.  
 
+#### provider_site_plan table
+This table bridges the plan, provider, and site tables, reflecting the original structure of the flat file. A primary key is generated but a composite primary key based on plan, provider, and site would also work.
 
-* 
+#### site table
+Similar challenges exist in the other tables. No unique site ID's are used. The FAC_NM (facility name) field is the closest field to providing a site ID, but the field is not named consistently (an exploratory data analysis finds alternative spellings are used for what appear to be the same site) and a large portion of these values are left NULL. 
+
+Positive Sum decided to generate unique IDs for sites based on two criteria: places with the same X (longitude) and Y (latitude) coordinates and the same FAC_NM were auto-assigned unique integers via R code. This action rests on several potentially invalid assumptions: 
+* Site addresses in the original data were accurate.
+* X and Y coordinates were precisely and consistently assigned. Geocoding programs may assign slightly different decimal places of coordinates each time a query is run. If the same site is written with a very specific address in one row, and a less specific address in another row, then the decimal places may be off and the R code would assume these are two different sites.
+* FAC_NM is spelled consistently across rows. If alternative spellings are used, each spelling will result in a different site ID. 
+* If FAC_NM is NULL, then all providers at the same coordinates are working at the same site. This may not be true in large medical office complexes.
+
+#### plan table
+There are no unique plan IDs in the flat file so integer IDs were auto-assigned using R code based on unique plan names within a state. It was important to assign based on the state because many states have plans simply listed as "Medicaid" and we want to capture that Missouri Medicaid is not the same plan as New Mexico Medicaid.
+
+This mapping rests on the assumption that plans are named consistently within a state. For example, the same plane is not name both Blue Cross and Blue Shield of Ohio and BSBC Ohio within the dataset. Otherwise these would be assumed to be two different plans. Positive Sum feels fairly confident this field is named consistently.
+
+#### provider table
+This table is the trickiest to build. Theoretically each provider is already required to have a unique ID when states submitted their files to the management system, either as a Type I NPI or an alternative value determined by the state. However, there are many instances of this not happening. Some of the common discrepancies include:
+* Type II NPIs (corresponding to organizations) being assigned to individual providers. Type II NPIs are unique to an organization. This means you have many providers sharing the same ID when they belong to the same organization.
+* The same type I NPIs being assigned to different dentists. These are data entry errors.
+* Missing provider IDs. Tens of thousands of provider IDs are NULL. In the case of California this appears to be because they have used the LIC_NUM (license number) field instead of the provider ID field. But in most other states it appears to be a data entry error.
+* Puzzling alternative provider ID scheme. Missouri uses an alternative ID scheme where multiple different IDs are assigned to the same provider.
+
+Positive Sum decided to auto-assign IDS using R code based on a logic scheme: if a type I NPI is present, keep that ID. If a type II NPI is present, delete it. If provider ID is not null, auto-assign a unique integer based on a unique first name, last name, license number (if present), and submitting state. This essentially bases the provider ID on the provider's full name, hoping there are few providers of the same name in the same state, with ties hopefully broken by the license number, if used. This logic may be ideal for now, but it fails for several additional reasons:
+* It assumes the same provider working in different states are different people.
+* It assumes the LIC_NUM (license number) field is used frequently enough to break ties.
+* It assumes provider have the same full names across rows. This is categorically not true based on exploratory data analysis. Usually this fails because of different use of hyphenated names, alternative first names, or abbreviations.
+
+Besides the provider_id field, the only other field retained in the provider table is mode_name. This field was created by Positive Sum as the most frequently used spelling of a unique provider_id, since some method was needed to decide what to do when there were alternative spellings used across rows. 
+
+#### specialty and language tables
+The two other provider-specific characteristic in the IKN flat file -- specialty and language -- receive their own tables. This is because providers may speak multiple languages and work in multiple specialties. These instances in the flat file are represented as comma-separated lists of specialties and languages. To make this information quotable, we need to normalize these fields. R code was used to manipulate the comma separated lists into unique rows.
+
+#### Organizations
+A fourth important type of entity is also present -- the provider organization -- but the dataset is not coded in a way to support indexing on organizations. The only relevant field, GRP_PRACTICE_NM (group practice name), corresponding to the name of the organization, is not named consistently across rows and is not unique across state lines. Ideally there would be a unique organization ID to address this, but it does not exist at this time.
 
 ## Issues & decisions
-* 
-## Project status
+The IKN database could be one of the most valuable ways of mapping and analyzing the depth of the dental safety net. We are all very appreciative that CMS has provided us a copy of their database for a use different than the way the database was initially designed. Provider ID discrepancies and a lack of site IDs is not a problem for a consumer-facing dentist search website. But for public health we need to be more confident in our calculations, especially if it may inform public policy. Until we can be more confident in these calculations Positive Sum does not recommend incorporating the data into the national oral health data portal.
 
+## Project status
+Work on this dataset is on pause until Positive Sum and CMS can devise a more accurate unique provider ID assignment system.
 
 ## Tutorial
-
+This section to be updated as tutorial walk-throughs are produced.
