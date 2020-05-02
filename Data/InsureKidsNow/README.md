@@ -1,4 +1,4 @@
-# Insure Kids Now dental provide database
+# Insure Kids Now dental provider database
 
 The [InsureKidsNow.gov](https://www.insurekidsnow.gov/) website is designed to provide help inform caregivers about their Medicaid-enrolled child's dental benefit and to help them locate Medicaid-participating dentists. Given an address and search criteria, the website presents caregivers with a list of dentists and their contact information. A copy of this database was kindly provided to Positive Sum Health Informatics for the National Oral Health Data Portal project. The dataset could illuminate all sorts of aspects of our dental safety net. Although, as the database was not designed for public health analysis, it has its issues. The technical team at CMS is looking into these issues so that we can reliably include it in our portal. 
 
