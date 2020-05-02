@@ -50,6 +50,29 @@ The IKN database was emailed to Positive Sum as a pipe-delimited text file. The 
 | Prov_AFF | ProviderAffiliation | Optional |
 | First_Nm | Provider First Name | Required, if applicable |
 | Middle_Nm | Provider Middle Name | Optional |
+| Last_Nm | Provider Last Name | Required, if applicable |
+| Grp_Prac_nm | Group Practice Name | Required, if applicable |
+| Fac_Nm | Facility Name | Required, if applicable |
+| Lang_Spoken | Langauges Spoken | Optional |
+| Specialty | Provider Specialty | Required |
+| Website | Website address of provider | Optional |
+| Program_Type | Type of Program | Required |
+| Program_Name | Name of Program | Required |
+| Health_Plan_Name | Name of entity providing coverage | Required, if applicable |
+| Phy_Street_Addr | Provider Physical Site Street Address |
+| City | Provider City | Required |
+| State_Abbr | Provider State | Required |
+| ZIP | Provider ZIP Code | Required |
+| Phone_Num | Phone Number | Required |
+| FAX_Num | FAX Number | Optional |
+| New_Patients | Accepts New Patients | Required |
+| Special_Needs | Can Accomodate Special Needs | Required |
+| Active_Ind | Active Status | Required |
+| Central_appointment_line | Central Appointment Line | Optional |
+| License_Num | Dental License Number | Optional |
+| Services_Mobility | Facility Can Provider Services for Children with Mobility Limitations | Optional |
+| Sedation | Facility Can Provide Sedation for Children with Complex Medical or Behavioral Conditions | Optional |
+| Services_Intellectual_Disability | Facility Can Provider Sedation for Children with Complex Medical or Behavioral Conditions | Optional |
 
 manadatory submission fields
 additional added fields later
