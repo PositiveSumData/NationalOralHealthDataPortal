@@ -60,7 +60,7 @@ The IKN database was emailed to Positive Sum as a pipe-delimited text file. The 
 | Program_Type | Type of Program | Required |
 | Program_Name | Name of Program | Required |
 | Health_Plan_Name | Name of entity providing coverage | Required, if applicable |
-| Phy_Street_Addr | Provider Physical Site Street Address |
+| Phy_Street_Addr | Provider Physical Site Street Address | Required | 
 | City | Provider City | Required |
 | State_Abbr | Provider State | Required |
 | ZIP | Provider ZIP Code | Required |
@@ -150,8 +150,6 @@ These field names as described in the technical documentation do not directly li
 | ZIP4 |
 | ZIP5 |
 
-
-
 The technical documentation says the National Provider Identification number (NPI) is the preferred value for Provider_ID but that other 'persistent' and unique IDs are allowed. 
 
 
@@ -159,6 +157,7 @@ The technical documentation says the National Provider Identification number (NP
 
 ### Database Design
 
+[This LucidChart](https://www.lucidchart.com/invitations/accept/07b9b85f-44cc-4ce0-873d-5513514fddf2) shows how we have broken the IKN flat file into 6 tables. 
 
 #### 
 
@@ -166,22 +165,6 @@ Fields:
 *
 #### 
 
-
-Fields:
-* 
-
-#### 
-
-
-Fields:
-* 
-
-#### source_data_id 
-
-
-Fields:
-* 
-#### FIPS
 
 * 
 
