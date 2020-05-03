@@ -164,10 +164,10 @@ Many fields available in the flat file were dropped as not being useful to our p
 
 Fields are mapped to the table where each row is unique. For instance, each provider_id should have the same name. Each plan should have the same name and program type. Each site should have the same address. Many fields are only specific to bridge table: accepting new patients, serving children with special needs, or having sedation services varies within a site, within a provider, and within a plan. A provider may be accepting new patients at one site but not another, and a site may have some but not all of its dentists accepting new patients, so the only unique table for ACCEPTS_NEW_PATIENTS_IND is the bridge table.  
 
-#### provider_site_plan table
+#### ikn_provider_site_plan table
 This table bridges the plan, provider, and site tables, reflecting the original structure of the flat file. A primary key is generated but a composite primary key based on plan, provider, and site would also work.
 
-#### site table
+#### ikn_site table
 Similar challenges exist in the other tables. No unique site ID's are used. The FAC_NM (facility name) field is the closest field to providing a site ID, but the field is not named consistently (an exploratory data analysis finds alternative spellings are used for what appear to be the same site) and a large portion of these values are left NULL. 
 
 Positive Sum decided to generate unique IDs for sites based on two criteria: places with the same X (longitude) and Y (latitude) coordinates and the same FAC_NM were auto-assigned unique integers via R code. This action rests on several potentially invalid assumptions: 
@@ -176,12 +176,12 @@ Positive Sum decided to generate unique IDs for sites based on two criteria: pla
 * FAC_NM is spelled consistently across rows. If alternative spellings are used, each spelling will result in a different site ID. 
 * If FAC_NM is NULL, then all providers at the same coordinates are working at the same site. This may not be true in large medical office complexes.
 
-#### plan table
+#### ikn_plan table
 There are no unique plan IDs in the flat file so integer IDs were auto-assigned using R code based on unique plan names within a state. It was important to assign based on the state because many states have plans simply listed as "Medicaid" and we want to capture that Missouri Medicaid is not the same plan as New Mexico Medicaid.
 
 This mapping rests on the assumption that plans are named consistently within a state. For example, the same plane is not name both Blue Cross and Blue Shield of Ohio and BSBC Ohio within the dataset. Otherwise these would be assumed to be two different plans. Positive Sum feels fairly confident this field is named consistently.
 
-#### provider table
+#### ikn_provider table
 This table is the trickiest to build. Theoretically each provider is already required to have a unique ID when states submitted their files to the management system, either as a Type I NPI or an alternative value determined by the state. However, there are many instances of this not happening. Some of the common discrepancies include:
 * Type II NPIs (corresponding to organizations) being assigned to individual providers. Type II NPIs are unique to an organization. This means you have many providers sharing the same ID when they belong to the same organization.
 * The same type I NPIs being assigned to different dentists. These are data entry errors.
@@ -203,6 +203,9 @@ A fourth important type of entity is also present -- the provider organization -
 
 ## Issues & decisions
 The IKN database could be one of the most valuable ways of mapping and analyzing the depth of the dental safety net. We are all very appreciative that CMS has provided us a copy of their database for a use different than the way the database was initially designed. Provider ID discrepancies and a lack of site IDs is not a problem for a consumer-facing dentist search website. But for public health we need to be more confident in our calculations, especially if it may inform public policy. Until we can be more confident in these calculations Positive Sum does not recommend incorporating the data into the national oral health data portal.
+
+## Modifications & External Connections
+Ids have been assigned where they weren't included in the original dataset. Addresses will be encoded as FIPS codes and refenced to the common FIPS table.
 
 ## Project status
 Work on this dataset is on pause until Positive Sum and CMS can devise a more accurate unique provider ID assignment system.
