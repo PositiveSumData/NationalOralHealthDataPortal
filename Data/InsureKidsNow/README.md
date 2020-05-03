@@ -207,5 +207,7 @@ The IKN database could be one of the most valuable ways of mapping and analyzing
 ## Project status
 Work on this dataset is on pause until Positive Sum and CMS can devise a more accurate unique provider ID assignment system.
 
+Need to determine how to incoporate data_ids into the various IKN tables.
+
 ## Tutorial
 This section to be updated as tutorial walk-throughs are produced.
