@@ -79,7 +79,9 @@ Another concern is the accuracy of the specialty coding systee. Provider self-id
 * Removed non-dentists
 * Added data_id (in progress)
 
-## Code
+The list of taxonomy codes and descriptions is available here](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/NPI_registry/taxonomy_codes.csv).
+
+## Code & 
 The code used to split apart, modify, and export our NPI data is available [here](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/NPI_registry/NPI_r_code.R). The geocoding r code will be available soon.
 
 ## Project status
