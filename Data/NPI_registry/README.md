@@ -58,6 +58,11 @@ The provider table is structured much the same way as the original flat file, ju
 
 Three additional columns are added based on geocoding: FIPS_county_code, latitude, and longitude. These values are acquired through a call to the US Census geocoder.
 
+### additional tables
+Additional reference tables are included that share references to other datasets in our project:
+* FIPS table. Contains all our geography details
+* source_data_id & source. Master tables that include all our dataset details.  
+
 ## Issues & decisions
 While the NPI registry is the most complete source of provider point-locations and gets refreshed on a monthly basis, the underlying records do not get refreshed frequently. It can be many years before locations are updated, if at all. Therefore we treat these addresses with caution. 
 
@@ -75,10 +80,10 @@ Another concern is the accuracy of the specialty coding systee. Provider self-id
 * Added data_id (in progress)
 
 ## Code
-
+The code used to split apart, modify, and export our NPI data is available [here](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/NPI_registry/NPI_r_code.R). The geocoding r code will be available soon.
 
 ## Project status
-Positive Sum is building the geocoder that will retrieve the lat/long/FIPS fields. At that point data can be uploaded to the database.
+The r code to crack the NPI flat file is mostly ready. The US Census geocoder is still being built, so we can't add the long/lat/FIPS codes until then. 
 
 ## Tutorial
 This section to be updated as tutorial walk-throughs are produced.
