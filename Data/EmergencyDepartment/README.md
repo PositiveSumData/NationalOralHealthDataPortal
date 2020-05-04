@@ -2,6 +2,9 @@
 
 States collect emergency emergency department data to understand utilization patterns, cost, and reasons people access health care. The Agency for Healthcare Research & Quality (AHRQ) consolidates some of these state datasets into the Health Care Cost and Utilization Project (HCUP). Some of the data is free and publicly queryable in the HCUPnet online database. Most states do not participate. ED data collection therefore requires coordinating with many states individually. They may or may not use standardized reporting fields, somewhat complicating consolidation into our database. States may charge fees as well.
 
+Hello Mike
+
+
 ## Utility
 
 The emergency department is not the ideal acces point for most oral health conditions. The dental office is usually much more appropriate, where dentists have the expertise to manage traumatic and non-traumatic dental cases. Emergency department care is much more expensive than dental office care. Emergency department use for dental reasons may illuminate gaps in health literacy, dental insurance coverage, or the availability of dentists. States often turn to ED data to see if utilization changes as result of changes to Medicaid dental coverage, the thought being that when people don't have dental insurance they are less likely to see a dentist and more likely to go to a hospital. 
