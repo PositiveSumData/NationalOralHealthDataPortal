@@ -121,13 +121,15 @@ frame_full <- frame_full %>%
 
 # create and write csv that only includes dental lines
 frame_dental <- frame_full %>%
-  filter(line %in% c("12", "12a", "12b", "12c", "12d", "12f", "12e", "12g"))
-write.csv(frame_dental,"CMS416_dental.csv", row.names = FALSE)
+  filter(line %in% c("12", "12a", "12b", "12c", "12d", "12f", "12e", "12g")) %>%
+  rename(utilizer90 = value)
+write.csv(frame_dental,"CMS416_dental90.csv", row.names = FALSE)
 
 # create and write csv that only includes total eligibles
 frame_total_eligible <- frame_full %>%
-  filter(line == "1a")
-write.csv(frame_total_eligible, "CMS416_total_eligible.csv", row.names = FALSE)
+  filter(line == "1b") %>%
+  rename(eligible90 = value)
+write.csv(frame_total_eligible, "CMS416_eligible90.csv", row.names = FALSE)
 
 # We also want a key to describe what the different lines mean. We write 
 # short and long descriptors.
