@@ -1,213 +1,820 @@
-ICD10_code,description
-A69.0,Necrotizing ulcerative stomatitis
-K00.0,Anodontia
-K00.1,Supernumerary teeth
-K00.2,Abnormalities of size and form of teeth
-K00.3,Mottled teeth
-K00.4,Disturbances in tooth formation
-K00.5,Hereditary disturbances in tooth structure
-K00.6,Disturbances in tooth eruption
-K00.7,Teething syndrome
-K00.8,Other disorders of tooth development
-K00.9,"Disorder of tooth development, unspecified"
-K01.0,Embedded teeth
-K01.1,Impacted teeth
-K02.3,Arrested dental caries
-K02.51,Dental caries on pit and fissure surface limited to enamel
-K02.61,Dental caries on smooth surface limited to enamel
-K02.62,Dental caries on smooth surface penetrating into dentin
-K02.63,Dental caries on smooth surface penetrating into pulp
-K02.7,Dental root caries
-K02.9,"Dental caries, unspecified"
-K03.0,Excessive attrition of teeth
-K03.1,Abrasion of teeth
-K03.2,Erosion of teeth
-K03.3,Pathological resorption of teeth
-K03.4,Hypercementosis
-K03.5,Ankylosis of teeth
-K03.6,Deposits [accretions] on teeth
-K03.7,Posteruptive color changes of dental hard tissues
-K03.81,Cracked tooth
-K03.89,Other specified diseases of hard tissues of teeth
-K03.9,
-K04.1,Necrosis of pulp
-K04.2,Pulp degeneration
-K04.3,Abnormal hard tissue formation in pulp
-K04.4,Acute apical periodontitis of pulpal origin
-K04.5,Chronic apical periodontitis
-K04.6,Periapical abcess with sinus
-K04.7,Periapical abcess without sinus
-K04.8,Radicular cyst
-K04.90,Unspecified diseases of pulp and periapical tissues
-K04.99,Other diseases of pulp and periapical tissues
-K05.00,"Acute gingivitis, plaque induced"
-K05.01,"Acute gingivitis, non-plaque induced"
-K05.10,"Chronic gingivitis, plaque induced"
-K05.11,"Chronic gingivitis, non-plaque induced"
-K05.20,"Aggressive periodontitis, unspecified"
-K05.30,"Chronic periodontitis, unspecified"
-K05.4,Periodontitis
-K05.5,Other periodontal diseases
-K05.6,"Periodontal disease, unspecified"
-K06.1,Gingival enlargement
-K06.2,Gingival & edentulous alveolar ridge lesions associated with trauma
-K08.0,Exfoliation of teeth due to systemic causes
-K08.101,"Complete loss of teeth, unspecified cause, class I"
-K08.102,"Complete loss of teeth, unspecified cause, class II"
-K08.103,"Complete loss of teeth, unspecified cause, class III"
-K08.104,"Complete loss of teeth, unspecified cause, class IV"
-K08.109,"Complete loss of teeth, unspecified cause, unspecified class"
-K08.20,Unspecified atrophy of edentulous alveolar ridge
-K08.21,Minimal atrophy of the mandible
-K08.22,Moderate atrophy of the mandible
-K08.23,Severe atrophy of the mandible
-K08.24,Minimal atrophy of maxilla
-K08.25,Moderate atrophy of the maxilla
-K08.26,Severe atrophy of the maxilla
-K08.3,Retained dental root
-K08.401,"Partial loss of teeth, unspecified, class I"
-K08.402,"Partial loss of teeth, unspecified, class II"
-K08.403,"Partial loss of teeth, unspecified, class II"
-K08.404,"Partial loss of teeth, unspecified, class IV"
-K08.409,"Partial loss of teeth, unspecified cause, unspecified class"
-K08.419,"Partial loss of teeth due to trauma, unspecified class"
-K08.429,"Partial loss of teeth due to periodontal disease, unspecified class"
-K08.439,"Partial loss of teeth due to caries, unspecified class"
-K08.499,"Partial loss of teeth due to other cause, unspecifed class"
-K08.50,"Unsatisfactory restoration of tooth, unspecified"
-K08.51,Open restoration margins of tooth
-K08.52,Unrepairable overhanging of dental restorative materials
-K08.530,Fractured dental restorative material without loss of material
-K08.531,Fractured dental restorative material with loss of material
-K08.54,Contour of existing restoration of tooth biologically incompatible with oral health
-K08.55,Allergy to existing dental restorative material
-K08.56,Poor aesthetic of existing restoration of tooth
-K08.59,Other unsatisfactory restoration of tooth
-K08.9,"Disorder of teeth and supporting structures, unspecified"
-K09.0,Developmental odontogenic cysts
-K09.1,Developmental (nonodontogenic) cysts of oral region
-K09.8,"Other cyst of oral region, not elsewhere classified"
-K11.0,Atrophy of salivary gland
-K11.1,Hypertrophy of salivary gland
-K11.20,"Sialodenitis, unspecified"
-K11.3,Ascess of salivary gland
-K11.4,Fistula of salivary gland
-K11.5,Sialolithiasis
-K11.6,Mucocele of salivary gland
-K11.7,Dusturbances of salivary secretion
-K11.8,Other diseases of salivary glands
-K11.9,"Disease of salivary gland, unspecified"
-K12.0,Recurrent oral aphtae
-K12.1,Other ofrms of stomatitis
-K12.2,Cellultis and abscess of mouth
-K12.30,"Oral mucositis (ulcerative), unspecified"
-K12.31,"Oral mucositis (ulcerative), due to antineoplastic therapy"
-K12.32,"Oral mucositis (ulcerative), due to other drugs"
-K12.33,"Oral mucosisit (ulcerative), due to radiation"
-K12.39,Other oral mucositis (ulcerative)
-K13.0,Disease of lips
-K13.21,"Leukoplakia and other disturbances of oral epithelium, including tongue"
-K13.22,Minimal keratinized residual ridge mucosa
-K13.23,Excessive keratinized residual ridge mucosa
-K13.29,"Other disturbances of oral epithelium, including tongue"
-K13.5,Oral submucous fibrosis
-K13.70,Unspecified lesions of oral mucosa
-K13.79,Other lesions of oral mucosa
-K14.0,Glossitis
-K14.1,Geographic tongue
-K14.2,Median rhomboid glossitis
-K14.3,Hypertrophy of tongue papillae
-K14.4,Atrophy of tongue papillae
-K14.5,Plicated tongue
-K14.6,Glossodynia
-K14.8,Other diseases of tongue
-K14.9,"Disease of tongue, unspecified"
-M26.00,Unspecified anomaly of jaw size
-M26.01,Maxillary hyperplasia
-M26.02,Maxillary hypoplasia
-M26.03,Mandibular hyperplasia
-M26.04,Mandibular hypoplasia
-M26.05,Macrogenia
-M26.06,Microgenia
-M26.07,Excessive tuberosity of jaw
-M26.09,Other specified anomalies of jaw size
-M26.10,Unspecified anomaly of jaw-cranial base relationship
-M26.11,Maxillary asymmetry
-M26.12,Other jaw assymmetry
-M29.19,Other specified anomalies of jaw-cranial base relationship
-M26.20,Unspecified anomaly of dental arch relationship
-M26.211,"Malocclusion, Angle's class I"
-M26.212,"Malocclusion, Angle's class II"
-M26.213,"Malocclusion, Angle's class III"
-M26.220,Open anterior occlusal relationship
-M26.221,Open posterior occlusal relationship
-M26.23,Excessive horizontal overlap
-M26.24,Reverse articulation
-M26.25,Anomalies of interarch distance
-M26.29,Other anomalies of dental arch relationship
-M26.30,Unspecified anomaly of tooth position of fully erupted tooth/teeth
-M26.31,Crowding of fully erupted teeth
-M26.32,Excessive spacing of fully erupted teeth
-M26.33,Horizontal displacement of fully erupted tooth or teeth
-M26.34,Vertical displacement of fully erupted tooth or teeth
-M26.35,Rotation of fully erupted tooth or teeth
-M26.36,Insufficient interocclusal distance of fully erupted teeth
-M26.37,Excessive interocclusal distance of fully erupted teeth
-M26.39,Other anomalies of tooth position of fully erupted tooth/teeth
-M26.4,"Malocclusion, unspecified"
-M26.50,"Dentofacial function abnormalities, unspecified"
-M26.51,Abnormal jaw closure
-M26.52,Limited mandibular range of motion
-M26.53,Deviation in opening and closing of the mandible
-M26.54,Insufficient anterior guidance
-M26.55,Centric occlusion maximum intercuspation discrepancy
-M26.56,Non-workign side interference
-M26.57,Lack of posterior occlusal support
-M26.59,Other dentofacial functional abnormalities
-M26.60,
-M26.69,Other specified disorders of temporomandibular joint
-M26.70,Unspecified alveolar anomaly
-M26.71,Alveolar maxillary hyperplasia
-M26.72,Alveolar mandibular hyperplasia
-M26.73,Alveolar maxillary hypoplasia
-M26.74,Alveolar mandibular hypoplasia
-M26.79,Other specified alveolar anomalies
-M26.81,Anterior soft tissue impingement
-M26.82,Posterior soft tissue impingement
-M26.89,Other dentofacial anomalies
-M26.9,"Dentofacial anomaly, unspecified"
-M27.1,"Giant cell granuloma, central"
-M27.2,Inflammatory conditions of jaws
-M27.3,Alveolitis of jaws
-M27.49,Other cyst s of jaw
-M27.51,Perforation of root canal space due to endodontic treatment
-M27.52,Endodontic overfill
-M27.53,Endodontic underfill
-M27.59,Other periradicular pathology associated with preventive endodontic treatment
-M27.61,Osseointegration failure of dental implant
-M27.62,Post-osseointegration of biological failure of dental implant
-M27.63,Post-osseointegration mechanical failur of dental implant
-M27.69,Other endosseous dentla implant failure
-M27.8,Other specified diseases of jaws
-M27.9,"Disease of jaws, unspecified"
-R68.2,"Dry mouth, unspecified"
-R68.84,Jaw pain
-R85.9,Unspecified abnormal finding in specimens from digsetive organs and abdominal cavity
-S01.409A,"Unspecified open wound of unspecified cheek and temporomandibular area, initial encounter"
-S01.422A,"Laceration with foreign body of left cheek and temporomandibular area, initial encounter"
-S01.501A,"Unspecified open wound of lip, initial encounter"
-S01.502A,"Unspecified open wound of oral cavity, initial encounter"
-S01.512A,"Laceration without foreign body of oral cavity, initial encounter"
-S01.521A,"Laceration with foreign body of lip, initial encounter"
-S01.522A,"Laceration with foreign body of oral cavity, initial encounter"
-S01.80XA,"Unspecified open wound of other part of head, initial encounter"
-S01.82XA,"Laceration with foreign body of other part of head, initial encounter"
-S02.5XXA,"Fracture of tooth (traumatic), initial encounter for closed fracture"
-S02.5XXB,"Fracture of tooth (traumatic), initial encounter for open fracture"
-S03.0XXA,"Dislocation of jaw, initial encounter"
-S03.4XXA,"Sprain of jaw, initial encounter"
-S09.93XA,"Unspecified injury of face, initial encounter"
-Z01.20,Encounter for dental examination and cleaning without abnormal findings
-Z01.21,Encounter for dental examination and cleanign with abnormal findings
-Z46.3,Encounter for fitting and adjustment of dental prosthetic device
-Z46.4,Encounter for fitting and adjustment of orthodontic device
+code,code_dot,Any,description,notes
+A690,A69.0,x,Necrotizing ulcerative stomatitis,
+K00,K00,x,Disorders of tooth development and eruption,
+K000,K00.0,x,Anodontia,
+K001,K00.1,x,Supernumerary teeth,
+K002,K00.2,x,Abnormalities of size and form of teeth,
+K003,K00.3,x,Mottled teeth,
+K004,K00.4,x,Disturbances in tooth formation,
+K005,K00.5,x,Hereditary disturbances in tooth structure,
+K006,K00.6,x,Disturbances in tooth eruption,
+K007,K00.7,x,Teething syndrome,
+K008,K00.8,x,Other disorders of tooth development,
+K009,K00.9,x,"Disorder of tooth development, unspecified",
+K01,K01,x,Embedded and impacted teeth,
+K010,K01.0,x,Embedded teeth,
+K011,K01.1,x,Impacted teeth,
+K02,K02.3,x,Dental caries,
+K023,K02.3,x,Arrested dental caries,
+K025,K02.5,x,Dental caries on pit and fissure surface,
+K0251,K02.51,x,Dental caries on pit and fissure surface limited to enamel,
+K0252,K02.52,x,Dental caries on pit and fissure surface penetrat into dentin,
+K0253,K02.53,x,Dental caries on pit and fissure surface penetrat into pulp,
+K026,K02.6,x,Dental caries on smooth surface,
+K0261,K02.61,x,Dental caries on smooth surface limited to enamel,
+K0262,K02.62,x,Dental caries on smooth surface penetrating into dentin,
+K0263,K02.63,x,Dental caries on smooth surface penetrating into pulp,
+K027,K02.7,x,Dental root caries,
+K029,K02.9,x,"Dental caries, unspecified",
+K03,K03,x,Other diseases of hard tissues of teeth,
+K030,K03.0,x,Excessive attrition of teeth,
+K031,K03.1,x,Abrasion of teeth,
+K032,K03.2,x,Erosion of teeth,
+K033,K03.3,x,Pathological resorption of teeth,
+K034,K03.4,x,Hypercementosis,
+K035,K03.5,x,Ankylosis of teeth,
+K036,K03.6,x,Deposits [accretions] on teeth,
+K037,K03.7,x,Posteruptive color changes of dental hard tissues,
+K038,K03.8,x,Other specified diseases of hard tissues of teeth,
+K0381,K03.81,x,Cracked tooth,
+K0389,K03.89,x,Other specified diseases of hard tissues of teeth,
+K039,K03.9,x,"Disease of hard tissues of teeth, unspecified",
+K04,K04,x,Diseases of pulp and periapical tissues,
+K040,K04.0,x,Pulpitis,
+K0401,K04.01,x,Reversible pulpitis,
+K0402,K04.02,x,Irreversible pulpitis,
+K041,K04.1,x,Necrosis of pulp,
+K042,K04.2,x,Pulp degeneration,
+K043,K04.3,x,Abnormal hard tissue formation in pulp,
+K044,K04.4,x,Acute apical periodontitis of pulpal origin,
+K045,K04.5,x,Chronic apical periodontitis,
+K046,K04.6,x,Periapical abcess with sinus,
+K047,K04.7,x,Periapical abcess without sinus,
+K048,K04.8,x,Radicular cyst,
+K049,K04.9,x,Other and unspecified diseases of pulp and periapical tissues,
+K0490,K04.90,x,Unspecified diseases of pulp and periapical tissues,
+K0499,K04.99,x,Other diseases of pulp and periapical tissues,
+K05,K05,x,Gingivitis and periodontal diseases,
+K050,K05.0,x,Acute gingivitis,
+K0500,K05.00,x,"Acute gingivitis, plaque induced",
+K0501,K05.01,x,"Acute gingivitis, non-plaque induced",
+K051,K05.1,x,Chronic gingivitis,
+K0510,K05.10,x,"Chronic gingivitis, plaque induced",
+K0511,K05.11,x,"Chronic gingivitis, non-plaque induced",
+K052,K05.2,x,Aggressive periodontitis,
+K0520,K05.20,x,"Aggressive periodontitis, unspecified",
+K0521,K05.21,x,"Aggressive periodontitis, localized",
+K05211,K05.211,x,"Aggressive periodontitis, localized, slight",
+K05212,K05.212,x,"Aggressive periodontitis, localized, moderate",
+K05213,K05.213,x,"Aggressive periodontitis, localized, severe",
+K05219,K05.219,x,"Aggressive periodontitis, localized, unspecified severity",
+K0522,K05.22,x,"Aggressive periodontitis, generalized",
+K05221,K05.221,x,"Aggressive periodontitis, generalized, slight",
+K05222,K05.222,x,"Aggressive periodontitis, generalized, moderate",
+K05223,K05.223,x,"Aggressive periodontitis, generalized, severe",
+K05229,K05.229,x,"Aggressive periodontitis, generalized, unspecified severity",
+K053,K05.3,x,Chronic periodontitis,
+K0530,K05.30,x,"Chronic periodontitis, unspecified",
+K0531,K05.31,x,"Chronic periodontitis, localized",
+K05311,K05.311,x,"Chronic periodontitis, localized, slight",
+K05312,K05.312,x,"Chronic periodontitis, localized, moderate",
+K05313,K05.313,x,"Chronic periodontitis, localized, severe",
+K05319,K05.319,x,"Chronic periodontitis, localized, unspecified severity",
+K0532,K05.32,x,"Chronic periodontitis, generalized",
+K05321,K05.321,x,"Chronic periodontitis, generalized, slight",
+K05322,K05.322,x,"Chronic periodontitis, generalized, moderate",
+K05323,K05.323,x,"Chronic periodontitis, generalized, severe",
+K05329,K05.329,x,"Chronic periodontitis, generalized, unspecified severity",
+K054,K05.4,x,Periodontitis,
+K0540,K05.40,x,,
+K055,K05.5,x,Other periodontal diseases,
+K056,K05.6,x,"Periodontal disease, unspecified",
+K06,K06,x,Other disorders of gingiva and edentulous alveolar ridge,
+K060,K06.0,x,Gingival recession,added 2018
+K0601,K06.01,x,"Gingival recession, localized",added 2018
+K06010,K06.010,x,"Localized gingival recession, unspecified",added 2018
+K06011,K06.011,x,"Localized gingival recession, minimal",added 2018
+K06012,K06.012,x,"Localized gingival recession, moderate",added 2018
+K06013,K06.013,x,"Localized gingival recession, severe",added 2018
+K0602,K06.02,x,"Gingival recession, generalized",added 2018
+K06020,K06.020,x,"Generalized gingival recession, unspecified",added 2018
+K06021,K06.021,x,"Generalized gingival recession, minimal",added 2018
+K06022,K06.022,x,"Generalized gingival recession, moderate",added 2018
+K06023,K06.023,x,"Generalized gingival recession, severe",added 2018
+K061,K06.1,x,Gingival enlargement,
+K062,K06.2,x,Gingival & edentulous alveolar ridge lesions associated with trauma,
+K063,K06.3,x,Horizontal alveolar bone loss,
+K068,K06.8,x,Other specified disorders of gingiva and edentulous alveolar ridge,
+K069,K06.9,x,"Disorder of ginviva and edentulous alveolar ridge, unspecified",
+K08,K08.0,x,Other disorders of teeth and supporting structures,
+K080,K08.0,x,Exfoliation of teeth due to systemic causes,
+K081,K08.1,x,Complete loss of teeth,
+K0810,K08.10,x,"Complete loss of teeth, unspecified cause",
+K08101,K08.101,x,"Complete loss of teeth, unspecified cause, class I",
+K08102,K08.102,x,"Complete loss of teeth, unspecified cause, class II",
+K08103,K08.103,x,"Complete loss of teeth, unspecified cause, class III",
+K08104,K08.104,x,"Complete loss of teeth, unspecified cause, class IV",
+K08109,K08.109,x,"Complete loss of teeth, unspecified cause, unspecified class",
+K08111,K08.111,x,"Complete loss of teeth due to trauma, class I",
+K08112,K08.112,x,"Complete loss of teeth due to trauma, class II",
+K08113,K08.113,x,"Complete loss of teeth due to trauma, class III",
+K08114,K08.114,x,"Complete loss of teeth due to trauma, class IV",
+K08119,K08.119,x,"Complete loss of teeth due to trauma, unspecified class",
+K0812,K08.12,x,Complete loss of teeth due to periodontal diseases,
+K08121,K08.121,x,"Complete loss of teeth due to periodontal disease, class I",
+K08122,K08.122,x,"Complete loss of teeth due to periodontal disease, class II",
+K08123,K08.123,x,"Complete loss of teeth due to periodontal disease, class III",
+K08124,K08.124,x,"Complete loss of teeth due to periodontal disease, class IV",
+K08129,K08.129,x,"Complete loss of teeth due to periodontal disease, unspecified class",
+K0813,K08.12,x,Complete loss of teeth due to caries,
+K08131,K08.131,x,"Complete loss of teeth due to caries, class I",
+K08132,K08.132,x,"Complete loss of teeth due to caries, class II",
+K08133,K08.133,x,"Complete loss of teeth due to caries, class III",
+K08134,K08.134,x,"Complete loss of teeth due to caries, class IV",
+K08139,K08.139,x,"Complete loss of teeth due to caries, unspecified class",
+K0819,J08.19,x,Complete loss of teeth due to other specified cause,
+K08191,K08.191,x,"Complete loss of teeth due to other specified cause, class I",
+K08192,K08.192,x,"Complete loss of teeth due to other specified cause, class II",
+K08193,K08.193,x,"Complete loss of teeth due to other specified cause, class III",
+K08194,K08.194,x,"Complete loss of teeth due to other specified cause, class IV",
+K08199,K08.199,x,"Complete loss of teeth due to other specified cause, unspecified class",
+K082,K08.2,x,Atrophy of edentulous alveolar ridge,
+K0820,K08.20,x,Unspecified atrophy of edentulous alveolar ridge,
+K0821,K08.21,x,Minimal atrophy of the mandible,
+K0822,K08.22,x,Moderate atrophy of the mandible,
+K0823,K08.23,x,Severe atrophy of the mandible,
+K0824,K08.24,x,Minimal atrophy of maxilla,
+K0825,K08.25,x,Moderate atrophy of the maxilla,
+K0826,K08.26,x,Severe atrophy of the maxilla,
+K083,K08.3,x,Retained dental root,
+K084,K08.4,x,Partial loss of teeth,
+K0840,K08.40,x,"Partial loss of teeth, unspecified cause",
+K08401,K08.401,x,"Partial loss of teeth, unspecified, class I",
+K08402,K08.402,x,"Partial loss of teeth, unspecified, class II",
+K08403,K08.403,x,"Partial loss of teeth, unspecified, class II",
+K08404,K08.404,x,"Partial loss of teeth, unspecified, class IV",
+K08409,K08.409,x,"Partial loss of teeth, unspecified cause, unspecified class",
+K08411,K08.411,x,"Partial loss of teeth due to trauma, class I",
+K08412,K08.412,x,"Partial loss of teeth due to trauma, class II",
+K08413,K08.413,x,"Partial loss of teeth due to trauma, class III",
+K08414,K08.414,x,"Partial loss of teeth due to trauma, class IV",
+K08419,K08.419,x,"Partial loss of teeth due to trauma, unspecified class",
+K0842,K08.42,x,Partial loss of teeth due to periodontal diseases,
+K08421,K08.421,x,"Partial loss of teeth due to periodontal diseases, class I",
+K08422,K08.422,x,"Partial loss of teeth due to periodontal diseases, class II",
+K08423,K08.423,x,"Partial loss of teeth due to periodontal diseases, class III",
+K08424,K08.424,x,"Partial loss of teeth due to periodontal diseases, class IV",
+K08429,K08.429,x,"Partial loss of teeth due to periodontal disease, unspecified class",
+K0843,K08.43,x,Partial loss of teeth due to caries,
+K08431,K08.431,x,"Partial loss of teeth due to caries, class I",
+K08432,K08.432,x,"Partial loss of teeth due to caries, class II",
+K08433,K08.433,x,"Partial loss of teeth due to caries, class II",
+K08434,K08.434,x,"Partial loss of teeth due to caries, class III",
+K08439,K08.439,x,"Partial loss of teeth due to caries, unspecified class",
+K0849,K08.49,x,Partial loss of teeth due to other specified cause,
+K08491,K08.491,x,"Partial loss of teeth due to other specified cause, class I",
+K08492,K08.492,x,"Partial loss of teeth due to other specified cause, class II",
+K08493,K08.493,x,"Partial loss of teeth due to other specified cause, class III",
+K08494,K08.494,x,"Partial loss of teeth due to other specified cause, class IV",
+K08499,K08.499,x,"Partial loss of teeth due to other cause, unspecifed class",
+K0850,K08.50,x,"Unsatisfactory restoration of tooth, unspecified",
+K0851,K08.51,x,Open restoration margins of tooth,
+K0852,K08.52,x,Unrepairable overhanging of dental restorative materials,
+K0853,K08.53,x,Fractured dental restorative material,
+K08530,K08.530,x,Fractured dental restorative material without loss of material,
+K08531,K08.531,x,Fractured dental restorative material with loss of material,
+K08539,K08.539,x,"Fracture dental restorative material, unspecified",
+K0854,K08.54,x,Contour of existing restoration of tooth biologically incompatible with oral health,
+K0855,K08.55,x,Allergy to existing dental restorative material,
+K0856,K08.56,x,Poor aesthetic of existing restoration of tooth,
+K0859,K08.59,x,Other unsatisfactory restoration of tooth,
+K088,K08.8,x,Other specified disorders of teeth and supporting structures,
+K0881,K08.81,x,Primary occlusal trauma,
+K0882,K08.82,x,Secondary occlusal trauma,
+K0889,K08.89,x,Other specified disorders of teeth and supporting structures,
+K089,K08.9,x,"Disorder of teeth and supporting structures, unspecified",
+K09,K09,x,"Cysts of oral region, not elsewhere classified",
+K090,K09.0,x,Developmental odontogenic cysts,
+K091,K09.1,x,Developmental (nonodontogenic) cysts of oral region,
+K098,K09.8,x,"Other cyst of oral region, not elsewhere classified",
+K099,K09.9,x,"Cyst of oral region, unspecified",
+K11,K11,x,Diseases of salivary glands,
+K110,K11.0,x,Atrophy of salivary gland,
+K111,K11.1,x,Hypertrophy of salivary gland,
+K112,K11.2,x,Sialoadenitis,
+K1120,K11.20,x,"Sialodenitis, unspecified",
+K1121,K11.21,x,Acute sialoadenitis,
+K1122,K11.22,x,Acute recurrent sialoadenitis,
+K1123,K11.23,x,Chronic sialoadenitis,
+K113,K11.3,x,Ascess of salivary gland,
+K114,K11.4,x,Fistula of salivary gland,
+K115,K11.5,x,Sialolithiasis,
+K116,K11.6,x,Mucocele of salivary gland,
+K117,K11.7,x,Dusturbances of salivary secretion,
+K118,K11.8,x,Other diseases of salivary glands,
+K119,K11.9,x,"Disease of salivary gland, unspecified",
+K12,K12,x,Stomatitis and related lesions,
+K120,K12.0,x,Recurrent oral aphtae,
+K121,K12.1,x,Other ofrms of stomatitis,
+K122,K12.2,x,Cellultis and abscess of mouth,
+K123,K12.3,x,Oral mucositis (ulcerative),
+K1230,K12.30,x,"Oral mucositis (ulcerative), unspecified",
+K1231,K12.31,x,"Oral mucositis (ulcerative), due to antineoplastic therapy",
+K1232,K12.32,x,"Oral mucositis (ulcerative), due to other drugs",
+K1233,K12.33,x,"Oral mucosisit (ulcerative), due to radiation",
+K1239,K12.39,x,Other oral mucositis (ulcerative),
+K13,K13,x,Other diseases of lip and oral mucosa,
+K130,K13.0,x,Disease of lips,
+K131,K13.1,x,Cheek and lip biting,
+K132,K13.2,x,"Leukoplakia and other disturbances of oral epithelium, including tongue",
+K1321,K13.21,x,"Leukoplakia and other disturbances of oral epithelium, including tongue",
+K1322,K13.22,x,Minimal keratinized residual ridge mucosa,
+K1323,K13.23,x,Excessive keratinized residual ridge mucosa,
+K1324,K13.24,x,Leukokeratosis nicotina palati,
+K1329,K13.29,x,"Other disturbances of oral epithelium, including tongue",
+K133,K13.3,x,Hairy leukoplakia,
+K134,K13.4,x,Granuloma and granuloma-like mesions of oral mucosa,
+K135,K13.5,x,Oral submucous fibrosis,
+K136,K13.6,x,Irritave hyperplasia of oral mucosa,
+K137,K13.7,x,Other and unspecified lesions of oral mucosa,
+K1370,K13.70,x,Unspecified lesions of oral mucosa,
+K1379,K13.79,x,Other lesions of oral mucosa,
+K14,K14,x,Glossitis,
+K140,K14.0,x,Glossitis,
+K141,K14.1,x,Geographic tongue,
+K142,K14.2,x,Median rhomboid glossitis,
+K143,K14.3,x,Hypertrophy of tongue papillae,
+K144,K14.4,x,Atrophy of tongue papillae,
+K145,K14.5,x,Plicated tongue,
+K146,K14.6,x,Glossodynia,
+K148,K14.8,x,Other diseases of tongue,
+K149,K14.9,x,"Disease of tongue, unspecified",
+M26,M26,x,Dentofacial anomalies [including malocclusion],
+M260,M260,x,Major anomalies of jaw size,
+M2600,M26.00,x,Unspecified anomaly of jaw size,
+M2601,M26.01,x,Maxillary hyperplasia,
+M2602,M26.02,x,Maxillary hypoplasia,
+M2603,M26.03,x,Mandibular hyperplasia,
+M2604,M26.04,x,Mandibular hypoplasia,
+M2605,M26.05,x,Macrogenia,
+M2606,M26.06,x,Microgenia,
+M2607,M26.07,x,Excessive tuberosity of jaw,
+M2609,M26.09,x,Other specified anomalies of jaw size,
+M261,M26.1,x,Anomalies of jaw-cranial base relationship,
+M2610,M26.10,x,Unspecified anomaly of jaw-cranial base relationship,
+M2611,M26.11,x,Maxillary asymmetry,
+M2612,M26.12,x,Other jaw assymmetry,
+M2619,M29.19,x,Other specified anomalies of jaw-cranial base relationship,
+M262,M26.2,x,Anomalies of dental arch relationship,
+M2620,M26.20,x,Unspecified anomaly of dental arch relationship,
+M2621,M26.21,x,"Malocclusion, Angle's class",
+M26211,M26.211,x,"Malocclusion, Angle's class I",
+M26212,M26.212,x,"Malocclusion, Angle's class II",
+M26213,M26.213,x,"Malocclusion, Angle's class III",
+M26219,M26.219,x,"Malocclusion, Angle's class unspecified",
+M2622,M26.22,x,Open occlusal relationship,
+M26220,M26.220,x,Open anterior occlusal relationship,
+M26221,M26.221,x,Open posterior occlusal relationship,
+M2623,M26.23,x,Excessive horizontal overlap,
+M2624,M26.24,x,Reverse articulation,
+M2625,M26.25,x,Anomalies of interarch distance,
+M2629,M26.29,x,Other anomalies of dental arch relationship,
+M263,M26.3,x,Anomalies of tooth position of fully erupted tooth or teeth,
+M2630,M26.30,x,Unspecified anomaly of tooth position of fully erupted tooth/teeth,
+M2631,M26.31,x,Crowding of fully erupted teeth,
+M2632,M26.32,x,Excessive spacing of fully erupted teeth,
+M2633,M26.33,x,Horizontal displacement of fully erupted tooth or teeth,
+M2634,M26.34,x,Vertical displacement of fully erupted tooth or teeth,
+M2635,M26.35,x,Rotation of fully erupted tooth or teeth,
+M2636,M26.36,x,Insufficient interocclusal distance of fully erupted teeth,
+M2637,M26.37,x,Excessive interocclusal distance of fully erupted teeth,
+M2639,M26.39,x,Other anomalies of tooth position of fully erupted tooth/teeth,
+M264,M26.4,x,"Malocclusion, unspecified",
+M265,M26.5,x,Dentofacial functional abnormalities,
+M2650,M26.50,x,"Dentofacial function abnormalities, unspecified",
+M2651,M26.51,x,Abnormal jaw closure,
+M2652,M26.52,x,Limited mandibular range of motion,
+M2653,M26.53,x,Deviation in opening and closing of the mandible,
+M2654,M26.54,x,Insufficient anterior guidance,
+M2655,M26.55,x,Centric occlusion maximum intercuspation discrepancy,
+M2656,M26.56,x,Non-workign side interference,
+M2657,M26.57,x,Lack of posterior occlusal support,
+M2659,M26.59,x,Other dentofacial functional abnormalities,
+M266,M26.6,x,Temporomandibular joint disorders,
+M2660,M26.60,x,"Temporomandibular joint disorder, unspecified",
+M26601,M26.601,x,"Right temproromandibular joint disorder, unspecified",
+M26602,M26.602,x,"Left termporomandibular joint disorder, unspecified",
+M26603,M26.603,x,"Bilateral termporomandibular joint disorder, unspecified",
+M26609,M26.609,x,"Unspecified TMJ joint disorder, unspecified side",
+M2661,M26.61,x,Adhesions and ankylosis of temporomandibular joint,
+M26611,M26.611,x,Adhesions and ankylosis of right temporomandibular joint,
+M26612,M26.612,x,Adhesions and ankylosis of left temporomandibular joint,
+M26613,M26.613,x,Adhesions and ankylosis of bilateral temporomandibular joint,
+M26619,M26.619,x,"Adhesions and ankylosis of TMJ joint, unspecified side",
+M2662,M26.62,x,Arthralgia of temporomandibular joint,
+M26621,M26.621,x,Arthralgia of right temporomandibular joint,
+M26622,M26.622,x,Arthralgia of left temporomandibular joint,
+M26623,M26.623,x,Arthralgia of bilateral termporomandibular joint,
+M26629,M26.629,x,"Arthralgia of temporomandibular joint, unspecified side",
+M2663,M26.63,x,Articular disc disorder of temporomandibular joint,
+M26631,M26.631,x,Articular disc disorder of right termporomandibular joint,
+M26632,M26.632,x,Articular disc disorder of left temporomandibular joint,
+M26633,M26.633,x,Articular disc disorder of bilateral temporomandibular joint,
+M26639,M26.639,x,"Articular disc disorder of TMJ joint, unspecified side",
+M2669,M26.69,x,Other specified disorders of temporomandibular joint,
+M267,M26.7,x,Dental alveolar anomalies,
+M2670,M26.70,x,Unspecified alveolar anomaly,
+M2671,M26.71,x,Alveolar maxillary hyperplasia,
+M2672,M26.72,x,Alveolar mandibular hyperplasia,
+M2673,M26.73,x,Alveolar maxillary hypoplasia,
+M2674,M26.74,x,Alveolar mandibular hypoplasia,
+M2679,M26.79,x,Other specified alveolar anomalies,
+M268,M26.8,x,Other dentofacial anomalies,
+M2681,M26.81,x,Anterior soft tissue impingement,
+M2682,M26.82,x,Posterior soft tissue impingement,
+M2689,M26.89,x,Other dentofacial anomalies,
+M269,M26.9,x,"Dentofacial anomaly, unspecified",
+M27,M27,x,Other diseases of jaws,
+M270,M27.0,x,Developmental disorders of jaws,
+M271,M27.1,x,"Giant cell granuloma, central",
+M272,M27.2,x,Inflammatory conditions of jaws,
+M273,M27.3,x,Alveolitis of jaws,
+M274,M27.4,x,Other and unspecified cysts of jaw,
+M2740,M27.40,x,Unspecified cyst of jaw,
+M2749,M27.49,x,Other cyst s of jaw,
+M275,M27.5,x,Periradicular pathology associated with previous endodontic treatment,
+M2751,M27.51,x,Perforation of root canal space due to endodontic treatment,
+M2752,M27.52,x,Endodontic overfill,
+M2753,M27.53,x,Endodontic underfill,
+M2759,M27.59,x,Other periradicular pathology associated with preventive endodontic treatment,
+M276,M27.6,x,Endosseous dental implant failure,
+M2761,M27.61,x,Osseointegration failure of dental implant,
+M2762,M27.62,x,Post-osseointegration of biological failure of dental implant,
+M2763,M27.63,x,Post-osseointegration mechanical failur of dental implant,
+M2769,M27.69,x,Other endosseous dentla implant failure,
+M278,M27.8,x,Other specified diseases of jaws,
+M279,M27.9,x,"Disease of jaws, unspecified",
+M7911,M79.11,x,Myalgia of mastication muscle,added 2019
+R682,R68.2,x,"Dry mouth, unspecified",
+R6884,R68.84,x,Jaw pain,
+R859,R85.9,x,Unspecified abnormal finding in specimens from digsetive organs and abdominal cavity,"Suggested translation from ICD-9 code 7924 = ""Nonspecific abnormal findings in saliva"""
+S014,S0.1.4,x,Open wound of cheek and temporomandibular area,
+S0140,S01.40,x,Unspecified open wound of cheek and temporomandibular area,
+S01401,S01.401,x,Unspecified open wound of right cheek and temporomandibular area,
+S01401A,S01.401A,x,"Unspecified open wound of right cheek and temporomandibular area, initial encounter",
+S01401D,S01.401D,x,"Unspecified open wound of right cheek and temporomandibular area, subsequent encounter",
+S01401S,S01.401S,x,"Unspecified open wound of right cheek and temporomandibular area, sequela",
+S01402,S01.402,x,Unspecified open wound of left cheek and temporomandibular area,
+S01402A,S01.402A,x,"Unspecified open wound of left cheek and temporomandibular area, initial encounter",
+S01402D,S01.402D,x,"Unspecified open wound of left cheek and temporomandibular area, subsequent encounter",
+S01402S,S01.402S,x,"Unspecified open wound of left cheek and temporomandibular area, sequela",
+S01409,S01.409,x,Unspecified open wound of unspecified cheek and temporomandibular area,
+S01409A,S01.409A,x,"Unspecified open wound of unspecified cheek and temporomandibular area, initial encounter",
+S01409D,S01.409D,x,"Unspecified open wound of unspecified cheek and temporomandibular area, subsequent encounter",
+S01409S,S01.409S,x,"Unspecified open wound of unspecified cheek and temporomandibular area, sequela",
+S0141,S01.41,x,Laceration without foreign body of cheek and temporomandibular area,
+S01411,S01.411,x,Laceration without foreign body of right cheek and temporomandibular area,
+S01411A,S01.411A,x,"Laceration without foreign body of right cheek and temporomandibular area, initial encounter",
+S01411D,S01.411D,x,"Laceration without foreign body of right cheek and temporomandibular area, subsequent encounter",
+S01411S,S01.411S,x,"Laceration without foreign body of right cheek and temporomandibular area, sequela",
+S01412,S01.412,x,Laceration without foreign body of left cheek and temporomandibular area,
+S01412A,S01.412A,x,"Laceration without foreign body of left cheek and temporomandibular area, initial encounter",
+S01412D,S01.412D,x,"Laceration without foreign body of left cheek and temporomandibular area, subsequent encounter",
+S01412S,S01.412S,x,"Laceration without foreign body of left cheek and temporomandibular area, sequela",
+S01419,S01.419,x,Laceration without foreign body of unspecified cheek and temporomandibular area,
+S01419A,S01.419A,x,"Laceration without foreign body of unspecified cheek and temporomandibular area, initial encounter",
+S01419D,S01.419D,x,"Laceration without foreign body of unspecified cheek and temporomandibular area, subsequent encounter",
+S01419S,S01.419S,x,"Laceration without foreign body of unspecified cheek and temporomandibular area, sequela",
+S0142,S01.42,x,Laceration with foreign body of cheek and temporomandibular area,
+S01421,S01.421,x,Laceration with foreign body of right cheek and temporomandibular area,
+S01421A,S01.421A,x,"Laceration with foreign body of right cheek and temporomandibular area, initial encounter",
+S01421D,S01.421D,x,"Laceration with foreign body of right cheek and temporomandibular area, subsequent encounter",
+S01421S,S01.421S,x,"Laceration with foreign body of right cheek and temporomandibular area, sequela",
+S01422,S01.422,x,Laceration with foreign body of left cheek and temporomandibular area,
+S01422A,S01.422A,x,"Laceration with foreign body of left cheek and temporomandibular area, initial encounter",
+S01422D,S01.422D,x,"Laceration with foreign body of left cheek and temporomandibular area, subsequent encounter",
+S01422S,S01.422S,x,"Laceration with foreign body of left cheek and temporomandibular area, sequela",
+S01429,S01.429,x,Laceration with foreign body of unspecified cheek and temporomandibular area,
+S01429A,S01.429A,x,"Laceration with foreign body of unspecified cheek and temporomandibular area, initial encounter",
+S01429D,S01.429D,x,"Laceration with foreign body of unspecified cheek and temporomandibular area, subsequent encounter",
+S01429S,S01.429S,x,"Laceration with foreign body of unspecified cheek and temporomandibular area, sequela",
+S0143,S01.43,x,Puncture wound without foreign body of cheek and temporomandibular area,
+S01431,S01.431,x,Puncture wound without foreign body of right cheek and temporomandibular area,
+S01431A,S01.431A,x,"Puncture wound without foreign body of right cheek and temporomandibular area, initial encounter",
+S01431D,S01.431D,x,"Puncture wound without foreign body of right cheek and temporomandibular area, subsequent encounter",
+S01431S,S01.431S,x,"Puncture wound without foreign body of right cheek and temporomandibular area, sequela",
+S01432,S01.432,x,Puncture wound without foreign body of left cheek and temporomandibular area,
+S01432A,S01.432A,x,"Puncture wound without foreign body of left cheek and temporomandibular area, initial encounter",
+S01432D,S01.432D,x,"Puncture wound without foreign body of left cheek and temporomandibular area, subsequent encounter",
+S01432S,S01.432S,x,"Puncture wound without foreign body of left cheek and temporomandibular area, sequela",
+S01439,S01.439,x,Puncture wound without foreign body of unspecified cheek and temporomandibular area,
+S01439A,S01.439A,x,"Puncture wound without foreign body of unspecified cheek and temporomandibular area, initial encounter",
+S01439D,S01.439D,x,"Puncture wound without foreign body of unspecified cheek and temporomandibular area, subsequent encounter",
+S01439S,S01.439S,x,"Puncture wound without foreign body of unspecified cheek and temporomandibular area, sequela",
+S0144,S01.44,x,Puncture wound with foreign body of cheek and temporomandibular area,
+S01441,S01.441,x,Puncture wound with foreign body of right cheek and temporomandibular area,
+S01441A,S01.441A,x,"Puncture wound with foreign body of right cheek and temporomandibular area, initial encounter",
+S01441D,S01.441D,x,"Puncture wound with foreign body of right cheek and temporomandibular area, subsequent encounter",
+S01441S,S01.441S,x,"Puncture wound with foreign body of right cheek and temporomandibular area, sequela",
+S01442,S01.442,x,Puncture wound with foreign body of left cheek and temporomandibular area,
+S01442A,S01.442A,x,"Puncture wound with foreign body of left cheek and temporomandibular area, initial encounter",
+S01442D,S01.442D,x,"Puncture wound with foreign body of left cheek and temporomandibular area, subsequent encounter",
+S01442S,S01.442S,x,"Puncture wound with foreign body of left cheek and temporomandibular area, sequela",
+S01449,S01.449,x,Puncture wound with foreign body of unspecified cheek and temporomandibular area,
+S01449A,S01.449A,x,"Puncture wound with foreign body of unspecified cheek and temporomandibular area, initial encounter",
+S01449D,S01.449D,x,"Puncture wound with foreign body of unspecified cheek and temporomandibular area, subsequent encounter",
+S01449S,S01.449S,x,"Puncture wound with foreign body of unspecified cheek and temporomandibular area, sequela",
+S0145,S01.45,x,Open bite of cheek and temporomandibular area,
+S01451,S01.451,x,Open bite of right cheek and temporomandibular area,
+S01451A,S01.451A,x,"Open bite of right cheek and temporomandibular area, initial encounter",
+S01451D,S01.451D,x,"Open bite of right cheek and temporomandibular area, subsequent encounter",
+S01451S,S01.451S,x,"Open bite of right cheek and temporomandibular area, sequela",
+S01452,S01.452,x,Open bite of left cheek and temporomandibular area,
+S01452A,S01.452A,x,"Open bite of left cheek and temporomandibular area, initial encounter",
+S01452D,S01.452D,x,"Open bite of left cheek and temporomandibular area, subsequent encounter",
+S01452S,S01.452S,x,"Open bite of left cheek and temporomandibular area, sequela",
+S01459,S01.459,x,Open bite of unspecified cheek and temporomandibular area,
+S01459A,S01.459A,x,"Open bite of unspecified cheek and temporomandibular area, initial encounter",
+S01459D,S01.459D,x,"Open bite of unspecified cheek and temporomandibular area, subsequent encounter",
+S01459S,S01.459S,x,"Open bite of unspecified cheek and temporomandibular area, sequela",
+S015,S01.5,x,Open wound of lip and oral cavity,
+S0150,S01.50,x,Unspecified open wound of lip and oral cavity,
+S01501,S01.501,x,Unspecified open wound of lip,
+S01501A,S01.501A,x,"Unspecified open wound of lip, initial encounter",
+S01501D,S01.501D,x,"Unspecified open wound of lip, subsequent encounter",
+S01501S,S01.501S,x,"Unspecified open wound of lip, sequela",
+S01502,S01.502,x,Unspecified open wound of oral cavity,
+S01502A,S01.502A,x,"Unspecified open wound of oral cavity, initial encounter",
+S01502D,S01.502D,x,"Unspecified open wound of oral cavity, subsequent encounter",
+S01502S,S01.502S,x,"Unspecified open wound of oral cavity, sequela",
+S0151,S01.51,x,Laceration of lip and oral cavity without foreign body,
+S01511,S01.511,x,Laceration without foreign body of lip,
+S01511A,S01.511A,x,"Laceration without foreign body of lip, initial encounter",
+S01511D,S01.511D,x,"Laceration without foreign body of lip, subsequent encounter",
+S01511S,S01.511S,x,"Laceration without foreign body of lip, sequela",
+S01512,S01.512,x,Laceration without foreign body of oral cavity,
+S01512A,S01.512A,x,"Laceration without foreign body of oral cavity, initial encounter",
+S01512D,S01.512D,x,"Laceration without foreign body of oral cavity, subsequent encounter",
+S01512S,S01.512S,x,"Laceration without foreign body of oral cavity, sequela",
+S0152,S01.52,x,Laceration of lip and oral cavity with foreign body,
+S01521,S01.521,x,Laceration with foreign body of lip,
+S01521A,S01.521A,x,"Laceration with foreign body of lip, initial encounter",
+S01521D,S01.521D,x,"Laceration with foreign body of lip, subsequent encounter",
+S01521S,S01.521S,x,"Laceration with foreign body of lip, sequela",
+S01522,S01.522,x,Laceration with foreign body of oral cavity,
+S01522A,S01.522A,x,"Laceration with foreign body of oral cavity, initial encounter",
+S01522D,S01.522D,x,"Laceration with foreign body of oral cavity, subsequent encounter",
+S01522S,S01.522S,x,"Laceration with foreign body of oral cavity, sequela",
+S0153,S01.53,x,Puncture wound of lip and oral cavity without foreign body,
+S01531,S01.531,x,Puncture wound without foreign body of lip,
+S01531A,S01.531A,x,"Puncture wound without foreign body of lip, initial encounter",
+S01531D,S01.531D,x,"Puncture wound without foreign body of lip, subsequent encounter",
+S01531S,S01.531S,x,"Puncture wound without foreign body of lip, sequela",
+S01532,S01.532,x,Puncture wound without foreign body of oral cavity,
+S01532A,S01.532A,x,"Puncture wound without foreign body of oral cavity, initial encounter",
+S01532D,S01.532D,x,"Puncture wound without foreign body of oral cavity, subsequent encounter",
+S01532S,S01.532S,x,"Puncture wound without foreign body of oral cavity, sequela",
+S0154,S01.54,x,Puncture wound of lip and oral cavity with foreign body,
+S01541,S01.541,x,Puncture wound with foreign body of lip,
+S01541A,S01.541A,x,"Puncture wound with foreign body of lip, initial encounter",
+S01541D,S01.541D,x,"Puncture wound with foreign body of lip, subsequent encounter",
+S01541S,S01.541S,x,"Puncture wound with foreign body of lip, sequela",
+S01542,S01.542,x,Puncture wound with foreign body of oral cavity,
+S01542A,S01.542A,x,"Puncture wound with foreign body of oral cavity, initial encounter",
+S01542D,S01.542D,x,"Puncture wound with foreign body of oral cavity, subsequent encounter",
+S01542S,S01.542S,x,"Puncture wound with foreign body of oral cavity, sequela",
+S0155,S01.55,x,Open bite of lip and oral cavity,
+S01551,S01.551,x,Open bite of lip,
+S01551A,S01.551A,x,"Open bite of lip, initial encounter",
+S01551D,S01.551D,x,"Open bite of lip, subsequent encounter",
+S01551S,S01.551S,x,"Open bite of lip, sequela",
+S01552,S01.552,x,Open bite of oral cavity,
+S01552A,S01.552A,x,"Open bite of oral cavity, initial encounter",
+S01552D,S01.552D,x,"Open bite of oral cavity, subsequent encounter",
+S01552S,S01.552S,x,"Open bite of oral cavity, sequela",
+S018,S0.18,x,Open wound of other parts of head,
+S0180,S0.180,x,Unspecified open wound of other part of head,
+S0180XA,S01.80XA,x,"Unspecified open wound of other part of head, initial encounter",
+S0180XD,S01.80XD,x,"Unspecified open wound of other part of head, subsequent encounter",
+S0180XS,S01.80XS,x,"Unspecified open wound of other part of head, sequela",
+S0181,S01.81,x,Laceration without foreign body of other part of head,
+S0181XA,S01.81XA,x,"Laceration without foreign body of other part of head, initial encounter",
+S0181XD,S01.81XD,x,"Laceration without foreign body of other part of head, subsequent encounter",
+S0181XS,S01.81XS,x,"Laceration without foreign body of other part of head, sequela",
+S0182,S01.82,x,Laceration with foreign body of other part of head,
+S0182XA,S01.82XA,x,"Laceration with foreign body of other part of head, initial encounter",
+S0182XD,S01.82XD,x,"Laceration with foreign body of other part of head, subsequent encounter",
+S0182XS,S01.82XS,x,"Laceration with foreign body of other part of head, sequela",
+S019,S01.9,x,Open wound of unspecified part of head,
+S0190,S01.90,x,Unspecified open wound of unspecified part of head,
+S0190XA,S01.90XA,x,"Unspecified open wound of unspecified part of head, initial encounter",
+S0190XD,S01.90XD,x,"Unspecified open wound of unspecified part of head, subsequent encounter",
+S0190XS,S01.90XS,x,"Unspecified open wound of unspecified part of head, sequela",
+S0191,S01.91,x,Laceration without foreign body of unspecified part of head,
+S0191XA,S01.91XA,x,"Laceration without foreign body of unspecified part of head, initial encounter",
+S0191XD,S01.91XD,x,"Laceration without foreign body of unspecified part of head, subsequent encounter",
+S0191XS,S01.91XS,x,"Laceration without foreign body of unspecified part of head, sequela",
+S0192,S01.92,x,Laceration with foreign body of unspecified part of head,
+S0192XA,S01.92XA,x,"Laceration with foreign body of unspecified part of head, initial encounter",
+S0192XD,S01.92XD,x,"Laceration with foreign body of unspecified part of head, subsequent encounter",
+S0192XS,S01.92XS,x,"Laceration with foreign body of unspecified part of head, sequela",
+S0240C,S02.40C,x,"Maxillary fracture, right side",added 2017
+S0240CA,S02.40CA,x,"Maxillary fracture, right side, initial encounter for closed fracture",added 2017
+S0240CB,S02.40CB,x,"Maxillary fracture, right side, initial encounter for open fracture",added 2017
+S0240CD,S02.40CD,x,"Maxillary fracture, right side, subsequent encounter for fracture with routine healing",added 2017
+S0240CG,S02.40CG,x,"Maxillary fracture, right side, subsequent encounter for fracture with delayed healing",added 2017
+S0240CK,S02.40CK,x,"Maxillary fracture, right side, subsequent encounter for fracture with nonunion",added 2017
+S0240CS,S02.40CS,x,"Maxillary fracture, right side, sequela",added 2017
+S0240D,S02.40D,x,"Maxillary fracture, left side",added 2017
+S0240DA,S02.40DA,x,"Maxillary fracture, left side, initial encounter for closed fracture",added 2017
+S0240DB,S02.40DB,x,"Maxillary fracture, left side, initial encounter for open fracture",added 2017
+S0240DD,S02.40DD,x,"Maxillary fracture, left side, subsequent encounter for fracture with routine healing",added 2017
+S0240DG,S02.40DG,x,"Maxillary fracture, left side, subsequent encounter for fracture with delayed healing",added 2017
+S0240DK,S02.40DK,x,"Maxillary fracture, left side, subsequent encounter for fracture with nonunion",added 2017
+S0240DS,S02.40DS,x,"Maxillary fracture, left side, sequela",added 2017
+S02401,S02.401,x,"Maxillary fracture, unspecified",
+S02401A,S02.401A,x,"Maxillary fracture, unspecified, initial encounter for closed fracture",
+S02401B,S02.401B,x,"Maxillary fracture, unspecified, initial encounter for open fracture",
+S02401D,S02.401D,x,"Maxillary fracture, unspecified, subsequent encounter for fracture with routine healing",
+S02401G,S02.401G,x,"Maxillary fracture, unspecified, subsequent encounter for fracture with delayed healing",
+S02401K,S02.401K,x,"Maxillary fracture, unspecified, subsequent encounter for fracture with nonunion",
+S02401S,S02.401S,x,"Maxillary fracture, unspecified, sequela",
+S0242,S02.42,x,Fracture of alveolus of maxilla,
+S0242XA,S02.42XA,x,"Fracture of alveolus of maxilla, initial encounter for closed fracture",
+S0242XB,S02.42XB,x,"Fracture of alveolus of maxilla, initial encounter for open fracture",
+S0242XD,S02.42XD,x,"Fracture of alveolus of maxilla, subsequent encounter for fracture with routine healing",
+S0242XG,S02.42XG,x,"Fracture of alveolus of maxilla, subsequent encounter for fracture with delayed healing",
+S0242XK,S02.42XK,x,"Fracture of alveolus of maxilla, subsequent encounter for fracture with nonunion",
+S0242XS,S02.42XS,x,"Fracture of alveolus of maxilla, sequela",
+S025,S02.5,x,Fracture of tooth (traumatic),
+S025XXA,S02.5XXA,x,"Fracture of tooth (traumatic), initial encounter for closed fracture",
+S025XXB,S02.5XXB,x,"Fracture of tooth (traumatic), initial encounter for open fracture",
+S025XXD,S02.5XXD,x,"Fracture of tooth (traumatic), subsequent encounter for fracture with routine healing",
+S025XXG,S02.5XXG,x,"Fracture of tooth (traumatic), subsequent encounter for fracture with delayed healing",
+S025XXK,S02.5XXK,x,"Fracture of tooth (traumatic), subsequent encounter for fracture with nonunion",
+S025XXS,S02.5XXS,x,"Fracture of tooth (traumatic), sequela",
+S026,S02.6,x,Fracture of mandible,
+S0260,S02.60,x,"Fracture of mandible, unspecified",
+S02600,S02.600,x,Fracture of unspecified part of body of mandible,
+S02600A,S02.600A,x,"Fracture of unspecified part of body of mandible, initial encounter for closed fracture",
+S02600B,S02.600B,x,"Fracture of unspecified part of body of mandible, initial encounter for open fracture",
+S02600D,S02.600D,x,"Fracture of unspecified part of body of mandible, subsequent encounter for fracture with routine healing",
+S02600G,S02.600G,x,"Fracture of unspecified part of body of mandible, subsequent encounter for fracture with delayed healing",
+S02600K,S02.600K,x,"Fracture of unspecified part of body of mandible, subsequent encounter for fracture with nonunion",
+S02600S,S02.600S,x,"Fracture of unspecified part of body of mandible, sequela",
+S02601,S02.601,x,Fracture of unspecified part of body of right mandible,added 2017
+S02601A,S02.601A,x,"Fracture of unspecified part of body of right mandible, initial encounter for closed fracture",added 2017
+S02601B,S02.601B,x,"Fracture of unspecified part of body of right mandible, initial encounter for open fracture",added 2017
+S02601D,S02.601D,x,"Fracture of unspecified part of body of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02601G,S02.601G,x,"Fracture of unspecified part of body of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02601K,S02.601K,x,"Fracture of unspecified part of body of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02601S,S02.601S,x,"Fracture of unspecified part of body of right mandible, sequela",added 2017
+S02602,S02.602,x,Fracture of unspecified part of body of left mandible,added 2017
+S02602A,S02.602A,x,"Fracture of unspecified part of body of left mandible, initial encounter for closed fracture",added 2017
+S02602B,S02.602B,x,"Fracture of unspecified part of body of left mandible, initial encounter for open fracture",added 2017
+S02602D,S02.602D,x,"Fracture of unspecified part of body of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02602G,S02.602G,x,"Fracture of unspecified part of body of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02602K,S02.602K,x,"Fracture of unspecified part of body of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02602S,S02.602S,x,"Fracture of unspecified part of body of left mandible, sequela",added 2017
+S02609,S02.609,x,"Fracture of mandible, unspecified",
+S02609A,S02.609A,x,"Fracture of mandible, unspecified, initial encounter for closed fracture",
+S02609B,S02.609B,x,"Fracture of mandible, unspecified, initial encounter for open fracture",
+S02609D,S02.609D,x,"Fracture of mandible, unspecified, subsequent encounter for fracture with routine healing",
+S02609G,S02.609G,x,"Fracture of mandible, unspecified, subsequent encounter for fracture with delayed healing",
+S02609K,S02.609K,x,"Fracture of mandible, unspecified, subsequent encounter for fracture with nonunion",
+S02609S,S02.609S,x,"Fracture of mandible, unspecified, sequela",
+S0261,S02.61,x,Fracture of condylar process of mandible,
+S0261XA,S02.61XA,x,"Fracture of condylar process of mandible, initial encounter for closed fracture",
+S0261XB,S02.61XB,x,"Fracture of condylar process of mandible, initial encounter for open fracture",
+S0261XD,S02.61XD,x,"Fracture of condylar process of mandible, subsequent encounter for fracture with routine healing",
+S0261XG,S02.61XG,x,"Fracture of condylar process of mandible, subsequent encounter for fracture with delayed healing",
+S0261XK,S02.61XK,x,"Fracture of condylar process of mandible, subsequent encounter for fracture with nonunion",
+S0261XS,S02.61XS,x,"Fracture of condylar process of mandible, sequela",
+S02610,S02.610,x,"Fracture of condylar process of mandible, unspecified side",added 2017
+S02610A,S02.610A,x,"Fracture of condylar process of mandible, unspecified side, initial encounter for closed fracture",added 2017
+S02610B,S02.610B,x,"Fracture of condylar process of mandible, unspecified side, initial encounter for open fracture",added 2017
+S02610D,S02.610D,x,"Fracture of condylar process of mandible, unspecified side, subsequent encounter for fracture with routine healing",added 2017
+S02610G,S02.610G,x,"Fracture of condylar process of mandible, unspecified side, subsequent encounter for fracture with delayed healing",added 2017
+S02610K,S02.610K,x,"Fracture of condylar process of mandible, unspecified side, subsequent encounter for fracture with nonunion",added 2017
+S02610S,S02.610S,x,"Fracture of condylar process of mandible, unspecified side, sequela",added 2017
+S02611,S02.611,x,Fracture of condylar process of right mandible,added 2017
+S02611A,S02.611A,x,"Fracture of condylar process of right mandible, initial encounter for closed fracture",added 2017
+S02611B,S02.611B,x,"Fracture of condylar process of right mandible, initial encounter for open fracture",added 2017
+S02611D,S02.611D,x,"Fracture of condylar process of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02611G,S02.611G,x,"Fracture of condylar process of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02611K,S02.611K,x,"Fracture of condylar process of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02611S,S02.611S,x,"Fracture of condylar process of right mandible, sequela",added 2017
+S02612,S02.612,x,Fracture of condylar process of left mandible,added 2017
+S02612A,S02.612A,x,"Fracture of condylar process of left mandible, initial encounter for closed fracture",added 2017
+S02612B,S02.612B,x,"Fracture of condylar process of left mandible, initial encounter for open fracture",added 2017
+S02612D,S02.612D,x,"Fracture of condylar process of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02612G,S02.612G,x,"Fracture of condylar process of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02612K,S02.612K,x,"Fracture of condylar process of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02612S,S02.612S,x,"Fracture of condylar process of left mandible, sequela",added 2017
+S0262,S02.62,x,Fracture of subcondylar process of mandible,
+S0262XA,S02.62XA,x,"Fracture of subcondylar process of mandible, initial encounter for closed fracture",
+S0262XB,S02.62XB,x,"Fracture of subcondylar process of mandible, initial encounter for open fracture",
+S0262XD,S02.62XD,x,"Fracture of subcondylar process of mandible, subsequent encounter for fracture with routine healing",
+S0262XG,S02.62XG,x,"Fracture of subcondylar process of mandible, subsequent encounter for fracture with delayed healing",
+S0262XK,S02.62XK,x,"Fracture of subcondylar process of mandible, subsequent encounter for fracture with nonunion",
+S0262XS,S02.62XS,x,"Fracture of subcondylar process of mandible, sequela",
+S02620,S02.620,x,"Fracture of subcondylar process of mandible, unspecified side",added 2017
+S02620A,S02.620A,x,"Fracture of subcondylar process of mandible, unspecified side, initial encounter for closed fracture",added 2017
+S02620B,S02.620B,x,"Fracture of subcondylar process of mandible, unspecified side, initial encounter for open fracture",added 2017
+S02620D,S02.620D,x,"Fracture of subcondylar process of mandible, unspecified side, subsequent encounter for fracture with routine healing",added 2017
+S02620G,S02.620G,x,"Fracture of subcondylar process of mandible, unspecified side, subsequent encounter for fracture with delayed healing",added 2017
+S02620K,S02.620K,x,"Fracture of subcondylar process of mandible, unspecified side, subsequent encounter for fracture with nonunion",added 2017
+S02620S,S02.620S,x,"Fracture of subcondylar process of mandible, unspecified side, sequela",added 2017
+S02621,S02.621,x,Fracture of subcondylar process of right mandible,added 2017
+S02621A,S02.621A,x,"Fracture of subcondylar process of right mandible, initial encounter for closed fracture",added 2017
+S02621B,S02.621B,x,"Fracture of subcondylar process of right mandible, initial encounter for open fracture",added 2017
+S02621D,S02.621D,x,"Fracture of subcondylar process of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02621G,S02.621G,x,"Fracture of subcondylar process of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02621K,S02.621K,x,"Fracture of subcondylar process of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02621S,S02.621S,x,"Fracture of subcondylar process of right mandible, sequela",added 2017
+S02622,S02.622,x,Fracture of subcondylar process of left mandible,added 2017
+S02622A,S02.622A,x,"Fracture of subcondylar process of left mandible, initial encounter for closed fracture",added 2017
+S02622B,S02.622B,x,"Fracture of subcondylar process of left mandible, initial encounter for open fracture",added 2017
+S02622D,S02.622D,x,"Fracture of subcondylar process of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02622G,S02.622G,x,"Fracture of subcondylar process of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02622K,S02.622K,x,"Fracture of subcondylar process of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02622S,S02.622S,x,"Fracture of subcondylar process of left mandible, sequela",added 2017
+S0263,S02.63,x,Fracture of coronoid process of mandible,
+S0263XA,S02.63XA,x,"Fracture of coronoid process of mandible, initial encounter for closed fracture",
+S0263XB,S02.63XB,x,"Fracture of coronoid process of mandible, initial encounter for open fracture",
+S0263XD,S02.63XD,x,"Fracture of coronoid process of mandible, subsequent encounter for fracture with routine healing",
+S0263XG,S02.63XG,x,"Fracture of coronoid process of mandible, subsequent encounter for fracture with delayed healing",
+S0263XK,S02.63XK,x,"Fracture of coronoid process of mandible, subsequent encounter for fracture with nonunion",
+S0263XS,S02.63XS,x,"Fracture of coronoid process of mandible, sequela",
+S02630,S02.630,x,"Fracture of coronoid process of mandible, unspecified side",added 2017
+S02630A,S02.630A,x,"Fracture of coronoid process of mandible, unspecified side, initial encounter for closed fracture",added 2017
+S02630B,S02.630B,x,"Fracture of coronoid process of mandible, unspecified side, initial encounter for open fracture",added 2017
+S02630D,S02.630D,x,"Fracture of coronoid process of mandible, unspecified side, subsequent encounter for fracture with routine healing",added 2017
+S02630G,S02.630G,x,"Fracture of coronoid process of mandible, unspecified side, subsequent encounter for fracture with delayed healing",added 2017
+S02630K,S02.630K,x,"Fracture of coronoid process of mandible, unspecified side, subsequent encounter for fracture with nonunion",added 2017
+S02630S,S02.630S,x,"Fracture of coronoid process of mandible, unspecified side, sequela",added 2017
+S02631,S02.631,x,Fracture of coronoid process of right mandible,added 2017
+S02631A,S02.631A,x,"Fracture of coronoid process of right mandible, initial encounter for closed fracture",added 2017
+S02631B,S02.631B,x,"Fracture of coronoid process of right mandible, initial encounter for open fracture",added 2017
+S02631D,S02.631D,x,"Fracture of coronoid process of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02631G,S02.631G,x,"Fracture of coronoid process of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02631K,S02.631K,x,"Fracture of coronoid process of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02631S,S02.631S,x,"Fracture of coronoid process of right mandible, sequela",added 2017
+S02632,S02.632,x,Fracture of coronoid process of left mandible,added 2017
+S02632A,S02.632A,x,"Fracture of coronoid process of left mandible, initial encounter for closed fracture",added 2017
+S02632B,S02.632B,x,"Fracture of coronoid process of left mandible, initial encounter for open fracture",added 2017
+S02632D,S02.632D,x,"Fracture of coronoid process of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02632G,S02.632G,x,"Fracture of coronoid process of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02632K,S02.632K,x,"Fracture of coronoid process of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02632S,S02.632S,x,"Fracture of coronoid process of left mandible, sequela",added 2017
+S0264,S02.64,x,Fracture of ramus of mandible,
+S0264XA,S02.64XA,x,"Fracture of ramus of mandible, initial encounter for closed fracture",
+S0264XB,S02.64XB,x,"Fracture of ramus of mandible, initial encounter for open fracture",
+S0264XD,S02.64XD,x,"Fracture of ramus of mandible, subsequent encounter for fracture with routine healing",
+S0264XG,S02.64XG,x,"Fracture of ramus of mandible, subsequent encounter for fracture with delayed healing",
+S0264XK,S02.64XK,x,"Fracture of ramus of mandible, subsequent encounter for fracture with nonunion",
+S0264XS,S02.64XS,x,"Fracture of ramus of mandible, sequela",
+S02640,S02.640,x,"Fracture of ramus of mandible, unspecified side",added 2017
+S02640A,S02.640A,x,"Fracture of ramus of mandible, unspecified side, initial encounter for closed fracture",added 2017
+S02640B,S02.640B,x,"Fracture of ramus of mandible, unspecified side, initial encounter for open fracture",added 2017
+S02640D,S02.640D,x,"Fracture of ramus of mandible, unspecified side, subsequent encounter for fracture with routine healing",added 2017
+S02640G,S02.640G,x,"Fracture of ramus of mandible, unspecified side, subsequent encounter for fracture with delayed healing",added 2017
+S02640K,S02.640K,x,"Fracture of ramus of mandible, unspecified side, subsequent encounter for fracture with nonunion",added 2017
+S02640S,S02.640S,x,"Fracture of ramus of mandible, unspecified side, sequela",added 2017
+S02641,S02.641,x,Fracture of ramus of right mandible,added 2017
+S02641A,S02.641A,x,"Fracture of ramus of right mandible, initial encounter for closed fracture",added 2017
+S02641B,S02.641B,x,"Fracture of ramus of right mandible, initial encounter for open fracture",added 2017
+S02641D,S02.641D,x,"Fracture of ramus of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02641G,S02.641G,x,"Fracture of ramus of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02641K,S02.641K,x,"Fracture of ramus of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02641S,S02.641S,x,"Fracture of ramus of right mandible, sequela",added 2017
+S02642,S02.642,x,Fracture of ramus of left mandible,added 2017
+S02642A,S02.642A,x,"Fracture of ramus of left mandible, initial encounter for closed fracture",added 2017
+S02642B,S02.642B,x,"Fracture of ramus of left mandible, initial encounter for open fracture",added 2017
+S02642D,S02.642D,x,"Fracture of ramus of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02642G,S02.642G,x,"Fracture of ramus of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02642K,S02.642K,x,"Fracture of ramus of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02642S,S02.642S,x,"Fracture of ramus of left mandible, sequela",added 2017
+S0265,S02.65,x,Fracture of angle of mandible,
+S0265XA,S02.65XA,x,"Fracture of angle of mandible, initial encounter for closed fracture",
+S0265XB,S02.65XB,x,"Fracture of angle of mandible, initial encounter for open fracture",
+S0265XD,S02.65XD,x,"Fracture of angle of mandible, subsequent encounter for fracture with routine healing",
+S0265XG,S02.65XG,x,"Fracture of angle of mandible, subsequent encounter for fracture with delayed healing",
+S0265XK,S02.65XK,x,"Fracture of angle of mandible, subsequent encounter for fracture with nonunion",
+S0265XS,S02.65XS,x,"Fracture of angle of mandible, sequela",
+S02650,S02.650,x,"Fracture of angle of mandible, unspecified side",added 2017
+S02650A,S02.650A,x,"Fracture of angle of mandible, unspecified side, initial encounter for closed fracture",added 2017
+S02650B,S02.650B,x,"Fracture of angle of mandible, unspecified side, initial encounter for open fracture",added 2017
+S02650D,S02.650D,x,"Fracture of angle of mandible, unspecified side, subsequent encounter for fracture with routine healing",added 2017
+S02650G,S02.650G,x,"Fracture of angle of mandible, unspecified side, subsequent encounter for fracture with delayed healing",added 2017
+S02650K,S02.650K,x,"Fracture of angle of mandible, unspecified side, subsequent encounter for fracture with nonunion",added 2017
+S02650S,S02.650S,x,"Fracture of angle of mandible, unspecified side, sequela",added 2017
+S02651,S02.651,x,Fracture of angle of right mandible,added 2017
+S02651A,S02.651A,x,"Fracture of angle of right mandible, initial encounter for closed fracture",added 2017
+S02651B,S02.651B,x,"Fracture of angle of right mandible, initial encounter for open fracture",added 2017
+S02651D,S02.651D,x,"Fracture of angle of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02651G,S02.651G,x,"Fracture of angle of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02651K,S02.651K,x,"Fracture of angle of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02651S,S02.651S,x,"Fracture of angle of right mandible, sequela",added 2017
+S02652,S02.652,x,Fracture of angle of left mandible,added 2017
+S02652A,S02.652A,x,"Fracture of angle of left mandible, initial encounter for closed fracture",added 2017
+S02652B,S02.652B,x,"Fracture of angle of left mandible, initial encounter for open fracture",added 2017
+S02652D,S02.652D,x,"Fracture of angle of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02652G,S02.652G,x,"Fracture of angle of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02652K,S02.652K,x,"Fracture of angle of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02652S,S02.652S,x,"Fracture of angle of left mandible, sequela",added 2017
+S0266,S02.66,x,Fracture of symphysis of mandible,
+S0266XA,S02.66XA,x,"Fracture of symphysis of mandible, initial encounter for closed fracture",
+S0266XB,S02.66XB,x,"Fracture of symphysis of mandible, initial encounter for open fracture",
+S0266XD,S02.66XD,x,"Fracture of symphysis of mandible, subsequent encounter for fracture with routine healing",
+S0266XG,S02.66XG,x,"Fracture of symphysis of mandible, subsequent encounter for fracture with delayed healing",
+S0266XK,S02.66XK,x,"Fracture of symphysis of mandible, subsequent encounter for fracture with nonunion",
+S0266XS,S02.66XS,x,"Fracture of symphysis of mandible, sequela",
+S0267,S02.67,x,Fracture of alveolus of mandible,
+S0267XA,S02.67XA,x,"Fracture of alveolus of mandible, initial encounter for closed fracture",
+S0267XB,S02.67XB,x,"Fracture of alveolus of mandible, initial encounter for open fracture",
+S0267XD,S02.67XD,x,"Fracture of alveolus of mandible, subsequent encounter for fracture with routine healing",
+S0267XG,S02.67XG,x,"Fracture of alveolus of mandible, subsequent encounter for fracture with delayed healing",
+S0267XK,S02.67XK,x,"Fracture of alveolus of mandible, subsequent encounter for fracture with nonunion",
+S0267XS,S02.67XS,x,"Fracture of alveolus of mandible, sequela",
+S02670,S02.670,x,"Fracture of alveolus of mandible, unspecified side",added 2017
+S02670A,S02.670A,x,"Fracture of alveolus of mandible, unspecified side, initial encounter for closed fracture",added 2017
+S02670B,S02.670B,x,"Fracture of alveolus of mandible, unspecified side, initial encounter for open fracture",added 2017
+S02670D,S02.670D,x,"Fracture of alveolus of mandible, unspecified side, subsequent encounter for fracture with routine healing",added 2017
+S02670G,S02.670G,x,"Fracture of alveolus of mandible, unspecified side, subsequent encounter for fracture with delayed healing",added 2017
+S02670K,S02.670K,x,"Fracture of alveolus of mandible, unspecified side, subsequent encounter for fracture with nonunion",added 2017
+S02670S,S02.670S,x,"Fracture of alveolus of mandible, unspecified side, sequela",added 2017
+S02671,S02.671,x,Fracture of alveolus of right mandible,added 2017
+S02671A,S02.671A,x,"Fracture of alveolus of right mandible, initial encounter for closed fracture",added 2017
+S02671B,S02.671B,x,"Fracture of alveolus of right mandible, initial encounter for open fracture",added 2017
+S02671D,S02.671D,x,"Fracture of alveolus of right mandible, subsequent encounter for fracture with routine healing",added 2017
+S02671G,S02.671G,x,"Fracture of alveolus of right mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02671K,S02.671K,x,"Fracture of alveolus of right mandible, subsequent encounter for fracture with nonunion",added 2017
+S02671S,S02.671S,x,"Fracture of alveolus of right mandible, sequela",added 2017
+S02672,S02.672,x,Fracture of alveolus of left mandible,added 2017
+S02672A,S02.672A,x,"Fracture of alveolus of left mandible, initial encounter for closed fracture",added 2017
+S02672B,S02.672B,x,"Fracture of alveolus of left mandible, initial encounter for open fracture",added 2017
+S02672D,S02.672D,x,"Fracture of alveolus of left mandible, subsequent encounter for fracture with routine healing",added 2017
+S02672G,S02.672G,x,"Fracture of alveolus of left mandible, subsequent encounter for fracture with delayed healing",added 2017
+S02672K,S02.672K,x,"Fracture of alveolus of left mandible, subsequent encounter for fracture with nonunion",added 2017
+S02672S,S02.672S,x,"Fracture of alveolus of left mandible, sequela",added 2017
+S0269,S02.69,x,Fracture of mandible of other specified site,
+S0269XA,S02.69XA,x,"Fracture of mandible of other specified site, initial encounter for closed fracture",
+S0269XB,S02.69XB,x,"Fracture of mandible of other specified site, initial encounter for open fracture",
+S0269XD,S02.69XD,x,"Fracture of mandible of other specified site, subsequent encounter for fracture with routine healing",
+S0269XG,S02.69XG,x,"Fracture of mandible of other specified site, subsequent encounter for fracture with delayed healing",
+S0269XK,S02.69XK,x,"Fracture of mandible of other specified site, subsequent encounter for fracture with nonunion",
+S0269XS,S02.69XS,x,"Fracture of mandible of other specified site, sequela",
+S030,S03.0,x,Dislocation of jaw,
+S030XXA,S03.0XXA,x,"Dislocation of jaw, initial encounter",
+S030XXD,S03.0XXD,x,"Dislocation of jaw, subsequent encounter",
+S030XXS,S03.0XXS,x,"Dislocation of jaw, sequela",
+S0300,S03.00,x,"Dislocation of jaw, unspecified side",added 2017
+S0300XA,S03.00XA,x,"Dislocation of jaw, unspecified side, initial encounter",added 2017
+S0300XD,S03.00XD,x,"Dislocation of jaw, unspecified side, subsequent encounter",added 2017
+S0300XS,S03.00XS,x,"Dislocation of jaw, unspecified side, sequela",added 2017
+S0301,S03.01,x,"Dislocation of jaw, right side",added 2017
+S0301XA,S03.01XA,x,"Dislocation of jaw, right side, initial encounter",added 2017
+S0301XD,S03.01XD,x,"Dislocation of jaw, right side, subsequent encounter",added 2017
+S0301XS,S03.01XS,x,"Dislocation of jaw, right side, sequela",added 2017
+S0302,S03.02,x,"Dislocation of jaw, left side",added 2017
+S0302XA,S03.02XA,x,"Dislocation of jaw, left side, initial encounter",added 2017
+S0302XD,S03.02XD,x,"Dislocation of jaw, left side, subsequent encounter",added 2017
+S0302XS,S03.02XS,x,"Dislocation of jaw, left side, sequela",added 2017
+S0303,S03.03,x,"Dislocation of jaw, bilateral",added 2017
+S0303XA,S03.03XA,x,"Dislocation of jaw, bilateral, initial encounter",added 2017
+S0303XD,S03.03XD,x,"Dislocation of jaw, bilateral, subsequent encounter",added 2017
+S0303XS,S03.03XS,x,"Dislocation of jaw, bilateral, sequela",added 2017
+S032,S03.2,x,Dislocation of tooth,
+S032XXA,S03.2XXA,x,"Dislocation of tooth, initial encounter",
+S032XXD,S03.2XXD,x,"Dislocation of tooth, subsequent encounter",
+S032XXS,S03.2XXS,x,"Dislocation of tooth, sequela",
+S034,S03.4,x,Sprain of jaw,
+S034XXA,S03.4XXA,x,"Sprain of jaw, initial encounter",
+S034XXD,S03.4XXD,x,"Sprain of jaw, subsequent encounter",
+S034XXS,S03.4XXS,x,"Sprain of jaw, sequela",
+S0340,S03.40,x,"Sprain of jaw, unspecified side",added 2017
+S0340XA,S03.40XA,x,"Sprain of jaw, unspecified side, initial encounter",added 2017
+S0340XD,S03.40XD,x,"Sprain of jaw, unspecified side, subsequent encounter",added 2017
+S0340XS,S03.40XS,x,"Sprain of jaw, unspecified side, sequela",added 2017
+S0341,S03.41,x,"Sprain of jaw, right side",added 2017
+S0341XA,S03.41XA,x,"Sprain of jaw, right side, initial encounter",added 2017
+S0341XD,S03.41XD,x,"Sprain of jaw, right side, subsequent encounter",added 2017
+S0341XS,S03.41XS,x,"Sprain of jaw, right side, sequela",added 2017
+S0342,S03.42,x,"Sprain of jaw, left side",added 2017
+S0342XA,S03.42XA,x,"Sprain of jaw, left side, initial encounter",added 2017
+S0342XD,S03.42XD,x,"Sprain of jaw, left side, subsequent encounter",added 2017
+S0342XS,S03.42XS,x,"Sprain of jaw, left side, sequela",added 2017
+S0343,S03.43,x,"Sprain of jaw, bilateral",added 2017
+S0343XA,S03.43XA,x,"Sprain of jaw, bilateral, initial encounter",added 2017
+S0343XD,S03.43XD,x,"Sprain of jaw, bilateral, subsequent encounter",added 2017
+S0343XS,S03.43XS,x,"Sprain of jaw, bilateral, sequela",added 2017
+S0993,S09.93,x,Unspecified injury of face,
+S0993XA,S09.93XA,x,"Unspecified injury of face, initial encounter",
+S0993XD,S09.93XD,x,"Unspecified injury of face, subsequent encounter",
+S0993XS,S09.93XS,x,"Unspecified injury of face, sequela",
+Z012,Z01.2,x,Encounter for dental examination and cleaning,
+Z0120,Z01.20,x,Encounter for dental examination and cleaning without abnormal findings,
+Z0121,Z01.21,x,Encounter for dental examination and cleanign with abnormal findings,
+Z463,Z46.3,x,Encounter for fitting and adjustment of dental prosthetic device,
+Z464,Z46.4,x,Encounter for fitting and adjustment of orthodontic device,
