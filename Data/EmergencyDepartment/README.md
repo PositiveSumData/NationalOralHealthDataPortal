@@ -18,8 +18,8 @@ The emergency department is not the ideal access point for most oral health cond
 ## Orientation & Stewardship  
 
 Two very helpful resources about these databases and how to query them are available from ASTDD:
-* [Guidance on Assessing Emergency Department Data for Non-Traumatic Dental Conditions](). Primary author Kathy Phipps. Updated September 2017. 
-* [Recommended Guidelines for Surveillance of Non-Traumatic Dental Care in Emergency Departments](). Primary author Mike Manz. Updated September 2017. 
+* [Guidance on Assessing Emergency Department Data for Non-Traumatic Dental Conditions](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/ed2/Data/EmergencyDepartment/ed-data-analysis-guidance-july-6-2017.docx). Primary author Kathy Phipps. Updated September 2017. 
+* [Recommended Guidelines for Surveillance of Non-Traumatic Dental Care in Emergency Departments](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/ed2/Data/EmergencyDepartment/ed-dental-care-protocols-w-appendices-july-6-2017.pdf). Primary author Mike Manz. Updated September 2017. 
 
 States organize their ED data in one of two ways: 
 * Through the State Emergency Department Databases (SEDD) maintained as part of the Agency for Healthcare Research & Quality (AHQR) Health Care Cost & Utilization Project (HCUP).
@@ -81,11 +81,11 @@ We determine when people have visited the ED for a dental condition in one of tw
 
 We have chosen to focus on physician diagnosis for this project because it is more commonly contained in state datasets than the patient's reason code. 
 
-## First-listed or any-listed
+### First-listed or any-listed
 
 Patients are typically assigned a primary, or "first-listed", ICD 10 diagnosis code that serves as the patient’s most serious health issue at the time. But patients may present with multiple health issues at once. Oral health researchers must decide if they want to study whether oral health was the first-listed diagnosis or any of the listed diagnoses. ASTDD feels both measures are important, so we will be asking for both measures from states.
 
-## Code sets
+### Code sets
 
 Researchers must also choose what defines an oral health visit. Should they study any type of visit that pertained to the oral cavity? Or perhaps visits that were likely preventable? ASTDD's Mike Manz has developed three code sets for these situations:
 
