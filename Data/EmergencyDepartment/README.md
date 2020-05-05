@@ -106,8 +106,8 @@ HCUP's SEDDs allow us to query for specific sub-populations by age, sex, payer, 
 
 The entity relationship diagram (ERD) for this dataset is available online as a [Lucid Chart](https://www.lucidchart.com/invitations/accept/695abb67-018e-4000-b1e4-271ba776d26a). We have constructed 5 tables, one of which comes directly from the ED data itself and four of which describe data as foreign keys or are used to find population rates.
 
-#### ED_visit
-This table is the meat of our ED data. It contains our visit counts for each unique combination of geography, year, code set, reason priority, and population subgroup. Since the geography can be state, country, county, region, or city, we have used the federal FIPS code identifier. A table of expounding on the FIPS code is described below.
+#### ED_discharge
+This table is the meat of our ED data. It contains our discharge counts for each unique combination of geography, year, code set, reason priority, and population subgroup. Since the geography can be state, country, county, region, or city, we have used the federal FIPS code identifier. A table of expounding on the FIPS code is described below.
 
 Fields:
 * data_id (PK)
@@ -119,20 +119,6 @@ Fields:
 * priority
 * count_visit
 * total_charges
-
-#### ED_population
-
-To determine rates of ED visit per 100,000 people, we need to obtain separate census data. We store the census data in a separate table. To obtain the population rates we join the two takes on the fields they have in common and then divide count_visits / pop_count *100,000.
-
-Fields:
-* data_id (PK)
-* FIPS_code (FK)
-* px_group
-* px_subgroup
-* year
-* code_set
-* priority
-* pop_count
 
 #### source
 
