@@ -1,59 +1,155 @@
-ICD10_code,description
-K02.3,Arrested dental caries
-K02.51,Dental caries on pit and fissure surface limited to enamel
-K02.61,Dental caries on smooth surface limited to enamel
-K02.62,Dental caries on smooth surface penetrating into dentin
-K02.63,Dental caries on smooth surface penetrating into pulp
-K02.7,Dental root caries
-K02.9,"Dental caries, unspecified"
-K03.6,Deposits [accretions] on teeth
-K03.81,Cracked tooth
-K03.89,Other specified diseases of hard tissues of teeth
-K03.9,
-K04.1,Necrosis of pulp
-K04.2,Pulp degeneration
-K04.4,Acute apical periodontitis of pulpal origin
-K04.5,Chronic apical periodontitis
-K04.6,Periapical abcess with sinus
-K04.7,Periapical abcess without sinus
-K04.90,Unspecified diseases of pulp and periapical tissues
-K04.99,Other diseases of pulp and periapical tissues
-K05.00,"Acute gingivitis, plaque induced"
-K05.01,"Acute gingivitis, non-plaque induced"
-K05.10,"Chronic gingivitis, plaque induced"
-K05.11,"Chronic gingivitis, non-plaque induced"
-K05.20,"Aggressive periodontitis, unspecified"
-K05.30,"Chronic periodontitis, unspecified"
-K05.5,Other periodontal diseases
-K05.6,"Periodontal disease, unspecified"
-K06.1,Gingival enlargement
-K08.401,"Partial loss of teeth, unspecified, class I"
-K08.402,"Partial loss of teeth, unspecified, class II"
-K08.403,"Partial loss of teeth, unspecified, class II"
-K08.404,"Partial loss of teeth, unspecified, class IV"
-K08.409,"Partial loss of teeth, unspecified cause, unspecified class"
-K08.429,"Partial loss of teeth due to periodontal disease, unspecified class"
-K08.439,"Partial loss of teeth due to caries, unspecified class"
-K08.499,"Partial loss of teeth due to other cause, unspecifed class"
-K08.50,"Unsatisfactory restoration of tooth, unspecified"
-K08.51,Open restoration margins of tooth
-K08.52,Unrepairable overhanging of dental restorative materials
-K08.530,Fractured dental restorative material without loss of material
-K08.531,Fractured dental restorative material with loss of material
-K08.54,Contour of existing restoration of tooth biologically incompatible with oral health
-K08.55,Allergy to existing dental restorative material
-K08.56,Poor aesthetic of existing restoration of tooth
-K08.59,Other unsatisfactory restoration of tooth
-M27.51,Perforation of root canal space due to endodontic treatment
-M27.52,Endodontic overfill
-M27.53,Endodontic underfill
-M27.59,Other periradicular pathology associated with preventive endodontic treatment
-M27.61,Osseointegration failure of dental implant
-M27.62,Post-osseointegration of biological failure of dental implant
-M27.63,Post-osseointegration mechanical failur of dental implant
-M27.69,Other endosseous dentla implant failure
-R68.84,Jaw pain
-Z01.20,Encounter for dental examination and cleaning without abnormal findings
-Z01.21,Encounter for dental examination and cleanign with abnormal findings
-Z46.3,Encounter for fitting and adjustment of dental prosthetic device
-Z46.4,Encounter for fitting and adjustment of orthodontic device
+code,code_dot,description
+K003,K00.3,Mottled teeth
+K007,K00.7,Teething syndrome
+K02,K02.3,Dental caries
+K023,K02.3,Arrested dental caries
+K025,K02.5,Dental caries on pit and fissure surface
+K0251,K02.51,Dental caries on pit and fissure surface limited to enamel
+K0252,K02.52,Dental caries on pit and fissure surface penetrat into dentin
+K0253,K02.53,Dental caries on pit and fissure surface penetrat into pulp
+K026,K02.6,Dental caries on smooth surface
+K0261,K02.61,Dental caries on smooth surface limited to enamel
+K0262,K02.62,Dental caries on smooth surface penetrating into dentin
+K0263,K02.63,Dental caries on smooth surface penetrating into pulp
+K027,K02.7,Dental root caries
+K029,K02.9,"Dental caries, unspecified"
+K03,K03,Other diseases of hard tissues of teeth
+K030,K03.0,Excessive attrition of teeth
+K031,K03.1,Abrasion of teeth
+K032,K03.2,Erosion of teeth
+K036,K03.6,Deposits [accretions] on teeth
+K037,K03.7,Posteruptive color changes of dental hard tissues
+K038,K03.8,Other specified diseases of hard tissues of teeth
+K0381,K03.81,Cracked tooth
+K0389,K03.89,Other specified diseases of hard tissues of teeth
+K039,K03.9,"Disease of hard tissues of teeth, unspecified"
+K04,K04,Diseases of pulp and periapical tissues
+K040,K04.0,Pulpitis
+K0401,K04.01,Reversible pulpitis
+K042,K04.2,Pulp degeneration
+K044,K04.4,Acute apical periodontitis of pulpal origin
+K045,K04.5,Chronic apical periodontitis
+K05,K05,Gingivitis and periodontal diseases
+K050,K05.0,Acute gingivitis
+K0500,K05.00,"Acute gingivitis, plaque induced"
+K0501,K05.01,"Acute gingivitis, non-plaque induced"
+K051,K05.1,Chronic gingivitis
+K0510,K05.10,"Chronic gingivitis, plaque induced"
+K0511,K05.11,"Chronic gingivitis, non-plaque induced"
+K052,K05.2,Aggressive periodontitis
+K0520,K05.20,"Aggressive periodontitis, unspecified"
+K0521,K05.21,"Aggressive periodontitis, localized"
+K05211,K05.211,"Aggressive periodontitis, localized, slight"
+K05212,K05.212,"Aggressive periodontitis, localized, moderate"
+K05213,K05.213,"Aggressive periodontitis, localized, severe"
+K05219,K05.219,"Aggressive periodontitis, localized, unspecified severity"
+K0522,K05.22,"Aggressive periodontitis, generalized"
+K05221,K05.221,"Aggressive periodontitis, generalized, slight"
+K05222,K05.222,"Aggressive periodontitis, generalized, moderate"
+K05223,K05.223,"Aggressive periodontitis, generalized, severe"
+K05229,K05.229,"Aggressive periodontitis, generalized, unspecified severity"
+K053,K05.3,Chronic periodontitis
+K0530,K05.30,"Chronic periodontitis, unspecified"
+K0531,K05.31,"Chronic periodontitis, localized"
+K05311,K05.311,"Chronic periodontitis, localized, slight"
+K05312,K05.312,"Chronic periodontitis, localized, moderate"
+K05313,K05.313,"Chronic periodontitis, localized, severe"
+K05319,K05.319,"Chronic periodontitis, localized, unspecified severity"
+K0532,K05.32,"Chronic periodontitis, generalized"
+K05321,K05.321,"Chronic periodontitis, generalized, slight"
+K05322,K05.322,"Chronic periodontitis, generalized, moderate"
+K05323,K05.323,"Chronic periodontitis, generalized, severe"
+K05329,K05.329,"Chronic periodontitis, generalized, unspecified severity"
+K054,K05.4,Periodontitis
+K0540,K05.40,
+K055,K05.5,Other periodontal diseases
+K056,K05.6,"Periodontal disease, unspecified"
+K06,K06,Other disorders of gingiva and edentulous alveolar ridge
+K060,K06.0,Gingival recession
+K0601,K06.01,"Gingival recession, localized"
+K06010,K06.010,"Localized gingival recession, unspecified"
+K06011,K06.011,"Localized gingival recession, minimal"
+K06012,K06.012,"Localized gingival recession, moderate"
+K06013,K06.013,"Localized gingival recession, severe"
+K0602,K06.02,"Gingival recession, generalized"
+K06020,K06.020,"Generalized gingival recession, unspecified"
+K06021,K06.021,"Generalized gingival recession, minimal"
+K06022,K06.022,"Generalized gingival recession, moderate"
+K06023,K06.023,"Generalized gingival recession, severe"
+K061,K06.1,Gingival enlargement
+K081,K08.1,Complete loss of teeth
+K0810,K08.10,"Complete loss of teeth, unspecified cause"
+K08101,K08.101,"Complete loss of teeth, unspecified cause, class I"
+K08102,K08.102,"Complete loss of teeth, unspecified cause, class II"
+K08103,K08.103,"Complete loss of teeth, unspecified cause, class III"
+K08104,K08.104,"Complete loss of teeth, unspecified cause, class IV"
+K08109,K08.109,"Complete loss of teeth, unspecified cause, unspecified class"
+K0812,K08.12,Complete loss of teeth due to periodontal diseases
+K08121,K08.121,"Complete loss of teeth due to periodontal disease, class I"
+K08122,K08.122,"Complete loss of teeth due to periodontal disease, class II"
+K08123,K08.123,"Complete loss of teeth due to periodontal disease, class III"
+K08124,K08.124,"Complete loss of teeth due to periodontal disease, class IV"
+K08129,K08.129,"Complete loss of teeth due to periodontal disease, unspecified class"
+K0813,K08.12,Complete loss of teeth due to caries
+K08131,K08.131,"Complete loss of teeth due to caries, class I"
+K08132,K08.132,"Complete loss of teeth due to caries, class II"
+K08133,K08.133,"Complete loss of teeth due to caries, class III"
+K08134,K08.134,"Complete loss of teeth due to caries, class IV"
+K08139,K08.139,"Complete loss of teeth due to caries, unspecified class"
+K0819,J08.19,Complete loss of teeth due to other specified cause
+K08191,K08.191,"Complete loss of teeth due to other specified cause, class I"
+K08192,K08.192,"Complete loss of teeth due to other specified cause, class II"
+K08193,K08.193,"Complete loss of teeth due to other specified cause, class III"
+K08194,K08.194,"Complete loss of teeth due to other specified cause, class IV"
+K08199,K08.199,"Complete loss of teeth due to other specified cause, unspecified class"
+K084,K08.4,Partial loss of teeth
+K0840,K08.40,"Partial loss of teeth, unspecified cause"
+K08401,K08.401,"Partial loss of teeth, unspecified, class I"
+K08402,K08.402,"Partial loss of teeth, unspecified, class II"
+K08403,K08.403,"Partial loss of teeth, unspecified, class II"
+K08404,K08.404,"Partial loss of teeth, unspecified, class IV"
+K08409,K08.409,"Partial loss of teeth, unspecified cause, unspecified class"
+K0842,K08.42,Partial loss of teeth due to periodontal diseases
+K08421,K08.421,"Partial loss of teeth due to periodontal diseases, class I"
+K08422,K08.422,"Partial loss of teeth due to periodontal diseases, class II"
+K08423,K08.423,"Partial loss of teeth due to periodontal diseases, class III"
+K08424,K08.424,"Partial loss of teeth due to periodontal diseases, class IV"
+K08429,K08.429,"Partial loss of teeth due to periodontal disease, unspecified class"
+K0843,K08.43,Partial loss of teeth due to caries
+K08431,K08.431,"Partial loss of teeth due to caries, class I"
+K08432,K08.432,"Partial loss of teeth due to caries, class II"
+K08433,K08.433,"Partial loss of teeth due to caries, class II"
+K08434,K08.434,"Partial loss of teeth due to caries, class III"
+K08439,K08.439,"Partial loss of teeth due to caries, unspecified class"
+K0849,K08.49,Partial loss of teeth due to other specified cause
+K08491,K08.491,"Partial loss of teeth due to other specified cause, class I"
+K08492,K08.492,"Partial loss of teeth due to other specified cause, class II"
+K08493,K08.493,"Partial loss of teeth due to other specified cause, class III"
+K08494,K08.494,"Partial loss of teeth due to other specified cause, class IV"
+K08499,K08.499,"Partial loss of teeth due to other cause, unspecifed class"
+K0850,K08.50,"Unsatisfactory restoration of tooth, unspecified"
+K0851,K08.51,Open restoration margins of tooth
+K0852,K08.52,Unrepairable overhanging of dental restorative materials
+K0853,K08.53,Fractured dental restorative material
+K08530,K08.530,Fractured dental restorative material without loss of material
+K08531,K08.531,Fractured dental restorative material with loss of material
+K08539,K08.539,"Fracture dental restorative material, unspecified"
+K0854,K08.54,Contour of existing restoration of tooth biologically incompatible with oral health
+K0855,K08.55,Allergy to existing dental restorative material
+K0856,K08.56,Poor aesthetic of existing restoration of tooth
+K0859,K08.59,Other unsatisfactory restoration of tooth
+K089,K08.9,"Disorder of teeth and supporting structures, unspecified"
+M2751,M27.51,Perforation of root canal space due to endodontic treatment
+M2752,M27.52,Endodontic overfill
+M2753,M27.53,Endodontic underfill
+M2759,M27.59,Other periradicular pathology associated with preventive endodontic treatment
+M2761,M27.61,Osseointegration failure of dental implant
+M2762,M27.62,Post-osseointegration of biological failure of dental implant
+M2763,M27.63,Post-osseointegration mechanical failur of dental implant
+M2769,M27.69,Other endosseous dentla implant failure
+R6884,R68.84,Jaw pain
+Z012,Z01.2,Encounter for dental examination and cleaning
+Z0120,Z01.20,Encounter for dental examination and cleaning without abnormal findings
+Z0121,Z01.21,Encounter for dental examination and cleanign with abnormal findings
+Z463,Z46.3,Encounter for fitting and adjustment of dental prosthetic device
+Z464,Z46.4,Encounter for fitting and adjustment of orthodontic device
