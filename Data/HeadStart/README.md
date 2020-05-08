@@ -68,7 +68,7 @@ In 2012, two new reason columns were introduced, but also all the reason columns
 
 In 2015, a new and preferred table structure was adopted, whereby a single field C.19.b contained the single most important reason. There were no other columns for each individual reason.
 
-Sheet Section A had some column changes over the years as well. A crosswalk of relevant fields across years is available in this [repository](). Section A tells us child enrollment (calculated by summing across ages <1, 2, 3, 4, 5) and pregnant women enrollment.
+Sheet Section A had some column changes over the years as well. A crosswalk of relevant fields across years is available in this [repository](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/HeadStart/annual_data_comparability_check.xlsx). Section A tells us child enrollment (calculated by summing across ages <1, 2, 3, 4, 5) and pregnant women enrollment.
 
 The Program Details sheet has not changed over time.
 
@@ -102,13 +102,13 @@ Most of our information then is already adequately normalized for unique grant-p
 
 ### Design
 
-A LucidChart entity relationship diagram of our table structure is available. Additional tables were 
+A [LucidChart](https://www.lucidchart.com/invitations/accept/4c3cd1aa-9b4b-4ffa-8bbb-40e97939375a) entity relationship diagram of our table structure is available. 
 
 We use one main table combining Program Details and Sections A & B. Ancillary tables contain metadata for citation.
 
 ### Code
 
-[R code]() reads in all the annual PIR report files, reformats them, combines them, and returns csv files for upload to our database. 
+[R code](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/HeadStart/HeadStart_r_code.R) reads in all the annual PIR report files, reformats them, combines them, and returns csv files for upload to our database. 
 
 Major additions to the data include:
 * Adding county FIPS codes and longitude and latitude
