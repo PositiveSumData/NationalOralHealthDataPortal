@@ -5,42 +5,54 @@ library('tidyverse')
 ########## Step 1: Read prepare to read in all the spreadsheets
 #################################################################################
 
+# Create a list of all the spreadsheets that we can loop over later.
+# This assumes all the files are stored in main R directory.
 
- file_list_year <- c( "pir_export_2019.xlsx",
-                      "pir_export_2018.xlsx",
-                      "pir_export_2017.xlsx",
-                      "pir_export_2016.xlsx",
-                      "pir_export_2015.xlsx",
-                      "pir_export_2014.xls",
-                      "pir_export_2013.xls",
-                      "pir_export_2012.xls",
-                      "pir_export_2011.xls",
-                      "pir_export_2010.xls",
-                      "pir_export_2009.xls",
-                      "pir_export_2008.xls")
+file_list_year <- c("pir_export_2019.xlsx",
+                    "pir_export_2018.xlsx",
+                    "pir_export_2017.xlsx",
+                    "pir_export_2016.xlsx",
+                    "pir_export_2015.xlsx",
+                    "pir_export_2014.xls",
+                    "pir_export_2013.xls",
+                    "pir_export_2012.xls",
+                    "pir_export_2011.xls",
+                    "pir_export_2010.xls",
+                    "pir_export_2009.xls",
+                    "pir_export_2008.xls")
 
- 
 #################################################################################
 ########## Step 2: Write the function that will read in and combine the sheets
 #################################################################################
 
-
+# Start by initializing empty data frames that our magic function is going to 
+# access and add to in our loops. These three data frames corresponde to 
+# our three spreadsheet sheets: 
+#     frame_details -- Program Details
+#     frame_enrollment -- Section A
+#     frame_dental -- Section C
 
 frame_details <- data.frame(stringsAsFactors=FALSE)
 frame_enrollment <- data.frame(stringsAsFactors=FALSE)
 frame_dental <- data.frame(stringsAsFactors=FALSE)
 
-
-
-
-
+# Our function is where all the magin happens.
+# It will read in each spreadsheet, extract our desired information from each 
+# sheet, and append that information to our empty data frames from above.
 magic <- function(file, frame_details, frame_enrollment, frame_dental) {
+  
+  # Extract the year associated with each file, which is pulled out of the file
+  # name. The year is found in characters 12, 13, 14, 15.
   year = str_sub(file, 12, 15)
 
   
-  # Section A
+  # frame_enrollment AKA Section A
+  # Read in Section A from the spreadsheet, skipping the first row and keeping the 
+  # column names. The name_repair parameter replaces spaces with dots.
   frame_a <- read_excel(file, skip = 1, sheet = 'Section A', col_names = TRUE, .name_repair = 'universal')
-  ## Structure 1
+  
+  # Which columns we want to read depends on what years we have
+  # Years 2008, 2009, 2010
   if (year %in% c(2008, 2009, 2010)) {
     frame_a <- transmute( frame_a,
                           grant_number = Grant.Number,
@@ -50,7 +62,7 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
                           total_children = A.10.a + A.10.b + A.10.c + A.10.d + A.10.e + A.10.f
               )
   }
-  ## Structure 2
+  # Years 2011, 2012, 2013, 2014
   else if (year %in% c(2011, 2012, 2013, 2014)) {
     frame_a <- transmute( frame_a,
                           grant_number = Grant.Number,
@@ -60,7 +72,7 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
                           total_children = A.12.a + A.12.b + A.12.c + A.12.d + A.12.e + A.12.f
               )
     }
-  ## Structure 3
+  # Years 2015, 2016, 2017, 2018, 2019
   else if(year %in% c(2015, 2016, 2017, 2018, 2019)) {
     frame_a <- transmute( frame_a,
                           grant_number = Grant.Number,
@@ -71,14 +83,20 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
               )
     }         
 
+  # Append this file's data to the accumulator frame_enrollment data frame.
   frame_enrollment <<- bind_rows(frame_a, frame_enrollment)  
   
-  # Section C
+  
+  # frame_dental AKA Section C
+  # Read in the spreadsheet sheet Section C, skipping the first row, keeping column names, and fixing names.
   frame_temp <- read_excel(file, skip = 1, sheet = 'Section C', col_names = TRUE, .name_repair = 'universal')
     
+  # Years 2008, 2009, 2010, 2011
+  if (year %in% c(2008, 2009, 2010, 2011)) {
   
-    if (year %in% c(2008, 2009, 2010, 2011)) {
-  
+      # Here we create two temporary data frames that we'll join later. The issue is the 'reason' why 
+      # children didn't get dental care. For years 2008-2014 these are capture across many columns 
+      # that we'll need to unpivot into a single 'reason' column as is the format in years 2015-2019.
       frame_measure <- transmute(frame_temp,
                                 grant_number = Grant.Number,
                                 program_number = Program.Number,
@@ -106,16 +124,23 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
                       pivot_longer(cols = contains("reason"),
                                    names_to = "reason",
                                    values_to = "indicator") %>%
+                      # These 'reason' columns were structured to have either "Yes" or "No" answers only.
+                      # We only want to keep the Yes's, except we want the column headings, not the Yes's 
+                      # themselves. So we filter for "Yes" and then drop the indictor column entirely.
                       filter(indicator == "Yes") %>%
-                        
                       select(-indicator)
       
+      # We now join the data frame with the reasons onto our data frame with the rest of the dental data.
+      # We separated and rejoined the data like this because otherwise we run into problems with the 
+      # pivot_longer function multiplying rows on us.
       frame_together <- left_join(frame_measure, frame_reason, by=c("program_number", "grant_number", "year"))
                       
-      
+      # Append our dental data into the accumulator dental data frame.
       frame_dental <<- bind_rows(frame_dental, frame_together) 
       }
-  
+    
+    # Years 2012, 2013, 2014
+    # Pretty much the same thing as the previous step but some of the column names are different
     else if (year %in% c(2012, 2013, 2014)) {
     
       frame_measure <- transmute(frame_temp,
@@ -131,7 +156,6 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
                                 migrant_dental = C.20,
                                 pregnant_dental = C.21
                                 ) 
-      
       
       frame_reason <- transmute(frame_temp,
                                 grant_number = Grant.Number,
@@ -158,8 +182,9 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
       frame_dental <<- bind_rows(frame_dental, frame_together) 
       }
     
+    # Years 2015, 2016, 2017, 2018, 2019
     else if (year %in% c(2015, 2016, 2017, 2018, 2019)) {
-  
+      # Here the data is already neatly formatted into the 'reason' column for us. No pivoting required.
       frame_temp <- transmute(frame_temp,
                               grant_number = Grant.Number,
                               program_number = Program.Number,
@@ -177,10 +202,8 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
       frame_dental <<- bind_rows(frame_dental, frame_temp) 
       }
   
-  
-  
   # Program Details sheet 
-  
+  # This grabs the program details we'll need for geocoding, as well as names and classifiers
   frame_temp <- read_excel(file, skip = 0, sheet = 'Program Details',col_names = TRUE, .name_repair = 'universal') %>%
     transmute(grant_number = Grant.Number, 
               program_number = Program.Number,
@@ -194,7 +217,6 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
               state = Program.State,
               zip = Program.ZIP.Code)
  
-  
   frame_details <<- bind_rows(frame_details, frame_temp)
   
   }
@@ -204,17 +226,18 @@ magic <- function(file, frame_details, frame_enrollment, frame_dental) {
 ########## Step 3: Call the function over all our spreadsheets
 #################################################################################
 
+# These two simple lines call our magic function and apply over each 
+# spreadsheet in our list
 
 for (file in file_list_year) {
-  magic(file, frame_details, frame_enrollment, frame_dental)
-  }
-
+  magic(file, frame_details, frame_enrollment, frame_dental)}
 
 #################################################################################
 ########## Step 4: Clean up the 'reason' column
 #################################################################################
 
-
+# This step standardizes the different reason why children did not get dental 
+# care, which had various names. 
 
 frame_dental <- frame_dental %>%
   mutate(reason_main = case_when(grepl("reason_left_program", reason) ~ "Children left the program before their appointment date",
@@ -237,27 +260,11 @@ frame_dental <- frame_dental %>%
   ) %>%
   select(-reason)
 
-
 #################################################################################
 ########## Step 4: Create agency & program tables
 #################################################################################
 
-frame_site <- frame_details %>%
-              filter(year == "2019") %>%
-              distinct(grant_number, program_number, address, city, state, zip)
 
-frame_grantee <- frame_details %>%
-                mutate(grantee_name = toupper(grantee_name)) %>%
-                distinct(grantee_name, grant_number, year)
-
-write_csv(frame_agency, "frame_agency.csv")
-                
-  table(frame_details$agency_type)
-  
-#frame_program <- frame_details %>%
-#  select()
-
-#str(frame_details)
 
 #################################################################################
 ########## Step 4: Geocoding & FIPS codes
