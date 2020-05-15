@@ -1,5 +1,5 @@
 FIPS_code,geographic_type,short_name,full_name,abbreviation
-US,country,United States,United States,USA
+0,country,United States,United States,USA
 1,state,Alabama,Alabama,AL
 2,state,Alaska,Alaska,AK
 4,state,Arizona,Arizona,AZ
