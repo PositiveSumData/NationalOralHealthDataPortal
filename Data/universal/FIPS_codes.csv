@@ -8,6 +8,7 @@ FIPS_code,geographic_type,short_name,full_name,abbreviation
 8,state,Colorado,Colorado,CO
 9,state,Connecticut,Connecticut,CT
 10,state,Delaware,Delaware,DE
+11,territory,Washington DC,Washington District of Columbia,DC
 12,state,Florida,Florida,FL
 13,state,Georgia,Georgia,GA
 15,state,Hawaii,Hawaii,HI
