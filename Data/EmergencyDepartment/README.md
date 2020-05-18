@@ -162,4 +162,4 @@ We are developing a data request template to disseminate among states. If state 
 
 ## Tutorial
 
-This section to be updated with a video tutorial as more data becomes available
+[AQHR HCUPnet walkthrough(https://youtu.be/c3ssnPXsc8o)]
