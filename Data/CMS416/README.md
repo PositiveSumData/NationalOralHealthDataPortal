@@ -30,9 +30,9 @@ The data is provided as-is by direct download. No user agreement is required.
 
 Each year of the data is grouped in a different zip file on the CMS website. These must be downloaded separately. Inside each zip file are pdf and excel spreadsheet versions of the national file and state file for the year. The state file is structured so each state is a separate sheet within the state spreadsheet. This structure goes back until year 2010. Data are available before 2010 in a separate ZIP file but because of methodology differences in the earlier data we choose to stop at 2010 data.
 
-To make the data into a workable database we must do quite a bit of data manipulation. We use R code to read in data from each sheet in each spreadsheet for each year, extracting the relevant headings and tidying it into the structure outlined in this [Lucid]Chart(https://www.lucidchart.com/invitations/accept/4dbb90e5-3649-4baa-a42f-29088772b47e). 
+To make the data into a workable database we must do quite a bit of data manipulation. We use R code to read in data from each sheet in each spreadsheet for each year, extracting the relevant headings and tidying it into the structure outlined in this [Lucid]Chart(https://app.lucidchart.com/invitations/accept/4dbb90e5-3649-4baa-a42f-29088772b47e). 
 
-### CMS416_dental & CMS41_eligible tables
+### CMS416_dental90 & CMS41_eligible90 tables
 
 We have split the utilization and eligibility information into separate tables. This is because they represent fundamentally different measures. Also, when calculating rates, utilization will become our numerator and eligibility our denominator -- to compute this we join the two tables together by their common fields in SQL or Tableau.
 
@@ -52,27 +52,46 @@ The dental utilization measures all come from line 12 of the CMS416 form. They a
 
 States report their CMS416 counts in three types of enrollee categories: categorically needy (CN), medically needy (MN), and total. The categorically needy category includes most enrollees -- it denotes those people eligible for EPSDT benefits by virtue of their age and income categories. Medically needy enrollees are those receiving assistance paying medical costs through optional state programs outside of the regular EPSDT program. Many states will show zeros across their MN values because they do not offer MN benefits. A good explanation of the difference is found at the [West Virginia Department of Health and Human Resources](https://www.wvdhhr.org/bcf/policy/imm/new_manual/immanual/manual_pdf_files/chapter_16/ch16_4%20.pdf). 
 
-CMS416 reports capture data across 7 age groups: under 1, 1-2, 3-5, 6-9, 10-14, 15-18, 19-20, as well as a total aggregation column.
+CMS416 reports capture data across 7 age groups: under 1, 1--2, 3--5, 6--9, 10--14, 15--18, 19--20, as well as a total aggregation column. A double-dash has been used instead of single dash here to avoid a spreadsheet assuming a date format. We deleted the "Total" age column so that to obtain the total we must add up all the separate ages together. Otherwise we risk double-counting people when we sum across the age column in Tableau. 
 
-The different 'lines' in the original dataset reflect different lines on the CMS416 submission form.
+The different 'lines' in the original dataset reflect different lines on the CMS416 submission form. We added a shorthand version of each line to make it easier to read.
 
-### Additional tables
+### 2018_cms_416_age_weights table
 
-Three other tables are used to model the dataset. These are universal tables access by most of our other datasets as well. They include: * FIPS table. Contains additional information about each geographic level in our dataset. We have states and country codes in our dataset.
-* source table. Includes metadata about our dataset that users can extract citation information from
-* source_data_id. A bridge table between the source table and the CMS416 data tables.
+To be able to compare different states on utilization we will need to age-adjust our values. Utilization varies greatly depending on child age, so that states with different population distributions would likely see different utilization rates by that factor alone. To age-adjust we introduce a small table where each age gets a weight. The weights across ages add to 1. The weights are based on the age distribution of 2018 United States CMS 416 total enrollees:
+
+| Age_str | Age_int | Total_Enrollment | Percent_of_Total |
+| ---| --- | --- | --- |
+| <1 | 2 | 1708364 | 0.042705136 |
+| 1--2 | 2 | 4459999 | 0.158883002 |
+| 3--5 | 3 | 6355910 | 0.204350156 |
+| 6--9 | 4 | 8174765 | 0.24680739 |
+| 10--14 | 5 | 9873212 | 0.17085429 |
+| 15--18 | 6 | 6834806 | 0.111489626 |
+| 19--20 | 7 | 2596657 | 0.0649104 |
+
+Since these data do appear in the CMS_416_eligible90 table, this weights table isn't entirely necessary but it's a lot easier in Tableau to have this table pre-made and joined-in rather than recreated using Level of Detail expressions.
+
+### grid_xy table
+
+The basic Tableau presentation for states is to show states as their actual shapes on a map. We probably don't want to show an actual map of the United States that gives Alaska and Texas such large real estate compared to Rhode Island and Delaware. Instead we want a tesselated tile grid. We use a new table titlled 'grid_xy' that assigns each state a horizontal and vertical value tiling states into a rough representation of the countr. 
 
 ## Issues, decisions, and modifications
 CMS416 reports include 24 reporting lines across 14 topics. We have only kept oral health and total eligibility lines. For example, lines pertaining to blood lead tests, screening ratios, and periodicity schedules have been removed.
 
-Instead of having a column for state or country name, we have coerced this information to a FIPS code. To do this we joined the dataset to our master FIPS code table. 
+The "Total" age value was removed. To retrieve the total number of children on a given measure we instead sum across ages.
+
+We include a couple of geography columns to help the user: the full name of the geography, the abbreviation, the FIPS code, and the type of geography. The type field can be used to filter for only the country level or territory level, for example. 
 
 
 ## Code
 The R code used to read in all the data and output our tables is located on our GitHub repository [here](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/CMS416/CMS416_r_code.R). 
 
+## Tableau dashboard
+The beta stage Tableau dashboard is availble on [Tableau Public](https://public.tableau.com/views/CMS416OralHealthReport/CMS416?:display_count=y&publish=yes&:origin=viz_share_link).
+
 ## Project status
-The code is complete and data has been processed into CSVs awaiting upload into the database. 
+The Tableau dashboard needs a graphic design makeover and must be embedded into the website.
 
 ## Tutorial
 (this section to be updated as tutorials are generated)
