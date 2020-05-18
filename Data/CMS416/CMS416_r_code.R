@@ -39,6 +39,33 @@ file_list_nat <- c("EPSDT 2015 National--09292016.xlsx",
 # master database. The file is available on our GitHub repository.
 fips <- as.data.frame(read_csv("https://raw.githubusercontent.com/PositiveSumData/NationalOralHealthDataPortal/master/Data/universal/FIPS_codes.csv"))
 
+
+
+# We also want a key to describe what the different lines mean. We write 
+# short and long descriptors.
+line <- c("12a", "12b", "12c", "12d", "12f", "12e", "12g")
+
+line_description_long <- c("Total Eligibles Receiving Any Dental Services",
+                      "Total Eligibles Receiving Preventive Dental Services",
+                      "Total Eligibles Receiving Dental Treatment Services",
+                      "Total Eligibles Receiving a Sealant on an Permanent Molar Tooth",
+                      "Total Eligibles Receiving Oral Health Services Provided by a Non-Dentist Provider",
+                      "Total Eligibles Receiving Dental Diagnostic Services",
+                      "Total Eligibles Receiving Any Dental or Oral Health Service"
+)
+line_description_short <- c("Any Dental",
+                       "Preventive Dental",
+                       "Dental Treatment",
+                       "Sealant on a Permanent Molar",
+                       "Oral Health bya Non-Dentist",
+                       "Dental Diagnostic",
+                       "Any Dental or Oral Health"
+)
+descriptors <- data.frame(line, line_description_long, line_description_short)
+
+
+
+
 #################################################################################
 ########## Step 2: Creating our function to loop over and read-in the spreadsheets
 #################################################################################
@@ -64,10 +91,10 @@ magic <- function(sheet, file, skip_num, frame_full) {
     mutate(geography = ifelse(geography == "National", "United States", geography)) %>%
     # connect to our fips crosswalk
     left_join(fips, by = c("geography" = "short_name")) %>%
-    # only keep the fips code
-    select(-geography, -abbreviation, -full_name, geographic_type) %>%
-    mutate(cat = Cat) %>%
-    select(-Cat)
+    mutate(cat = Cat,
+           geo_full_name = geography,
+           geo_abbreviation = abbreviation) %>%
+    select(-Cat, -full_name, -abbreviation, -geography)
 
   # add frame_new into frame_full
   frame_full <<- bind_rows(frame_new, frame_full)
@@ -97,7 +124,7 @@ for (file in file_list_nat) {
 }
 
 #################################################################################
-########## Step 4: Tidying the data frame
+########## Step 4: Tidying the data frame & adding line descriptions
 #################################################################################
 
 # The excel data is structured with each year in a separate column. We want to 
@@ -109,7 +136,14 @@ frame_full <- frame_full %>%
                values_drop_na = TRUE, 
                names_to = "age", 
                values_to = "value") %>%
-  select(-description)
+  left_join(descriptors, by = c("line" = "line")) %>%
+  select(-description) %>%
+  # remove the Total age category so in Tableau we know if we sum the age column it 
+  # gives us the correctsum of all the ages
+  filter(age != 'Total') %>%
+  mutate(age = str_replace(age,"-", "--"))
+
+
 
 #################################################################################
 ########## Step 5: Writing data frames to disk
@@ -128,29 +162,6 @@ write.csv(frame_dental,"CMS416_dental90.csv", row.names = FALSE)
 # create and write csv that only includes total eligibles
 frame_total_eligible <- frame_full %>%
   filter(line == "1b") %>%
+  select(-line, - line_description_long, -line_description_short) %>%
   rename(eligible90 = value)
 write.csv(frame_total_eligible, "CMS416_eligible90.csv", row.names = FALSE)
-
-# We also want a key to describe what the different lines mean. We write 
-# short and long descriptors.
-line <- c("12a", "12b", "12c", "12d", "12f", "12e", "12g")
-  
-description_long <- c("Total Eligibles Receiving Any Dental Services",
-                      "Total Eligibles Receiving Preventive Dental Services",
-                      "Total Eligibles Receiving Dental Treatment Services",
-                      "Total Eligibles Receiving a Sealant on an Permanent Molar Tooth",
-                      "Total Eligibles Receiving Oral Health Services Provided by a Non-Dentist Provider",
-                      "Total Eligibles Receiving Dental Diagnostic Services",
-                      "Total Eligibles Receiving Any Dental or Oral Health Service"
-                      )
-description_short <- c("Any Dental",
-                       "Preventive Dental",
-                       "Dental Treatment",
-                       "Sealant on a Permanent Molar",
-                       "Oral Health bya Non-Dentist",
-                       "Dental Diagnostic",
-                       "Any Dental or Oral Health"
-                      )
-descriptors <- data.frame(line, description_long, description_short)
-write.csv(descriptors, "CMS416_dental_descriptions_key.csv", row.names = FALSE)
-
