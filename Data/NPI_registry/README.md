@@ -89,4 +89,6 @@ The code used to split apart, modify, and export our NPI data is available [here
 The r code to crack the NPI flat file is mostly ready. The US Census geocoder is still being built, so we can't add the long/lat/FIPS codes until then. 
 
 ## Tutorial
-This section to be updated as tutorial walk-throughs are produced.
+* [CMS NPPES Website walkthrough](https://youtu.be/Q14HVpo7xw4)
+* [R Code Tutorial](https://youtu.be/Cbltz4toIY0)
+* [Data portal structure](https://youtu.be/MDFPyPeMWJc)
