@@ -213,4 +213,6 @@ Work on this dataset is on pause until Positive Sum and CMS can devise a more ac
 Need to determine how to incoporate data_ids into the various IKN tables.
 
 ## Tutorial
-This section to be updated as tutorial walk-throughs are produced.
+* [Website walkthrough](https://youtu.be/iwjw8_nQHGA).
+* [R Code walkthrough](https://youtu.be/e2o-p4Aop7M).
+* [Data portal structure](https://youtu.be/Rc4rUx0MTeU).
