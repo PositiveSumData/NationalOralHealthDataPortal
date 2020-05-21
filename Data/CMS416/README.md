@@ -89,7 +89,7 @@ The beta stage Tableau dashboard is availble on [Tableau Public](https://public.
 The Tableau dashboard needs a graphic design makeover and must be embedded into the website.
 
 ## Tutorial
-* [Orientation](https://youtu.be/lEROp70c4mM). A navigation to the CMS 416 data page and disscussion the original data structure.
+* [Orientation](https://youtu.be/7v1sG80-GWQ). A navigation to the CMS 416 data page and disscussion the original data structure.
 * [Data Processsing](https://youtu.be/BIblZX4pDKs). A walkthrough of the R code used to consolidate and process the original CMS 416 tables.
 * [Data portal structure](https://youtu.be/XIZ5swLuQkw). An overview of the 4-table structure of our CMS 416 data.
 * [Tableau dashboard navigation](https://youtu.be/lC940vvc28w). A walkthrough of the beta version of the CMS 416 dashboard. 
