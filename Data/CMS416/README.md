@@ -17,11 +17,6 @@ State CMS416 reports are the best publicly available source for Medicaid and CHI
 
 States annually submit children’s Medicaid and CHIP utilization data to the Centers for Medicare and Medicaid Services (CMS). The submission forms are called 'CMS 416 reports,' and the collective dataset has become knowns as CMS416. The annual collections are made available on the CMS 'EPSDT' [website](https://www.medicaid.gov/medicaid/benefits/early-and-periodic-screening-diagnostic-and-treatment/index.html). The data are presented as spreadsheets. Data are periodically revised over time as states update their submissions or catch up to the submission process. For instance, as of May 2, 2020, the FY 2016, 2017, and 2018 files were all updated in 2019. 
 
-#### Citation
-```
-Insert citation once it is determined
-```
-
 #### Data use agreements
 
 The data is provided as-is by direct download. No user agreement is required.
