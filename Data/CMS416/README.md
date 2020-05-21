@@ -78,9 +78,11 @@ The "Total" age value was removed. To retrieve the total number of children on a
 
 We include a couple of geography columns to help the user: the full name of the geography, the abbreviation, the FIPS code, and the type of geography. The type field can be used to filter for only the country level or territory level, for example. 
 
-
 ## Code
 The R code used to read in all the data and output our tables is located on our GitHub repository [here](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/CMS416/CMS416_r_code.R). 
+
+## Data tables
+The processed data lives on our [Google Drive](https://drive.google.com/drive/folders/1qcHVdvgjbpQkKAT09XGGptG3-yyh-VtV?usp=sharing). 
 
 ## Tableau dashboard
 The beta stage Tableau dashboard is availble on [Tableau Public](https://public.tableau.com/views/CMS416OralHealthReport/CMS416?:display_count=y&publish=yes&:origin=viz_share_link).
