@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@PositiveSumData 
-PositiveSumData
-/
-NationalOralHealthDataPortal
-1
-0
-0
- Code
- Issues 0
- Pull requests 0 Actions
- Projects 0
- Wiki
- Security 0
- Insights
- Settings
-NationalOralHealthDataPortal/Data/HRSA_UDS
-@PositiveSumData PositiveSumData Create HRSA_UDS
-a772b33 17 seconds ago
-80 lines (50 sloc)  7.17 KB
-  
 # Health Resources & Services Administration (HRSA) Uniform Data System (UDS)
 
 Federally-qualified health centers (FQHC's) are HRSA-designated non-profit community health centers meeting certain program criteria and receive federal funding. A condition of such funding is submission of annual service data. HRSA aggregates all the health center data into annual reports available for public download. 
@@ -106,15 +78,4 @@ This section to be updated as R code is created to consolidate all the annual fi
 
 ## Tutorial
 (this section to be updated as tutorials are generated)
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
