@@ -1,4 +1,4 @@
-FIPS_code,geo_type,short_name,full_name,abbreviation
+FIPS_code,geo_type,geo_short_name,geo_full_name,geo_abbreviation
 0,country,United States,United States,USA
 1,state,Alabama,Alabama,AL
 2,state,Alaska,Alaska,AK
