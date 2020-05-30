@@ -39,15 +39,15 @@ There are many tables in the report. Most tables are not relevant to our project
 * **Table6BClinicalMeasures**. Additional sealant information.
 * **Table8A**. Operational costs of dental services.
 
-### Missing Data
+### "Non-Proprietary and Proprietary with Consent"
 
-HRSA does not automatically make all of an FQHC's annual UDS report public. As explained on their [website](https://www.hrsa.gov/foia/uds-public-use.html):
+HRSA does not make all of the UDS data public. They share only data they deemed as "non-proprietary" or data that is "proprietary with consent." As explained on their [website](https://www.hrsa.gov/foia/uds-public-use.html):
 
 > The data in the blank rows of Tables 5, 8A, and 9D is being withheld under Exemption 4 of the FOIA, 5 U.S.C. 552(b)(4). This exemption protects against the release of proprietary confidential business and financial information, which, if disclosed, could provide potential competitors with an unfair advantage, including in future grant competitions.
 
-For an FQHC to make their Table 5, 8A, or 9D data public, they need to actively opt-in to sharing. From an exploratory data analysis, we see that so few FQHCs opt-in that it is not valuable to aggregate or visualize any individual FQHC data for those tables. From our analysis it appears also that Table 5A is covered under the special exemption, because so much of the data is missing. HRSA can provide data from those tables aggregated to the state-level, however, and they have done so in a separate FOIA request.
+For an FQHC to make their proprietary Table 5, 8A, or 9D data public, they need to actively consent. In From an exploratory data analysis, we see that 69 FQHCs consented to sharing their Table 5 data in 2018, compared to 1293 who did not.  This ratio is so small that including these tables in our project for analysis is not valuable. We therefore choose to focus on only Table 6A and 6B non-proprietary dental reporting. Although it is not mentioned in the legal disclaimer, Table 5A appears to be considered proprietary as well, because so many FQHCs having missing informatino. 
 
-The valuable Tables 6A and 6B are not exempt from public reporting and therefore we can examine the different types of dental services being offered by all FHQC organizations.
+A strategery for learning about these proprietary measures is to ask HRSA for state-aggregated data that shields the individual FQHCs. As discussed below, HRSA has provided such inforamtion by FOIA. therefore we can examine the different types of dental services being offered by all FHQC organizations.
 
 ### Data continuity
 
