@@ -32,6 +32,7 @@ There are many tables in the report. Most tables are not relevant to our project
 
 * **HealthCenterInfo**. Name and primary location of each health center organization.
 * **HealthCenterSiteInfo**. Name and location of all sites belonging to an organization.
+* **Table 3B**. Total patients served.
 * **Table 5**. Medical and dental visit totals, FTEs.
 * **Table 5A**. # FTEs for dentists, dental hygienists, and dental therapists.
 * **Table 6A**. # of diagnoses and # people provided services dental: emergencies, oral exams, prophylaxis, sealants, fluoride treatment, restorative services, oral surgery, and rehabilitative services. 
@@ -62,13 +63,29 @@ Consolidating all the annual UDS files into one database can be tricky because t
 
 We must also be careful of slight changes to column and sheet names over time. For example, from 2011-2018 table names use a simple syntax 'Table5, Table6, Table8A, etc.' From 200-1010 the syntax was 'tblTable5, tblTable6, tblTable8A, etc.'. Before 2000 there was an entirely different naming structure, with tables grouped into sheets with various titles that change each year. From 2004-2018 columns used all capitalized letters, but for 2000-2003 the table was lowercase. For example: t5_L15_C vs T5_L15_C. Pre-2000 columns were in all caps but without underscores. For a complete layout of the data structure evolution over time, see [this crosswalk document](must finish editing and upload). 
 
-### Issues & decisions
+## Issues & decisions
 
-### Design
+### Reporting Granularity & Geocoding
+
+Except for Table HealthCenterSiteInfo, which lists all a health centers locations, all other UDS data is aggregated to the organizational level. This helps us understand oral health care utilization within an organization, but cannot tell us about oral health care activities at the site level. We do not know which health center site locations offer dental services, nor do we know how dentist FTEs are distributed or what differences there might be in oral health care between sites. 
+
+Therefore we have decided not to map individual FQHC site locations. Doing so might help convey a sense of service area, but we would not want to mislead users into thinking there are oral health services offered when there are not.
+
+### Organizational Continuity
+
+Within each UDS reporting year, FQHCs are assigned an ID number that helps link all the reporting tables together. This is called the BHCMISID in most recent years and the gi_lnggranteeid or Grantee ID in early years. These ID numbers change with new grant cycles. Health center funding is awarded in several-year chunks, and then a new number may be assigned in the next grant cycle if a health center keeps its funding. This cycling of FQHC ID's makes it challenging to examine an individual organization's oral health care trends over time, since there is not master index linking grant cycles. To address this issue, we submitted a FOIA request to HRSA on June 1, 2020 requesting a master key table to link organizations across years. This project will be updated if a master key is provided. Until then, the project will not design dashboards to show individual FQHC trends.
+
+### Missing Denominator
+
+Table 6A gives us the count of patients at every FQHC that received several types of oral health services. Ideally we would then calculate (1) the percent of patients at each FQHC who received each type of dental service, and (1) the percent of **dental** patients at each FQHC who received each type of dental service. These denominators are not located in Table 6A. The total count of health center patients is publicly available in Table 3B, but the total count of dental patients is hidden in Table 5, and therefore exempt from FOIAs. Interestingly, the data is publicly available on the HRSA website if one looks within the indiviual health center data pages. For example, we can see that Family Health Center, inc in Kalamazoo, Michigan served (9,580 dental patients)[https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&bid=056230&state=MI&year=2018] in 2018. Years 2016 and 2017 data are also publicly displayed for all health centers on the HRSA webpage. 
+
+We have captured these three years of data by web-scraping the HRSA website (see R code). Seeing a potential opportunity in accessing just this one piece of exempt, we submitted a FOIA request to HRSA on June 1, 2020 seeking data from previous years.
+
+## Design
 
 This section to be updated as our Lucid Charts are designed
 
-### Code
+## Code
 
 This section to be updated as R code is created to consolidate all the annual files into database tables and geocode all the site addresses.
 
