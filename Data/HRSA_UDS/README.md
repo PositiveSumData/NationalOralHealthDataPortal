@@ -9,9 +9,9 @@ FQHCs serve primarily low-income families with primary care and (oftentimes) den
 ### Questions this dataset could help answer
 
 * What percent of FQHC patients in Minnesota received a dental service in 2018?
-* How has the proportion of FQHC patients receiving emergency dental care changed in Arkansas over the past 10 years? 
+* How has the proportion of FQHC patients receiving emergency dental care changed over the past 10 years? 
 * Has the number of FQHC Dentist FTEs changed much in California since 1996?
-* Has the proportion of FQHCs offering on-site dental services changed considerably in Indiana since 2004?
+* Has the proportion of FQHCs offering on-site dental services changed considerably since 2004?
 * Which FQHCs have the highest rates of their patients receiving preventive dental care?
 * Which FQHCs in Iowa provide restorative dental care?
 * Which regions in Oregon have the lowest utilization of preventive dental care in FQHCs?
@@ -46,9 +46,9 @@ HRSA does not make all of the UDS data public. They share only data they deemed 
 
 > The data in the blank rows of Tables 5, 8A, and 9D is being withheld under Exemption 4 of the FOIA, 5 U.S.C. 552(b)(4). This exemption protects against the release of proprietary confidential business and financial information, which, if disclosed, could provide potential competitors with an unfair advantage, including in future grant competitions.
 
-For an FQHC to make their proprietary Table 5, 8A, or 9D data public, they need to actively consent. In From an exploratory data analysis, we see that 69 FQHCs consented to sharing their Table 5 data in 2018, compared to 1293 who did not.  This ratio is so small that including these tables in our project for analysis is not valuable. We therefore choose to focus on only Table 6A and 6B non-proprietary dental reporting. Although it is not mentioned in the legal disclaimer, Table 5A appears to be considered proprietary as well, because so many FQHCs having missing informatino. 
+For an FQHC to make their proprietary Table 5, 8A, or 9D data public, they need to actively consent. From an exploratory data analysis, we see that 69 FQHCs consented to sharing their Table 5 data in 2018, compared to 1293 who did not.  This ratio is so small that including these tables in our project for analysis is not valuable. We therefore choose to focus on only Table 6A and 6B non-proprietary dental reporting. Although it is not mentioned in the legal disclaimer, Table 5A appears to be considered proprietary as well, because so many FQHCs having missing informatino. 
 
-A strategery for learning about these proprietary measures is to ask HRSA for state-aggregated data that shields the individual FQHCs. As discussed below, HRSA has provided such inforamtion by FOIA. therefore we can examine the different types of dental services being offered by all FHQC organizations.
+A strategery for learning about these proprietary measures is to ask HRSA for state-aggregated data that shields the individual FQHCs. Another strategy is to pull these figures directly from health center data pages on the HRSA website. HRSA allows users to look up individual health centers and see top-line patient counts that are otherwise withheld from FOIAs.
 
 ### Data continuity
 
@@ -61,9 +61,13 @@ Consolidating all the annual UDS files into one database can be tricky because t
 * Detailed site-level data began being collected in 2011. 
 * Pre-2000 data are not presented by Table. Rather they are grouped into a fewer number of sheets with varying naming conventions.
 
-We must also be careful of slight changes to column and sheet names over time. For example, from 2011-2018 table names use a simple syntax 'Table5, Table6, Table8A, etc.' From 200-1010 the syntax was 'tblTable5, tblTable6, tblTable8A, etc.'. Before 2000 there was an entirely different naming structure, with tables grouped into sheets with various titles that change each year. From 2004-2018 columns used all capitalized letters, but for 2000-2003 the table was lowercase. For example: t5_L15_C vs T5_L15_C. Pre-2000 columns were in all caps but without underscores. For a complete layout of the data structure evolution over time, see [this crosswalk document](must finish editing and upload). 
+We must also be careful of slight changes to column and sheet names over time. For example, from 2011-2018 table names use a simple syntax 'Table5, Table6, Table8A, etc.' From 200-1010 the syntax was 'tblTable5, tblTable6, tblTable8A, etc.'. Before 2000 there was an entirely different naming structure, with tables grouped into sheets with various titles that change each year. From 2004-2018 columns used all capitalized letters, but for 2000-2003 the table was lowercase. For example: t5_L15_C vs T5_L15_C. Pre-2000 columns were in all caps but without underscores. For a complete layout of the data structure evolution over time, see [this crosswalk document](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/HRSA_UDS/UDS%20crosswalk.xlsx). 
 
 ## Issues & decisions
+
+### Ignoring Tables 5, 5A, and 8A
+
+So few health centers elect to make their proprietary data public in TAbles 5, 5A, and 8A that we have decided it is not worth consolidating their data or producing dashboards.
 
 ### Reporting Granularity & Geocoding
 
@@ -75,24 +79,46 @@ Therefore we have decided not to map individual FQHC site locations. Doing so mi
 
 Within each UDS reporting year, FQHCs are assigned an ID number that helps link all the reporting tables together. This is called the BHCMISID in most recent years and the gi_lnggranteeid or Grantee ID in early years. These ID numbers change with new grant cycles. Health center funding is awarded in several-year chunks, and then a new number may be assigned in the next grant cycle if a health center keeps its funding. This cycling of FQHC ID's makes it challenging to examine an individual organization's oral health care trends over time, since there is not master index linking grant cycles. To address this issue, we submitted a FOIA request to HRSA on June 1, 2020 requesting a master key table to link organizations across years. This project will be updated if a master key is provided. Until then, the project will not design dashboards to show individual FQHC trends.
 
-### Missing Denominator
+### Missing Denominator & Web-Scraping
 
 Table 6A gives us the count of patients at every FQHC that received several types of oral health services. Ideally we would then calculate (1) the percent of patients at each FQHC who received each type of dental service, and (1) the percent of **dental** patients at each FQHC who received each type of dental service. These denominators are not located in Table 6A. The total count of health center patients is publicly available in Table 3B, but the total count of dental patients is hidden in Table 5, and therefore exempt from FOIAs. Interestingly, the data is publicly available on the HRSA website if one looks within the indiviual health center data pages. For example, we can see that Family Health Center, inc in Kalamazoo, Michigan served (9,580 dental patients)[https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&bid=056230&state=MI&year=2018] in 2018. Years 2016 and 2017 data are also publicly displayed for all health centers on the HRSA webpage. 
 
-We have captured these three years of data by web-scraping the HRSA website (see R code). Seeing a potential opportunity in accessing just this one piece of exempt, we submitted a FOIA request to HRSA on June 1, 2020 seeking data from previous years.
+By web-scraping the HRSA website (see R code), we have gathered all health-center level total dental patient counts for years 2016-2018. We had hoped this would allow us to use these values as denominators in a % total dental patients calculation. However, not enough health centers have such data on the website to make state-level aggregations reliable. Seeing a potential opportunity in accessing just this one piece of exempt, we submitted a FOIA request to HRSA on June 1, 2020 seeking data from previous years. Until then, we have chosen not to use these numbers in the Tableau Dashboards until we have more information.
+
+### Restricing Scope to Years 2004-2018
+
+In response to a FOIA request, HRSA provided data going back to 1996. However, the most useful dental services fields were not introduced until 2004, so we begin there. 
 
 ## Design
 
-This section to be updated as our Lucid Charts are designed
+We produced three csv's of UDS data covering the years 2004-2018. These tables are described in LucidCharts [here](https://app.lucidchart.com/invitations/accept/eac15c34-7d40-4af5-beb9-8358162a6e5b). 
+
+### table patients_and_visits
+
+This table consolidates Tables 3B and 6A, which contain visit and patients counts for all and types of dental services.
+
+### table healthcenterinfo
+
+This table gives the name and address of each health center organization in each year. We include the year variable because we do not have a key linking health centers across years. 
+
+### table6B_quality
+
+This table gives the number at-risk children ages 6-9 (the denominator) and the number of at-risk children ages 6-9 who received a dental sealant (numerator) for each health center in each year since 2015, when this measure was introduced.
+
 
 ## Code
 
-This section to be updated as R code is created to consolidate all the annual files into database tables and geocode all the site addresses.
+The R code in this repository will extract meaningful data from UDS spreadsheets and web-scrape data from the HRSA website.
 
 
-## Project status
+## Project status & Next Steps
 
+The data has been visualized with Tableau Public Dashboards [here](https://public.tableau.com/views/HRSAUDS/InterState?:display_count=y&publish=yes&:origin=viz_share_link), focusing on national and state level aggregations instead of showing organization-level data.
 
-## Tutorial
-(this section to be updated as tutorials are generated)
+### Questions
+
+* Decide if should only visualize FQHC data or include lookalikes as well
+* Decide if should visualize funding type stratifications (e.g. homeless, migrant, public housing) or if having these is confusing
+
+## Tutorial 
 
