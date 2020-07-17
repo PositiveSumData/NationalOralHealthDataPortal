@@ -33,7 +33,7 @@ questions <- c(4561, 4569, 4570, 4650, 4688, 4689,
                7085, 7086, 7087, 7136, 7281, 7330, 
                7332, 7333, 7334, 7534, 7558)
 
-# Becuase different years have different questions we prepare different 
+# Because different years have different questions we prepare different 
 # question lists. We use a dummy code 99999 to later represent when there 
 # is no group (when we want the total counts) because then we need to 
 # change the url.
@@ -251,7 +251,7 @@ for (r in 1:52) {
                               population = pop_matrix[element, head])
           
         }}
-      Sys.sleep(20) # seconds to wait between each url loop so we don't overload their server
+      Sys.sleep(18) # seconds to wait between each url loop so we don't overload their server
     }}}
 
 ###########################################################################
@@ -259,18 +259,13 @@ for (r in 1:52) {
 ###########################################################################
 
 # Most likely you won't be able to run this code in one go -- it'll take weeks. 
-# So save the results to csv in between runs. Before 
-
-
-
-# Save
-save(collection, file = "collection1")
-save(nsch, file = 'nsch backup')
+# So save the results to csv in between runs. 
 
 # Convert master list to data frame and transpose
 nsch <- t(as.data.frame(master))
-write.csv(nsch, "nsch-june23.csv", row.names = FALSE)
-write.csv(collection, "collection-jun23.csv", row.names = FALSE)
+
+write.csv(nsch, "nsch.csv", row.names = FALSE)
+write.csv(collection, "collection.csv", row.names = FALSE)
 
 
 ###########################################################################
@@ -289,7 +284,7 @@ key_g <- read_excel("key.xlsx", skip = 0, sheet = "g")
 ##### Step 6: Modify the output to prepare for visualization
 ###########################################################################
 
-nchs <- read.csv("nsch-june23.csv", skip = 0, na = "--") %>%
+nchs <- read.csv("nsch.csv", skip = 0, na = "--") %>%
   arrange(question) %>%
   separate(CI, c("lower", "upper"), "-") %>%
   mutate(lower = as.numeric(str_trim(lower)),
@@ -303,10 +298,9 @@ nchs <- read.csv("nsch-june23.csv", skip = 0, na = "--") %>%
   left_join(key_r, by = c("geography" = "r")) %>%
   left_join(key_g, by = c("group" = "g")) %>% 
   mutate(geo_name = ifelse(geo_name == "Nationwide", "US", geo_name),
-         years = `year(s)`
-        ) %>%
-  select(-width, -"Possible answers", -year, -`year(s)`, -geography, -question, -label) %>%
-  arrange(factor(years, levels = c("2017-2018", "2016-2017", "2018", "2017", "2016")))
+         group = label) %>%
+  select(-width, -"possible_answers", -geography, -year_g, -question, -label) %>%
+  arrange(factor(year, levels = c("2017-2018", "2016-2017", "2018", "2017", "2016")))
 
 
 ###########################################################################
@@ -326,9 +320,9 @@ nchs_prime <- nchs %>%
 # orders if additional data gets added in the next year.
 
 nchs_CI <- nchs %>%
-  select(-population, -percent, -sample_size, -"Question long") %>%
+  select(-population, -percent, -sample_size, -"question_long") %>%
   pivot_longer(cols=c("lower", "upper"), values_to = "confidence_value", names_to = "confidence_level") %>%
-  mutate(order = ifelse(confidence_level == "lower", 1:n(), 1000000000 - 1:n()))
+  mutate(order = ifelse(confidence_level == "lower", 1:n(), 100000000 - 1:n()))
 
 
 ###########################################################################
