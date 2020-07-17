@@ -1,6 +1,6 @@
 # CMS 416 Reports
 
-
+As part of federal Medicaid and CHIP funding requirements, states report annual utilization of medical and dental care among the children covered under the Early and Periodic Screening, Diagnostic, and Treatment (EPSDT) benefits. These reports are knows as CMS 416 after the name of the reporting form used.
 
 ## Utility
 
@@ -21,9 +21,18 @@ States annually submit children’s Medicaid and CHIP utilization data to the Ce
 
 The data is provided as-is by direct download. No user agreement is required.
 
+## Data Availability
+
+CMS 416 measures have been collected since 1995. The methodology, age categories, and measures have changed over the course of three main phases: 
+* 1995-1999. Only dental measure is 'received any dental.' 4 age groups are: <1, 1-5, 6-14, 15-20. Dental utilization defined by receipt of 'dental assessments.' Enrollees are those children who have been enrolled for any amount of time during the reporting period.
+* 2000-2009. Added 'preventive dental' and 'dental treatment' measures. Age groups changed to 7 categories: <1, 1-2, 3-5, 6-9, 10-14, 15-18, 19-20. Dental utilziation degined by receipt of 'dental services.' 
+* 2010-present. Added 'dental sealants,' 'dental diagnostic,' 'oral health services by a non-dentist', and 'any dental or oral health service.' Age group for sealants are 6-9 and 10-14 only. Enrollees are those who were enrolled for 90 continuous days during the reporting period.
+
+Because the method for counting enrollees changed between 2009 and 2010, we have decided the data are not comparable and therefore it is best to restrict our dataset to years 2010-present.
+
 ## Data Structure
 
-Each year of the data is grouped in a different zip file on the CMS website. These must be downloaded separately. Inside each zip file are pdf and excel spreadsheet versions of the national file and state file for the year. The state file is structured so each state is a separate sheet within the state spreadsheet. This structure goes back until year 2010. Data are available before 2010 in a separate ZIP file but because of methodology differences in the earlier data we choose to stop at 2010 data.
+Each year of the data is grouped in a different zip file on the CMS website. These must be downloaded separately. Inside each zip file are pdf and excel spreadsheet versions of the national file and state file for the year. The state file is structured so each state is a separate sheet within the state spreadsheet. This structure goes back until year 2010. Data are available before 2010 in a separate ZIP file in PDF formats.
 
 To make the data into a workable database we must do quite a bit of data manipulation. We use R code to read in data from each sheet in each spreadsheet for each year, extracting the relevant headings and tidying it into the structure outlined in this [Lucid]Chart(https://app.lucidchart.com/invitations/accept/4dbb90e5-3649-4baa-a42f-29088772b47e). 
 
@@ -85,7 +94,7 @@ The R code used to read in all the data and output our tables is located on our 
 The processed data lives on our [Google Drive](https://drive.google.com/drive/folders/1qcHVdvgjbpQkKAT09XGGptG3-yyh-VtV?usp=sharing). 
 
 ## Tableau dashboard
-The beta stage Tableau dashboard is availble on [Tableau Public](https://public.tableau.com/views/CMS416OralHealthReport/CMS416?:display_count=y&publish=yes&:origin=viz_share_link).
+The beta stage Tableau dashboard is availble on [Tableau Public](https://public.tableau.com/views/CMS416OralHealthReport/CMS416?:language=en&:display_count=y&publish=yes&:origin=viz_share_link).
 
 ## Project status
 The Tableau dashboard needs a graphic design makeover and must be embedded into the website.
