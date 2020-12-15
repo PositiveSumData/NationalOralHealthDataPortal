@@ -78,7 +78,7 @@ The indicator "Mean percentage contribution of untreated decayed (% dt/dft) or f
 The consolidated CSV file was compiled manually by copy-pasting data from the original CDC reports and then manipulating with Excel. Code was not used to generate the consolidate file, but code was used to create a sceondary consolidated file that prepares confidence intervals in a structure that Tableau can use for drawing polygons. This file is availabl [here](https://raw.githubusercontent.com/PositiveSumData/NationalOralHealthDataPortal/master/Surveillance%20%26%20Reports/cdc_surveillance_pivoting.R). 
 
 ## Data tables
-The consolidated data file lives in this Github folder.
+The consolidated data file lives in [this](https://raw.githubusercontent.com/PositiveSumData/NationalOralHealthDataPortal/master/Surveillance%20%26%20Reports/cdc_surveillance_prime.csv) Github folder.
 
 ## Tableau dashboard
 The beta stage Tableau dashboard is availble on [Tableau Public](https://public.tableau.com/views/CDCOralHealthSurveillance/Orientation?:language=en&:display_count=y&publish=yes&:origin=viz_share_link).
