@@ -31,9 +31,6 @@ Each state is required submit data according to the following structure: each ro
 #### Citation
 
 CMS does not have a recommended citation listed on their website. Positive Sum has inquired to see if there is a citation style they prefer.
-```
-
-```
 
 #### Data use agreements
 
@@ -201,18 +198,18 @@ The two other provider-specific characteristic in the IKN flat file -- specialty
 #### Organizations
 A fourth important type of entity is also present -- the provider organization -- but the dataset is not coded in a way to support indexing on organizations. The only relevant field, GRP_PRACTICE_NM (group practice name), corresponding to the name of the organization, is not named consistently across rows and is not unique across state lines. Ideally there would be a unique organization ID to address this, but it does not exist at this time.
 
-## Issues & decisions
-The IKN database could be one of the most valuable ways of mapping and analyzing the depth of the dental safety net. We are all very appreciative that CMS has provided us a copy of their database for a use different than the way the database was initially designed. Provider ID discrepancies and a lack of site IDs is not a problem for a consumer-facing dentist search website. But for public health we need to be more confident in our calculations, especially if it may inform public policy. Until we can be more confident in these calculations Positive Sum does not recommend incorporating the data into the national oral health data portal.
-
 ## Modifications & External Connections
-Ids have been assigned where they weren't included in the original dataset. Addresses will be encoded as FIPS codes and refenced to the common FIPS table.
+IDs for each table have been created when there weren't unique keys provided. Unique site IDs are created for unique organization names at unique latitudes and longitudes. Unique provider IDs are created from NPIs or other provider IDs in the database, or if these are missing then keys are generated based on unique names. When values for such fields as 'accepts new patients' or 'provides mobility services' are listed as 'U' or "u', these are coerced into null values. 
 
-## Project status
-Work on this dataset is on pause until Positive Sum and CMS can devise a more accurate unique provider ID assignment system.
+A new provider table field called 'fractions' is created to show how much weight to apply each provider when calculating a site "FTE" value. Since so many providers are listed at being at multiple sites, we create a site weight of 1/(total # provider sites) such that a dentist at 4 sites gets 0.25 FTE weight at each site. If there are 3 0.25 dentists at one site, that sight has 0.75 dentist FTEs by this calculation. The ADA Health Policy Institute uses a similar deflator in its calculations from the InsureKidsNow database, but goes further by adjusting for provider age (older being less productive), but this project doesn't have access to provider ages as they do.
 
-Need to determine how to incoporate data_ids into the various IKN tables.
+## Issues & decisions
 
-## Tutorial
-* [Website walkthrough](https://youtu.be/iwjw8_nQHGA).
-* [R Code walkthrough](https://youtu.be/e2o-p4Aop7M).
-* [Data portal structure](https://youtu.be/Rc4rUx0MTeU).
+Positive Sum feels the IKN database is a fine tool for mapping where provider sites most likely are and what service chracteristics they offer. But there are too many instances of providers being reigistered to a suspiciously large number of sites that this dataset is probably not so useful for calculating couty counts or being relied upon too definitively for dental care access.
+
+## code
+
+The [Github repository folder](https://github.com/PositiveSumData/NationalOralHealthDataPortal/upload/master/Data/InsureKidsNow) for this dataset contains the R code file used to modify the original IKN data file into smaller files.
+
+## Project Status & Next Steps
+The Tableau dashboard is up. 
