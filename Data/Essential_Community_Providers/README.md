@@ -34,9 +34,9 @@ The original data file contains one row for each site. The address and contact i
 
 For the National Oral Health Data Portal project we have broken the original file into two:
 
-**ECP_geocoded_2019.csv**. Each row is a unique site with geocoded latitude and longitude. Only sites with dental ECPs are kept. The commma-separated list of provider types is removed; instead it is used in the second file...
+[**ECP_geocoded_2019.csv**](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/Essential_Community_Providers/ECP_geocoded_2019.csv). Each row is a unique site with geocoded latitude and longitude. Only sites with dental ECPs are kept. The commma-separated list of provider types is removed; instead it is used in the second file...
 
-**ECP_categories_2019.csv**. Each row is a unique_site-type pair. This can be joined to the ECP_geocoded_2019.csv file to indicate the many types of providers designations a site has.
+[**ECP_categories_2019.csv**](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/Essential_Community_Providers/ECP_categories_2019.csv). Each row is a unique_site-type pair. This can be joined to the ECP_geocoded_2019.csv file to indicate the many types of providers designations a site has.
 
 
 ## Issues & decisions
@@ -52,7 +52,7 @@ The FTE counts at some sites raise important questions about the accuracy of thi
 
 ## Code
 
-
+The R code for modifying the original files, geocoding, and saving as two separate files is located in the [Github folder](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/Essential_Community_Providers/ECP_r_code.R) for this datset.
 
 
 ## Project status & Next Steps
