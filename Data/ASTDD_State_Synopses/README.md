@@ -3,7 +3,7 @@
 The ASTDD State Synopses are aggregated surveys of state dental directors describing state oral health program characteristics. 
 
 
-## Examplse of questions this dataset could help answer
+## Examples of questions this dataset could help answer
 
 * Which states operate oral health programs specifically to serve older adults?
 * Do any states require a public health degree to serve as a state dental director?
