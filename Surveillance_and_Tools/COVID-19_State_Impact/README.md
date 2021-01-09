@@ -51,7 +51,10 @@ BLS QCEW data is released quarterly and on a delay of up to about 1.5 quarters, 
 
 ## Code
 
-R code for modifyin the CDC and BLS files is available in this Github folder.
+R code for modifying the CDC and BLS files is available in this Github folder. The files are:
+
+* **CDC_COVID_data_r_code.R**
+* **BLS_QCEW_r_code.R**
 
 ## Tableau Presentation
 
