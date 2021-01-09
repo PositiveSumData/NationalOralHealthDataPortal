@@ -26,9 +26,8 @@ All the data presented in the National Oral Health Data Portal as reflecting the
 
 Centers for Disease Control and Prevention. Oral Health Surveillance Report: Trends in Dental Caries and Sealants, Tooth Retention, and Edentulism, United States, 1999–2004 to 2011–2016. Atlanta, GA: Centers for Disease Control and Prevention, US Dept of Health and Human Services; 2019.
 
-## Data Structure
 
-### Variables
+### Original Data Structure
 
 Two types of measures have been gathered from the 2019 report: prevalance and counts. The prevalance measures are percentages indicating how many people out of 100 have each condition (caries, dental sealants, edentulism, or untreated decay). The count measures give the number of sealed teeth or number of decayed/missing/filled teeth of people. A third type of measure was reported in the original 2017 report that was not copied into the National Oral Health Data Portal: "Mean percentage contribution of untreated decayed (% dt/dft) or filled (% ft/dft) primary teeth." 
 
@@ -40,7 +39,7 @@ In the Tableau data visualizations of these data tables for the National Oral He
 
 ### Consolidated file
 
-The various tables from the CDC report have been consolidated into one CSV file with the following variable structure:
+The various tables from the CDC report have been consolidated into one main CSV file named **cdc_surveillance_prime.csv** with the following variable structure:
 
 * **data_id**. A unique number assigned to each row in the consolidated file. It's used so that when a separate confidence-interval CSV is generated to be able to visualize confidence intervals, Tableau knows how to join the two CSVs together. 
 * **table_2019_benchmark**. The table number from the 2019 report, or the table from 2019 that the earlier 2007 report corresponds to. For example, table 10 ("t10") from 2007 corresponds to table 9 ("t09") in 2019. Both are listed as "t09" in this column.
@@ -62,6 +61,7 @@ The various tables from the CDC report have been consolidated into one CSV file 
 * **lower_CI**. The lower 95% confidence interval.
 * **upper_CI**. The upper 95% confidence interval.
 
+A second CSV named **cdc_surveillance_CI.csv** contains confidence interval data from the **prime** file un-pivoted such that there are two rows for every estimate in **prime**: a lower and upper 95% confidence interval. This file is used to help Tableau display confidence intervals and is joined to the **prime** file. An 'order' column is also added to this confidence interval file to aid Tableau in drawing points.
 
 ### Standard Errors & 95% Confidence Intervals
 
@@ -78,7 +78,7 @@ The indicator "Mean percentage contribution of untreated decayed (% dt/dft) or f
 The consolidated CSV file was compiled manually by copy-pasting data from the original CDC reports and then manipulating with Excel. Code was not used to generate the consolidate file, but code was used to create a sceondary consolidated file that prepares confidence intervals in a structure that Tableau can use for drawing polygons. This file is availabl [here](https://raw.githubusercontent.com/PositiveSumData/NationalOralHealthDataPortal/master/Surveillance%20%26%20Reports/cdc_surveillance_pivoting.R). 
 
 ## Data tables
-The consolidated data file lives in [this](https://github.com/PositiveSumData/NationalOralHealthDataPortal/tree/master/Data/National_Health_and_Nutition_Examintion_Survey) Github folder.
+The consolidated data file lives in [this](https://github.com/PositiveSumData/NationalOralHealthDataPortal/tree/master/Data/National_Health_and_Nutition_Examintion_Surveyy) Github folder.
 
 ## Tableau viz
 The Tableau viz contains 3 'stories' consisting of several dashboards each:
