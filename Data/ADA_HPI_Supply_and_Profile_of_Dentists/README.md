@@ -30,6 +30,11 @@ Two files are available for download from the HPI website:
 
 ## Converted Data Structure
 
+The sheets in the original spreadsheet were condensed into two files:
+
+**ADA_HPI_supply_and_profile_of_dentists_national_characteristics.csv**. Contains national-only data.
+
+**ADA_HPI_supply_and_profile_of_dentists_STATES.csv**. Contains state-specific data.
 
 ## Issues & decisions
 
