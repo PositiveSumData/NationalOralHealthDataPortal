@@ -16,7 +16,15 @@ Areas in the United States are determined to have a shortage of dental providers
 
 ## Orientation & Stewardship  
 
-HRSA designates shortage areas and maintains the data files. Dental health professional shortage areas are [designated based on 4 criteria](https://bhw.hrsa.gov/workforce-shortage-areas/shortage-designation/scoring):
+HRSA designates shortage areas and maintains the data files. 
+
+According to HRSA documentation in the Area Health Resource Files, an area can be designated as having a shortage of dentists if:
+
+> 1.	The area has a population to full-time-equivalent dentist ratio of at least 5,000:1.
+> 2.	The area has a population to full-time-equivalent dentist ratio of less than 5,000:1 but greater than 4,000:1 and has unusually high needs for dental services or insufficient capacity of existing dental  providers.
+
+Once a designation is made, a score is assigned using a formula with [4 criteria](https://bhw.hrsa.gov/workforce-shortage-areas/shortage-designation/scoring):
+
 * Population to provider ratio (out of 10 points)
 * Percent of population below 100% of the federal poverty level (out 10 points)
 * Whether the area has adequately fluoridated water (1 or no points)
