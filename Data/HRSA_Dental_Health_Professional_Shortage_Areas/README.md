@@ -42,7 +42,7 @@ HRSA offers several file formats for obtaining DHPSA information on its data dow
 
 No modifications were made to the original HRSA files listed above. There were imported as-is into Tableau.
 
-## Issues & decisions
+## Decisions & Tableau Dashboards
 
 DHPSAs are most often used in regular conversation to describe a location's status: either being a DHPSA or not being a DHPSA. But there are so many deeper data points contained in the DHPSA files that can be useful, including the following measures:
 
@@ -56,6 +56,8 @@ DHPSAs are most often used in regular conversation to describe a location's stat
 The Tableau dasbhboard tries to bring awareness to this richness by allowing users to update the charts per each different measure. 
 
 The dashboard also tries to help users understand that DHPSA designations may not apply to everyone living in an area. A DHPSA may apply to a specific population in a boundary, such as low income people or people who are migrant farmworkers. The Dashboard allows users to select by these features and filter the charts. 
+
+The Tableau dashboards use a 7-shade continuous purple scale for each measure fixed on the the country-level so that the colors do not change if a state or other type of filter is applied.
 
 ## Code
 
