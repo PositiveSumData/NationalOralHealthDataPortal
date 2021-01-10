@@ -1,36 +1,17 @@
+
+# set up libraries
 library(tidyverse)
 library(LaF)
 library(data.table)
 
 setwd("E:/Postive Sum/HRSA/AHRF/DATA")
 
-
+# read in raw file
 ahrf <- fread("E:/Postive Sum/HRSA/AHRF/DATA/AHRF2019.asc",
            sep = NULL,
            header = FALSE)
 
-
-################################333
-
-
-library(tidyverse)
-library(LaF)
-library(data.table)
-
-setwd("E:/Postive Sum/HRSA/AHRF/DATA")
-
-
-ahrf <- fread("E:/Postive Sum/HRSA/AHRF/DATA/AHRF2019.asc",
-              sep = NULL,
-              header = FALSE)
-
-
-
-
-##################################################
-
-
-
+# convert to data frame, using the character locations from AHRF documentation
 ahrf_vars <- ahrf %>%
   mutate(state_name = str_trim(substr(V1, 45, 63)),
          state_abbrev = substr(V1, 64, 65),
@@ -115,11 +96,11 @@ ahrf_vars <- ahrf %>%
          dentists_2013_private.practice_employment.status_full.time = as.integer(substr(V1, 10096,	10100)),
          dentists_2010_private.practice_employment.status_full.time = as.integer(substr(V1, 10101,	10106)),
          dentists_2017_private.practice_employment.status_part.time = as.integer(substr(V1, 10107,	10110)),
-         dentists_2016_private.practice_employment.status_part.time = as.integer(substr(V1, 10111,	10116)),
+         dentists_2016_private.practice_employment.status_part.time = as.integer(substr(V1, 10111,	10114)),
          dentists_2015_private.practice_employment.status_part.time = as.integer(substr(V1, 10115,	10118)),
-         dentists_2014_private.practive_employment.status_part.time = as.integer(substr(V1, 10119,	10122)),
+         dentists_2014_private.practice_employment.status_part.time = as.integer(substr(V1, 10119,	10122)),
          dentists_2013_private.practice_employment.status_part.time = as.integer(substr(V1, 10123,	10126)),
-         dentists_2010_private.practice_employment.status_part.timee = as.integer(substr(V1, 10127,	10132)),
+         dentists_2010_private.practice_employment.status_part.time = as.integer(substr(V1, 10127,	10132)),
          dentists_2017_private.practice_gender_male = as.integer(substr(V1, 10133,	10136)),
          dentists_2016_private.practice_gender_male = as.integer(substr(V1, 10137,	10140)),
          dentists_2015_private.practice_gender_male = as.integer(substr(V1, 10141,	10144)),
@@ -138,12 +119,12 @@ ahrf_vars <- ahrf %>%
          dentists_2014_private.practice_gender_unknown = as.integer(substr(V1, 10194,	10196)),
          dentists_2013_private.practice_gender_unknown = as.integer(substr(V1, 10197,	10199)),
          dentists_2010_private.practice_gender_unknown = as.integer(substr(V1, 10200,	10202)),
-         dentists_2017_private.practice_specialty_general.practice = as.integer(substr(V1, 10203,	10207)),
-         dentists_2016_private.practice_specialty_general.practice = as.integer(substr(V1, 10208,	10212)),
-         dentists_2015_private.practice_specialty_general.practice = as.integer(substr(V1, 10213,	10217)),
-         dentists_2014_private.practice_specialty_general.practice = as.integer(substr(V1, 10218,	10222)),
-         dentists_2013_private.practice_specialty_general.practice = as.integer(substr(V1, 10223,	10227)),
-         dentists_2010_private.practice_specialty_general.practice = as.integer(substr(V1, 10228,	10233)),
+         dentists_2017_private.practice_specialty_general.practice.and.pediatrics = as.integer(substr(V1, 10203,	10207)),
+         dentists_2016_private.practice_specialty_general.practice.and.pediatrics = as.integer(substr(V1, 10208,	10212)),
+         dentists_2015_private.practice_specialty_general.practice.and.pediatrics = as.integer(substr(V1, 10213,	10217)),
+         dentists_2014_private.practice_specialty_general.practice.and.pediatrics = as.integer(substr(V1, 10218,	10222)),
+         dentists_2013_private.practice_specialty_general.practice.and.pediatrics = as.integer(substr(V1, 10223,	10227)),
+         dentists_2010_private.practice_specialty_general.practice.and.pediatrics = as.integer(substr(V1, 10228,	10233)),
          dentists_2017_private.practice_specialty_other = as.integer(substr(V1, 10234,	10237)),
          dentists_2016_private.practice_specialty_other = as.integer(substr(V1, 10238,	10241)),
          dentists_2015_private.practice_specialty_other = as.integer(substr(V1, 10242,	10245)),
@@ -153,7 +134,7 @@ ahrf_vars <- ahrf %>%
          dentists_2017_private.practice_age_under.35 = as.integer(substr(V1, 10260,	10262)),
          dentists_2016_private.practice_age_under.35 = as.integer(substr(V1, 10263,	10265)),
          dentists_2015_private.practice_age_under.35 = as.integer(substr(V1, 10266,	10268)),
-         dentists_2014_private.practice_age_under.35 = as.integer(substr(V1, 10269,	10272)),
+         dentists_2014_private.practice_age_under.35 = as.integer(substr(V1, 10269,	10271)),
          dentists_2013_private.practice_age_under.35 = as.integer(substr(V1, 10272,	10274)),
          dentists_2010_private.practice_age_under.35 = as.integer(substr(V1, 10275,	10280)),
          dentists_2017_private.practice_age_35.to.44 = as.integer(substr(V1, 10281,	10284)),
@@ -191,7 +172,7 @@ ahrf_vars <- ahrf %>%
 
          
 
-
+# unpivot columns and replace dots with spaces
 ahrf_output <- ahrf_vars %>%
   pivot_longer(cols = starts_with("dent"),
                values_to = "count",
@@ -202,8 +183,7 @@ ahrf_output <- ahrf_vars %>%
          variable2 = str_replace_all(variable2, "\\.", " "))
 
 
-
-
+# rename population columns for the year
 ahrf_pop_vars <- ahrf %>%
   mutate(state_name = str_trim(substr(V1, 45, 63)),
          state_abbrev = substr(V1, 64, 65),
@@ -211,14 +191,13 @@ ahrf_pop_vars <- ahrf %>%
          state_fips = substr(V1, 121, 122),
          county_fips = substr(V1, 123, 0125),
          state_county_fips = paste0(state_fips, county_fips),
-         "2017" = substr(V1, 16425, 16432),
-         "2016" = substr(V1, 16433, 16440),
-         "2015" = substr(V1, 16441, 16448),
-         "2014" = substr(V1, 16449, 16456),
-         "2013" = substr(V1, 16457, 16464),
-         "2010" = substr(V1, 16481, 16488)) %>%
+         "2017" = substr(V1, 16424, 16431),
+         "2016" = substr(V1, 16432, 16439),
+         "2015" = substr(V1, 16440, 16447),
+         "2014" = substr(V1, 16448, 16455),
+         "2013" = substr(V1, 16456, 16463),
+         "2010" = substr(V1, 16480, 16487)) %>%
   select(-V1)
-
 
 
 
@@ -228,8 +207,7 @@ ahrf_pop <- ahrf_pop_vars %>%
                names_to = c("year"))
 
 
-
-
+# save files
 write.csv(ahrf_output, "ahrf.csv", row.names = FALSE)
 
 write.csv(ahrf_pop, "ahrf_pop.csv", row.names = FALSE)
