@@ -69,9 +69,8 @@ Sometimes the wording of population groupings or survey answers are not consiste
 ### Code
 
 [This R code](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/National_Survey_of_Childrens_Health/NSCH%20r%20code.R) reads in all the oral health-related data from ChildHealthData website, reformats it, and produces two CSV fils.  
+ 
 
+## Project Status & Next Steps
 
-## Tableau Dashboard
-A beta version of our Tableau dasbhoard is available [here](https://public.tableau.com/views/NSCH3/StateComparisonDash?:language=en&:display_count=y&publish=yes&:origin=viz_share_link). 
-
-
+The dataset and dasbhoards should be updatd when the next phase of data is released on ChildHealthData.org.
