@@ -39,6 +39,8 @@ We take data from three of the zipped text files:
 
 Using statistical software we modify each file and aggregate them together. We unpivot the adjusted and unajusted columns so that there is just one column describing the adjustment used. Then we save a version that contains all the estimates (SEER_prime.csv) and a file containing the 95% confidence intervals unpivoted such that the upper and lower confidence intervals each get their own row for each state-race-sex-measure-adjustement. 
 
+Our **SEER_CI.csv** was too large to save in this repository so it has been saved in a [Google Drive folder](https://drive.google.com/file/d/1HURIwjabAUeyVWq7K9LHXR4iVyj2-qvw/view?usp=sharing).
+
 ## Issues & decisions
 
 A decision was made not to do a time series in Tableau. Instead, only the grouped 2013-2017 estimates are shown. The confidence intervals seem quite wide, even for the combined 2013-2017 estimates, so we're not sure it would be that helpful to show individual year data.
