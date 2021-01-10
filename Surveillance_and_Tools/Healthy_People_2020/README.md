@@ -1,12 +1,16 @@
 # Healthy People 2020
 
-
+A dashboard for tracking status on the national oral health objectives set in 2010 to achieve by 2020.
 
 ## Examples of questions this dataset could help answer
 
+* Were there any national oral health targets that weren't achieved by 2020? 
+* What was the national target set for percent of adults agd 65-74 with edentulism?
+* What is the latest status on OH 6 - oral and pharyngeal cancer detected at the earliest stage?
 
 ## Utility
 
+This dashboard helps monitor status of all the HP2020 oral health objectives in one place.
 
 ## Data Stewardship  
 
@@ -61,7 +65,7 @@ While we've reached the end of 2020, we can't say yet if any of the objectives a
 
 Three files were generated based on data pulled from the HP2020 website:
 
-* **HP2020_objectives.csv**. Each row is a unique objective. Columns describe details about each objective, the baseline, and the target.
+* **HP2020_objectives.csv**. Each row is a unique objective. Columns describe details about each objective, the baseline, and the target. An abbrevaited objective name column was created to make it easier to present in the Tableau dashboards.
 
 * **HP2020_data.csv**. Each row is a unique objective-year. For every year of data on a given objective, there is a separate row; objectives with multiple progress years tracked on the HP2020 website will appear on many rows in this file. 
 
