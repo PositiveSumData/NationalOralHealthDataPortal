@@ -1,6 +1,8 @@
 library("readxl") # for reading in excel spreadsheets
 library('tidyverse') 
 
+setwd("E:/Postive Sum/CMS/CMS416")
+
 #################################################################################
 ########## Step 1: Prepare to read in all the spreadsheets
 #################################################################################
@@ -15,7 +17,8 @@ library('tidyverse')
 # is structured differently. Although thankfully within each geo level the structure
 # stays the same across years.
 
-file_list_state <- c("2016 EPSDT State Report_2019 3 14.xlsx",
+file_list_state <- c("2019EPSDT_StateRpt_20201112.xlsx",
+                     "2016 EPSDT State Report_2019 3 14.xlsx",
                      "2017 EPSDT State Report_2019 3 12.xlsx",
                      "2018EPSDT_State Rpt2019v2.xlsx",
                      "EPSDT 2010 State--11_19_14.xlsx",
@@ -25,7 +28,8 @@ file_list_state <- c("2016 EPSDT State Report_2019 3 14.xlsx",
                      "EPSDT 2014 State--4_28_2016.xlsx",
                      "EPSDT 2015 State--09292016.xlsx")
 
-file_list_nat <- c("EPSDT 2015 National--09292016.xlsx",
+file_list_nat <- c("2019EPSDT_NtlRprt_20201112.xlsx",
+                   "EPSDT 2015 National--09292016.xlsx",
                    "EPSDT 2014 National--4_28_16.xlsx",
                    "EPSDT 2013 National--10_22_14.xlsx",
                    "EPSDT 2012 National--10_22_14.xlsx",
@@ -90,11 +94,9 @@ magic <- function(sheet, file, skip_num, frame_full) {
     # convert from National to United States, which is the wording in our FIPS key
     mutate(geography = ifelse(geography == "National", "United States", geography)) %>%
     # connect to our fips crosswalk
-    left_join(fips, by = c("geography" = "short_name")) %>%
-    mutate(cat = Cat,
-           geo_full_name = geography,
-           geo_abbreviation = abbreviation) %>%
-    select(-Cat, -full_name, -abbreviation, -geography)
+    left_join(fips, by = c("geography" = "geo_short_name")) %>%
+    mutate(cat = Cat) #%>%
+    #select(-Cat, -geo_full_name, -geo_abbreviation, -geography)
 
   # add frame_new into frame_full
   frame_full <<- bind_rows(frame_new, frame_full)
