@@ -76,10 +76,6 @@ To be able to compare different states on utilization we will need to age-adjust
 
 Since these data do appear in the CMS_416_eligible90 table, this weights table isn't entirely necessary but it's a lot easier in Tableau to have this table pre-made and joined-in rather than recreated using Level of Detail expressions.
 
-### grid_xy table
-
-The basic Tableau presentation for states is to show states as their actual shapes on a map. We probably don't want to show an actual map of the United States that gives Alaska and Texas such large real estate compared to Rhode Island and Delaware. Instead we want a tesselated tile grid. We use a new table titlled 'grid_xy' that assigns each state a horizontal and vertical value tiling states into a rough representation of the countr. 
-
 ## Issues, decisions, and modifications
 CMS416 reports include 24 reporting lines across 14 topics. We have only kept oral health and total eligibility lines. For example, lines pertaining to blood lead tests, screening ratios, and periodicity schedules have been removed.
 
@@ -88,19 +84,18 @@ The "Total" age value was removed. To retrieve the total number of children on a
 We include a couple of geography columns to help the user: the full name of the geography, the abbreviation, the FIPS code, and the type of geography. The type field can be used to filter for only the country level or territory level, for example. 
 
 ## Code
-The R code used to read in all the data and output our tables is located on our GitHub repository [here](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/CMS416/CMS416_r_code.R). 
+The R code used to read in all the data and output our tables is located inthis Github repository folder in the file **CMS416_r_code.R**.
 
 ## Data tables
 The processed data lives on our [Google Drive](https://drive.google.com/drive/folders/1qcHVdvgjbpQkKAT09XGGptG3-yyh-VtV?usp=sharing). 
 
-## Tableau dashboard
-The beta stage Tableau dashboard is availble on [Tableau Public](https://public.tableau.com/views/CMS416OralHealthReport/CMS416?:language=en&:display_count=y&publish=yes&:origin=viz_share_link).
+## Tableau Viz
+The Tableau viz contains 5 dashboards:
+* **National Landscape**. 
+* **State Details**. 
+* **State Trends Comparison**.
+* **State Age Trends**. 
+* **State Service Trends**. 
 
 ## Project status
-The Tableau dashboard needs a graphic design makeover and must be embedded into the website.
-
-## Tutorial
-* [Orientation](https://youtu.be/7v1sG80-GWQ). A navigation to the CMS 416 data page and disscussion the original data structure.
-* [Data Processsing](https://youtu.be/BIblZX4pDKs). A walkthrough of the R code used to consolidate and process the original CMS 416 tables.
-* [Data portal structure](https://youtu.be/XIZ5swLuQkw). An overview of the 4-table structure of our CMS 416 data.
-* [Tableau dashboard navigation](https://youtu.be/lC940vvc28w). A walkthrough of the beta version of the CMS 416 dashboard. 
+The Tableau vis is up and ready for feedback. 
