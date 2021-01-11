@@ -1,6 +1,6 @@
 # The Census of School-Based Health Centers
 
-
+The School-Based Health Alliance's Census of School-Based Health Centers provides information tracks health access information at schools across the country. 
 
 ## Utility
 
@@ -29,10 +29,20 @@ The file provided to ASTDD contains 4 columns:
 * Count of SBHCs providing dental sealants
 * Coutn of SBHCs providing topical fluoride
 
+## Consolidated Data Structure
+
+Included in this Github respository folder is the file "School Based Health Centers.csv" which contains three columns: [state], [service], and [school_count].
+
 ## Code
 
 No code was necessary to process the data before visualization. The 3 service columns were unpivoted in Microsoft Excel to have a database format to read into Tableau.
 
-## Tableau dashboard
+## Tableau Viz
 
-The Tableau dashboard is available on [Tableau Pulic] (https://public.tableau.com/views/CensusofSchool-BasedHealthCenters/StateMeasureCompare?:language=en&:retry=yes&:display_count=y&:origin=viz_share_link)
+Two dashboards are presented:
+
+* **States Comparison**. How do states compare by the count of schools providing a given oral health service?
+
+* **State Services**. A dashboard showing state counts of school providing all three types of oral health services at once.
+
+
