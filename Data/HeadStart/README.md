@@ -20,9 +20,9 @@ The Office of Head Start is part of the HHS Administration for Children and Fami
 
 Head Start PIR reports are available for download for free from the Head Start website. Researchers must first request a username and login to the database enterprise system by [emailing Head Start directly](https://eclkc.ohs.acf.hhs.gov/data-ongoing-monitoring/article/program-information-report-pir). Approval usually comes within a few hours. Once a username and password is set, users can [log-in](https://hses.ohs.acf.hhs.gov/pir/). Users are then able to query for particular records by region, state, grantee, or program. Full annual downloads are also available for all years 2008-2019.
 
-#### Data use agreements
+#### Data USe
 
-Positive Sum did not come across an explicit user agreement in obtaining Head Start PIR files, nor are there warnings in the [user guide](https://eclkc.ohs.acf.hhs.gov/sites/default/files/pdf/no-search/pir-reports-user-guide.pdf).  There is cautionary language at the log-in screen making users aware they are entering a government system and may be monitored. 
+Positive Sum did not come across an explicit user agreement in obtaining Head Start PIR files, nor are there instructions in the [user guide](https://eclkc.ohs.acf.hhs.gov/sites/default/files/pdf/no-search/pir-reports-user-guide.pdf).  There is cautionary language at the log-in screen making users aware they are entering a government system and may be monitored. 
 
 ## Original Data Structure
 
@@ -114,8 +114,6 @@ Major additions to the data include:
 * Adding county FIPS codes and longitude and latitude
 * Renaming the main reasons children did not receive dental care
 
-## Project status
-Awaiting geocoding and then upload to the database.
+## Project Status & Next Steps
+More recent data are avaialble in the PIR database and needs to be incorporated into the National Oral Health Data Portal
 
-## Tutorial
-(this section to be updated as tutorials are generated)
