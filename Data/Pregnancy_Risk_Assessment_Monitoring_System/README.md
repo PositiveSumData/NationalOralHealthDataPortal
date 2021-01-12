@@ -1,6 +1,6 @@
 # Pregnancy Risk Assessment Monitoring System
 
-The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.htm) is a CDC-shepparded, biennial state-administered survey of pregnant or recently pregnant individuals' health attitudes and behaviors, covering several oral health topics.
+The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.htm) is a CDC-shepherded, state-administered, biennial state-administered survey of pregnant or recently pregnant individuals' health attitudes and behaviors, covering several oral health topics.
 
 ## Examples of questions this dataset could help answer
 
