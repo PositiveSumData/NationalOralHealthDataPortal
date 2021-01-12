@@ -83,7 +83,9 @@ Within each UDS reporting year, FQHCs are assigned an ID number that helps link 
 
 Table 6A gives us the count of patients at every FQHC that received several types of oral health services. Ideally we would then calculate (1) the percent of patients at each FQHC who received each type of dental service, and (1) the percent of **dental** patients at each FQHC who received each type of dental service. These denominators are not located in Table 6A. The total count of health center patients is publicly available in Table 3B, but the total count of dental patients is hidden in Table 5, and therefore exempt from FOIAs. Interestingly, the data is publicly available on the HRSA website if one looks within the indiviual health center data pages. For example, we can see that Family Health Center, inc in Kalamazoo, Michigan served (9,580 dental patients)[https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&bid=056230&state=MI&year=2018] in 2018. Years 2016 and 2017 data are also publicly displayed for all health centers on the HRSA webpage. 
 
-By web-scraping the HRSA website (see R code), we have gathered all health-center level total dental patient counts for years 2016-2018. We had hoped this would allow us to use these values as denominators in a % total dental patients calculation. However, not enough health centers have such data on the website to make state-level aggregations reliable. Seeing a potential opportunity in accessing just this one piece of exempt, we submitted a FOIA request to HRSA on June 1, 2020 seeking data from previous years. Until then, we have chosen not to use these numbers in the Tableau Dashboards until we have more information.
+### Potential for Patient Duplication
+
+If patients attended more than one FQHC in a year, they may be counted more than once in our dataset when aggregated up to state or country levels.
 
 ### Restricing Scope to Years 2004-2018
 
@@ -91,7 +93,7 @@ In response to a FOIA request, HRSA provided data going back to 1996. However, t
 
 ## Design
 
-We produced three csv's of UDS data covering the years 2004-2018. These tables are described in LucidCharts [here](https://app.lucidchart.com/invitations/accept/eac15c34-7d40-4af5-beb9-8358162a6e5b). 
+Using code we produced the following tables: 
 
 ### table patients_and_visits
 
