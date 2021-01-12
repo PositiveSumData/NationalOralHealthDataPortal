@@ -69,7 +69,7 @@ Two files have been produced by consolidating the pre-analyzed reports from the 
 
 * **PRAMS.csv**. Each row is a unique state-measure-year, providing the estimates and confidence intervals.
 
-* **PRAMS_CI.csv**. Twice as long as the PRMAS.csv file above, this file has been unpivoted such that an upper and lower 95% confidence interval is given for each year-measure-state. This file can be used by visualiation software to help show confidence intervals.  An "Order" column provides a sequence of numbers that visualization software could use to 'connect the dots' and draw a confidence line or polygon.
+* **PRAMS_CI.csv**. Twice as long as the PRAMS.csv file above, this file has been unpivoted such that an upper and lower 95% confidence interval is given for each year-measure-state. This file can be used by visualiation software to help show confidence intervals.  An "Order" column provides a sequence of numbers that visualization software could use to 'connect the dots' and draw a confidence line or polygon.
 
 ## Code
 
