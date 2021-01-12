@@ -40,9 +40,8 @@ The project may wish to go into raw YRBS files to obtain more population stratif
 
 The current Tableau viz contains two Stories: one for state level and one for school district level. Each story contains two dashboards: a geographic comparison on a selected mesasure, and a geography-specific presentation of all population stratifications at once.
 
+In the bottom left corner of both geographic comparison dashboards is a trend graph that appears once a user clicks on a geography from the dasbhoard.
 
 ## Status & Next Steps
 
 Consider going into the raw files to group years together or expand population stratifications.
-
-Considering presenting state trend data on the dental visit measure.
