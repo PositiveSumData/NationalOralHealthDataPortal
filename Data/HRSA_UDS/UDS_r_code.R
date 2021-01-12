@@ -3,6 +3,8 @@ library('tidyverse')
 library('rvest') # for web-scraping
 library('httr') # for web-scraping
 
+
+setwd("E:/Postive Sum/HRSA/UDS")
 #################################################################################
 ########## Step 1: set up a list of UDS reports to be read
 #################################################################################
@@ -13,7 +15,9 @@ library('httr') # for web-scraping
 # to xlsx files for ease of extraction. Original file names were preserved.
 # For the converted MS Access files, only relevant tables were converted to xlsx.
 
-xlsx_list <- c("UDS-2018-Full-Dataset-look-alikes.xlsx",
+xlsx_list <- c("UDS-2019-Full-Dataset-look-alikes.xlsx",
+               "UDS-2019-Full-Dataset.xlsx",
+               "UDS-2018-Full-Dataset-look-alikes.xlsx",
                "UDS-2018-Full-Dataset.xlsx",
                "UDS-2017-Full-Dataset-look-alikes.xlsx",
                "UDS-2017-Full-Dataset.xlsx",
@@ -31,7 +35,6 @@ xlsx_list <- c("UDS-2018-Full-Dataset-look-alikes.xlsx",
                "UDS 2006  NonProprietaryandProprietaryWithConsent.xlsx",
                "UDS 2005  NonProprietaryandProprietaryWithConsent.xlsx",
                "UDS 2004  NonProprietaryandProprietaryWithConsent.xlsx")
-
 
 #################################################################################
 ########## Step 2: Loop over all the UDS reports reading in the data
@@ -165,136 +168,6 @@ for (file in xlsx_list) {magic_xlsx(file)}
 
 
 
-
-
-
-remove(list_3B)
-remove(list_6A)
-remove(list_6B)
-remove(t1)
-remove(table_3B)
-remove(table_6A)
-remove(table_6B)
-remove(view)
-remove(table_HealthCenterInfo)
-remove(table_6Ak)
-
-
-#################################################################################
-########## Step 3: Retrieve health center patient counts from HRSA website
-#################################################################################
-
-# Publicly available UDS reports withhold Table 5 information, including total
-# counts of visits and patients receiving dental services. This information is
-# mostly available on the HRSA website, however, if one looks up individual 
-# FQHC web pages. The code below loops over these pages, extracting the total 
-# patient counts. To be polite, we exceed the prescribed web-scraping frequency
-# of once per 10 seconds in the ROBOTS.txt file. 
-
-# Note: Most, but not all FQHC web pages have the total dental patient counts.
-
-
-# Create a list of unique health centers that existed in 2016, 2017, 0r 2018,
-# since those are the only years with individual FQHC data available on the
-# HRSA website.
-
-web_frame <- table_HealthCenterInfo %>%
-  filter(hc_type == "fqhc") %>%
-  filter(year %in% c("2016", "2017", "2018")) %>%
-  distinct(hc_id, hc_type, HealthCenterState)
-
-# Initialize an empty list to add data to
-dental_patients_list <- list()
-
-# Create a function that will loop over all the web pages. I've named it 
-# 'totuatu', after the Tongan word for 'awesome'.
-
-totuatu <- function(row) {
-  
-  # Extract the hc_id from our list of health centers above.
-  bid <- web_frame[row, "hc_id"][[1,1]]
-  
-  # Print the hc_id for error checking.
-  print(bid)
-  
-  # If we already stored data for that health center, skip to the next
-  # health center.
-  if (bid %in% dental_patients_list) {print("skip")}
-  else {
-    # Extract the state abbreviation from our list of health centers
-    state <- web_frame[row, "HealthCenterState"][[1,1]]
-    
-    # Print state for error checking.
-    print(state)
-    
-    # Create the url that points to the health center web page 
-    url <- paste0("https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&bid=", bid, "&state=", state, "&year=2018")
-    
-    # Try to read the web page. Some urls don't work.
-    try(web_page_html <- read_html(url))
-    
-    # Initialize a list to contain the html results (clearing the previous cache)
-    fetch <- list()
-    
-    # Read in the web page html. We use CSS Selectors to extract the dental data, which
-    # is curiously mislabeled as women's health' instead of dental services.
-    try(fetch <- as.list(html_text(
-      html_nodes(x = web_page_html, 
-                 css = 'table[summary="Services Data"] tr:nth_child(5) [headers^="t2"]'))) %>%
-        str_remove(","))
-    
-    # Save the results as elements in a list.
-    dental_patients_list[[bid]] <<- fetch
-    print(dental_patients_list[[bid]])
-    
-    # Clear the cache.
-    try(remove(web_page_html))
-    
-    # Wait 11 seconds before retrieving the next web page. 
-    # HRSA's ROBOTS.txt file says 10 second minimum
-    Sys.sleep(11)
-    
-  }}
-
-
-# Run our web scraping function over the HRSA webpages
-for (row in 1362:nrow(web_frame)) {totuatu(row)}
-
-
-#################################################################################
-########## Step 4: Tidy the web scraping results
-#################################################################################
-
-# Our web-scraping function returns a list of lists. Here we organize.
-
-table_dental_patients <- do.call(bind_cols, dental_patients_list) %>%
-  # Because of our quirky list structure, we must transpose the values before
-  # converting to a data frame.
-  t() %>%
-  as.data.frame() 
-
-# Rename the columns to the corresponding years
-names(table_dental_patients) <- c("2016", "2017", "2018")
-
-table_dental_patients$hc_id <- rownames(table_dental_patients)
-
-# Tidy the dataframe to match the structure of the other UDS tables.
-table_dental_patients <- pivot_longer(table_dental_patients, 
-                                      cols = c("2016", "2017", "2018"), 
-                                      names_to = "year", 
-                                      values_to = "patients") %>%
-                         mutate(year = as.numeric(year),
-                                fund_type = "general",
-                                line = "total any fqhc dental services") 
-
-#################################################################################
-########## Step 5: Tidy the UDS tables
-#################################################################################
-
-# When we read in all our spreadsheets we created giant lists, not data frames.
-# Here we organize the lists into dataframes, tidying them to be readeable into
-# data visualization software.
-
 ##################
 # HealthCenterInfo
 
@@ -382,7 +255,7 @@ table_6A <- do.call(bind_rows, list_6A) %>%
                 line == 'L33' ~ 'oral surgery',
                 line == 'L34' ~ 'dental rehabilitative'),
          hc_id = paste0("'",hc_id)
-  ) %>%
+  ) %>% 
   select(-hc_type) 
 
 
@@ -397,27 +270,24 @@ table_6B <- do.call(bind_rows, list_6B) %>%
             sealants_high_risk_6_9 = T6b_L22_Cc) %>%
   filter(!((hc_type == "lookalike" & hc_id == "09E00004")|
              (hc_type == "lookalike" & hc_id == "03E00360"))) %>%
+  filter(!is.null(patients) | !is.na(patients)) %>%
   select(-hc_type) %>%
   mutate(hc_id = paste0("'", hc_id))
 
 
 #################################################################################
-########## Step 6: Combine Tables 3B, 6A, and our web data into one patient-visits frame
+########## Step 6: Combine Tables 3B, 6A into one patient-visits frame
 #################################################################################
 
-# This code combines our patients and visits data into one dataframe,
-# but don't run this specific code until we are more confident in the amount of 
-# data we're gathering from the HRSA website. For now run the second code line,
-# which only combines tables 3B adn 6A.
-
-# patients_and_visits <- bind_rows(table_3B, table_6A, table_dental_patients) 
 
 patients_and_visits <- bind_rows(table_3B, table_6A) 
 
 # Replace all dashes with NAs to ensure we have numeric fields
 patients_and_visits[patients_and_visits == '-'] <- NA
 
-
+patients_and_visits <- patients_and_visits %>%
+  mutate(patients = as.numeric(patients),
+         visits = as.numeric(visits))
 
 #################################################################################
 ########## Step 7: Write files to disk
@@ -430,7 +300,6 @@ write.csv(patients_and_visits, "patients_and_visits.csv", row.names=FALSE, na= "
 write.csv(table_HealthCenterInfo, "healthcenterinfo.csv", row.names=FALSE, na="")
 
 write.csv(table_6B, "table6B_quality.csv", row.names=FALSE, na = "")
-
 
 
 
