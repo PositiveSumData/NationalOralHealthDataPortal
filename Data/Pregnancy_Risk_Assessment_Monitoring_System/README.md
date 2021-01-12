@@ -19,7 +19,7 @@ The PRAMS survey is designed by the Centers for Disease Control and Prevention a
 
 The dataset is part of a complex survey design that requires statistical software to analyze. Periodic [pre-analyzed reports](https://www.cdc.gov/prams/prams-data/mch-indicators.html) are published so interested people can monitor PRAMS indicators without data requests.
 
-## Data Structure
+## Raw Data Structure
 The National Oral Health Data Portal Project has submitted a data request to the CDC for a long list of state indicators over time. While the request is being processed, the more limited pre-analyzed reports are included in this project. Two reports have been consolidated:
 
 * **[Selected 2016 thorugh 2017 Maternal and Child Health (MCH) Indicators]**(https://www.cdc.gov/prams/prams-data/mch-indicators.html). Includes the indicator [teeth cleaned during pregnancy by a dentist or dental hygienist].
@@ -62,7 +62,19 @@ Questions available in the full research dataset include:
   * Yes, I got treatment during my pregnancy
   *  Yes, I got treatment after my pregnancy
   * Yes, I got treatment both during and after my pregnancy
- 
+  
+## Consolidated Data Structure
+
+Two files have been produced by consolidating the pre-analyzed reports from the CDC PRAMS website described above:
+
+* **PRAMS.csv**. Each row is a unique state-measure-year, providing the estimates and confidence intervals.
+
+* **PRAMS_CI.csv**. Twice as long as the PRMAS.csv file above, this file has been unpivoted such that an upper and lower 95% confidence interval is given for each year-measure-state. This file can be used by visualiation software to help show confidence intervals.  An "Order" column provides a sequence of numbers that visualization software could use to 'connect the dots' and draw a confidence line or polygon.
+
+## Code
+
+The file **PRAMS_CI_pivot_r_code.R** is available in this Github Repository folder. It takes in the PRAMS.csv file and outputs the PRAMS_CI.csv file.
+
 ## Issues & decisions
 
 Language used in any Tableau visualizations has modified gendered terms like 'women' or 'mothers' to non-gendered terms like 'people' to be more inclusive of all populations.
