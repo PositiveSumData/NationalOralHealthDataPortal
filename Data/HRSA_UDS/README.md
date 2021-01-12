@@ -20,7 +20,7 @@ FQHCs serve primarily low-income families with primary care and (oftentimes) den
 
 HRSA posts annual UDS reports to their [Electronic Reading Room](https://www.hrsa.gov/foia/electronic-reading.html) in excel spreadsheets. As of May 2020, the most recently posted annual file was for 2018. The files are structured the same as the reporting form: with different 'tables' corresponding to different information categories listed as different sheets in a spreadsheet. Data previous to 2014 is only available by FOIA request, which HRSA provided going as far back as 1996.
 
-#### Data use agreements
+#### Data Use
 
 HRSA provides UDS data as-is on their website or by FOIA request. No data use agreement is required.
 
@@ -113,12 +113,10 @@ The R code in this repository will extract meaningful data from UDS spreadsheets
 
 ## Project status & Next Steps
 
-The data has been visualized with Tableau Public Dashboards [here](https://public.tableau.com/views/HRSAUDS/InterState?:display_count=y&publish=yes&:origin=viz_share_link), focusing on national and state level aggregations instead of showing organization-level data.
+The Tableau dashboard is up; feedback is welcome.
 
 ### Questions
 
-* Decide if should only visualize FQHC data or include lookalikes as well
-* Decide if should visualize funding type stratifications (e.g. homeless, migrant, public housing) or if having these is confusing
-
-## Tutorial 
+* Decide if should only visualize FQHC data or include lookalikes as well.
+* Decide if should visualize funding type stratifications (e.g. homeless, migrant, public housing) or if having these is confusing.
 
