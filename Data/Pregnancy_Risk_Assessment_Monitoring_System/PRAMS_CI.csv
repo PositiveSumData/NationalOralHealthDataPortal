@@ -1,0 +1,777 @@
+"state","indicator_short","indicator_detailed","year","confidence_level","confidence_value","order"
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",73.7,1
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",80.1,9998
+"Arkansas","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",48.2,3
+"Arkansas","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",59.4,9996
+"Colorado","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",60.7,5
+"Colorado","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",68.1,9994
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",52.1,7
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",58.4,9992
+"Georgia","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",47.8,9
+"Georgia","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",55.9,9990
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",69.4,11
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",75.2,9988
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",65.5,13
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",71.7,9986
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",52.8,15
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",61.6,9984
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",78,17
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",84.1,9982
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",77.6,19
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",83.1,9980
+"Michigan","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",72.2,21
+"Michigan","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",77.6,9978
+"Minnesota","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",81.7,23
+"Minnesota","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",86.9,9976
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",71.3,25
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",77.9,9974
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",72.5,27
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",78.5,9972
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_lower",69.9,29
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_upper",75.6,9970
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_lower",59.9,31
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_upper",66.5,9968
+"Ohio","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_lower",77.7,33
+"Ohio","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_upper",82.7,9966
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_lower",71.6,35
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_upper",78.6,9964
+"Oregon","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_lower",83.1,37
+"Oregon","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_upper",89.4,9962
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_lower",73.8,39
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2012,"ci_upper",80.5,9960
+"Rhode Island","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",83,41
+"Rhode Island","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",87.3,9958
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",50.9,43
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",59.3,9956
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",70.8,45
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",75.9,9954
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",71,47
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",76.6,9952
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",80,49
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",86.2,9950
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_lower",72.1,51
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2012,"ci_upper",73.5,9948
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",54,53
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",61.5,9946
+"Arkansas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",42.4,55
+"Arkansas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",53.5,9944
+"Colorado","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",55.5,57
+"Colorado","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",63.1,9942
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",46.2,59
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",52.5,9940
+"Georgia","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",35.8,61
+"Georgia","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",43.7,9938
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",48.5,63
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",55,9936
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",54.6,65
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",61.1,9934
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",50.9,67
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",59.7,9932
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",55.9,69
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",63.5,9930
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",67.4,71
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",73.4,9928
+"Michigan","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",58,73
+"Michigan","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",63.8,9926
+"Minnesota","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",59.8,75
+"Minnesota","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",66.5,9924
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",47,77
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",54.6,9922
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",58.7,79
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",65.5,9920
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",57.4,81
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",63.5,9918
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",47.6,83
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",54.5,9916
+"Ohio","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",57.3,85
+"Ohio","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",63.2,9914
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",47.6,87
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",55.6,9912
+"Oregon","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",52.7,89
+"Oregon","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",62.7,9910
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",57.7,91
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",65.6,9908
+"Rhode Island","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",63,93
+"Rhode Island","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",68.7,9906
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",45.7,95
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",54.1,9904
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",55.5,97
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",61.2,9902
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",60.9,99
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",66.9,9900
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",58.8,101
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",66.2,9898
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_lower",56.4,103
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2012,"ci_upper",58,9896
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",44.1,105
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",51.7,9894
+"Arkansas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",35.1,107
+"Arkansas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",46.1,9892
+"Colorado","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",45.3,109
+"Colorado","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",53.1,9890
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",37.8,111
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",44,9888
+"Georgia","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",34.1,113
+"Georgia","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",42,9886
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",39.3,115
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",45.8,9884
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",42.4,117
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",48.9,9882
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",39,119
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",47.7,9880
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",50.2,121
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",57.9,9878
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",59.7,123
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",66.2,9876
+"Michigan","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",49.5,125
+"Michigan","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",55.5,9874
+"Minnesota","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",53.3,127
+"Minnesota","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",60.3,9872
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",44.8,129
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",52.4,9870
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",51.2,131
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",58.3,9868
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",46,133
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",52.5,9866
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",44.1,135
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",51.1,9864
+"Ohio","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",46.9,137
+"Ohio","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",53,9862
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",46.6,139
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",54.6,9860
+"Oregon","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",51,141
+"Oregon","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",61.1,9858
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",50.6,143
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",58.6,9856
+"Rhode Island","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",56.7,145
+"Rhode Island","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",62.5,9854
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",41,147
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",49.4,9852
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",48.3,149
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",54.3,9850
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",52.2,151
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",58.5,9848
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",60.7,153
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",68.3,9846
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_lower",49.6,155
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2012,"ci_upper",51.2,9844
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",76.4,157
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",81.9,9842
+"Arkansas","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",49.4,159
+"Arkansas","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",59.1,9840
+"Colorado","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",61.7,161
+"Colorado","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",68.2,9838
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",51.6,163
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",58.1,9836
+"Georgia","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",33.9,165
+"Georgia","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",45.1,9834
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",73.4,167
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",79.3,9832
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",63.1,169
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",68.6,9830
+"Iowa","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",82.9,171
+"Iowa","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",88.6,9828
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",53.3,173
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",60.7,9826
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",76.7,175
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",82,9824
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",79.1,177
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",84.4,9822
+"Michigan","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",73.7,179
+"Michigan","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",79.1,9820
+"Minnesota","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",81,181
+"Minnesota","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",85.7,9818
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",70.2,183
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",76,9816
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",73.8,185
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",78.5,9814
+"New Hampshire","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",61.2,187
+"New Hampshire","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",70.3,9812
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_lower",68.5,189
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_upper",74.6,9810
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_lower",59.6,191
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_upper",64.7,9808
+"New York","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_lower",80.9,193
+"New York","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_upper",87,9806
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_lower",71.7,195
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_upper",78.5,9804
+"Oregon","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_lower",81.2,197
+"Oregon","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_upper",86.3,9802
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_lower",75.8,199
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2013,"ci_upper",81.5,9800
+"Rhode Island","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",81.4,201
+"Rhode Island","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",86.1,9798
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",53.4,203
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",62.6,9796
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",71.7,205
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",77.2,9794
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",76.5,207
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",81.9,9792
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",80.5,209
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",86.1,9790
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_lower",73.1,211
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2013,"ci_upper",74.4,9788
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",57.1,213
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",63.7,9786
+"Arkansas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",41.2,215
+"Arkansas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",50.8,9784
+"Colorado","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",53,217
+"Colorado","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",59.7,9782
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",48,219
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",54.4,9780
+"Georgia","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",42.4,221
+"Georgia","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",53.8,9778
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",50.7,223
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",57.6,9776
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",54.5,225
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",60.2,9774
+"Iowa","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",64.5,227
+"Iowa","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",72.5,9772
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",51.7,229
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",59.1,9770
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",54.4,231
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",60.8,9768
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",69.4,233
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",75.5,9766
+"Michigan","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",54.1,235
+"Michigan","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",60.2,9764
+"Minnesota","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",61,237
+"Minnesota","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",67,9762
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",46.1,239
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",52.6,9760
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",57.8,241
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",63.4,9758
+"New Hampshire","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",58.4,243
+"New Hampshire","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",67.6,9756
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",58,245
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",64.6,9754
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",52.9,247
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",58.1,9752
+"New York","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",57.7,249
+"New York","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",65.8,9750
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",47.1,251
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",55.1,9748
+"Oregon","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",54.7,253
+"Oregon","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",61.9,9746
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",59,255
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",65.7,9744
+"Rhode Island","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",61.6,257
+"Rhode Island","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",67.6,9742
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",46.8,259
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",55.9,9740
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",64.1,261
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",69.8,9738
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",62.1,263
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",68.4,9736
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",56,265
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",63.2,9734
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_lower",57.8,267
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2013,"ci_upper",59.3,9732
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",48.6,269
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",55.3,9730
+"Arkansas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",33.8,271
+"Arkansas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",43.2,9728
+"Colorado","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",44.6,273
+"Colorado","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",51.3,9726
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",39,275
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",45.4,9724
+"Georgia","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",24.3,277
+"Georgia","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",34.7,9722
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",43.4,279
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",50.3,9720
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",39.6,281
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",45.3,9718
+"Iowa","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",59.4,283
+"Iowa","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",67.7,9716
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",41.9,285
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",49.2,9714
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",51.4,287
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",57.8,9712
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",58.5,289
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",65.3,9710
+"Michigan","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",47.2,291
+"Michigan","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",53.4,9708
+"Minnesota","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",54.7,293
+"Minnesota","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",60.8,9706
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",45.3,295
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",51.7,9704
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",52.6,297
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",58.3,9702
+"New Hampshire","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",52,299
+"New Hampshire","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",61.4,9700
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",47.9,301
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",55,9698
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",43,303
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",48.3,9696
+"New York","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",52.9,305
+"New York","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",61.2,9694
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",44.9,307
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",52.9,9692
+"Oregon","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",53.3,309
+"Oregon","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",60.5,9690
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",51,311
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",57.9,9688
+"Rhode Island","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",53.5,313
+"Rhode Island","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",59.8,9686
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",39.7,315
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",48.8,9684
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",56.5,317
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",62.7,9682
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",55.9,319
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",62.4,9680
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",54.8,321
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",62.1,9678
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_lower",50.5,323
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2013,"ci_upper",52.1,9676
+"Alabama","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",54.1,325
+"Alabama","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",60.1,9674
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",75.6,327
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",81.2,9672
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",53.9,329
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",60.6,9670
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",72.9,331
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",79.3,9668
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",60.9,333
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",66.4,9666
+"Iowa","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",77.4,335
+"Iowa","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",84.2,9664
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",53.1,337
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",60.7,9662
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",76.8,339
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",81.8,9660
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",80.8,341
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",85.8,9658
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",69,343
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",75,9656
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",74.5,345
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",79.8,9654
+"New Hampshire","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",65.2,347
+"New Hampshire","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",73.9,9652
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_lower",71.2,349
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_upper",76.3,9650
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_lower",69.2,351
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_upper",74.3,9648
+"New York","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_lower",80.6,353
+"New York","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_upper",86.6,9646
+"Ohio","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_lower",80.9,355
+"Ohio","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_upper",85.7,9644
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_lower",70.2,357
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_upper",77.5,9642
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_lower",74.1,359
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2014,"ci_upper",80,9640
+"Rhode Island","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",84.1,361
+"Rhode Island","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",88.4,9638
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",53.3,363
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",62.5,9636
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",71.8,365
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",77.1,9634
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",74.5,367
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",79.8,9632
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",79.3,369
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",85,9630
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_lower",74.7,371
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2014,"ci_upper",76.1,9628
+"Alabama","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",49.1,373
+"Alabama","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",55.5,9626
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",59.1,375
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",65.7,9624
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",47.3,377
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",54,9622
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",53.4,379
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",60.8,9620
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",53.3,381
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",58.9,9618
+"Iowa","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",60.2,383
+"Iowa","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",68.7,9616
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",48,385
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",55.6,9614
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",56.6,387
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",62.6,9612
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",67.9,389
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",73.8,9610
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",46.5,391
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",53.1,9608
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",58.8,393
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",65.1,9606
+"New Hampshire","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",57.1,395
+"New Hampshire","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",66.3,9604
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",56.2,397
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",62,9602
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",53.1,399
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",58.6,9600
+"New York","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",61,401
+"New York","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",68.9,9598
+"Ohio","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",56.8,403
+"Ohio","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",63.2,9596
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",46.5,405
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",54.6,9594
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",57.4,407
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",64.2,9592
+"Rhode Island","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",58.8,409
+"Rhode Island","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",64.8,9590
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",44.5,411
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",53.7,9588
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",60.2,413
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",66,9586
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",60.1,415
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",66.2,9584
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",58.9,417
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",65.7,9582
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_lower",58.6,419
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2014,"ci_upper",60.2,9580
+"Alabama","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",38.1,421
+"Alabama","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",44.4,9578
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",49.2,423
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",56.1,9576
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",38.9,425
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",45.5,9574
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",43.2,427
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",50.7,9572
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",40.4,429
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",46,9570
+"Iowa","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",54.7,431
+"Iowa","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",63.6,9568
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",37.6,433
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",45.1,9566
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",50.2,435
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",56.4,9564
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",59.1,437
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",65.5,9562
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",43.7,439
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",50.3,9560
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",53.4,441
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",60,9558
+"New Hampshire","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",49.5,443
+"New Hampshire","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",58.9,9556
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",44.1,445
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",50.1,9554
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",45.3,447
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",50.9,9552
+"New York","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",53.5,449
+"New York","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",61.7,9550
+"Ohio","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",46.3,451
+"Ohio","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",52.7,9548
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",41.5,453
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",49.5,9546
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",49.2,455
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",56.1,9544
+"Rhode Island","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",55.3,457
+"Rhode Island","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",61.4,9542
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",36.7,459
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",45.7,9540
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",53.4,461
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",59.6,9538
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",56.2,463
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",62.5,9536
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",54.5,465
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",61.5,9534
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_lower",50.1,467
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2014,"ci_upper",51.7,9532
+"Alabama","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",52.8,469
+"Alabama","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",58.6,9530
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",77.5,471
+"Alaska","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",83,9528
+"Arkansas","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",57.2,473
+"Arkansas","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",66,9526
+"Colorado","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",69.2,475
+"Colorado","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",75.2,9524
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",55.5,477
+"Delaware","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",62.1,9522
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",73.3,479
+"Hawaii","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",79.4,9520
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",69.9,481
+"Illinois","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",74.9,9518
+"Iowa","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",81.2,483
+"Iowa","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",87.7,9516
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",55.7,485
+"Maine","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",63.6,9514
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",77,487
+"Maryland","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",82,9512
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",82,489
+"Massachusetts","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",87,9510
+"Michigan","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",78,491
+"Michigan","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",83,9508
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",72.8,493
+"Missouri","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",78.7,9506
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",71,495
+"Nebraska","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",76.5,9504
+"New Hampshire","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",65,497
+"New Hampshire","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",73.8,9502
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",72.8,499
+"New Jersey","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",78,9500
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",72.4,501
+"New Mexico","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",77,9498
+"New York","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",78.9,503
+"New York","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",85.3,9496
+"Ohio","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",77.2,505
+"Ohio","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",83.4,9494
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",59.9,507
+"Oklahoma","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",67.3,9492
+"Oregon","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",83.7,509
+"Oregon","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",88.7,9490
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_lower",79.3,511
+"Pennsylvania","had dental insurance during pregnancy","Had dental insurance during pregnancy",2015,"ci_upper",84.6,9488
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",52.7,513
+"Tennessee","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",61.1,9486
+"Texas","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",54.4,515
+"Texas","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",61,9484
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",74.7,517
+"Utah","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",79.9,9482
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",78.5,519
+"Vermont","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",83.8,9480
+"Virginia","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",62.7,521
+"Virginia","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",71.8,9478
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",82.2,523
+"Washington","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",87.2,9476
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_lower",71.8,525
+"All sites","had dental insurance during pregnancy","had dental insurance during pregnancy",2015,"ci_upper",73.4,9474
+"Alabama","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",50.3,527
+"Alabama","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",56.7,9472
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",58.2,529
+"Alaska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",64.9,9470
+"Arkansas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",45.8,531
+"Arkansas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",54.9,9468
+"Colorado","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",55.9,533
+"Colorado","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",62.3,9466
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",49.7,535
+"Delaware","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",56.3,9464
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",58.4,537
+"Hawaii","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",65.4,9462
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",53.7,539
+"Illinois","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",59.1,9460
+"Iowa","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",60.8,541
+"Iowa","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",69.6,9458
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",52.7,543
+"Maine","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",60.7,9456
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",54.6,545
+"Maryland","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",60.8,9454
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",67.2,547
+"Massachusetts","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",73.2,9452
+"Michigan","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",60.3,549
+"Michigan","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",66.4,9450
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",46.8,551
+"Missouri","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",53.5,9448
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",53.7,553
+"Nebraska","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",60,9446
+"New Hampshire","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",57.6,555
+"New Hampshire","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",66.7,9444
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",58.5,557
+"New Jersey","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",64.3,9442
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",54,559
+"New Mexico","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",59.2,9440
+"New York","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",56.4,561
+"New York","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",64.5,9438
+"Ohio","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",53.7,563
+"Ohio","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",61.3,9436
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",47.7,565
+"Oklahoma","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",55.3,9434
+"Oregon","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",55.5,567
+"Oregon","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",62.9,9432
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",56.7,569
+"Pennsylvania","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",63.4,9430
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",48.6,571
+"Tennessee","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",57,9428
+"Texas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",40.6,573
+"Texas","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",47.2,9426
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",64.1,575
+"Utah","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",70,9424
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",59.8,577
+"Vermont","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",66.3,9422
+"Virginia","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",52.6,579
+"Virginia","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",61.9,9420
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",58.7,581
+"Washington","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",65.3,9418
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_lower",55.5,583
+"All sites","had teeth cleaned during 12 months before pregnancy","teeth cleaned during 12 months before pregnancy",2015,"ci_upper",57.1,9416
+"Alabama","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",37.5,585
+"Alabama","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",43.7,9414
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",52,587
+"Alaska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",58.9,9412
+"Arkansas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",35,589
+"Arkansas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",43.8,9410
+"Colorado","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",47.6,591
+"Colorado","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",54.1,9408
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",41.2,593
+"Delaware","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",47.8,9406
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",43,595
+"Hawaii","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",50.4,9404
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",41.2,597
+"Illinois","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",46.6,9402
+"Iowa","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",55.6,599
+"Iowa","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",64.7,9400
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",41.6,601
+"Maine","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",49.7,9398
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",49.4,603
+"Maryland","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",55.7,9396
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",58.9,605
+"Massachusetts","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",65.3,9394
+"Michigan","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",50.4,607
+"Michigan","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",56.7,9392
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",44.8,609
+"Missouri","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",51.5,9390
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",51.3,611
+"Nebraska","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",57.6,9388
+"New Hampshire","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",48.8,613
+"New Hampshire","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",58.2,9386
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",47.6,615
+"New Jersey","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",53.8,9384
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",43.6,617
+"New Mexico","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",48.8,9382
+"New York","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",48.7,619
+"New York","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",57,9380
+"Ohio","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",45.7,621
+"Ohio","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",53.3,9378
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",37.6,623
+"Oklahoma","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",45.1,9376
+"Oregon","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",49.6,625
+"Oregon","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",57.3,9374
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",51.3,627
+"Pennsylvania","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",58,9372
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",38.2,629
+"Tennessee","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",46.5,9370
+"Texas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",34.5,631
+"Texas","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",41,9368
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",58,633
+"Utah","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",64.2,9366
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",58.7,635
+"Vermont","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",65.3,9364
+"Virginia","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",41.8,637
+"Virginia","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",51.2,9362
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",55.5,639
+"Washington","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",62.3,9360
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_lower",47.5,641
+"All sites","had teeth cleaned during pregnancy","teeth cleaned during pregnancy",2015,"ci_upper",49.2,9358
+"Massachusetts","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",51.5,643
+"Massachusetts","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",58.2,9356
+"Michigan","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",45.7,645
+"Michigan","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",51.6,9354
+"Missouri","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",40.1,647
+"Missouri","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",46.9,9352
+"Nebraska","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",48.6,649
+"Nebraska","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",55.2,9350
+"New Hampshire","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",49.6,651
+"New Hampshire","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",59.4,9348
+"New Jersey","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",41.4,653
+"New Jersey","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",47.2,9346
+"New Mexico","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",41.2,655
+"New Mexico","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",46.8,9344
+"New York","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",47.2,657
+"New York","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",55.2,9342
+"North Dakota","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",42.5,659
+"North Dakota","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",52.2,9340
+"Oklahoma","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",29.9,661
+"Oklahoma","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",36.4,9338
+"Pennsylvania","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",49,663
+"Pennsylvania","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",56.1,9336
+"Rhode Island","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",53.4,665
+"Rhode Island","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",59.7,9334
+"Texas","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",30.1,667
+"Texas","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",35.6,9332
+"Utah","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",49.1,669
+"Utah","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",55.5,9330
+"Vermont","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",56.6,671
+"Vermont","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",63.1,9328
+"Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",40,673
+"Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",49.6,9326
+"Washington","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",50.4,675
+"Washington","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",57.4,9324
+"West Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",27.3,677
+"West Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",35.1,9322
+"Wisconsin","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",46.1,679
+"Wisconsin","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",54.2,9320
+"Wyoming","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",40.1,681
+"Wyoming","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",49.4,9318
+"All sites","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",NA,683
+"All sites","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",NA,9316
+"Alaska","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",44.2,685
+"Alaska","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",51.3,9314
+"Arkansas","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",31.6,687
+"Arkansas","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",41.1,9312
+"Colorado","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",43.4,689
+"Colorado","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",50.3,9310
+"Connecticut","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",55.5,691
+"Connecticut","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",62,9308
+"Delaware","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",40.2,693
+"Delaware","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",46.8,9306
+"Hawaii","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",41.2,695
+"Hawaii","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",49.6,9304
+"Illinois","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",41.4,697
+"Illinois","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",47.3,9302
+"Iowa","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",51,699
+"Iowa","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",59.9,9300
+"Louisiana","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",33,701
+"Louisiana","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",39.6,9298
+"Maine","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",37.8,703
+"Maine","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",46.1,9296
+"Maryland","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_lower",49.1,705
+"Maryland","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2016,"ci_upper",55.6,9294
+"Massachusetts","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",52.9,707
+"Massachusetts","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",59.5,9292
+"Michigan","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",46.9,709
+"Michigan","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",52.8,9290
+"Missouri","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",42,711
+"Missouri","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",48.8,9288
+"Montana","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",43.8,713
+"Montana","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",50.2,9286
+"New Hampshire","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",49.6,715
+"New Hampshire","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",59.7,9284
+"New Jersey","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",41.5,717
+"New Jersey","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",47.3,9282
+"New Mexico","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",40.3,719
+"New Mexico","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",46,9280
+"New York","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",43.4,721
+"New York","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",52.5,9278
+"North Carolina","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",38.8,723
+"North Carolina","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",46,9276
+"Oklahoma","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",31.9,725
+"Oklahoma","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",38.8,9274
+"Pennsylvania","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",45.5,727
+"Pennsylvania","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",52.2,9272
+"Puerto Rico","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",49.2,729
+"Puerto Rico","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",57,9270
+"Rhode Island","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",54.4,731
+"Rhode Island","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",61,9268
+"South Dakota","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",44.4,733
+"South Dakota","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",51,9266
+"Utah","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",50.3,735
+"Utah","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",56.8,9264
+"Vermont","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",55.2,737
+"Vermont","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",62.2,9262
+"Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",47.4,739
+"Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",57.1,9260
+"Washington","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",47.6,741
+"Washington","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",54.5,9258
+"West Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",31.5,743
+"West Virginia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",39.9,9256
+"Wisconsin","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",46.8,745
+"Wisconsin","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",54.7,9254
+"Wyoming","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",44.5,747
+"Wyoming","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",54.6,9252
+"All sites","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",NA,749
+"All sites","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",NA,9250
+"Alabama","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",33,751
+"Alabama","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",39.2,9248
+"Alaska","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",42,753
+"Alaska","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",49.5,9246
+"Colorado","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",43.4,755
+"Colorado","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",49.7,9244
+"Connecticut","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",52.8,757
+"Connecticut","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",59.3,9242
+"Delaware","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",37.5,759
+"Delaware","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",44.2,9240
+"Georgia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",35,761
+"Georgia","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",43.9,9238
+"Illinois","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",41.4,763
+"Illinois","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",47.6,9236
+"Iowa","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",50.7,765
+"Iowa","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",59.8,9234
+"Kansas","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",40.9,767
+"Kansas","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",48.9,9232
+"Kentucky","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",35.2,769
+"Kentucky","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",44.3,9230
+"Louisiana","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",29.6,771
+"Louisiana","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",36.2,9228
+"Maine","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",42.5,773
+"Maine","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",50.2,9226
+"Maryland","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_lower",49.8,775
+"Maryland","had teeth cleaned during pregnancy","had teeth cleaned during pregnancy by a dentist or dental hygienist",2017,"ci_upper",56.7,9224
