@@ -1,6 +1,6 @@
 # Behavior Risk Factor Surveillance System
 
-The Behavior Risk Factor Surveillance System (BRFSS) is a CDC-shepparded, state-administered phone survey of American adults that can help us learn about the prevalence of health conditions, including dental visits and tooth loss severity.
+The Behavior Risk Factor Surveillance System (BRFSS) is a CDC-shepherded, state-administered phone survey of American adults that can help us learn about the prevalence of health conditions, including dental visits and tooth loss severity.
 
 ## Examples of questions this dataset could help answer
 
