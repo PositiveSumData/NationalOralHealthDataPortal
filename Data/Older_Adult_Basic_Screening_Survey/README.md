@@ -25,6 +25,16 @@ States often publish the results of their Basic Screening surveys as pdf documen
 
 Original data structures are unique to each state's report. 
 
+## Consolidated Data Structure
+
+Two data files are included in this Github repository folder:
+
+* **BSS_older_adult.csv**. The consolidated masterfile of all state reports, manually compiled.
+
+* **BSS_older_adult_CI.csv**. An un-pivoted version of the BSS_older_adult.csv file for importing into data visualization software.
+
+* **BSS_older_adult_resource_tracker.csv**. For keeping track of which states have older adult surveys for which years, with the appropriate url.
+
 ## Issues & decisions
 
 **Variable consolidation**. In an effort to make the National Oral Health Data Portal as standardized as possible and promote comparisons between states, only frquently collected measures were consolidated into a common file. Only prevalence measures expressed as a percent were kept. Measures like counts of teeth (e.g. 'mean number of decayed teeth') were excluded because they were only asked by one or two states. The names of measures or categories were also changed to be consistent. For example, Michigan used the term 'immediate care' whereas Califonia used the term 'urgent care' describe the most severe class of treatment need. These have been consolidated to 'urgent care.'
@@ -33,7 +43,7 @@ Original data structures are unique to each state's report.
 
 **Comprability across residency setting**. States choose one setting in which to visit seniors and record their oral health. These settings are usually nursing, assisted living, or congregate meal site facilities. It may not be appropriate to compare one state's performance in nursing facilities to another state's performance in congregate meal sites. These reports cannot be used to extrapolate about the oral health of an entire state's older adults. These facility differences are recorded in the Tableau visualizations.
 
-**Different dentition denominators**. State survey reports will usually indicate whether a prevalence applies to all the older adults it sampled or only to older adults of a certain dentition. For example, a state may present the percent, of older adults with at least one or more teeth, what percent had untreated decay. Whereas another state may record the prevalence of untreated decay among all adults sampled, regardless of whether they have any teeth. This presents a comparability challenge, because adults without any teeth are probably not going to have tooth decay. Such denominator differences are recorded in the Tableau visualizations. 
+**Different dentition denominators**. State survey reports will usually indicate whether a prevalence applies to all the older adults it sampled or only to older adults of a certain dentition. For example, a state may present the percent, of older adults with at least one or more teeth, what percent had untreated decay. Whereas another state may record the prevalence of untreated decay among all adults sampled, regardless of whether they have any teeth. This presents a comparability challenge, because adults without any teeth are probably not going to have tooth decay. Such denominator differences are recorded in the Tableau visualizations. When state reports are unclear whether the population denominator is all adults or only dentate adults, we have assigned the value "all adults ages 65+\*" with the asterisk denoting we are unsure. 
 
 ## Tableau Presentation
 
