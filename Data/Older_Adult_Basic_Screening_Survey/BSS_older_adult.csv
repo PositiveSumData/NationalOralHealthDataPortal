@@ -1,0 +1,711 @@
+﻿id ,state,year(s),year_min,residency,measure_group,measure,category,subcategory,population_denominator_dentition,estimate,lower_CI,upper_CI
+10001,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,all,total,all adults ages 65+*,10.6,6,15.1
+10002,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,region,Upper Peninsula,all adults ages 65+*,8.2,1.7,14.8
+10003,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,region,Northern Lower Peninsula,all adults ages 65+*,9.3,2,16.6
+10004,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,region,City of Detroit,all adults ages 65+*,17,0.6,33.3
+10005,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,region,Suburban Detroit,all adults ages 65+*,7.9,4.6,11.2
+10006,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,region,Southern Lower Peninsula,all adults ages 65+*,10.6,3,18.3
+10007,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,age,65--74,all adults ages 65+*,12.8,6.9,18.8
+10008,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,age,75--84,all adults ages 65+*,7.2,3.2,11.2
+10009,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,age,85+,all adults ages 65+*,11,1.3,20.6
+10010,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,gender,male,all adults ages 65+*,13.2,7.8,18.6
+10011,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,gender,female,all adults ages 65+*,9.6,4.8,14.3
+10012,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,race,White,all adults ages 65+*,10.6,5.3,15.8
+10013,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,race,Black/African American,all adults ages 65+*,13,1.7,24.4
+10014,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,untreated decay,race,Other,all adults ages 65+*,6.9,0,20.7
+10015,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,all,total,all adults ages 65+*,11.1,7.4,14.8
+10016,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,region,Upper Peninsula,all adults ages 65+*,5.2,0.9,9.5
+10017,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,region,Northern Lower Peninsula,all adults ages 65+*,5.6,2.3,8.9
+10018,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,region,City of Detroit,all adults ages 65+*,16.2,0,33.1
+10019,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,region,Suburban Detroit,all adults ages 65+*,9.1,3.5,14.7
+10020,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,region,Southern Lower Peninsula,all adults ages 65+*,13.6,7.6,19.6
+10021,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,age,65--74,all adults ages 65+*,12.9,7.2,18.6
+10022,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,age,75--84,all adults ages 65+*,6,1.3,10.8
+10023,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,age,85+,all adults ages 65+*,15.5,3.4,27.6
+10024,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,gender,male,all adults ages 65+*,13.8,8.2,19.4
+10025,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,gender,female,all adults ages 65+*,10.1,5.8,14.3
+10026,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,race,White,all adults ages 65+*,11.2,7,15.3
+10027,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,race,Black/African American,all adults ages 65+*,13.5,0.8,26.2
+10028,Michigan,2016-2017,2016,congregate meal sites,condition of hard tissue,root fragments,race,Other,all adults ages 65+*,6.9,0,20.7
+10029,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,all,total,all adults ages 65+*,81.9,75.7,88.1
+10030,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,region,Upper Peninsula,all adults ages 65+*,88.6,75.9,100
+10031,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,region,Northern Lower Peninsula,all adults ages 65+*,84.6,75.1,94
+10032,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,region,City of Detroit,all adults ages 65+*,82.3,66.3,98.2
+10033,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,region,Suburban Detroit,all adults ages 65+*,84,78,89.9
+10034,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,region,Southern Lower Peninsula,all adults ages 65+*,79.1,68.4,89.8
+10035,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,age,65--74,all adults ages 65+*,78.2,70,86.4
+10036,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,age,75--84,all adults ages 65+*,88,82.9,93
+10037,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,age,85+,all adults ages 65+*,80.3,68.6,92
+10038,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,gender,male,all adults ages 65+*,75.6,68.8,82.3
+10039,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,gender,female,all adults ages 65+*,84.4,77.5,91.3
+10040,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,race,White,all adults ages 65+*,81.5,73.8,89.3
+10041,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,race,Black/African American,all adults ages 65+*,79.2,67.9,90.5
+10042,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,none,race,Other,all adults ages 65+*,89.7,73,100
+10043,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,all,total,all adults ages 65+*,17.3,11.3,23.4
+10044,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,region,Upper Peninsula,all adults ages 65+*,11.4,0,24.1
+10045,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,region,Northern Lower Peninsula,all adults ages 65+*,13.3,3.3,23.2
+10046,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,region,City of Detroit,all adults ages 65+*,17,0.6,33.3
+10047,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,region,Suburban Detroit,all adults ages 65+*,15.3,10,20.6
+10048,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,region,Southern Lower Peninsula,all adults ages 65+*,20.4,10.1,30.8
+10049,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,age,65--74,all adults ages 65+*,20.8,12.5,29.1
+10050,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,age,75--84,all adults ages 65+*,11.1,6.3,15.9
+10051,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,age,85+,all adults ages 65+*,19.7,8,31.4
+10052,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,gender,male,all adults ages 65+*,22.9,16.2,29.6
+10053,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,gender,female,all adults ages 65+*,15.1,8.2,22
+10054,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,race,White,all adults ages 65+*,17.7,10.1,25.2
+10055,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,race,Black/African American,all adults ages 65+*,20.3,8.8,31.8
+10056,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,early,race,Other,all adults ages 65+*,7.7,0,22.3
+10057,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,all,total,all adults ages 65+*,0.8,0.1,1.5
+10058,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,region,Upper Peninsula,all adults ages 65+*,,,
+10059,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,region,Northern Lower Peninsula,all adults ages 65+*,2.2,0,4.4
+10060,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,region,City of Detroit,all adults ages 65+*,0.8,0,2.3
+10061,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,region,Suburban Detroit,all adults ages 65+*,0.8,0,2.4
+10062,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,region,Southern Lower Peninsula,all adults ages 65+*,0.4,0,1.4
+10063,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,age,65--74,all adults ages 65+*,1,0.1,2
+10064,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,age,75--84,all adults ages 65+*,0.9,0,2.4
+10065,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,age,85+,all adults ages 65+*,,,
+10066,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,gender,male,all adults ages 65+*,1.5,0,3.4
+10067,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,gender,female,all adults ages 65+*,0.5,0,1.1
+10068,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,race,White,all adults ages 65+*,0.8,0,1.6
+10069,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,race,Black/African American,all adults ages 65+*,0.5,0,1.6
+10070,Michigan,2016-2017,2016,congregate meal sites,dental treatment needed,urgent,race,Other,all adults ages 65+*,2.6,0,8.4
+10071,Florida,2015 - 2016,2015,congregate meal sites,denture use,upper denture,education,less than HS degree,all adults ages 65+,65.4,55.2,75.6
+10072,Florida,2015 - 2016,2015,congregate meal sites,denture use,upper denture,education,HS degree,all adults ages 65+,46.3,39.2,53.4
+10073,Florida,2015 - 2016,2015,congregate meal sites,denture use,upper denture,education,some college,all adults ages 65+,38.1,30.3,46
+10074,Florida,2015 - 2016,2015,congregate meal sites,denture use,upper denture,education,advanced degree,all adults ages 65+,34.4,21.9,46.8
+10075,Florida,2015 - 2016,2015,congregate meal sites,denture use,upper denture,all,total,all adults ages 65+,46.7,41.5,51.9
+10076,Florida,2015 - 2016,2015,congregate meal sites,denture use,lower denture,education,less than HS degree,all adults ages 65+,57,46.3,67.6
+10077,Florida,2015 - 2016,2015,congregate meal sites,denture use,lower denture,education,HS degree,all adults ages 65+,36.4,29.9,42.9
+10078,Florida,2015 - 2016,2015,congregate meal sites,denture use,lower denture,education,some college,all adults ages 65+,33.6,25.5,41.8
+10079,Florida,2015 - 2016,2015,congregate meal sites,denture use,lower denture,education,advanced degree,all adults ages 65+,29.4,17.9,40.9
+10080,Florida,2015 - 2016,2015,congregate meal sites,denture use,lower denture,all,total,all adults ages 65+,39.5,34.7,44.4
+10081,Florida,2015 - 2016,2015,congregate meal sites,denture use,both upper and lower denture,education,less than HS degree,all adults ages 65+,53.3,42.9,63.6
+10082,Florida,2015 - 2016,2015,congregate meal sites,denture use,both upper and lower denture,education,HS degree,all adults ages 65+,32.1,25.5,38.6
+10083,Florida,2015 - 2016,2015,congregate meal sites,denture use,both upper and lower denture,education,some college,all adults ages 65+,27.3,18.7,35.8
+10084,Florida,2015 - 2016,2015,congregate meal sites,denture use,both upper and lower denture,education,advanced degree,all adults ages 65+,22.4,10.8,33.9
+10085,Florida,2015 - 2016,2015,congregate meal sites,denture use,both upper and lower denture,education,total,all adults ages 65+,34.4,29.3,39.5
+10086,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,all ,total,all adults ages 65+,5.5,3.3,7.7
+10087,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,all ,total,all adults ages 65+,28.8,22.3,35.2
+10088,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,all ,total,all adults ages 65+,5,2.6,7.4
+10089,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,race / ethnicity,White,all adults ages 65+,5.7,1,10.5
+10090,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,race / ethnicity,White,all adults ages 65+,30,21.8,38.2
+10091,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,race / ethnicity,White,all adults ages 65+,6.1,1.6,10.6
+10092,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,race / ethnicity,Black,all adults ages 65+,1.6,0,3.9
+10093,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,race / ethnicity,Black,all adults ages 65+,32,7.9,56.1
+10094,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,race / ethnicity,Black,all adults ages 65+,7.4,0.3,14.5
+10095,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,race / ethnicity,Hispanic,all adults ages 65+,6.6,4.3,9
+10096,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early dental care,race / ethnicity,Hispanic,all adults ages 65+,26.2,17.6,34.8
+10097,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent dental care,race / ethnicity,Hispanic,all adults ages 65+,4.5,1.6,7.5
+10098,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,race / ethnicity,Multi-racial,all adults ages 65+,5.2,0,10.3
+10099,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,race / ethnicity,Multi-racial,all adults ages 65+,37.3,27.3,47.2
+10100,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,race / ethnicity,Multi-racial,all adults ages 65+,0.8,0,2.6
+10101,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,race / ethnicity,other,all adults ages 65+,3.2,0,9.6
+10102,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,race / ethnicity,other,all adults ages 65+,10.3,0.1,20.2
+10103,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,race / ethnicity,other,all adults ages 65+,,,
+10104,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,region,Northwest,all adults ages 65+,,,
+10105,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early dental care,region,Northwest,all adults ages 65+,35.2,0,76.7
+10106,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent dental care,region,Northwest,all adults ages 65+,5,0,15.2
+10107,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,region,Northeast,all adults ages 65+,3.6,0,8.6
+10108,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,region,Northeast,all adults ages 65+,32.6,18.6,46.6
+10109,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,region,Northeast,all adults ages 65+,3.3,0,7.6
+10110,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,region,Central,all adults ages 65+,3.1,0,7.4
+10111,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,region,Central,all adults ages 65+,25.6,18.7,32.5
+10112,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,region,Central,all adults ages 65+,4.5,0,10.4
+10113,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,early,region,West Coast,all adults ages 65+,8.1,0,7.4
+10114,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,region,West Coast,all adults ages 65+,22.7,1.1,44.3
+10115,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent dental care,region,West Coast,all adults ages 65+,4.1,0,11.3
+10116,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,region,Atlantic,all adults ages 65+,3.3,0,9.9
+10117,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,region,Atlantic,all adults ages 65+,47.5,11.6,83.3
+10118,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,region,Atlantic,all adults ages 65+,7.8,3.9,11.7
+10119,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,region,South,all adults ages 65+,6.5,4.1,8.9
+10120,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,region,South,all adults ages 65+,27.9,21.4,34.3
+10121,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,region,South,all adults ages 65+,5.7,2.2,9.3
+10122,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,education,no HS diploma,all adults ages 65+,4.8,1.1,8.7
+10123,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,education,no HS diploma,all adults ages 65+,25.2,14.5,35.9
+10124,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,education,no HS diploma,all adults ages 65+,2.3,0.4,4.1
+10125,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,education,HS diploma,all adults ages 65+,3.7,0.6,6.7
+10126,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,education,HS diploma,all adults ages 65+,26.8,18.8,34.7
+10127,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,education,HS diploma,all adults ages 65+,5.6,2.2,8.9
+10128,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,education,some college,all adults ages 65+,5.2,18,8.5
+10129,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,education,some college,all adults ages 65+,30.7,22.5,38.8
+10130,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,education,some college,all adults ages 65+,4.9,1.7,7.9
+10131,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,soft tissue lesions,education,advanced degree,all adults ages 65+,5.2,0,11.1
+10132,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,early,education,advanced degree,all adults ages 65+,38.8,24.1,53.5
+10133,Florida,2015 - 2016,2015,congregate meal sites,dental treatment needed,urgent,education,advanced degree,all adults ages 65+,2.7,0,7.2
+10134,Iowa,2017,2017,congregate meal sites,condition of hard tissue,edentulous,all ,total,all adults ages 65+,23.16,20.06,26.25
+10135,Iowa,2017,2017,congregate meal sites,condition of soft tissue,soft tissue lesions,all ,total,all adults ages 65+,3.93,2.5,5.36
+10136,Iowa,2017,2017,congregate meal sites,dental treatment needed,no obvious problems,all ,total,all adults ages 65+,77.93,74.91,80.95
+10137,Iowa,2017,2017,congregate meal sites,dental treatment needed,early care,all ,total,all adults ages 65+,17.51,14.73,20.29
+10138,Iowa,2017,2017,congregate meal sites,dental treatment needed,urgent care,all ,total,all adults ages 65+,4.56,3.09,6.03
+10139,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,all,total,all adults ages 65+,37.5,31.2,43.9
+10140,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,region,Upper Peninsula,all adults ages 65+,38.3,27.8,48.9
+10141,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,region,Northern Lower Peninsula,all adults ages 65+,30,20.4,39.6
+10142,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,region,City of Detroit,all adults ages 65+,65.8,40.6,90.9
+10143,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,region,Suburban Detroit,all adults ages 65+,38.8,28.9,48.7
+10144,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,region,Southern Lower Peninsula,all adults ages 65+,34.2,23.9,44.5
+10145,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,age,65--75,all adults ages 65+,35.5,27.2,43.7
+10146,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,age,75--84,all adults ages 65+,37,29.1,44.9
+10147,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,age,85+,all adults ages 65+,43.3,30.6,55.9
+10148,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,gender,male,all adults ages 65+,38.2,20.6,45.8
+10149,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,gender,female,all adults ages 65+,36.9,29.7,44.1
+10150,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,race,White,all adults ages 65+,33.4,27,39.9
+10151,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,race,Black / African American,all adults ages 65+,59.5,41.3,77.7
+10152,Michigan,2016-2017,2016,congregate meal sites,denture use,upper denture present,race,Other,all adults ages 65+,42.1,16.7,67.5
+10153,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,all,total,all adults ages 65+,88.3,81,95.7
+10154,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,region,Upper Peninsula,all adults ages 65+,96,88.1,100
+10155,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,region,Northern Lower Peninsula,all adults ages 65+,95.1,88.8,100
+10156,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,region,City of Detroit,all adults ages 65+,78.9,57.2,100
+10157,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,region,Suburban Detroit,all adults ages 65+,91.2,85.3,97.1
+10158,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,region,Southern Lower Peninsula,all adults ages 65+,87.8,75.8,99.8
+10159,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,age,65--75,all adults ages 65+,78.8,64.5,93
+10160,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,age,75--84,all adults ages 65+,95.6,90.8,100
+10161,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,age,85+,all adults ages 65+,95.5,88.6,100
+10162,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,gender,male,all adults ages 65+,87.8,70.4,100
+10163,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,gender,female,all adults ages 65+,88.3,79.3,97.3
+10164,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,race,White,all adults ages 65+,89,80.9,97.1
+10165,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,race,Black / African American,all adults ages 65+,84.4,66.1,100
+10166,Michigan,2016-2017,2016,congregate meal sites,denture use,wears upper denture while eating,race,Other,all adults ages 65+,100,100,100
+10167,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,all,total,all adults ages 65+,26.7,22.3,31.1
+10168,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,region,Upper Peninsula,all adults ages 65+,23.3,14.1,32.4
+10169,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,region,Northern Lower Peninsula,all adults ages 65+,19.5,12.1,26.8
+10170,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,region,City of Detroit,all adults ages 65+,51.3,30.2,72.4
+10171,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,region,Suburban Detroit,all adults ages 65+,29.7,21.1,38.3
+10172,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,region,Southern Lower Peninsula,all adults ages 65+,24.5,18.1,30.9
+10173,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,age,65--75,all adults ages 65+,26.8,19.8,33.9
+10174,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,age,75--84,all adults ages 65+,27.1,20.7,33.5
+10175,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,age,85+,all adults ages 65+,25.6,14,37.2
+10176,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,gender,male,all adults ages 65+,28.5,22.2,34.9
+10177,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,gender,female,all adults ages 65+,25.4,20.8,30
+10178,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,race,White,all adults ages 65+,22.9,18.8,26.9
+10179,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,race,Black / African American,all adults ages 65+,46.1,32,60.2
+10180,Michigan,2016-2017,2016,congregate meal sites,denture use,lower denture present,race,Other,all adults ages 65+,30.7,12.7,48.6
+10181,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,all,total,all adults ages 65+,83,74.4,91.7
+10182,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,region,Upper Peninsula,all adults ages 65+,93.8,80.5,100
+10183,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,region,Northern Lower Peninsula,all adults ages 65+,85.2,74.9,95.5
+10184,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,region,City of Detroit,all adults ages 65+,84.4,72.9,95.9
+10185,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,region,Suburban Detroit,all adults ages 65+,77,64.6,89.4
+10186,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,region,Southern Lower Peninsula,all adults ages 65+,81.2,64.5,97.9
+10187,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,age,65--75,all adults ages 65+,71.3,56.3,86.2
+10188,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,age,75--84,all adults ages 65+,90.7,83,98.4
+10189,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,age,85+,all adults ages 65+,98,93.9,100
+10190,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,gender,male,all adults ages 65+,76.9,54.6,99.3
+10191,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,gender,female,all adults ages 65+,85.4,76.9,93.9
+10192,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,race,White,all adults ages 65+,82.9,71,94.8
+10193,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,race,Black / African American,all adults ages 65+,86.6,77.2,96.1
+10194,Michigan,2016-2017,2016,congregate meal sites,denture use,wears lower denture while eating,race,Other,all adults ages 65+,65.6,37.7,93.4
+10195,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,all,total,all adults ages 65+,10.7,6.5,14.9
+10196,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,region,Upper Peninsula,all adults ages 65+,9,2.8,15.2
+10197,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,region,Northern Lower Peninsula,all adults ages 65+,2,0,4.7
+10198,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,region,City of Detroit,all adults ages 65+,19.3,0,48.1
+10199,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,region,Suburban Detroit,all adults ages 65+,14.7,10.7,18.7
+10200,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,region,Southern Lower Peninsula,all adults ages 65+,11.8,6.5,17
+10201,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,age,65--74,all adults ages 65+,12.7,4.9,20.5
+10202,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,age,75--84,all adults ages 65+,8.6,3.9,13.3
+10203,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,age,85+,all adults ages 65+,9.7,4,15.4
+10204,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,gender,male,all adults ages 65+,12.4,4.9,19.8
+10205,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,gender,female,all adults ages 65+,10,5.7,14.3
+10206,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,race,White,all adults ages 65+,9.1,5.8,12.3
+10207,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,race,Black/African American,all adults ages 65+,21.5,1.7,41.3
+10208,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,oral debris,race,Other,all adults ages 65+,7.7,0,22.3
+10209,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,all,total,all adults ages 65+,10.2,5.6,14.9
+10210,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,region,Upper Peninsula,all adults ages 65+,5.4,0,12.9
+10211,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,region,Northern Lower Peninsula,all adults ages 65+,1.6,0,4.2
+10212,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,region,City of Detroit,all adults ages 65+,18.1,0,43.3
+10213,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,region,Suburban Detroit,all adults ages 65+,13.4,8.2,18.5
+10214,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,region,Southern Lower Peninsula,all adults ages 65+,12.1,5.1,19.2
+10215,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,age,65--74,all adults ages 65+,15.1,5.5,24.6
+10216,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,age,75--84,all adults ages 65+,5.3,2,8.6
+10217,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,age,85+,all adults ages 65+,7.5,2.2,12.8
+10218,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,gender,male,all adults ages 65+,13.4,5.1,21.6
+10219,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,gender,female,all adults ages 65+,9,5.2,12.9
+10220,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,race,White,all adults ages 65+,9.4,4.5,14.3
+10221,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,race,Black/African American,all adults ages 65+,16.9,0,34.3
+10222,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,gingival inflammation,race,Other,all adults ages 65+,6.9,0,20.7
+10223,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,all,total,all adults ages 65+,3.4,1.6,5.3
+10224,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,region,Upper Peninsula,all adults ages 65+,3.7,0,8.8
+10225,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,region,Northern Lower Peninsula,all adults ages 65+,1.7,0,4.2
+10226,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,region,City of Detroit,all adults ages 65+,11,0,24.7
+10227,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,region,Suburban Detroit,all adults ages 65+,7.8,1.5,3.5
+10228,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,region,Southern Lower Peninsula,all adults ages 65+,1.8,0.1,3.5
+10229,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,age,65--74,all adults ages 65+,5.8,1.8,9.7
+10230,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,age,75--84,all adults ages 65+,1.9,0,4.1
+10231,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,age,85+,all adults ages 65+,0.7,0,1.8
+10232,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,gender,male,all adults ages 65+,6,2.3,9.6
+10233,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,gender,female,all adults ages 65+,2.4,0.3,4.6
+10234,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,race,White,all adults ages 65+,2.9,1.3,4.6
+10235,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,race,Black/African American,all adults ages 65+,7.4,0,17.2
+10236,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,tooth mobility,race,Other,all adults ages 65+,,,
+10237,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,all,total,all adults ages 65+,7.4,3.6,11.1
+10238,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,region,Upper Peninsula,all adults ages 65+,19.9,0,42.6
+10239,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,region,Northern Lower Peninsula,all adults ages 65+,3.8,0.9,6.8
+10240,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,region,City of Detroit,all adults ages 65+,10,0,21.4
+10241,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,region,Suburban Detroit,all adults ages 65+,3.7,0.9,6.6
+10242,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,region,Southern Lower Peninsula,all adults ages 65+,6.2,1.1,11.3
+10243,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,age,65--74,all adults ages 65+,8.9,2.3,15.4
+10244,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,age,75--84,all adults ages 65+,5.7,1.3,10.1
+10245,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,age,85+,all adults ages 65+,6.7,0.1,13.3
+10246,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,gender,male,all adults ages 65+,6.2,0.9,11.5
+10247,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,gender,female,all adults ages 65+,8,4.3,11.7
+10248,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,race,White,all adults ages 65+,7.2,3,11.3
+10249,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,race,Black/African American,all adults ages 65+,9.9,1.6,18.2
+10250,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,severe dry mouth,race,Other,all adults ages 65+,6.9,0,22.6
+10251,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+,12.1,7.7,16.5
+10252,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Upper Peninsula,all adults ages 65+,19.2,0,42.3
+10253,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Northern Lower Peninsula,all adults ages 65+,6.3,2.7,9.9
+10254,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,City of Detroit,all adults ages 65+,18.1,0,43.3
+10255,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Suburban Detroit,all adults ages 65+,15.1,8.8,21.3
+10256,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Southern Lower Peninsula,all adults ages 65+,11,6.3,15.8
+10257,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,age,65--74,all adults ages 65+,14.6,7.2,22.1
+10258,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,age,75--84,all adults ages 65+,9.1,2.9,15.3
+10259,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,age,85+,all adults ages 65+,11.2,4.3,18.1
+10260,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,gender,male,all adults ages 65+,18.4,10.2,26.7
+10261,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,gender,female,all adults ages 65+,9.5,5.4,13.6
+10262,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,race,White,all adults ages 65+,11.6,7.4,15.9
+10263,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,race,Black/African American,all adults ages 65+,16.9,0,34.3
+10264,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,periodontal treatment needed,race,Other,all adults ages 65+,0.9,0,2.9
+10265,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,all,total,all adults ages 65+,2.5,1.4,3.5
+10266,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,region,Upper Peninsula,all adults ages 65+,,,
+10267,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,region,Northern Lower Peninsula,all adults ages 65+,4.2,0.9,7.4
+10268,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,region,City of Detroit,all adults ages 65+,2.7,0,6.3
+10269,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,region,Suburban Detroit,all adults ages 65+,1.6,0,4.9
+10270,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,region,Southern Lower Peninsula,all adults ages 65+,2.4,1,3.8
+10271,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,age,65--74,all adults ages 65+,1.4,0,2.8
+10272,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,age,75--84,all adults ages 65+,2.3,0.4,4.3
+10273,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,age,85+,all adults ages 65+,5.2,0.5,9.9
+10274,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,gender,male,all adults ages 65+,4.6,1.4,7.8
+10275,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,gender,female,all adults ages 65+,1.6,0.4,2.7
+10276,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,race,White,all adults ages 65+,2.5,1.3,3.7
+10277,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,race,Black/African American,all adults ages 65+,2.6,0.1,5.2
+10278,Michigan,2016-2017,2016,congregate meal sites,condition of soft tissue,suspicious soft tissue lesion,race,Other,all adults ages 65+,2.8,0,9
+10279,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,all ,total,all adults ages 65+,28.2,22.9,33.6
+10280,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,age,LT 65 years,all adults ages 65+,35.6,19.5,51.7
+10281,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,age,65--74,all adults ages 65+,33.1,20.8,45.5
+10282,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,age,75--84 years,all adults ages 65+,29,20.3,37.7
+10283,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,age,85--94 years,all adults ages 65+,23.4,17.8,29
+10284,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,age,95+ years,all adults ages 65+,28.9,18.1,39.7
+10285,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,sex,male,all adults ages 65+,28.3,19.5,37.1
+10286,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,sex,female,all adults ages 65+,28.2,21,35.3
+10287,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,race / ethnicity,White (non-Hispanic),all adults ages 65+,28.1,22.3,33.8
+10288,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,race / ethnicity,Non-White or Hispanic,all adults ages 65+,32.7,16.6,48.7
+10289,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,facility type,assited living,all adults ages 65+,20.2,13.4,27
+10290,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,facility type,nursing,all adults ages 65+,32.7,25.4,40
+10291,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,urbanicity of county,rural,all adults ages 65+,31.2,24.5,37.8
+10292,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,edentulous,urbanicity of county,urban,all adults ages 65+,23.1,14.1,32.2
+10293,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,all ,total,all adults ages 65+,55.9,50.3,61.5
+10294,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,age,LT 65 years,all adults ages 65+,60.8,48.9,72.6
+10295,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,age,65--74,all adults ages 65+,54.4,37.6,71.2
+10296,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,age,75--84 years,all adults ages 65+,58.2,48.3,68.1
+10297,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,age,85--94 years,all adults ages 65+,50.9,43.5,58.3
+10298,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,age,95+ years,all adults ages 65+,69,58,80
+10299,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,sex,male,all adults ages 65+,60.7,53.3,68
+10300,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,sex,female,all adults ages 65+,53.6,47.4,59.8
+10301,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,race / ethnicity,White (non-Hispanic),all adults ages 65+,55.2,49.2,61.2
+10302,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,race / ethnicity,Non-White or Hispanic,all adults ages 65+,69,57,80.9
+10303,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,facility type,assited living,all adults ages 65+,47.5,40.8,54.2
+10304,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,facility type,nursing,all adults ages 65+,60.5,52.8,68.2
+10305,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,urbanicity of county,rural,all adults ages 65+,59.2,52.5,65.8
+10306,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,severe tooth loss,urbanicity of county,urban,all adults ages 65+,50.1,40.3,59.9
+10307,Minnesota,2016,2016,nursing ,condition of hard tissue,untreated decay,all,total,all adults ages 65+,41.4,38,44.7
+10308,Minnesota,2016,2016,nursing ,condition of hard tissue,untreated decay,sex,male,all adults ages 65+,37.8,33.9,41.8
+10309,Minnesota,2016,2016,nursing ,condition of hard tissue,untreated decay,sex,female,all adults ages 65+,48.7,42.1,55.3
+10310,Minnesota,2016,2016,nursing ,condition of soft tissue,severe dry mouth,all,total,all adults ages 65+,6.7,3.6,9.9
+10311,Minnesota,2016,2016,nursing ,condition of soft tissue,severe gum inflammation,all,total,all adults ages 65+,7,4.3,9.8
+10312,Minnesota,2016,2016,nursing ,condition of soft tissue,suspicious soft tissue lesion,all,total,all adults ages 65+,3.5,2.2,4.8
+10313,Minnesota,2016,2016,nursing ,dental treatment needed,none,all,total,all adults ages 65+,57.2,53.4,61.1
+10314,Minnesota,2016,2016,nursing ,dental treatment needed,early care,all,total,all adults ages 65+,40.1,35.8,44.4
+10315,Minnesota,2016,2016,nursing ,dental treatment needed,urgent care,all,total,all adults ages 65+,2.6,1.5,3.8
+10316,Minnesota,2016,2016,nursing ,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+,5.9,3.1,8.6
+10317,Minnesota,2016,2016,nursing ,condition of hard tissue,no tooth loss,all,total,all adults ages 65+,6.9,5.2,8.5
+10318,Minnesota,2016,2016,nursing ,condition of hard tissue,partial tooth loss,all,total,all adults ages 65+,65.9,62.7,69.1
+10319,Minnesota,2016,2016,nursing ,condition of hard tissue,complete tooth loss,all,total,all adults ages 65+,25.1,21.3,29
+10320,Minnesota,2016,2016,nursing ,condition of hard tissue,partial tooth loss,denture ownership,owns dentures,all adults ages 65+,48.7,43.3,54.1
+10321,Minnesota,2016,2016,nursing ,condition of hard tissue,complete tooth loss,denture ownership,owns dentures,all adults ages 65+,81,77.1,85
+10322,Minnesota,2016,2016,nursing ,condition of hard tissue,partial tooth loss,denture ownership,does not own dentures,all adults ages 65+,50.7,45.4,56.1
+10323,Minnesota,2016,2016,nursing ,condition of hard tissue,complete tooth loss,denture ownership,does not own dentures,all adults ages 65+,7.2,3.5,11
+10324,Minnesota,2016,2016,nursing ,denture use,use dentures,all,total,all adults ages 65+,41.9,37.2,46.7
+10325,California,2018,2018,nursing ,condition of hard tissue,untreated decay,all,total,all adults ages 65+,48,,
+10326,California,2018,2018,nursing ,condition of hard tissue,untreated decay,age,65--74,all adults ages 65+,46,,
+10327,California,2018,2018,nursing ,condition of hard tissue,untreated decay,age,75--84,all adults ages 65+,48,,
+10328,California,2018,2018,nursing ,condition of hard tissue,untreated decay,age,85+,all adults ages 65+,50,,
+10329,California,2018,2018,nursing ,condition of hard tissue,root fragments,all,total,all adults ages 65+,18.5,,
+10330,California,2018,2018,nursing ,condition of hard tissue,no natural teeth,all,total,all adults ages 65+,34.6,,
+10331,California,2018,2018,nursing ,condition of hard tissue,1-6 natural teeth,all,total,all adults ages 65+,5.6,,
+10332,California,2018,2018,nursing ,condition of hard tissue,6+ teeth,all,total,all adults ages 65+,59.8,,
+10333,California,2018,2018,community dwelling,condition of hard tissue,no natural teeth,all,total,all adults ages 65+,18.4,,
+10334,California,2018,2018,community dwelling,condition of hard tissue,1-6 natural teeth,all,total,all adults ages 65+,6.8,,
+10335,California,2018,2018,community dwelling,condition of hard tissue,6+ teeth,all,total,all adults ages 65+,74.8,,
+10336,California,2018,2018,nursing,condition of hard tissue,no natural teeth,denture ownership,has no dentures,all adults ages 65+,35.9,,
+10337,California,2018,2018,nursing,condition of hard tissue,no natural teeth,denture ownership,has only one denture,all adults ages 65+,4.8,,
+10338,California,2018,2018,nursing,condition of hard tissue,no natural teeth,denture ownership,has both dentures,all adults ages 65+,59.4,,
+10339,California,2018,2018,community dwelling,condition of hard tissue,no natural teeth,denture ownership,has no dentures,all adults ages 65+,18,,
+10340,California,2018,2018,community dwelling,condition of hard tissue,no natural teeth,denture ownership,has only one denture,all adults ages 65+,12,,
+10341,California,2018,2018,community dwelling,condition of hard tissue,no natural teeth,denture ownership,has both dentures,all adults ages 65+,70,,
+10342,California,2018,2018,nursing,dental treatment needed,early or urgent,all,total,all adults ages 65+,21.3,,
+10343,California,2018,2018,nursing,dental treatment needed,urgent,all,total,all adults ages 65+,7.1,,
+10344,California,2018,2018,nursing,dental treatment needed,early,all,total,all adults ages 65+,20.9,,
+10345,California,2018,2018,nursing,dental treatment needed,none,all,total,all adults ages 65+,69.8,,
+10346,California,2018,2018,community dwelling,dental treatment needed,early or urgent,all,total,all adults ages 65+,22.5,,
+10347,California,2018,2018,community dwelling,dental treatment needed,urgent,all,total,all adults ages 65+,4.7,,
+10348,California,2018,2018,community dwelling,dental treatment needed,early,all,total,all adults ages 65+,28,,
+10349,California,2018,2018,community dwelling,dental treatment needed,none,all,total,all adults ages 65+,67.4,,
+10350,California,2018,2018,nursing,condition of soft tissue,untreated decay,urbanicity,urban,all adults ages 65+,42.9,,
+10351,California,2018,2018,nursing,condition of soft tissue,untreated decay,urbanicity,rural,all adults ages 65+,51.9,,
+10352,North Dakota,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+,20,,
+10353,North Dakota,2016,2016,nursing,denture use,lower partial denture,all,total,all adults ages 65+,22,,
+10354,North Dakota,2016,2016,nursing,condition of hard tissue,root fragments,all,total,all adults ages 65+,23,,
+10355,North Dakota,2016,2016,nursing,condition of hard tissue,untreated decay,all,total,all adults ages 65+,23,,
+10356,North Dakota,2016,2016,nursing,condition of soft tissue,severe gingival inflammation,all,total,all adults ages 65+,23,,
+10357,North Dakota,2016,2016,nursing,condition of soft tissue,substantial oral debris,all,total,all adults ages 65+,30,,
+10358,North Dakota,2016,2016,nursing,dental treatment needed,needs early/urgent care,all,total,all adults ages 65+,34,,
+10359,North Dakota,2016,2016,nursing,denture use,upper partial denture,all,total,all adults ages 65+,41,,
+10360,North Dakota,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,insurance status,private / third party,all adults ages 65+,15,,
+10361,North Dakota,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,insurance status,Medicare / No insurance,all adults ages 65+,19,,
+10362,North Dakota,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,insurance status,Medicaid,all adults ages 65+,25,,
+10363,North Dakota,2016,2016,nursing,condition of soft tissue,severe gingivities,insurance status,private / third party,all adults ages 65+,20,,
+10364,North Dakota,2016,2016,nursing,condition of soft tissue,severe gingivities,insurance status,Medicare / No insurance,all adults ages 65+,14,,
+10365,North Dakota,2016,2016,nursing,condition of soft tissue,severe gingivities,insurance status,Medicaid,all adults ages 65+,31,,
+10366,North Dakota,2016,2016,nursing,condition of hard tissue,root fragments,insurance status,private / third party,all adults ages 65+,17,,
+10367,North Dakota,2016,2016,nursing,condition of hard tissue,root fragments,insurance status,Medicare / No insurance,all adults ages 65+,25,,
+10368,North Dakota,2016,2016,nursing,condition of hard tissue,root fragments,insurance status,Medicaid,all adults ages 65+,26,,
+10369,North Dakota,2016,2016,nursing,condition of hard tissue,untreated decay,insurance status,private / third party,all adults ages 65+,20,,
+10370,North Dakota,2016,2016,nursing,condition of hard tissue,untreated decay,insurance status,Medicare / No insurance,all adults ages 65+,19,,
+10371,North Dakota,2016,2016,nursing,condition of hard tissue,untreated decay,insurance status,Medicaid,all adults ages 65+,29,,
+10372,North Dakota,2016,2016,nursing,condition of hard tissue,substantial tooth loss,insurance status,private / third party,all adults ages 65+,55,,
+10373,North Dakota,2016,2016,nursing,condition of hard tissue,substantial tooth loss,insurance status,Medicare / No insurance,all adults ages 65+,69,,
+10374,North Dakota,2016,2016,nursing,condition of hard tissue,substantial tooth loss,insurance status,Medicaid,all adults ages 65+,75,,
+10375,North Dakota,2016,2016,nursing,condition of hard tissue,edentulous,insurance status,private / third party,all adults ages 65+,17,,
+10376,North Dakota,2016,2016,nursing,condition of hard tissue,edentulous,insurance status,Medicare / No insurance,all adults ages 65+,31,,
+10377,North Dakota,2016,2016,nursing,condition of hard tissue,edentulous,insurance status,Medicaid,all adults ages 65+,41,,
+10378,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,all,total,all adults ages 65+,29.1,24,34.2
+10379,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,age,<65,all adults ages 65+,30.2,24.6,35.9
+10380,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,age,65–74,all adults ages 65+,38.2,28.6,47.9
+10381,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,age,75–84,all adults ages 65+,30.9,22.1,39.7
+10382,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,age,85+,all adults ages 65+,21.7,13.8,29.6
+10383,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,gender,Male,all adults ages 65+,32.8,26.7,38.8
+10384,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,gender,Female,all adults ages 65+,27.1,20.9,33.3
+10385,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,race,Non‐Hispanic white,all adults ages 65+,27.8,21.6,34
+10386,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,race,Non‐Hispanic black,all adults ages 65+,33.8,24.7,42.8
+10387,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,Medicaid status,Yes,all adults ages 65+,37.4,32,42.9
+10388,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,Medicaid status,No,all adults ages 65+,15.6,9.9,21
+10389,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,length of residence,<1 year,all adults ages 65+,27.5,20.5,34.4
+10390,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,length of residence,1–4 years,all adults ages 65+,26.1,18.9,33.2
+10391,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,length of residence,5+ years,all adults ages 65+,35.4,26.7,44.1
+10392,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,facility location,Coastal Plains,all adults ages 65+,33.5,25.9,41
+10393,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,facility location,Piedmont,all adults ages 65+,26.4,19.3,33.5
+10394,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,facility location,Mountains,all adults ages 65+,31.7,17.5,45.9
+10395,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,facility size,Small (20–60 beds),all adults ages 65+,38,31.3,44.6
+10396,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,facility size,Medium (61–100 beds),all adults ages 65+,21,13.6,28.5
+10397,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,edentulous,facility size,Large (101+ beds),all adults ages 65+,32.7,23.9,41.6
+10398,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,all,total,all adults ages 65+,50,41,59
+10399,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,age,<65,all adults ages 65+,28.8,15.7,41.9
+10400,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,age,65–74,all adults ages 65+,59.5,47.7,71.3
+10401,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,age,75–84,all adults ages 65+,52.1,38.7,65.4
+10402,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,age,85+,all adults ages 65+,64.6,45.3,83.9
+10403,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,gender,Male,all adults ages 65+,43.8,29.2,58.5
+10404,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,gender,Female,all adults ages 65+,52.7,43.9,61.4
+10405,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,race,Non‐Hispanic white,all adults ages 65+,54.1,44.4,63.8
+10406,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,race,Non‐Hispanic black,all adults ages 65+,32.1,10.6,53.5
+10407,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,Medicaid status,Yes,all adults ages 65+,45.2,35.3,55.2
+10408,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,Medicaid status,No,all adults ages 65+,67.5,51.5,83.5
+10409,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,length of residence,<1 year,all adults ages 65+,51.1,36.4,65.8
+10410,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,length of residence,1–4 years,all adults ages 65+,58.2,46.9,69.4
+10411,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,length of residence,5+ years,all adults ages 65+,43.4,29.7,57
+10412,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,facility location,Coastal Plains,all adults ages 65+,41.5,21,62
+10413,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,facility location,Piedmont,all adults ages 65+,51.5,40.3,62.7
+10414,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,facility location,Mountains,all adults ages 65+,53.8,29,78.6
+10415,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,facility size,Small (20–60 beds),all adults ages 65+,41.1,28.4,53.9
+10416,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,facility size,Medium (61–100 beds),all adults ages 65+,54,34.6,73.4
+10417,North Carolina,2015-2016,2015,any long term care,denture use,complete dentures,facility size,Large (101+ beds),all adults ages 65+,56.7,36.9,76.6
+10418,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,age,65--74,all adults ages 65+,16.3,7.5,25.2
+10419,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,Medicaid,No,all adults ages 65+,16.7,9.6,23.8
+10420,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,Medicaid,No,all adults ages 65+,37.5,26.9,48.2
+10421,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,age,75--84,all adults ages 65+,16.3,7.5,25.2
+10422,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,Medicaid,Yes,all adults ages 65+,17.1,10.5,23.7
+10423,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,Medicaid,Yes,all adults ages 65+,62.3,53.1,71.4
+10424,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,age,85+,all adults ages 65+,22.8,14.2,31.5
+10425,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,age,65--74,all adults ages 65+,17.7,9.3,26.1
+10426,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,age,65--74,all adults ages 65+,56.5,43.7,69.4
+10427,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,age,<65,all adults ages 65+,27.9,17.4,38.5
+10428,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,age,75--84,all adults ages 65+,11.6,5.6,17.6
+10429,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,age,75--84,all adults ages 65+,43.4,31.8,55.1
+10430,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,all,total,all adults ages 65+,22.2,16.4,28
+10431,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,age,85+,all adults ages 65+,18.8,10.2,27.4
+10432,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,age,85+,all adults ages 65+,39.8,26.6,53
+10433,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,facility location,Coastal Plains,all adults ages 65+,21.3,8.7,33.8
+10434,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,age,<65,all adults ages 65+,18.1,9.6,26.6
+10435,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,age,<65,all adults ages 65+,57.9,45.4,70.4
+10436,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,facility location,Mountains,all adults ages 65+,37.5,26.9,48.3
+10437,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,all,total,all adults ages 65+,16.4,11.4,21.5
+10438,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,all,total,all adults ages 65+,48.6,40.1,57.2
+10439,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,facility location,Piedmont,all adults ages 65+,19.5,12.7,26.3
+10440,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,facility location,Coastal Plains,all adults ages 65+,9.1,0.2,18
+10441,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,facility location,Coastal Plains,all adults ages 65+,52.6,41,64.2
+10442,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,facility size,Large (101+ beds),all adults ages 65+,17.2,3.3,31
+10443,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,facility location,Mountains,all adults ages 65+,11.1,0.7,21.5
+10444,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,facility location,Mountains,all adults ages 65+,47.8,36,59.5
+10445,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,facility size,Medium (61-100 beds),all adults ages 65+,21.8,14.1,29.4
+10446,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,facility location,Piedmont,all adults ages 65+,20.5,14,27.1
+10447,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,facility location,Piedmont,all adults ages 65+,47.8,36,59.5
+10448,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,facility size,Small (20--60 beds),all adults ages 65+,25.4,14.5,36.4
+10449,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,facility size,Large (101+ beds),all adults ages 65+,17.4,4.7,30.1
+10450,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,facility size,Large (101+ beds),all adults ages 65+,52.5,33,72
+10451,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,gender,Female,all adults ages 65+,20.7,14.7,26.7
+10452,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,facility size,Medium (61-100 beds),all adults ages 65+,16.8,9.2,24.3
+10453,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,facility size,Medium (61-100 beds),all adults ages 65+,37.4,27.9,46.8
+10454,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,gender,Male,all adults ages 65+,25.7,15.5,35.8
+10455,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,facility size,Small (20--60 beds),all adults ages 65+,15.4,7.7,23.1
+10456,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,facility size,Small (20--60 beds),all adults ages 65+,65.9,52.4,79.4
+10457,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,length of residence,1--4 years,all adults ages 65+,19.6,13,26.3
+10458,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,gender,Female,all adults ages 65+,14.2,8.4,20
+10459,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,gender,Female,all adults ages 65+,45.6,36.5,54.6
+10460,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,length of residence,5+ years,all adults ages 65+,29.9,19.3,40.5
+10461,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,gender,Male,all adults ages 65+,21.2,13.9,28.6
+10462,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,gender,Male,all adults ages 65+,54.2,43.1,65.4
+10463,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,length of residence,<1 year,all adults ages 65+,18,10.3,25.7
+10464,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,length of residence,1--4 years,all adults ages 65+,14.2,8.4,20
+10465,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,length of residence,1--4 years,all adults ages 65+,46.7,33.5,59.9
+10466,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,Medicaid,No,all adults ages 65+,20,13.2,26.8
+10467,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,length of residence,5+ years,all adults ages 65+,19,11,27.1
+10468,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,length of residence,5+ years,all adults ages 65+,58.4,47.9,69
+10469,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,Medicaid,Yes,all adults ages 65+,24.7,16.6,32.9
+10470,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,length of residence,<1 year,all adults ages 65+,14.8,7.7,21.9
+10471,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,length of residence,<1 year,all adults ages 65+,46.6,34.5,58.6
+10472,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,race,Non-Hispanic Black,all adults ages 65+,19.2,10.8,27.7
+10473,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,race,Non-Hispanic Black,all adults ages 65+,17.9,8.2,27.6
+10474,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,race,Non-Hispanic Black,all adults ages 65+,63.1,49.3,76.9
+10475,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,severe gingival inflammation,race,Non-Hispanic White,all adults ages 65+,22.9,16.6,29.1
+10476,North Carolina,2015-2016,2015,any long term care,condition of soft tissue,substantial oral debris,race,Non-Hispanic White,all adults ages 65+,16.1,10.7,21.5
+10477,North Carolina,2015-2016,2015,any long term care,condition of hard tissue,untreated decay,race,Non-Hispanic White,all adults ages 65+,44.8,35.7,54
+10478,Wisconsin,2012,2012,nursing,condition of hard tissue,edentulous,all,total,all adults ages 65+,33,26.8,39.2
+10479,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,all,total,all adults ages 65+,31.7,28.5,35
+10480,Wisconsin,2012,2012,nursing,condition of hard tissue,any untreated decay,all,total,all adults ages 65+,42.4,35,49.8
+10481,Wisconsin,2012,2012,nursing,condition of hard tissue,untreated coronal decay,all,total,all adults ages 65+,,,
+10482,Wisconsin,2012,2012,nursing,condition of hard tissue,untreated root decay,all,total,all adults ages 65+,,,
+10483,Wisconsin,2012,2012,nursing,condition of hard tissue,root fragments,all,total,all adults ages 65+,31.2,26.3,36.1
+10484,Wisconsin,2012,2012,nursing,condition of soft tissue,suspicious soft tissue lesion,all,total,all adults ages 65+,4.2,2.2,6.2
+10485,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,gender,female,all adults ages 65+,49.7,41.2,58.3
+10486,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,gender,male,all adults ages 65+,51.5,43,60
+10487,Wisconsin,2012,2012,nursing,condition of soft tissue,gingival inflammation,all,total,all adults ages 65+,22.2,12.5,31.9
+10488,Wisconsin,2012,2012,nursing,condition of hard tissue,obvious tooth mobility,all,total,all adults ages 65+,5.7,2.6,8.8
+10489,Wisconsin,2012,2012,nursing,condition of soft tissue,substantial oral debris,all,total,all adults ages 65+,35.2,24.3,46.1
+10490,Wisconsin,2012,2012,nursing,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+,27.3,18.5,36.1
+10491,Wisconsin,2012,2012,nursing,condition of soft tissue,severe dry mouth,all,total,all adults ages 65+,7.2,3,11.5
+10492,Wisconsin,2016,2016,nursing,condition of hard tissue,any untreated decay,all,total,all adults ages 65+,46.3,39.9,52.8
+10493,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated coronal decay,all,total,all adults ages 65+,25.2,19,31.5
+10494,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated root decay,all,total,all adults ages 65+,38.2,30.8,45.6
+10495,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,all,total,all adults ages 65+,32.9,26.6,39.2
+10496,Wisconsin,2016,2016,nursing,condition of soft tissue,suspicious soft tissue lesion,all,total,all adults ages 65+,2.8,1.8,3.8
+10497,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,race/ethnicity,Non-Hispanic White,all adults ages 65+,50.4,43.1,57.8
+10498,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,race/ethnicity,Non-Hispanic Black,all adults ages 65+,52,29.2,74.8
+10499,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,all,total,all adults ages 65+,27.2,21.3,33.2
+10500,Wisconsin,2016,2016,nursing,condition of hard tissue,obvious tooth mobility,all,total,all adults ages 65+,4.9,3,6.9
+10501,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,all,total,all adults ages 65+,26.6,23.3,29.8
+10502,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+,39,35.4,42.6
+10503,Wisconsin,2016,2016,nursing,condition of soft tissue,severe dry mouth,all,total,all adults ages 65+,7,4.5,9.5
+10504,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,gender,female,all adults ages 65+,31.9,28,35.7
+10505,Wisconsin,2016,2016,nursing,condition of hard tissue,any untreated decay,gender,female,all adults ages 65+,45.2,37,53.3
+10506,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated coronal decay,gender,female,all adults ages 65+,25.1,17,33.3
+10507,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated root decay,gender,female,all adults ages 65+,36.6,28.2,45
+10508,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,gender,female,all adults ages 65+,30.2,23,37.6
+10509,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,race/ethnicity,Other/missing,all adults ages 65+,49.4,43,54.8
+10510,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,gender,female,all adults ages 65+,26.9,20.8,33.1
+10511,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,gender,female,all adults ages 65+,26.1,21,31.2
+10512,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,gender,female,all adults ages 65+,38.4,33.2,43.6
+10513,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,gender,male,all adults ages 65+,31.5,24.3,38.8
+10514,Wisconsin,2016,2016,nursing,condition of hard tissue,any untreated decay,gender,male,all adults ages 65+,48.2,39.7,56.7
+10515,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated coronal decay,gender,male,all adults ages 65+,25.4,18.3,32.4
+10516,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated root decay,gender,male,all adults ages 65+,40.7,29,52.4
+10517,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,gender,male,all adults ages 65+,37,27.4,46.6
+10518,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,urbanicity,urban,all adults ages 65+,49,41.4,56.6
+10519,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,gender,male,all adults ages 65+,27.7,19.1,36.4
+10520,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,gender,male,all adults ages 65+,27.3,23.5,31.1
+10521,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,gender,male,all adults ages 65+,39.9,33.6,46.2
+10522,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,race/ethnicity,Non-Hispanic White,all adults ages 65+,31.5,28,35
+10523,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated decay,race/ethnicity,Non-Hispanic White,all adults ages 65+,46.3,39.4,53.2
+10524,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,race/ethnicity,Non-Hispanic White,all adults ages 65+,32.5,25.6,39.5
+10525,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,urbanicity,suburban,all adults ages 65+,49.7,36.8,62.6
+10526,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,race/ethnicity,Non-Hispanic White,all adults ages 65+,27.9,21.3,34.5
+10527,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,race/ethnicity,Non-Hispanic White,all adults ages 65+,27.6,24.1,31.1
+10528,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,race/ethnicity,Non-Hispanic White,all adults ages 65+,40.1,36.2,44.1
+10529,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,race/ethnicity,Non-Hispanic Black,all adults ages 65+,41.2,30.2,52.2
+10530,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated decay,race/ethnicity,Non-Hispanic Black,all adults ages 65+,49,24.1,73.8
+10531,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,race/ethnicity,Non-Hispanic Black,all adults ages 65+,30.3,16.6,44.1
+10532,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,urbanicity,rural,all adults ages 65+,51.6,43.7,59.5
+10533,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,race/ethnicity,Non-Hispanic Black,all adults ages 65+,22,14.2,29.8
+10534,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,race/ethnicity,Non-Hispanic Black,all adults ages 65+,18.4,4.3,32.5
+10535,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,race/ethnicity,Non-Hispanic Black,all adults ages 65+,29,17.8,40.2
+10536,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,race/ethnicity,Other/missing,all adults ages 65+,28.5,21.4,32.9
+10537,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated decay,race/ethnicity,Other/missing,all adults ages 65+,45.5,40,51.1
+10538,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,race/ethnicity,Other/missing,all adults ages 65+,38.8,31.6,45.9
+10539,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,dementia status,dementia,all adults ages 65+,57.9,47.7,68
+10540,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,race/ethnicity,Other/missing,all adults ages 65+,21.5,12.8,30.3
+10541,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,race/ethnicity,Other/missing,all adults ages 65+,17.4,11,23.8
+10542,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,race/ethnicity,Other/missing,all adults ages 65+,29.4,19.7,39.1
+10543,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,urbanicity,urban,all adults ages 65+,23.8,15.4,32.1
+10544,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated decay,urbanicity,urban,all adults ages 65+,43.7,35.7,51.8
+10545,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,urbanicity,urban,all adults ages 65+,32.1,25.1,39.1
+10546,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,dementia status,no dementia,all adults ages 65+,44.7,33.8,55.6
+10547,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,urbanicity,urban,all adults ages 65+,21.4,18.2,24.7
+10548,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,urbanicity,urban,all adults ages 65+,27.7,16.7,38.7
+10549,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,urbanicity,urban,all adults ages 65+,35.8,29,42.7
+10550,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,urbanicity,suburban,all adults ages 65+,31.4,26.6,36.1
+10551,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated decay,urbanicity,suburban,all adults ages 65+,46.4,35.5,57.3
+10552,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,urbanicity,suburban,all adults ages 65+,33.2,24.4,42
+10553,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,urbanicity,suburban,all adults ages 65+,26.4,17.3,35.4
+10554,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,urbanicity,suburban,all adults ages 65+,25,21.8,28.3
+10555,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,urbanicity,suburban,all adults ages 65+,35.9,31.3,40.6
+10556,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,urbanicity,rural,all adults ages 65+,34.5,31,38
+10557,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated decay,urbanicity,rural,all adults ages 65+,47.2,37.8,56.6
+10558,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,urbanicity,rural,all adults ages 65+,32.9,21.9,43.9
+10559,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,urbanicity,rural,all adults ages 65+,30.2,20.1,40.2
+10560,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,urbanicity,rural,all adults ages 65+,27.7,22.4,32.9
+10561,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,urbanicity,rural,all adults ages 65+,43.1,35.8,50.4
+10562,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,dementia status,dementia,all adults ages 65+,24.6,20.7,28.5
+10563,Wisconsin,2016,2016,nursing,condition of hard tissue,any untreated decay,dementia status,dementia,all adults ages 65+,53.8,44.5,63
+10564,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated coronal decay,dementia status,dementia,all adults ages 65+,31.2,20.9,41.4
+10565,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated root decay,dementia status,dementia,all adults ages 65+,45.5,37.5,53.4
+10566,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,dementia status,dementia,all adults ages 65+,37.2,31.6,42.9
+10567,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,dementia status,dementia,all adults ages 65+,33.2,24.5,41.9
+10568,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,dementia status,dementia,all adults ages 65+,34.8,30.5,39.2
+10569,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,dementia status,dementia,all adults ages 65+,48.6,43.8,53.3
+10570,Wisconsin,2016,2016,nursing,condition of hard tissue,edentulous,dementia status,no dementia,all adults ages 65+,35.5,32.2,38.7
+10571,Wisconsin,2016,2016,nursing,condition of hard tissue,any untreated decay,dementia status,no dementia,all adults ages 65+,40.1,30.9,49.3
+10572,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated coronal decay,dementia status,no dementia,all adults ages 65+,21,14.6,27.4
+10573,Wisconsin,2016,2016,nursing,condition of hard tissue,untreated root decay,dementia status,no dementia,all adults ages 65+,30.6,19.4,41.8
+10574,Wisconsin,2016,2016,nursing,condition of hard tissue,root fragments,dementia status,no dementia,all adults ages 65+,26.6,16.3,37
+10575,Wisconsin,2016,2016,nursing,condition of soft tissue,gingival inflammation,dementia status,no dementia,all adults ages 65+,21.6,14.4,28.7
+10576,Wisconsin,2016,2016,nursing,condition of soft tissue,substantial oral debris,dementia status,no dementia,all adults ages 65+,20.6,17.2,23.9
+10577,Wisconsin,2016,2016,nursing,condition of soft tissue,periodontal treatment needed,dementia status,no dementia,all adults ages 65+,32,27.9,36
+10578,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,all ,total,all adults ages 65+ with one or more teeth,22.9,18,27.8
+10579,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,all ,total,all adults ages 65+ with one or more teeth,21.3,16.1,26.5
+10580,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,all ,total,all adults ages 65+ with one or more teeth,17.2,12.3,22
+10581,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,race / ethnicity,White,all adults ages 65+ with one or more teeth,24.6,16.5,32.6
+10582,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,race / ethnicity,White,all adults ages 65+ with one or more teeth,25.5,18.3,32.7
+10583,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,race / ethnicity,White,all adults ages 65+ with one or more teeth,18.1,8.8,27.4
+10584,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,race / ethnicity,Black,all adults ages 65+ with one or more teeth,32.2,19.1,45.3
+10585,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,race / ethnicity,Black,all adults ages 65+ with one or more teeth,44.4,27.3,61.6
+10586,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,race / ethnicity,Black,all adults ages 65+ with one or more teeth,12.9,0.7,25
+10587,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,race / ethnicity,Hispanic,all adults ages 65+ with one or more teeth,18.6,10.6,26.5
+10588,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,race / ethnicity,Hispanic,all adults ages 65+ with one or more teeth,14.2,6.3,22.1
+10589,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,race / ethnicity,Hispanic,all adults ages 65+ with one or more teeth,16.8,7.7,25.8
+10590,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,race / ethnicity,Multi-racial,all adults ages 65+ with one or more teeth,23.1,8.8,37.5
+10591,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,race / ethnicity,Multi-racial,all adults ages 65+ with one or more teeth,3.4,0,7.6
+10592,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,race / ethnicity,Multi-racial,all adults ages 65+ with one or more teeth,25,5.9,44.1
+10593,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,race / ethnicity,other,all adults ages 65+ with one or more teeth,15.7,4.9,26.6
+10594,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,race / ethnicity,other,all adults ages 65+ with one or more teeth,24.8,0,55.5
+10595,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,race / ethnicity,other,all adults ages 65+ with one or more teeth,,,
+10596,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,region,Northwest,all adults ages 65+ with one or more teeth,28.6,15.5,41.7
+10597,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,region,Northwest,all adults ages 65+ with one or more teeth,45.3,24.3,66.3
+10598,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Northwest,all adults ages 65+ with one or more teeth,2.5,0,7.6
+10599,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,region,Northeast,all adults ages 65+ with one or more teeth,27.7,13.9,41.5
+10600,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,region,Northeast,all adults ages 65+ with one or more teeth,20.8,10,31.6
+10601,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Northeast,all adults ages 65+ with one or more teeth,12.5,1.8,23.2
+10602,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,region,Central,all adults ages 65+ with one or more teeth,18.8,14.3,23.3
+10603,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,region,Central,all adults ages 65+ with one or more teeth,18,7,29
+10604,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Central,all adults ages 65+ with one or more teeth,7,0,14.1
+10605,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,region,West Coast,all adults ages 65+ with one or more teeth,15.4,3.3,27.5
+10606,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,region,West Coast,all adults ages 65+ with one or more teeth,18.9,7,30.7
+10607,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,West Coast,all adults ages 65+ with one or more teeth,1.1,0,3.3
+10608,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,region,Atlantic,all adults ages 65+ with one or more teeth,18.5,16.8,20.3
+10609,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,region,Atlantic,all adults ages 65+ with one or more teeth,19.3,0,39.4
+10610,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,Atlantic,all adults ages 65+ with one or more teeth,41.6,40.8,42.3
+10611,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,region,South,all adults ages 65+ with one or more teeth,15.5,9.7,21.3
+10612,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,region,South,all adults ages 65+ with one or more teeth,11,5.7,16.3
+10613,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,region,South,all adults ages 65+ with one or more teeth,20.1,11.8,28.4
+10614,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,education,no HS diploma,all adults ages 65+ with one or more teeth,19.5,10,28.9
+10615,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,education,no HS diploma,all adults ages 65+ with one or more teeth,17.8,7.2,28.3
+10616,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,education,no HS diploma,all adults ages 65+ with one or more teeth,14.6,8.5,20.7
+10617,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,education,HS diploma,all adults ages 65+ with one or more teeth,24.2,16.5,31.8
+10618,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,education,HS diploma,all adults ages 65+ with one or more teeth,27.2,18.3,36
+10619,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,education,HS diploma,all adults ages 65+ with one or more teeth,18.4,9.8,26.9
+10620,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,education,some college,all adults ages 65+ with one or more teeth,21.1,15.7,26.5
+10621,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,education,some college,all adults ages 65+ with one or more teeth,17,9.9,24
+10622,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,education,some college,all adults ages 65+ with one or more teeth,13.1,6.4,19.6
+10623,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,untreated decay,education,advanced degree,all adults ages 65+ with one or more teeth,28.6,14.7,42.6
+10624,Florida,2015 - 2016,2015,congregate meal sites,condition of hard tissue,root fragments,education,advanced degree,all adults ages 65+ with one or more teeth,24.8,11.8,37.8
+10625,Florida,2015 - 2016,2015,congregate meal sites,condition of soft tissue,periodontal treatment needed,education,advanced degree,all adults ages 65+ with one or more teeth,26.3,14.1,38.6
+10626,Iowa,2017,2017,congregate meal sites,condition of hard tissue,untreated decay,all ,total,all adults ages 65+ with one or more teeth,18.4765,15.24,21.71
+10627,Iowa,2017,2017,congregate meal sites,condition of hard tissue,root fragments,all ,total,all adults ages 65+ with one or more teeth,15.91,12.85,18.97
+10628,Iowa,2017,2017,congregate meal sites,condition of soft tissue,periodontal treatment needed,all ,total,all adults ages 65+ with one or more teeth,14.6238,11.71,17.54
+10629,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,all,total,all adults ages 65+ with one or more teeth,46.6,37.3,55.9
+10630,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,root fragments,all,total,all adults ages 65+ with one or more teeth,28.1,21.8,34.5
+10631,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,suspicious soft tissue lesion,all,total,all adults ages 65+ with one or more teeth,14.6,6.1,23.1
+10632,Nebraska,2019,2019,nursing or assisted living,denture use,upper denture,all,total,all adults ages 65+ with one or more teeth,21.4,17.3,25.4
+10633,Nebraska,2019,2019,nursing or assisted living,denture use,lower denture,all,total,all adults ages 65+ with one or more teeth,9.5,5.9,13.1
+10634,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+ with one or more teeth,30.6,18.8,42.4
+10635,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,all,total,all adults ages 65+ with one or more teeth,46,37.1,54.9
+10636,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,all,total,all adults ages 65+ with one or more teeth,9.3,3.5,15.1
+10637,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,age,LT 65 years,all adults ages 65+ with one or more teeth,60.8,37,84.6
+10638,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,age,65--74,all adults ages 65+ with one or more teeth,46.1,26.3,65.9
+10639,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,age,75--84 years,all adults ages 65+ with one or more teeth,42.4,29.5,55.3
+10640,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,age,85--94 years,all adults ages 65+ with one or more teeth,45.9,35.4,56.4
+10641,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,age,95+ years,all adults ages 65+ with one or more teeth,53.7,31.9,75.4
+10642,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,sex,male,all adults ages 65+ with one or more teeth,46.5,31.7,61.4
+10643,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,sex,female,all adults ages 65+ with one or more teeth,47,37.5,56.4
+10644,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,race / ethnicity,White (non-Hispanic),all adults ages 65+ with one or more teeth,47.9,38.9,56.8
+10645,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,race / ethnicity,Non-White or Hispanic,all adults ages 65+ with one or more teeth,32.3,6.8,57.8
+10646,Nebraska,2019,2019,assisted living,condition of hard tissue,untreated decay,all,total,all adults ages 65+ with one or more teeth,44.3,31.4,57.2
+10647,Nebraska,2019,2019,nursing,condition of hard tissue,untreated decay,all ,total,all adults ages 65+ with one or more teeth,48,35.5,60.6
+10648,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,urbanicity of county,rural,all adults ages 65+ with one or more teeth,53.9,43.3,64.6
+10649,Nebraska,2019,2019,nursing or assisted living,condition of hard tissue,untreated decay,urbanicity of county,urban,all adults ages 65+ with one or more teeth,34.9,21.3,48.5
+10650,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,age,LT 65 years,all adults ages 65+ with one or more teeth,46.3,17.7,74.8
+10651,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,age,65--74,all adults ages 65+ with one or more teeth,36.7,18.8,54.6
+10652,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,age,75--84 years,all adults ages 65+ with one or more teeth,32,17.2,46.9
+10653,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,age,85--94 years,all adults ages 65+ with one or more teeth,26.7,12.6,40.9
+10654,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,age,95+ years,all adults ages 65+ with one or more teeth,11,1.8,20.3
+10655,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,sex,male,all adults ages 65+ with one or more teeth,31.2,13.5,48.9
+10656,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,sex,female,all adults ages 65+ with one or more teeth,30.3,16.2,44.4
+10657,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,race / ethnicity,White (non-Hispanic),all adults ages 65+ with one or more teeth,31.3,19,43.7
+10658,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,race / ethnicity,Non-White or Hispanic,all adults ages 65+ with one or more teeth,12.4,2,22.7
+10659,Nebraska,2019,2019,assisted living,condition of soft tissue,periodontal treatment needed,all,total,all adults ages 65+ with one or more teeth,30.6,9.3,51.9
+10660,Nebraska,2019,2019,nursing,condition of soft tissue,periodontal treatment needed,all ,total,all adults ages 65+ with one or more teeth,30.7,17.5,43.8
+10661,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,urbanicity of county,rural,all adults ages 65+ with one or more teeth,40.2,23.8,56.7
+10662,Nebraska,2019,2019,nursing or assisted living,condition of soft tissue,periodontal treatment needed,urbanicity of county,urban,all adults ages 65+ with one or more teeth,15.4,6.7,24.1
+10663,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,age,LT 65 years,all adults ages 65+ with one or more teeth,53.8,33.3,74.4
+10664,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,age,65--74,all adults ages 65+ with one or more teeth,55.5,35.3,75.6
+10665,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,age,75--84 years,all adults ages 65+ with one or more teeth,39,27.4,50.5
+10666,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,age,85--94 years,all adults ages 65+ with one or more teeth,43.9,35,52.8
+10667,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,age,95+ years,all adults ages 65+ with one or more teeth,51.1,25.5,76.8
+10668,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,sex,male,all adults ages 65+ with one or more teeth,41.7,28.3,55.2
+10669,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,sex,female,all adults ages 65+ with one or more teeth,47.9,38.1,57.7
+10670,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,race / ethnicity,White (non-Hispanic),all adults ages 65+ with one or more teeth,46.6,37.8,55.5
+10671,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,race / ethnicity,Non-White or Hispanic,all adults ages 65+ with one or more teeth,32.3,6.8,57.8
+10672,Nebraska,2019,2019,assisted living,dental treatment needed,early or urgent,all,total,all adults ages 65+ with one or more teeth,42.3,30.4,54.2
+10673,Nebraska,2019,2019,nursing,dental treatment needed,early or urgent,all ,total,all adults ages 65+ with one or more teeth,48.4,36.2,60.6
+10674,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,urbanicity of county,rural,all adults ages 65+ with one or more teeth,51.5,40.3,62.7
+10675,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,early or urgent,urbanicity of county,urban,all adults ages 65+ with one or more teeth,37.3,24.5,50
+10676,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,age,LT 65 years,all adults ages 65+ with one or more teeth,5.1,0,15.2
+10677,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,age,65--74,all adults ages 65+ with one or more teeth,20.7,2.3,39.1
+10678,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,age,75--84 years,all adults ages 65+ with one or more teeth,11,3.1,18.9
+10679,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,age,85--94 years,all adults ages 65+ with one or more teeth,3.7,0.1,7.4
+10680,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,age,95+ years,all adults ages 65+ with one or more teeth,10.4,0,22.8
+10681,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,sex,male,all adults ages 65+ with one or more teeth,11.2,2.5,19.9
+10682,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,sex,female,all adults ages 65+ with one or more teeth,8.5,2.4,14.6
+10683,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,race / ethnicity,White (non-Hispanic),all adults ages 65+ with one or more teeth,10.1,3.8,16.5
+10684,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,race / ethnicity,Non-White or Hispanic,all adults ages 65+ with one or more teeth,0,0,0
+10685,Nebraska,2019,2019,assisted living,dental treatment needed,urgent,all,total,all adults ages 65+ with one or more teeth,6.2,0.3,12.1
+10686,Nebraska,2019,2019,nursing,dental treatment needed,urgent,all ,total,all adults ages 65+ with one or more teeth,11.3,2.7,20
+10687,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,urbanicity of county,rural,all adults ages 65+ with one or more teeth,9.5,2.7,16.2
+10688,Nebraska,2019,2019,nursing or assisted living,dental treatment needed,urgent,urbanicity of county,urban,all adults ages 65+ with one or more teeth,9,0,19.6
+10689,Wisconsin,2012,2012,nursing,denture use,have a lower denture/partial,all,total,all adults ages 65+ with one or more teeth,11.6,8.1,15.1
+10690,Wisconsin,2012,2012,nursing,denture use,have an upper denture/partial,all,total,all adults ages 65+ with one or more teeth,25.2,21,29.5
+10691,Wisconsin,2016,2016,nursing,denture use,have a lower denture/partial,all,total,all adults ages 65+ with one or more teeth,10.6,8.3,13
+10692,Wisconsin,2016,2016,nursing,denture use,have an upper denture/partial,all,total,all adults ages 65+ with one or more teeth,28.4,23.1,33.6
+10693,Wisconsin,2012,2012,nursing,dental treatment needed,early or urgent,all,total,all adults ages 65+ with one or more teeth,49.8,42.9,56.8
+10694,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,all,total,all adults ages 65+ with one or more teeth,50.4,43.6,57.2
+10695,Wisconsin,2012,2012,nursing,denture use,wear lower denture/partial,all,total,all adults ages 65+ with one or more teeth and full or partial dentures,80.7,70.7,90.7
+10696,Wisconsin,2012,2012,nursing,denture use,wear denture/partial,all,total,all adults ages 65+ with one or more teeth and full or partial dentures,93.1,89.2,97
+10697,Wisconsin,2016,2016,nursing,denture use,wear lower denture/partial,all,total,all adults ages 65+ with one or more teeth and full or partial dentures,87.9,81.5,94.3
+10698,Wisconsin,2016,2016,nursing,denture use,wear denture/partial,all,total,all adults ages 65+ with one or more teeth and full or partial dentures,91.1,84.8,97.4
+10699,Wisconsin,2012,2012,nursing,denture use,"full dentures, both arches",all,total,all adults ages 65+ with no natural teeth,73.4,64.2,82.7
+10700,Wisconsin,2012,2012,nursing,denture use,have dentures for one arch,all,total,all adults ages 65+ with no natural teeth,11,5.7,16.2
+10701,Wisconsin,2012,2012,nursing,denture use,no dentures,all,total,all adults ages 65+ with no natural teeth,15.6,10,21.2
+10702,Wisconsin,2012,2012,nursing,denture use,"wear dentures, both arches",all,total,all adults ages 65+ with no natural teeth,58.3,49.9,66.7
+10703,Wisconsin,2016,2016,nursing,denture use,"full dentures, both arches",all,total,all adults ages 65+ with no natural teeth,68,60.4,75.7
+10704,Wisconsin,2016,2016,nursing,denture use,have dentures for one arch,all,total,all adults ages 65+ with no natural teeth,16.2,11.5,20.9
+10705,Wisconsin,2016,2016,nursing,denture use,no dentures,all,total,all adults ages 65+ with no natural teeth,15.8,10.6,21
+10706,Wisconsin,2016,2016,nursing,denture use,"wear dentures, both arches",all,total,all adults ages 65+ with no natural teeth,59.1,50.9,67.2
+10707,Wisconsin,2012,2012,nursing,dental treatment needed,early or urgent,all,total,all adults ages 65+ with no natural teeth,6.5,1.5,11.4
+10708,Wisconsin,2016,2016,nursing,dental treatment needed,early or urgent,all,total,all adults ages 65+ with no natural teeth,5.8,3.5,8
+10709,Wisconsin,2012,2012,nursing,denture use,wear dentures,all,total,all adults ages 65+ with full dentures across both arches,79.4,74.3,84.5
+10710,Wisconsin,2016,2016,nursing,denture use,wear dentures,all,total,all adults ages 65+ with full dentures across both arches,86.8,81,92.7
