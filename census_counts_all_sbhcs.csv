@@ -1,0 +1,53 @@
+geo_name,geo_abr,fips_code,geo_type,count_SBHCs
+United States,USA,US,country,2582
+Alabama,AL,1,state,8
+Alaska,AK,2,state,7
+Arizona,AZ,4,state,37
+Arkansas,AR,5,state,29
+California,CA,6,state,199
+Colorado,CO,8,state,58
+Connecticut,CT,9,state,166
+Delaware,DE,10,state,30
+"Washington, DC",DC,11,district,7
+Florida,FL,12,state,115
+Georgia,GA,13,state,104
+Hawaii,HI,15,state,16
+Idaho,ID,16,state,2
+Illinois,IL,17,state,85
+Indiana,IN,18,state,48
+Iowa,IA,19,state,12
+Kansas,KS,20,state,11
+Kentucky,KY,21,state,99
+Louisiana,LA,22,state,86
+Maine,ME,23,state,13
+Maryland,MD,24,state,82
+Massachusetts,MA,25,state,52
+Michigan,MI,26,state,111
+Minnesota,MN,27,state,23
+Mississippi,MS,28,state,73
+Missouri,MO,29,state,12
+Montana,MT,30,state,2
+Nebraska,NE,31,state,9
+Nevada,NV,32,state,12
+New Hampshire,NH,33,state,1
+New Jersey,NJ,34,state,15
+New Mexico,NM,35,state,61
+New York,NY,36,state,196
+North Carolina,NC,37,state,85
+North Dakota,ND,38,state,0
+Ohio,OH,39,state,62
+Oklahoma,OK,40,state,2
+Oregon,OR,41,state,82
+Pennsylvania,PA,42,state,24
+Rhode Island,RI,44,state,4
+South Carolina,SC,45,state,61
+South Dakota,SD,46,state,3
+Tennessee,TN,47,state,54
+Texas,TX,48,state,201
+Utah,UT,49,state,5
+Vermont,VT,50,state,5
+Virginia,VA,51,state,7
+Washington,WA,53,state,44
+West Virginia,WV,54,state,161
+Wisconsin,WI,55,state,0
+Wyoming,WY,56,state,1
