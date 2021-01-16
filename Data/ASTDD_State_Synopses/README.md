@@ -17,9 +17,11 @@ State oral health programs are diverse in the services they help provide and mon
 
 ## Orientation & Stewardship  
 
-ASTDD annually administers surveys to dental directors, aggregating the findings into reports owned by ASTDD. These reports are shared with the CDC, which publishes the results on the [Chronic Disease data portal](https://chronicdata.cdc.gov/Oral-Health/ASTDD-Synopses-of-State-Oral-Health-Programs-Selec/vwmz-4ja3/data). 
+ASTDD annually administers surveys to dental directors, aggregating the findings into reports owned by ASTDD. These reports are posted on the ASTDD website and also shared with the CDC. The CDC aggregates some of the reporting measures into a single file on the [Chronic Disease data portal](https://chronicdata.cdc.gov/Oral-Health/ASTDD-Synopses-of-State-Oral-Health-Programs-Selec/vwmz-4ja3/data). 
 
-#### Data use agreements
+For the National Oral Health Data Portal Project we have used the CDC data file for most visualization since the file does most of the work of aggregating years of ASTDD PDF reports. Importantly, one indicator not included in the CDC portal is whether or not states have an ongoing oral health surveillance system in place approved by the Council of State & Territorial Epidemiologists (CSTE). This is the lone 'infrastructure indicator' in the State Oral Health Surveillance System For reporting regaring the National Oral Health System. To report on this indicator we have gone directly to the [2020 ASTDD State Synopsis Summary Report](https://www.astdd.org/docs/2020-synopses-report.pdf).
+
+#### Data Use
 
 The dataset is free and publicly available for download on the CDC Chronic Disease Data Portal.
 
