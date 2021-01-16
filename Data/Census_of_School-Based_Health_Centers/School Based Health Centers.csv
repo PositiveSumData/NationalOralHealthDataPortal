@@ -1,122 +1,122 @@
-﻿state,service,school_count
-ALABAMA,any oral health service,5
-ALABAMA,dental sealants,3
-ALABAMA,topical fluoride,3
-ALASKA,any oral health service,1
-ARIZONA,any oral health service,9
-ARIZONA,dental sealants,2
-ARIZONA,topical fluoride,2
-ARKANSAS,any oral health service,17
-ARKANSAS,dental sealants,11
-ARKANSAS,topical fluoride,11
-CALIFORNIA,any oral health service,94
-CALIFORNIA,dental sealants,46
-CALIFORNIA,topical fluoride,51
-COLORADO,any oral health service,46
-COLORADO,dental sealants,29
-COLORADO,topical fluoride,26
-CONNECTICUT,any oral health service,150
-CONNECTICUT,dental sealants,98
-CONNECTICUT,topical fluoride,90
-DELAWARE,any oral health service,10
-DISTRICT OF COLUMBIA,any oral health service,5
-DISTRICT OF COLUMBIA,dental sealants,4
-DISTRICT OF COLUMBIA,topical fluoride,4
-FLORIDA,any oral health service,59
-FLORIDA,dental sealants,35
-FLORIDA,topical fluoride,53
-GEORGIA,any oral health service,47
-GEORGIA,dental sealants,7
-GEORGIA,topical fluoride,7
-HAWAII,any oral health service,2
-HAWAII,dental sealants,2
-HAWAII,topical fluoride,2
-IDAHO,any oral health service,2
-IDAHO,dental sealants,1
-IDAHO,topical fluoride,1
-ILLINOIS,any oral health service,37
-ILLINOIS,dental sealants,10
-ILLINOIS,topical fluoride,10
-INDIANA,any oral health service,9
-INDIANA,dental sealants,3
-INDIANA,topical fluoride,2
-IOWA,any oral health service,8
-KANSAS,any oral health service,10
-KANSAS,dental sealants,7
-KANSAS,topical fluoride,7
-KENTUCKY,any oral health service,64
-KENTUCKY,dental sealants,24
-KENTUCKY,topical fluoride,31
-LOUISIANA,any oral health service,46
-LOUISIANA,dental sealants,6
-LOUISIANA,topical fluoride,8
-MAINE,any oral health service,8
-MAINE,dental sealants,4
-MAINE,topical fluoride,3
-MARYLAND,any oral health service,41
-MARYLAND,dental sealants,14
-MARYLAND,topical fluoride,28
-MASSACHUSETTS,any oral health service,18
-MASSACHUSETTS,dental sealants,2
-MASSACHUSETTS,topical fluoride,12
-MICHIGAN,any oral health service,58
-MICHIGAN,dental sealants,16
-MICHIGAN,topical fluoride,22
-MINNESOTA,any oral health service,6
-MINNESOTA,dental sealants,4
-MINNESOTA,topical fluoride,4
-MISSISSIPPI,any oral health service,35
-MISSISSIPPI,dental sealants,14
-MISSISSIPPI,topical fluoride,14
-MISSOURI,any oral health service,3
-MISSOURI,dental sealants,1
-MISSOURI,topical fluoride,2
-MONTANA,any oral health service,1
-MONTANA,dental sealants,1
-MONTANA,topical fluoride,1
-NEBRASKA,any oral health service,8
-NEVADA,any oral health service,5
-NEVADA,dental sealants,1
-NEVADA,topical fluoride,5
-NEW JERSEY,any oral health service,3
-NEW MEXICO,any oral health service,18
-NEW MEXICO,dental sealants,6
-NEW MEXICO,topical fluoride,7
-NEW YORK,any oral health service,146
-NEW YORK,dental sealants,82
-NEW YORK,topical fluoride,91
-NORTH CAROLINA,any oral health service,29
-NORTH CAROLINA,topical fluoride,1
-OHIO,any oral health service,39
-OHIO,dental sealants,13
-OHIO,topical fluoride,14
-OKLAHOMA,any oral health service,1
-OREGON,any oral health service,52
-OREGON,dental sealants,16
-OREGON,topical fluoride,22
-PENNSYLVANIA,any oral health service,5
-PENNSYLVANIA,dental sealants,3
-PENNSYLVANIA,topical fluoride,3
-SOUTH CAROLINA,any oral health service,12
-SOUTH CAROLINA,dental sealants,5
-SOUTH CAROLINA,topical fluoride,5
-TENNESSEE,any oral health service,15
-TENNESSEE,dental sealants,2
-TENNESSEE,topical fluoride,5
-TEXAS,any oral health service,22
-TEXAS,dental sealants,10
-TEXAS,topical fluoride,15
-UTAH,any oral health service,1
-UTAH,topical fluoride,1
-VERMONT,any oral health service,1
-VERMONT,dental sealants,1
-VERMONT,topical fluoride,1
-VIRGINIA,any oral health service,1
-VIRGINIA,topical fluoride,1
-WASHINGTON,any oral health service,27
-WASHINGTON,dental sealants,10
-WASHINGTON,topical fluoride,12
-WEST VIRGINIA,any oral health service,95
-WEST VIRGINIA,dental sealants,64
-WEST VIRGINIA,topical fluoride,32
-WYOMING,any oral health service,1
+﻿geo_name,geo_abr,fips_code,service,school_count
+Alabama,AL,1,any oral health ,5
+Alabama,AL,1,dental sealants,3
+Alabama,AL,1,topical fluoride,3
+Alaska,AK,2,any oral health ,1
+Arizona,AZ,4,any oral health ,9
+Arizona,AZ,4,dental sealants,2
+Arizona,AZ,4,topical fluoride,2
+Arkansas,AR,5,any oral health ,17
+Arkansas,AR,5,dental sealants,11
+Arkansas,AR,5,topical fluoride,11
+California,CA,6,any oral health ,94
+California,CA,6,dental sealants,46
+California,CA,6,topical fluoride,51
+Colorado,CO,8,any oral health ,46
+Colorado,CO,8,dental sealants,29
+Colorado,CO,8,topical fluoride,26
+Connecticut,CT,9,any oral health ,150
+Connecticut,CT,9,dental sealants,98
+Connecticut,CT,9,topical fluoride,90
+Delaware,DE,10,any oral health ,10
+District Of Columbia,DC,11,any oral health ,5
+District Of Columbia,DC,11,dental sealants,4
+District Of Columbia,DC,11,topical fluoride,4
+Florida,FL,12,any oral health ,59
+Florida,FL,12,dental sealants,35
+Florida,FL,12,topical fluoride,53
+Georgia,GA,13,any oral health ,47
+Georgia,GA,13,dental sealants,7
+Georgia,GA,13,topical fluoride,7
+Hawaii,HI,15,any oral health ,2
+Hawaii,HI,15,dental sealants,2
+Hawaii,HI,15,topical fluoride,2
+Idaho,ID,16,any oral health ,2
+Idaho,ID,16,dental sealants,1
+Idaho,ID,16,topical fluoride,1
+Illinois,IL,17,any oral health ,37
+Illinois,IL,17,dental sealants,10
+Illinois,IL,17,topical fluoride,10
+Indiana,IN,18,any oral health ,9
+Indiana,IN,18,dental sealants,3
+Indiana,IN,18,topical fluoride,2
+Iowa,IA,19,any oral health ,8
+Kansas,KS,20,any oral health ,10
+Kansas,KS,20,dental sealants,7
+Kansas,KS,20,topical fluoride,7
+Kentucky,KY,21,any oral health ,64
+Kentucky,KY,21,dental sealants,24
+Kentucky,KY,21,topical fluoride,31
+Louisiana,LA,22,any oral health ,46
+Louisiana,LA,22,dental sealants,6
+Louisiana,LA,22,topical fluoride,8
+Maine,ME,23,any oral health ,8
+Maine,ME,23,dental sealants,4
+Maine,ME,23,topical fluoride,3
+Maryland,MD,24,any oral health ,41
+Maryland,MD,24,dental sealants,14
+Maryland,MD,24,topical fluoride,28
+Massachusetts,MA,25,any oral health ,18
+Massachusetts,MA,25,dental sealants,2
+Massachusetts,MA,25,topical fluoride,12
+Michigan,MI,26,any oral health ,58
+Michigan,MI,26,dental sealants,16
+Michigan,MI,26,topical fluoride,22
+Minnesota,MN,27,any oral health ,6
+Minnesota,MN,27,dental sealants,4
+Minnesota,MN,27,topical fluoride,4
+Mississippi,MS,28,any oral health ,35
+Mississippi,MS,28,dental sealants,14
+Mississippi,MS,28,topical fluoride,14
+Missouri,MO,29,any oral health ,3
+Missouri,MO,29,dental sealants,1
+Missouri,MO,29,topical fluoride,2
+Montana,MT,30,any oral health ,1
+Montana,MT,30,dental sealants,1
+Montana,MT,30,topical fluoride,1
+Nebraska,NE,31,any oral health ,8
+Nevada,NV,32,any oral health ,5
+Nevada,NV,32,dental sealants,1
+Nevada,NV,32,topical fluoride,5
+New Jersey,NJ,34,any oral health ,3
+New Mexico,NM,35,any oral health ,18
+New Mexico,NM,35,dental sealants,6
+New Mexico,NM,35,topical fluoride,7
+New York,NY,36,any oral health ,146
+New York,NY,36,dental sealants,82
+New York,NY,36,topical fluoride,91
+North Carolina,NC,37,any oral health ,29
+North Carolina,NC,37,topical fluoride,1
+Ohio,OH,39,any oral health ,39
+Ohio,OH,39,dental sealants,13
+Ohio,OH,39,topical fluoride,14
+Oklahoma,OK,40,any oral health ,1
+Oregon,OR,41,any oral health ,52
+Oregon,OR,41,dental sealants,16
+Oregon,OR,41,topical fluoride,22
+Pennsylvania,PA,42,any oral health ,5
+Pennsylvania,PA,42,dental sealants,3
+Pennsylvania,PA,42,topical fluoride,3
+South Carolina,SC,45,any oral health ,12
+South Carolina,SC,45,dental sealants,5
+South Carolina,SC,45,topical fluoride,5
+Tennessee,TN,47,any oral health ,15
+Tennessee,TN,47,dental sealants,2
+Tennessee,TN,47,topical fluoride,5
+Texas,TX,48,any oral health ,22
+Texas,TX,48,dental sealants,10
+Texas,TX,48,topical fluoride,15
+Utah,UT,49,any oral health ,1
+Utah,UT,49,topical fluoride,1
+Vermont,VT,50,any oral health ,1
+Vermont,VT,50,dental sealants,1
+Vermont,VT,50,topical fluoride,1
+Virginia,VA,51,any oral health ,1
+Virginia,VA,51,topical fluoride,1
+Washington,WA,53,any oral health ,27
+Washington,WA,53,dental sealants,10
+Washington,WA,53,topical fluoride,12
+West Virginia,WV,54,any oral health ,95
+West Virginia,WV,54,dental sealants,64
+West Virginia,WV,54,topical fluoride,32
+Wyoming,WY,56,any oral health ,1
