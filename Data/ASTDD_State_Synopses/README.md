@@ -13,23 +13,23 @@ The ASTDD State Synopses are aggregated surveys of state dental directors descri
 
 ## Utility
 
-State oral health programs are diverse in the services they help provide and monitor and in the staffing to support these tasks. The ASTDD state synopses are timely, helping us keep track of the current national landscape of oral health programs. 
+The ASTDD state synopses are timely glimpses into the diversity of oral health programs being offered by states. 
 
 ## Orientation & Stewardship  
 
 ASTDD annually administers surveys to dental directors, aggregating the findings into reports owned by ASTDD. These reports are posted on the ASTDD website and also shared with the CDC. The CDC aggregates some of the reporting measures into a single file on the [Chronic Disease data portal](https://chronicdata.cdc.gov/Oral-Health/ASTDD-Synopses-of-State-Oral-Health-Programs-Selec/vwmz-4ja3/data). 
 
-For the National Oral Health Data Portal Project we have used the CDC data file for most visualization since the file does most of the work of aggregating years of ASTDD PDF reports. Importantly, one indicator not included in the CDC portal is whether or not states have an ongoing oral health surveillance system in place approved by the Council of State & Territorial Epidemiologists (CSTE). This is the lone 'infrastructure indicator' in the State Oral Health Surveillance System For reporting regaring the National Oral Health System. To report on this indicator we have gone directly to the [2020 ASTDD State Synopsis Summary Report](https://www.astdd.org/docs/2020-synopses-report.pdf).
+For the National Oral Health Data Portal Project we have used the CDC data file for most visualization since the file does most of the work of aggregating years of ASTDD PDF reports. Importantly, one indicator not included in the CDC portal is whether or not states have an ongoing oral health surveillance system in place approved by the Council of State & Territorial Epidemiologists (CSTE). This is the lone 'infrastructure indicator' in the State Oral Health Surveillance System. To report on this indicator we have gone directly to the [2020 ASTDD State Synopsis Summary Report](https://www.astdd.org/docs/2020-synopses-report.pdf).
 
 #### Data Use
 
-The dataset is free and publicly available for download on the CDC Chronic Disease Data Portal.
+The historical dataset is publicly available for download on the CDC Chronic Disease Data Portal. More complete annual files are available from ASTDD.
 
 ## Original Data Structure
 
-Each row in the CDC download file is a unique state-year-question-breakout. "Breakouts" are the term they use to describe when questions have sub-questions. 
+Each row in the CDC download file is a unique state-year-question-breakout. "Breakouts" are the term they use to describe when questions have multiple possible categorical answers. 
 
-Questions without a breakout, such that there would be only one row per state per year, include:
+Questions without a breakout include:
 
 |question | 
 | ------- | 
@@ -39,7 +39,7 @@ Questions without a breakout, such that there would be only one row per state pe
 | Statewide, broad-based oral health coalition	| 
 | Years in current dental director position	| 
 
-Questions with breakouts, such that there is a a row for each state-year-question-breakout, include:
+Questions with breakouts include:
 |question | breakout |
 | ------- | ------- | 
 | Number of full-time equivalent (FTE) employees or contractors funded by state dental health program	| Not directly supervised by state health agency staff |
@@ -81,13 +81,17 @@ R code for modifying the original data file into the format used in the Tableau 
 
 ## Tableau Presentation
 
-The Tableau viz offers three dashboards, offering ways presenting the main 3 variables: year, state, and indicator. 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/ASTDDStateSynopses/Orientation).
 
-**2020 National Dashboard** fixes the most recent year to show the status of all indicators for all states.
-**Indicators over Time** fixes the state to see how all the indicators perform over all the years in the dataset.
-**States over Time** fixes the indicator to show how all states perform on that indicator over time.
+The Tableau viz offers three dashboards, offering ways of presenting the main 3 variables: year, state, and indicator. 
+
+* **2020 National Dashboard** fixes the most recent year to show the status of all indicators for all states.
+* **Indicators over Time** fixes the state to see how all the indicators perform over all the years in the dataset.
+* **States over Time** fixes the indicator to show how all states perform on that indicator over time.
 
 
 ## Status & Next Steps
 
 The Tableau viz is up and open for feedback.
+
+Should we incorporate fields available in the annual ASTDD files that are not included in the CDC historical file?
