@@ -16,6 +16,8 @@ This dashboard helps monitor status of all the HP2030 oral health objectives in 
 
 Healthy People is a national health target-setting and progress monitoring project lead by the U.S. Department of Health and Human Services. At the close of each decade, national stakeholders determine the country's health priorities and what meaningful improvements could be made by the end of the following decade. Healthy People 2030 launched in 2020 with 15 official measures and one developmental (OH-D01) measure:
 
+| Objective Number | Objective Description |
+| ------ | ----- |
 | OH‑03 | Reduce the proportion of adults with active or untreated tooth decay |
 | OH‑07 | Increase the proportion of oral and pharyngeal cancers detected at the earliest stage |
 | OH‑08 | Increase the proportion of children, adolescents, and adults who use the oral health care system |
@@ -36,7 +38,7 @@ Objectives were chosed that had reliable national datasets that could monitor ac
 
 ## Original Data Structures
 
-The HP2030 baselines have been established, and since it launched so recently that's currently all the data the project has so far. This data was obtained by manually copying it from the HP2030 [oral conditions](https://health.gov/healthypeople/objectives-and-data/browse-objectives/oral-conditions) webpage. 
+The HP2030 baselines have been established, and since it launched so recently that's currently all the data the project has so far. Data waere obtained by manually copying it from the HP2030 [oral conditions](https://health.gov/healthypeople/objectives-and-data/browse-objectives/oral-conditions) webpage. 
 
 ## Converted Data Structure
 
@@ -51,6 +53,8 @@ No issues -- there's not much to do with this dataset yet.
 No code was needed to modify or calculate since there is so little to work with yet. 
 
 ## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HealthyPeople2030/Orientation).
 
 A single dashboard has been created presenting the targets and baseline for each objective.
 
