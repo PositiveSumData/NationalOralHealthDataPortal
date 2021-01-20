@@ -1,6 +1,6 @@
 # Behavior Risk Factor Surveillance System
 
-The Behavior Risk Factor Surveillance System (BRFSS) is a CDC-shepherded, state-administered phone survey of American adults that can help us learn about the prevalence of health conditions, including dental visits and tooth loss severity.
+The Behavior Risk Factor Surveillance System (BRFSS) is a CDC-stewarded, state-administered phone survey of American adults that can help us learn about the prevalence of health conditions, including dental visits and tooth loss severity.
 
 ## Examples of questions this dataset could help answer
 
@@ -15,13 +15,15 @@ BRFSS is the main source for monitoring rates of adult annual dental visits and 
 
 ## Orientation & Stewardship  
 
-The BRFSS survey is designed by the CDC and carried out by states. The CDC collects survey responses from the states and makes them available through their [BRFSS microsite](https://www.cdc.gov/brfss/annual_data/annual_2019.html) as annual files. As a complex survye, statistical software is needed to analyze the raw data. [Their Web-Enabled Analysis Tool (WHEAT)](https://nccd.cdc.gov/weat/#/analysis) helps users query BRFSS data without needing statistical software. States may append the standard BRFSS questionnaire with their own additional questions, and these may or may not appear in the CDC BRFSS database, so states can sometimes have additional useful data if contacted directly.
+The BRFSS survey is designed by the CDC and carried out by states. The CDC collects survey responses from the states and makes them available through their [BRFSS microsite](https://www.cdc.gov/brfss/annual_data/annual_2019.html) as annual files. As a complex survey, statistical software is needed to analyze the raw data. [Their Web-Enabled Analysis Tool (WHEAT)](https://nccd.cdc.gov/weat/#/analysis) helps users query BRFSS data without needing statistical software. 
+
+States may append the standard BRFSS questionnaire with their own additional questions, and these may or may not appear in the CDC BRFSS database, so states can sometimes have additional useful data if contacted directly.
 
 The CDC recommends the following citation when using their online BRFSS database:
 
 > Centers for Disease Control and Prevention (CDC). Behavioral Risk Factor Surveillance System Survey Data. Atlanta, Georgia: U.S. Department of Health and Human Services, Centers for Disease Control and Prevention, [appropriate year].
 
-Analyzed BRFSS data for the National Oral Health Data Portal was provided in 2020 by Kathy Phipps, PhD, the data consultant to the Association of State & Territorial Dental Directors.
+The analyzed BRFSS data used in this National Oral Health Data project is a combination of reports downloaded from the CDC WEAT query system, and from data in 2020 by Kathy Phipps, PhD, data consultant to the Association of State & Territorial Dental Directors.
 
 ## Data Structure
 
@@ -38,6 +40,8 @@ Users should be aware that data is based on self-reported phone surveys. Clinici
 Sample sizes in BRFSS can be quite low in states, leading to unstable estimates at the county level or lower, especially when slicing by population characteristics. Kathy Phipps has provided estimates for many large metropolitan areas without population stratifications because adding stratifications would reduce samples sample size. 
 
 ## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/BehaviorRiskFactorSurveillanceSystem/Welcome).
 
 Four dashboards are presented:
 * **State Compare**. For comparing states on a selected measure and population characteristic.
