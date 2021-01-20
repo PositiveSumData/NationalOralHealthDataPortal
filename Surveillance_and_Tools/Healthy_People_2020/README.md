@@ -82,6 +82,8 @@ The file **CI_code.R**, contained in this Github repository folder, helps produc
 
 ## Tableau Presentation
 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HealthyPeople2020/Orientation).
+
 Two dashboards are presented:
 
 * **Objectives Status**. Shows the target, baseline, status, and 'status as of' date for each objective.
