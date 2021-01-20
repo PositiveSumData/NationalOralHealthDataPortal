@@ -1,6 +1,6 @@
 # American Dental Association Health Policy Institute Supply and Profile of Dentists dataset
 
-The Supply and Profile of Dentists dataset gives counts and densities of professionally active dentists by state and overall since 2001.
+The Supply and Profile of Dentists dataset gives counts and densities of professionally active dentists by country and state for each year since 2001.
 
 ## Examplse of questions this dataset could help answer
 
@@ -18,7 +18,7 @@ The American Dental Association's Health Policy Institute hosts the Supply and P
 
 #### Data use 
 
-The dataset is freely and publicly available for download from the HPI [website](https://www.ada.org/en/science-research/health-policy-institute/data-center/supply-and-profile-of-dentists). 
+The dataset is publicly available for download from the HPI [website](https://www.ada.org/en/science-research/health-policy-institute/data-center/supply-and-profile-of-dentists). 
 
 ## Original Data Structure
 
@@ -38,7 +38,7 @@ The sheets in the original spreadsheet were condensed into two files:
 
 ## Issues & decisions
 
-The first file containing annual dentist counts and density has been incorporated into the National Oral Health Data Portal project; the second file has not yet been incorporated because it is not as current. 
+The first file containing annual dentist counts and density has been incorporated into the National Oral Health Data Portal project; the second 2016 snapshot has not been incorporated because it is not as current. 
 
 ## Code
 
@@ -46,13 +46,15 @@ No code was used to modify or calculate data. Because the original spreadsheets 
 
 ## Tableau Presentation
 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/ADAHPISupplyandProfileofDentists/Orientation).
+
 Three dashboards have been created:
 
-**States Compare**. For comparing states on the dentist count or density measure in 2019.
+* **States Compare**. For comparing states on the dentist count or density measure in 2019.
 
-**State Historical Trends**. For comparing states across time on one of the two measures.
+* **State Historical Trends**. For comparing states across time on one of the two measures.
 
-**National Dentists by Age, Sex**. For examining national dentist counts by age and sex.
+* **National Dentists by Age, Sex**. For examining national dentist counts by age and sex.
 
 ## Status & Next Steps
 
