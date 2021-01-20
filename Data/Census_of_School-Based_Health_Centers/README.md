@@ -1,6 +1,6 @@
 # The Census of School-Based Health Centers
 
-The School-Based Health Alliance's Census of School-Based Health Centers provides information tracks health access information at schools across the country. 
+The School-Based Health Alliance's Census of School-Based Health Centers tracks health access information at schools across the country. 
 
 ## Utility
 
@@ -40,7 +40,9 @@ The file **census_counts_all_sbhcs.csv** contains state counts of SBHCs.
 
 No code was necessary to process the data before visualization. The 3 service columns were unpivoted in Microsoft Excel to have a database format to read into Tableau.
 
-## Tableau Viz
+## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/CensusofSchool-BasedHealthCenters/Orientation).
 
 Two dashboards are presented:
 
