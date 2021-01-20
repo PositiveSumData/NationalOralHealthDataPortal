@@ -10,11 +10,11 @@ HRSA's Area Health Resource Files (AHRFs) contain detailed characteristics of th
 
 ## Utility
 
-AHRF gives detailed demographic and service characteristics of the dental workforce at the county level.
+AHRF gives detailed demographic and service characteristics of the dental workforce at the county level. It's one of the few oral health datasets to provide county detail. 
 
 ## Orientation & Stewardship  
 
-AHRFs are maintained by the Health Resources & Services Administration, which obtains much of the data from government agencies like the U.S. Census Bureau or Centers for Medicare & Medicaid Services; and by purchasing access to private datasets like the American Medical Association Masterfile and the American Dental Association Masterfile. County level dental workforce data comes from the ADA masterfile, usually on 2-year delay (the 2020 AHRFs contained 2018 ADA masterfile data). AHRF state-level data comes from the Centers for Medicare & Medicaid Services National Plan and Provider Enumeration System National Provider Identifier registry. 
+AHRFs are maintained by the Health Resources & Services Administration, which obtains much of the data from government agencies like the U.S. Census Bureau or Centers for Medicare & Medicaid Services; and by purchasing access to private datasets like the American Medical Association Masterfile and the American Dental Association Masterfile. County level dental workforce data comes from the ADA masterfile, usually on 2-year delay (the most recent county dentists detat in the 2020 AHRF came from the 2018 ADA masterfile). AHRF state-level data comes from the Centers for Medicare & Medicaid Services National Plan and Provider Enumeration System National Provider Identifier registry. 
 
 #### Data Use
 
@@ -41,12 +41,16 @@ Two files were produced:
 
 ## Issues & decisions
 
-AHRF contains a TON of information and there's no way to visualize all that it contains. This project focused on county data only for now, since that's where most of the detail is. The state-level dental details is much more limited, coming from the NPI registry rather than the ADA masterfile. Positive Sum would like to know more about the validity of aggregating all county-level detail up to the state before making that visualization. Would it be ok to say that 23% of a state's dentists are under 35 if you add up all the dentists from all the counties and compute the share that are under 35?
+This project focused on county data only for now, since that's where most of the detail is. The state-level dental details are much more limited, coming from the NPI registry rather than the ADA masterfile. Positive Sum would like to know more about the validity of aggregating all county-level detail up to the state before making that visualization. Would it be ok to say that 23% of a state's dentists are under 35 if you add up all the dentists from all the counties and compute the share that are under 35?
 
 ## Code
 
 The R file **ahrf_code.R** has been added to this Github repository folder. It reads in the 2018-2019 ahrf file and outputs the dental workforce and populations files.
 
+## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HRSAAreaHealthResourceFiles/Orientation).
+
 ## Project status & Next Steps
 
-The project is currently using the 2018-2019 AHRF, which contains 2017 ADA masterfile dentist counts. The 2019-2020 updated file is available and needs to be incorporated into the project. Since the characater spaces will be entirely different than in the 2018-2019 file, it'll take some time to re-map them, it shouldn't be that time consuming.
+The project is currently using the 2018-2019 AHRF, which contains 2017 ADA masterfile dentist counts. The 2019-2020 updated file is available and needs to be incorporated into the project. Since the characater spaces will be entirely different than in the 2018-2019 file, it'll take some time to re-map them.
