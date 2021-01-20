@@ -4,7 +4,7 @@ States collect emergency department data to understand utilization patterns, cos
 
 ## Utility
 
-The emergency department is not the ideal access point for most oral health conditions. The dental office is usually much more appropriate, where dentists have the expertise to manage traumatic and non-traumatic dental cases. Emergency department care is much more expensive than dental office care. Emergency department use for dental reasons may illuminate gaps in health literacy, dental insurance coverage, or the availability of dentists. States often turn to ED data to see if utilization changes as result of changes to Medicaid dental coverage, the thought being that when people don't have dental insurance they are less likely to see a dentist and more likely to go to a hospital. 
+The emergency department is not an ideal access point for most oral health conditions. The dental office is usually much more appropriate, where dentists have the expertise to manage traumatic and non-traumatic dental cases. Emergency department care is much more expensive than dental office care. Emergency department use for dental reasons may illuminate gaps in health literacy, dental insurance coverage, or the availability of dentists. States often turn to ED data to see if utilization changes as result of changes to Medicaid dental coverage, the thought being that when people don't have dental insurance they are less likely to see a dentist and more likely to go to a hospital. 
 
 ### Questions this dataset could help answer
 
@@ -156,10 +156,10 @@ FIPS codes are federally-assigned, unique IDs for nearly every geography in the 
 * HCUP and the state emergency department databases do not use the same race/ethnicity categories as the US census. This makes calculating population rates by race/ethnicity difficult. We will need to find another solution for calculating population rates by race/ethnicity.
 * We have chosen to focus only on ICD10 codes. The earlier ICD9 codes were used in US hospitals until 2015, at which point they switched to ICD10 codes. There were significant changes in codes, with ICD10 being much more expansive. There are crosswalks for mapping ICD9 codes to ICD10 codes. But the change was abrupt enough to cause some validation issues with comparing pre-2015 ICD9 analysis with post-2015 ICD10 queries. We have chosen to start fresh with.
 
+## Tableau Presentation
+
+There is no Tableau presentation yet. We are still gathering data.
+
 ## Project status
 
-We are developing a data request template to disseminate among states. If state programs are unable to provide the analyses or raw data for us, we may consider purchasing through the HCUP distributor.
-
-## Tutorial
-
-[AQHR HCUPnet walkthrough(https://youtu.be/c3ssnPXsc8o)]
+We are gathering state data directly since HCUPnet does not have many states' datasets or timely data.
