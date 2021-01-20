@@ -21,7 +21,6 @@ Healthy People is a national health target-setting and progress monitoring proje
 | OH 1.1 | Reduce the proportion of children aged 3 to 5 years with dental caries experience in their primary teeth | 
 | OH 1.2 | Reduce the proportion of children aged 6 to 9 years with dental caries experience in their primary or permanent teeth |
 | OH 1.3 | Reduce the proportion of adolescents aged 13 to 15 years with dental caries experience in their permanent teeth |
-directed by a dental professional with public health training |
 | OH 2.1 | Reduce the proportion of children aged 3 to 5 years with untreated dental decay in their primary teeth | 
 | OH 2.2 | Reduce the proportion of children aged 6 to 9 years with untreated dental decay in their primary or permanent teeth | 
 | OH 2.3 | Reduce the proportion of adolescents aged 13 to 15 years with untreated dental decay in their permanent teeth |
@@ -85,7 +84,7 @@ The file **CI_code.R**, contained in this Github repository folder, helps produc
 
 Two dashboards are presented:
 
-* **Objectives Status**. Shows the target, baseline, status, and 'stats as of' date for each objective.
+* **Objectives Status**. Shows the target, baseline, status, and 'status as of' date for each objective.
 
 * **Objective Trends**. Allows a user to select an objective and see any progress since baseline.
 
