@@ -1,6 +1,6 @@
 # American Dental Association Health Policy Institute Medicaid Reimbursement & Participation report, 2016
 
-This report from the ADA HPI delineates state-level dentist participation in Medicaid and the percent of private insurance that Medicaid typically covers.
+This report from the ADA HPI delineates state-level dentist participation in Medicaid and the percent of private insurance fees that Medicaid typically covers.
 
 ## Examples of questions this dataset could help answer
 
@@ -14,11 +14,14 @@ This dataset helps states understand two of the largest factors commonly discuss
 
 ## Orientation & Stewardship  
 
-The report was produced by the Health Policy Institute and is freely avaiable on their [website](https://www.ada.org/~/media/ADA/Science%20and%20Research/HPI/Files/HPIgraphic_0417_1.pdf?la=en).
+The report was produced by the Health Policy Institute and is avaiable on their [website](https://www.ada.org/~/media/ADA/Science%20and%20Research/HPI/Files/HPIgraphic_0417_1.pdf?la=en).
 
 ## Original Data Structure
 
-The pdf report was presented data in four columns: participation in Medicaid for dentists and physicians; reimbursement as a percent of private for dentists and physicians. 
+The pdf report was presented data in four columns: 
+
+* Participation in Medicaid for *dentists* and *physicians*. 
+* Reimbursement as a percent of private for *dentists* and *physicians*. 
 
 ## Converted Data Structure
 
@@ -33,6 +36,8 @@ None to report.
 No code was needed as the amount of data was small and it could be more easily copied from the pdf manually.
 
 ## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/ADAHPIMedicaidparticipationreimbursement/Orientation).
 
 Two dashboards are presented:
 
