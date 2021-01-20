@@ -1,6 +1,6 @@
 # Centers for Disease Control & Prevention Water Fluoridation Reporting System
 
-Many states participate in the CDC's Water Fluoridation reporting System (WFRS), providing community-level reports of counts of people using public water systems and the fluoridation levels of those systems. 
+Many states participate in the CDC's Water Fluoridation reporting System (WFRS), providing community-level counts of people using public water systems and the fluoridation levels of those systems. 
 
 ## Examples of questions this dataset could help answer
 
@@ -10,12 +10,11 @@ Many states participate in the CDC's Water Fluoridation reporting System (WFRS),
 
 ## Utility
 
-This is the only nationanl dataset containing state and community level fluoridation data.
+This is the only national dataset containing state and community level fluoridation data.
 
 ## Orientation & Stewardship  
 
 The [Water Fluoridation Reporting System](https://www.cdc.gov/fluoridation/data-tools/reporting-system.html) is maintained by the CDC based on reports periodically sent to them by individual states. The public may access the data through the [CDC's My Water's Fluoride microsite](https://nccd.cdc.gov/DOH_MWF/Default/Default.aspx). 
-
 
 
 
@@ -38,17 +37,15 @@ Detailed community data is found on the microsite by by navigating to the [State
 | IA-0105002 | Adair Municipal Water Supply | Adair (Primary) | 781 | No | 0.45 |
 | IA-0135046 | Fontanelle Water Works | Adair (Primary) | 742 | Yes | 0.70 |
 
-Each row is a unique year-water system. So there are multiple row per county.
+Each row is a unique year-water system. There are multiple row per county. These tables may be downloaded manually as an Excel file with the **Export** link. 
 
-These tables may be downloaded manually as an Excel file with the **Export** link. 
+The year of the fluoridation report reflects year from which the data was pulled from the WFRS database, not the year for which the data was submitted. The year of data submission is not shown and can be many years old
 
-The year of the fluoridation report reflects year from which the data was pulled from the WFRS database, not the year for which the data was submitted. The year of data submission is not shown and can be many years.
-
-The CDC has courteously provided a separate file for us in the Fall of 2020 containing the date of last data update so that dataviz users could filter data based on how recent the data is. This file, titled **WFRS_update_status.csv** is located in this Github repository folder.
+The CDC courteously provided a separate file for us in the Fall of 2020 containing the date of last data update so that dataviz users could filter data based on how recent the data is. This file, titled **WFRS_update_status.csv** is located in this Github repository folder.
 
 ## Converted Data Structure
 
-In the Summer of 2020, reports for each state were dowloaded and aggregated manually into the file **fluoride_1.csv**, located in this Github repository folder. The same structure was maintained from what was donloaded from the CDC microsite.
+In the Summer of 2020, reports for each state were dowloaded from MyWatersFluoride and aggregated manually into the file **fluoride_1.csv**, located in this Github repository folder. The same structure was maintained from what was downloaded from the CDC microsite.
 
 ## Issues & decisions
 
@@ -65,6 +62,8 @@ The oldest data that we downloaded in the WFRS system comes from 2011 (Arizona, 
 No code was needed to process or calculate data.
 
 ## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/CDCWaterFluoridationReportingSystem_16086462873310/Orientation).
 
 Three dashboards are presented:
 
