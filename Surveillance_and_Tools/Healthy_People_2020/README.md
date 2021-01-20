@@ -5,7 +5,7 @@ A dashboard for tracking status on the national oral health objectives set in 20
 ## Examples of questions this dataset could help answer
 
 * Were there any national oral health targets that weren't achieved by 2020? 
-* What was the national target set for percent of adults agd 65-74 with edentulism?
+* What was the national target set for percent of adults aged 65-74 with edentulism?
 * What is the latest status on OH 6 - oral and pharyngeal cancer detected at the earliest stage?
 
 ## Utility
@@ -53,11 +53,11 @@ directed by a dental professional with public health training |
 | OH 17.1 | Increase the proportion of States (including the District of Columbia) and local health agencies that serve jurisdictions of 250,000 or more persons with a dental public health program directed by a dental professional with public health training | 
 | OH 17.2 | Increase the number of Indian Health Service Areas and Tribal health programs that serve jurisdictions of 30,000 or more persons with a dental public health program 
 
-Objectives were chosed that had reliable national datasets that could monitor achievement. State targets were not set, and most of the datasets used in HP 2020 do not have state breakouts. For example, the National Health & Nutrition Examination Survey (NHANES) doesn't have a large enough sample size to permit state-level reporting.
+Objectives were chose that had reliable national datasets that could monitor achievement. State targets were not set, and most of the datasets used in HP 2020 do not have state breakouts. For example, the National Health & Nutrition Examination Survey (NHANES) doesn't have a large enough sample size to permit state-level reporting.
 
 ## Original Data Structures
 
-HP 2020 oral health objectives, baselines, progress, and targets are shown on the HP 2020 website, which allows a user to [query](https://www.healthypeople.gov/2020/data-search/) for the oral health topic. Once the oral health topic is suggested, a list of all the objectives is shown. For each objective, users can "download all data for this HP2020 objective" by clicking on a button and recieving a spreadsheet. 
+HP 2020 oral health objectives, baselines, progress, and targets are shown on the HP 2020 website, which allows a user to [query](https://www.healthypeople.gov/2020/data-search/) for the oral health topic. Once the oral health topic is suggested, a list of all the objectives is shown. For each objective, users can "download all data for this HP2020 objective" by clicking on a button and receiving a spreadsheet. 
 
 While we've reached the end of 2020, we can't say yet if any of the objectives are met because final reporting isn't yet available. Most of the datasets require pooling years together and presenting confidence intervals, so it may be a few years before datasets like NHANES are able to tell us if targets have been met.
 
@@ -65,15 +65,15 @@ While we've reached the end of 2020, we can't say yet if any of the objectives a
 
 Three files were generated based on data pulled from the HP2020 website:
 
-* **HP2020_objectives.csv**. Each row is a unique objective. Columns describe details about each objective, the baseline, and the target. An abbrevaited objective name column was created to make it easier to present in the Tableau dashboards.
+* **HP2020_objectives.csv**. Each row is a unique objective. Columns describe details about each objective, the baseline, and the target. An abbreviated objective name column was created to make it easier to present in the Tableau dashboards.
 
 * **HP2020_data.csv**. Each row is a unique objective-year. For every year of data on a given objective, there is a separate row; objectives with multiple progress years tracked on the HP2020 website will appear on many rows in this file. 
 
-* **HP2020_CI.csv**. A file of stricly the 95% confidence intervals for each estimate in the HP2020_data file, un-pivoted such that each row is a unique objective-year-CI_level. This formatting allows Tableau to draw confidence interval bars on charts.
+* **HP2020_CI.csv**. A file of strictly the 95% confidence intervals for each estimate in the HP2020_data file, un-pivoted such that each row is a unique objective-year-CI_level. This formatting allows Tableau to draw confidence interval bars on charts.
 
 ## Issues & decisions
 
-It's too soon yet to determine if any objectives are officially met, but the Tableau dashboards are set up to show status (met/not met/possibly met) based on the latest datat available. An objective was considered 'not met' if the estimate has not surpassed the target boundary. An objective was considered 'possibly met' if the estimate crossed the target boundary but the 95% confidence interval did not. An objective was considered me if both the estimate and the 95% confidence interval crossed the target boundary.
+It's too soon yet to determine if any objectives are officially met, but the Tableau dashboards are set up to show status (met/not met/possibly met) based on the latest data available. An objective was considered 'not met' if the estimate has not surpassed the target boundary. An objective was considered 'possibly met' if the estimate crossed the target boundary but the 95% confidence interval did not. An objective was considered met if both the estimate and the 95% confidence interval crossed the target boundary.
 
 Some of the objectives do have more current progress information available than shown on the HP2020 website, but for now Positive Sum has decided not to supplement official HP2020 monitoring with unofficial progress data. If the community recommends doing this it could be a good next step, or we could wait until more official updates are made on the HP2020 website.
 
