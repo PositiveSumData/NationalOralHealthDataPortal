@@ -1,6 +1,6 @@
 # Health Resources & Services Administration Dental Health Professional Shortage Areas
 
-Areas in the United States are determined to have a shortage of dental providers if they meet certain criteria established by the Health Resources & Services Administration. These designations help illuminate areas where certain populations may have difficulty obtaining needed dental care.
+Geographic boundaries in the United States are determined to have a shortage of dental providers if they meet certain criteria established by the Health Resources & Services Administration. These designations help illuminate areas where certain populations may have difficulty obtaining needed dental care.
 
 
 ## Questions this dataset could help answer
@@ -8,11 +8,11 @@ Areas in the United States are determined to have a shortage of dental providers
 * Which area in New Jersey has the highest designated shortage score?
 * How many dentist FTEs would be needed to ensure Idaohans have adequate access to dental care?
 * What shortage area in North Dakota has the highest proportion of people to dentist?
-* How many dentist FTEs are currently service the low income population of Genessee County, Michigan?
+* How many dentist FTEs are currently servicing the low income population of Genessee County, Michigan?
 
 ## Utility
 
-
+This dataset offers a helpful metric for identifying which areas of the country are in highest need of improved oral health care access. 
 
 ## Orientation & Stewardship  
 
@@ -20,8 +20,8 @@ HRSA designates shortage areas and maintains the data files.
 
 According to HRSA documentation in the Area Health Resource Files, an area can be designated as having a shortage of dentists if:
 
-> 1.	The area has a population to full-time-equivalent dentist ratio of at least 5,000:1.
-> 2.	The area has a population to full-time-equivalent dentist ratio of less than 5,000:1 but greater than 4,000:1 and has unusually high needs for dental services or insufficient capacity of existing dental  providers.
+1.	The area has a population to full-time-equivalent dentist ratio of at least 5,000:1.
+2.	The area has a population to full-time-equivalent dentist ratio of less than 5,000:1 but greater than 4,000:1 and has unusually high needs for dental services or insufficient capacity of existing dental  providers.
 
 Once a designation is made, a score is assigned using a formula with [4 criteria](https://bhw.hrsa.gov/workforce-shortage-areas/shortage-designation/scoring):
 
@@ -32,15 +32,15 @@ Once a designation is made, a score is assigned using a formula with [4 criteria
 
 Dental areas can receive a score of up to 26 points. 
 
-These dental scores direclty influece the [HRSA National Health Service Corps and Indian Health Service loan repayment programs](https://nhsc.hrsa.gov/scholarships/requirements-compliance/jobs-and-site-search/hpsa-score-class-year), which require an area meet a certain DHPSA threshold to be eligible to receive a Service Corps placement or for a provider to be eligible for loan repayment. DHPSA scores can also impact HRSA grant decisions for Federally-Qualified Health Centers
+These dental scores directly influece the [HRSA National Health Service Corps and Indian Health Service loan repayment programs](https://nhsc.hrsa.gov/scholarships/requirements-compliance/jobs-and-site-search/hpsa-score-class-year), which requires an area to meet a certain DHPSA threshold to be eligible to receive a Service Corps placement or for a provider to be eligible for loan repayment. DHPSA scores can also impact HRSA grant decisions for Federally-Qualified Health Centers.
 
-#### Data Use
+## Data Use
 
 DHPSA data files are available for free public dowload from the [HRSA data downloads page](https://data.hrsa.gov/data/download).
 
 ## Original Data Structure
 
-HRSA offers several file formats for obtaining DHPSA information on its data downloads page. The National Oral Health Data Portal Project used 2 of them:
+HRSA offers several file formats for obtaining DHPSA information on its data downloads page. The National Oral Health Data Portal project used 2 of them:
 
 * The **All HPSAs- Excel** file, which downloads as "BCD_HPSA_FCT_DET_DH.xlsx".
 
@@ -48,11 +48,13 @@ HRSA offers several file formats for obtaining DHPSA information on its data dow
 
 ## Converted Data Structure
 
-No modifications were made to the original HRSA files listed above. There were imported as-is into Tableau.
+No modifications were made to the original HRSA files listed above. These were imported as-is into Tableau.
 
 ## Decisions & Tableau Dashboards
 
-DHPSAs are most often used in regular conversation to describe a location's status: either being a DHPSA or not being a DHPSA. But there are so many deeper data points contained in the DHPSA files that can be useful, including the following measures:
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HRSADentalHealthProfessionalShortageAreas_16091923631950/Orientation).
+
+In practice, DHPSAs are most often used to describe a geographiy's status: either being a DHPSA or not being a DHPSA. But there are so many deeper data points contained in the DHPSA files that can be useful, including the following measures:
 
 * Population to dental provider ratio
 * Total dental FTEs
