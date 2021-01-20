@@ -15,18 +15,18 @@ State CMS416 reports are the best publicly available source for Medicaid and CHI
 
 ## Orientation & Stewardship  
 
-States annually submit children’s Medicaid and CHIP utilization data to the Centers for Medicare and Medicaid Services (CMS). The submission forms are called 'CMS 416 reports,' and the collective dataset has become knowns as CMS416. The annual collections are made available on the CMS 'EPSDT' [website](https://www.medicaid.gov/medicaid/benefits/early-and-periodic-screening-diagnostic-and-treatment/index.html). The data are presented as spreadsheets. Data are periodically revised over time as states update their submissions or catch up to the submission process. For instance, as of May 2, 2020, the FY 2016, 2017, and 2018 files were all updated in 2019. 
+States annually submit children’s Medicaid and CHIP utilization data to the Centers for Medicare and Medicaid Services (CMS). The submission forms are called 'CMS 416 reports,' and the collective dataset has become knowns as CMS416. The annual collections are made available on the CMS 'EPSDT' [website](https://www.medicaid.gov/medicaid/benefits/early-and-periodic-screening-diagnostic-and-treatment/index.html). The data are presented as spreadsheets. Data are periodically revised over time as states update their submissions or catch up to the submission process.  
 
-#### Data use agreements
+#### Data Use
 
 The data is provided as-is by direct download. No user agreement is required.
 
 ## Data Availability
 
 CMS 416 measures have been collected since 1995. The methodology, age categories, and measures have changed over the course of three main phases: 
-* 1995-1999. Only dental measure is 'received any dental.' 4 age groups are: <1, 1-5, 6-14, 15-20. Dental utilization defined by receipt of 'dental assessments.' Enrollees are those children who have been enrolled for any amount of time during the reporting period.
-* 2000-2009. Added 'preventive dental' and 'dental treatment' measures. Age groups changed to 7 categories: <1, 1-2, 3-5, 6-9, 10-14, 15-18, 19-20. Dental utilziation degined by receipt of 'dental services.' 
-* 2010-present. Added 'dental sealants,' 'dental diagnostic,' 'oral health services by a non-dentist', and 'any dental or oral health service.' Age group for sealants are 6-9 and 10-14 only. Enrollees are those who were enrolled for 90 continuous days during the reporting period.
+* 1995-1999. The only dental measure is 'received any dental.' The four age groups are: <1, 1-5, 6-14, 15-20. Dental utilization is defined by receipt of 'dental assessments.' Enrollees are those children who have been enrolled for any amount of time during the reporting period.
+* 2000-2009. The measures 'preventive dental' and 'dental treatment' are added. Age groups changed to seven categories: <1, 1-2, 3-5, 6-9, 10-14, 15-18, 19-20. Dental utilziation is defined by receipt of 'dental services.' 
+* 2010-present. The measures 'dental sealants,' 'dental diagnostic,' 'oral health services by a non-dentist', and 'any dental or oral health service' are added. The age groups for sealants are 6-9 and 10-14 only. Enrollees are those who were enrolled for 90 continuous days during the reporting period.
 
 Because the method for counting enrollees changed between 2009 and 2010, we have decided the data are not comparable and therefore it is best to restrict our dataset to years 2010-present.
 
@@ -34,7 +34,7 @@ Because the method for counting enrollees changed between 2009 and 2010, we have
 
 Each year of the data is grouped in a different zip file on the CMS website. These must be downloaded separately. Inside each zip file are pdf and excel spreadsheet versions of the national file and state file for the year. The state file is structured so each state is a separate sheet within the state spreadsheet. This structure goes back until year 2010. Data are available before 2010 in a separate ZIP file in PDF formats.
 
-To make the data into a workable database we must do quite a bit of data manipulation. We use R code to read in data from each sheet in each spreadsheet for each year, extracting the relevant headings and tidying it into the structure outlined in this [Lucid]Chart(https://app.lucidchart.com/invitations/accept/4dbb90e5-3649-4baa-a42f-29088772b47e). 
+To make the data into a workable database we must do quite a bit of data manipulation. We use R code to read in data from each sheet in each spreadsheet for each year, extracting the relevant headings and tidying it into the structure outlined in this [LucidChart](https://app.lucidchart.com/invitations/accept/4dbb90e5-3649-4baa-a42f-29088772b47e). 
 
 ### CMS416_dental90 & CMS41_eligible90 tables
 
@@ -87,9 +87,12 @@ We include a couple of geography columns to help the user: the full name of the 
 The R code used to read in all the data and output our tables is located inthis Github repository folder in the file **CMS416_r_code.R**.
 
 ## Data tables
-The processed data lives on our [Google Drive](https://drive.google.com/drive/folders/1qcHVdvgjbpQkKAT09XGGptG3-yyh-VtV?usp=sharing). 
+The processed data tables have been uploaded to this Github reposotory folder
 
-## Tableau Viz
+## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/CMS416OralHealthReport/Orientation).
+
 The Tableau viz contains 5 dashboards:
 * **National Landscape**. 
 * **State Details**. 
@@ -98,4 +101,5 @@ The Tableau viz contains 5 dashboards:
 * **State Service Trends**. 
 
 ## Project status
+
 The Tableau vis is up and ready for feedback. 
