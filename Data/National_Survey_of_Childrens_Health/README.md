@@ -1,11 +1,10 @@
 # HRSA National Survey of Children's Health
 
-The National Survey of Children's Health is a an annual household survey conducted by the Health Resources & Services Administration (HRSA). It collects wide ranging information about American children ages 0-17 and reports results to the state and national levels. 
+The National Survey of Children's Health (NSCH) is a an annual household survey conducted by the Health Resources & Services Administration (HRSA). It collects wide ranging information about American children ages 0-17 and reports results to the state and national levels. 
 
 ## Utility
 
-The NSCH is one of the rare datasets to explore oral health status, covering topics such as presence of oral health problems, toothache, bleeding gums, difficulty chewing, and overall condition of teeth. It provides more population stratifications than most other public health datasets. Two of the measures are also components of the National Oral Health Surveillance System: [dental visits among children ages 1-17 years], and [preventive dental visit among children age 1-17 years].
-
+The NSCH is one of the rare datasets to explore oral health status, covering topics such as presence of oral health problems, toothache, bleeding gums, difficulty chewing, and overall condition of teeth. It provides more population stratifications than most other public health datasets. Two of the measures are also components of the National Oral Health Surveillance System: **dental visits among children ages 1-17 years**, and **preventive dental visit among children age 1-17 years**.
 
 ### Questions this dataset could help answer
 
@@ -21,22 +20,22 @@ The NSCH is a federally-funded survey conducted by the Maternal and Child Health
 
 The NSCH data used in the National Oral Health Data portal comes from the Johns Hopkins ChildHealthData data portal by extracting data from each of their pages that contains oral health information.
 
-#### Citatations & Data use agreements
+#### Data Use
 
 On the ChildHealthData website Johns Hopkins suggests the following information about their data:
 
 Data Source: National Survey of Children’s Health, Health Resources and Services Administration, Maternal and Child Health Bureau. https://mchb.hrsa.gov/data/national-surveys
 
->Citation: Child and Adolescent Health Measurement Initiative. 2017-2018 National Survey of Children’s Health (NSCH) data query. Data Resource Center for Child and Adolescent Health supported by the U.S. Department of Health and Human Services, Health Resources and Services Administration (HRSA), Maternal and Child Health Bureau (MCHB).Retrieved [mm/dd/yy] from [www.childhealthdata.org].
+> Citation: Child and Adolescent Health Measurement Initiative. 2017-2018 National Survey of Children’s Health (NSCH) data query. Data Resource Center for Child and Adolescent Health supported by the U.S. Department of Health and Human Services, Health Resources and Services Administration (HRSA), Maternal and Child Health Bureau (MCHB).Retrieved [mm/dd/yy] from [www.childhealthdata.org].
 
 ## Original Data & Website Structure
 
-The ChildHealthData portal lets a use see a glimpse of data at a time: one survey question in one year for one population stratification for up to two states. For each selection we are given the percent of children responding with each answer, the 95% confidence interval, the sample count, and the estimated population size. The data are presented as a table on the webpage in html.
+The ChildHealthData portal lets users see a glimpse of data at a time: one survey question in one year for one population stratification for up to two states. For each selection we are given the percent of children responding with each answer, the 95% confidence interval, the sample count, and the estimated population size. The data are presented as a table on the webpage in html.
 
 The ability to web scrape the data comes from the url structure of the ChildHealthData website. There are 3 parameters in the URL: 
-* q. The question-year(s). a 4-digit number ranging from 4561 to 7558. Even though the same questions are often asked across years, the developers have chosed to use a combined key representing a combination of year and question. Therea are 5 year(s) reported so far: 2016, 2017, 2018, 2016-2017, 2017-2018. The combined years will give lower confidence intervals because more data is included. 
-* r. The geography. A number from 1-52. These include all states, the United States as a whole, and Washington DC.
-* g. The population stratification. A 3-digit number ranging form 607 to 779. The codes represent a uniqe combination of year and group. Groups include names like 'familiy resilience', 'current insurance status', and 'well-functioning system of care'.
+* **q**. The question-year(s). a 4-digit number ranging from 4561 to 7558. Even though the same questions are often asked across years, the developers have chosed to use a combined key representing a combination of year and question. Therea are 5 year(s) reported so far: 2016, 2017, 2018, 2016-2017, 2017-2018. The combined years will give lower confidence intervals because more data is included. 
+* **r**. The geography. A number from 1-52. These include all states, the United States as a whole, and Washington DC.
+* **g**. The population stratification. A 3-digit number ranging form 607 to 779. The codes represent a uniqe combination of year and group. Groups include names like 'familiy resilience', 'current insurance status', and 'well-functioning system of care'.
 
 For a key to decoding the parameters, see this [file](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/National_Survey_of_Childrens_Health/Key.xlsx) in the Github repository.
 
@@ -47,7 +46,7 @@ Let's review an example url: https://www.childhealthdata.org/browse/survey/resul
 
 Within the web page itself we see a table of the different parental nativity options going down the left side and the different survey responses going across the top of the table, with the 4 measures included: percent, CI, sample count, population estimate. Notice also the dark grey box around all responses associated with 'children born in the US, live with caregiver(s) other than parents.' The note at the bottom of the page warns us the grey box means we shoudl interpret the result with caution because the confidence interval is wider than certain criteria. In other cases Johns Hopkins deemed variance too small and withheld data altogether -- if perhaps there were not enough responses in a certain cell that the variance for the stratification was essentially zero. These cells may be dashed out with two dash marks "--". In other cases all of the stratifications are dashed out so the website does not let you submit the querty to visit the page. However, the url sill works if you have the parameters. Decisions made about how to handle these special cases in the National Oral Health Data Portal Project are discussed below. 
 
-### Processed Data Output & Design
+## Processed Data Output & Design
 Our [R code](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/National_Survey_of_Childrens_Health/NSCH%20r%20code.R) web-scrapes data from each oral health-related page on the ChildHealthData website. It first organizes the data into one table where each row is a unique state-year-question-answer-group-subgroup. It decodes the parameters by joining in our [key](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/National_Survey_of_Childrens_Health/Key.xlsx) and modifies some of the element names. We also add a column that shortens the long survey questions into shorter phrases.
 
 We then split the data into two parts: 
@@ -58,7 +57,7 @@ The reason for structuring the confidence intervals in its own sheet is helping 
 
 The data model is available as a LucidChart [here](https://app.lucidchart.com/invitations/accept/bec22ad3-1e54-4bcc-b82a-7a82d09bf4a6). 
 
-### Issues & decisions
+## Issues & decisions
 
 The ChildHealthData website warns that we should 'interpret with caution' when estimates have a confidence interval wider than 1.2x the percent estimate or a width larger than 20 percentage points, and on their website they flag such data with a grey color. We have not implemented a comparable warning indicator in our Tableau dasbhoards, but we could if we receive feedback that it would be helpful. We decided not to suppress the data but to show the entire confidence interval width, which we hope will visually cue people to interpret with caution.
 
@@ -66,10 +65,13 @@ ChildhealthData goes a step farther when data has no variance, as in the case wh
 
 Sometimes the wording of population groupings or survey answers are not consistently labelled on ChildHealthData.org, making some longitudinal comparisons initially difficult. For example, in 2016 the question regarding presence of toothaches had a possible response of 'No toothache' whereas in 2018 the possible response was 'No toothaches' (plural). To draw any trend lines in Tableau we need them to be the same. In the future, based on feedback, we may decide to modify the underlying data to create more consistency.
 
-### Code
+## Code
 
 [This R code](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/National_Survey_of_Childrens_Health/NSCH%20r%20code.R) reads in all the oral health-related data from ChildHealthData website, reformats it, and produces two CSV fils.  
- 
+
+## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/NationalSurveyofChildrensHealth_15929305430520/Orientation).
 
 ## Project Status & Next Steps
 
