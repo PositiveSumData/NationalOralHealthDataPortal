@@ -53,6 +53,8 @@ The R code **CANCER_master.R** found in this GitHub repository folder takes in t
 
 ## Tableau Presentation
 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/UnitedStatesCancerStatisticsOralPharyngealCancer/Orientation).
+
 The Tableau presentaiton has three tabs: 
 
 * States Comparison
@@ -63,5 +65,5 @@ The Tableau presentaiton has three tabs:
 
 When the next year of data is available, it will be included.
 
-Should we do a time-series presentation?
+Should we do a time-series presentation? (please post a comment in the discussion tab)
 
