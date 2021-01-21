@@ -1,10 +1,10 @@
 # Head Start Program Information (PIR) Reports
 
-Head Start is a federally-funded early childhood education program. Organizations receiving Head Start funding owe annual "Program Information Reports" that describes enrollment, staffing, provided services. These reports are aggregated and posted in an annual file on the Head Start Website. There several oral health-related fields for children and pregnant women.
+Head Start is a federally-funded early childhood education program. Organizations receiving Head Start funding provide annual "Program Information Reports" that describes enrollment, staffing, provided services. These reports are aggregated and posted in an annual file on the Head Start website. There several oral health-related fields for children and people who are pregnant.
 
 ## Utility
 
-Head Start sites serve primarily low-income children who may face increased barriers to accessing oral health care services. PIR reports are a rare insight into these children's oral health status and utilization trends. PIR reports can tell you in a location-specific way what percent of children needed dental treatment and received dental treatment. And for children who did not receive an oral health service, the reports will explain the primary reason why.
+Head Start sites serve primarily low-income children who may face increased barriers to accessing oral health care services. PIR reports are rare insights into these children's oral health status and utilization trends. PIR reports tell us the percent of children who needed and received dental treatment at specific program locatiosn. For children who did not receive an oral health service, the reports will explain the primary reason why.
 
 ### Questions this dataset could help answer
 
@@ -16,11 +16,11 @@ Head Start sites serve primarily low-income children who may face increased barr
 
 ## Orientation & Stewardship  
 
-The Office of Head Start is part of the HHS Administration for Children and Families. Funding is provided to local agencies -- often non-profits, local governments, schools, religious institutions, or for-profit groups -- to operate early childhood education programs. Head Start programs officially serve children ages 3-5. "Early" Head Start programs serve children younger than three as well as pregnant women. Other special Head Start designations may be applied for migrant or Native American service areas.
+The Office of Head Start is part of the HHS Administration for Children and Families. Funding is provided to local agencies -- often non-profits, local governments, schools, religious institutions, or for-profit groups -- to operate early childhood education programs. Head Start programs officially serve children ages 3-5. "Early" Head Start programs serve children under three and people who are pregnant. Other special Head Start designations may be applied for migrant or Native American service areas.
 
 Head Start PIR reports are available for download for free from the Head Start website. Researchers must first request a username and login to the database enterprise system by [emailing Head Start directly](https://eclkc.ohs.acf.hhs.gov/data-ongoing-monitoring/article/program-information-report-pir). Approval usually comes within a few hours. Once a username and password is set, users can [log-in](https://hses.ohs.acf.hhs.gov/pir/). Users are then able to query for particular records by region, state, grantee, or program. Full annual downloads are also available for all years 2008-2019.
 
-#### Data USe
+#### Data Use
 
 Positive Sum did not come across an explicit user agreement in obtaining Head Start PIR files, nor are there instructions in the [user guide](https://eclkc.ohs.acf.hhs.gov/sites/default/files/pdf/no-search/pir-reports-user-guide.pdf).  There is cautionary language at the log-in screen making users aware they are entering a government system and may be monitored. 
 
@@ -74,7 +74,8 @@ The Program Details sheet has not changed over time.
 
 ### Issues & decisions
 
-In a perfect world, we would design separate database tables to house each of our unique entities:
+#### Database normalization
+In a completlely normalized dataabse, we would design separate database tables to house each of our unique entities:
 * Grants
 * Grantees
 * Programs
@@ -92,7 +93,7 @@ It would be easy enough to eyeball these rows and reformat them with the same na
 
 The program entity shares similar challenges. Names are not consistent. Unique grant-program ids last the duration of the grant and then new ids are assigned during the grant, so that a program that receives 3 grants over 10 years does not have a consistent id to help with trend analysis. 
 
-We have decided to drop the idea of generating unique grantee and program tables for our project. Producing these tables would be a lot of work, certainly with incorrect judgment manually grouping names. Ignoring these entities still serves our overall project, however, because we are mostly interested in state-level aggregation and mapping. We do not need the ability to show utilization trends for a specific grantee or a specific program over time, and we are not trying to compare or analyze a Head Start sites' performance. 
+We have decided to drop the idea of generating unique grantee and program tables for our project. Producing these tables would be a lot of work, certainly with incorrect judgment manually grouping names. Ignoring these entities still serves our overall project, however, because we are mostly interested in state-level aggregation and mapping. We do not need the ability to show utilization trends for a specific grantee or a specific program over time, and we are not trying to compare or analyze a Head Start site's performance. 
 
 Mapping may still be a little complicated. In the example from New York above, we have three programs across two different addresses. Are the two programs listed at 45 Jewett Ave in the same office? Or perhaps across the hall from each other in a larger office building. If we produce maps where these two locations are treated separately, then dots may overlap and obscure information we are trying to convey. 
 
@@ -105,6 +106,10 @@ Most of our information then is already adequately normalized for unique grant-p
 A [LucidChart](https://www.lucidchart.com/invitations/accept/4c3cd1aa-9b4b-4ffa-8bbb-40e97939375a) entity relationship diagram of our table structure is available. 
 
 We use one main table combining Program Details and Sections A & B. Ancillary tables contain metadata for citation.
+
+### Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HeadStartProgramInformationReports/Orientation).
 
 ### Code
 
