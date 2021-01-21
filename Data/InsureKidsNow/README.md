@@ -201,7 +201,9 @@ A new provider table field called 'fractions' is created to show how much weight
 
 ## Issues & decisions
 
-Positive Sum feels the IKN database is a fine tool for mapping where provider sites most likely are and what service chracteristics they offer. But there are too many instances of providers being reigistered to a suspiciously large number of sites that this dataset is probably not so useful for calculating couty counts or being relied upon too definitively for dental care access.
+**Null values**. A user of the Tableau visualization will notice a high number of null values under each of the provider/site characteristic breakouts. These nulls represent either 'unknown' or missing entries in the raw database that was provided to Positive Sum. 
+
+**Validity**. Positive Sum feels the IKN database is a fine tool for mapping where provider sites most likely are and what service chracteristics they offer. But there are too many instances of providers being reigistered to a suspiciously large number of sites that this dataset is probably not so useful for calculating county counts or being relied upon too definitively for dental care access. For now the project will limit this dataset to point location maps.
 
 ## code
 
