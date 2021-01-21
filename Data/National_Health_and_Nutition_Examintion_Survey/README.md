@@ -1,6 +1,6 @@
 # CDC National Health & Nutrition Examination Survey (NHANES) via CDC Oral Health Surveillance Reports
 
-The CDC periodically releases a report of national oral health status trends. In [2019 a report](https://www.cdc.gov/oralhealth/publications/OHSR-2019-list-of-tables.html) titled "Trends in dental caries and sealants, tooth retention, and edentulism, United States 1999-2004 to 2011-206 was released, updating the previous [2007 report] titled(https://www.cdc.gov/nchs/data/series/sr_11/sr11_248.pdf) "Trends in oral health status: United States, 1988-1994 and 1999-2004". Both reports use the National Health & Nutrition Examination Survey (NHANES) as the primary dataset. For the Oral Health Data Portal project, both reports have been combined to present trends across the three time periods: 1988-1994, 1999-2004, 2011-2016.
+The CDC periodically releases a report of national oral health status trends. In [2019 a report](https://www.cdc.gov/oralhealth/publications/OHSR-2019-list-of-tables.html) titled "Trends in dental caries and sealants, tooth retention, and edentulism, United States 1999-2004 to 2011-206 was released, updating the previous [2007 report](https://www.cdc.gov/nchs/data/series/sr_11/sr11_248.pdf) titled "Trends in oral health status: United States, 1988-1994 and 1999-2004". Both reports use the National Health & Nutrition Examination Survey (NHANES) as the primary dataset. For the Oral Health Data Portal project, both reports have been combined to present trends across the three time periods: 1988-1994, 1999-2004, 2011-2016.
 
 ## Utility
 
@@ -24,7 +24,7 @@ The 36 tables in the 2019 report and the comparable 2007 tables were consolidate
 ## Citation
 All the data presented in the National Oral Health Data Portal as reflecting the "CDC Oral Health Surveillance Report" come from tables in one of the two years of the report, 2007 or 2019. The raw NHANES dataset was not used. The 2019 report suggests the following citation:
 
-Centers for Disease Control and Prevention. Oral Health Surveillance Report: Trends in Dental Caries and Sealants, Tooth Retention, and Edentulism, United States, 1999–2004 to 2011–2016. Atlanta, GA: Centers for Disease Control and Prevention, US Dept of Health and Human Services; 2019.
+> Centers for Disease Control and Prevention. Oral Health Surveillance Report: Trends in Dental Caries and Sealants, Tooth Retention, and Edentulism, United States, 1999–2004 to 2011–2016. Atlanta, GA: Centers for Disease Control and Prevention, US Dept of Health and Human Services; 2019.
 
 
 ### Original Data Structure
@@ -67,20 +67,24 @@ A second CSV named **cdc_surveillance_CI.csv** contains confidence interval data
 
 Standard erorrs for each estimate were provided in each report. Ninety-five percent confidence intervals were generated manually by adding and subtracting 1.96 times the standard. If intervals dipped below zero or above 1, values were recoded as zero or 1. 
 
-### Censoring or missing values
+### Censoring or Missing Values
 
 The CDC reports censored estimates when confidence intervals were exceptionally wide, reporting the value "NR". In the consolidated file, "NR" was replaced with an empty cell. So while it appears data is missing, it is rather 'not reported.'  
 
-## Issues, decisions, and modifications
+## Issues, Decisions, and Modifications
 The indicator "Mean percentage contribution of untreated decayed (% dt/dft) or filled (% ft/dft) primary teeth" was not included in the consolidated file. When this indicator was reported in tables within the 2019 report, it was broken out by % decayed teeth or % filled teeth, but not by % missing teeth. Since "missing" teeth was omitted, a user would not be able to stack the percents on top of each other to see the percent overall. If a user did want to do this, it would be possible to calculate these indicators directly from data in other tables. Stacked area charts were used in the Tableau dashboard to show the different contributions of each type of tooth status to overall DMFT. These percents did not always sum to 100% because of rounding within the reports themselves.
 
 ## Code
 The consolidated CSV file was compiled manually by copy-pasting data from the original CDC reports and then manipulating with Excel. Code was not used to generate the consolidate file, but code was used to create a sceondary consolidated file that prepares confidence intervals in a structure that Tableau can use for drawing polygons. This file is availabl [here](https://raw.githubusercontent.com/PositiveSumData/NationalOralHealthDataPortal/master/Surveillance%20%26%20Reports/cdc_surveillance_pivoting.R). 
 
-## Data tables
+## Data Tables
 The consolidated data file lives in [this](https://github.com/PositiveSumData/NationalOralHealthDataPortal/tree/master/Data/National_Health_and_Nutition_Examintion_Surveyy) Github folder.
 
-## Tableau viz
+## Tableau Viz
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/NationalHealthNutritionExaminationSurveyNHANES/Orientation
+).
+
 The Tableau viz contains 3 'stories' consisting of several dashboards each:
 
 * **Prevalence Measures**. For percentage rates of oral health conditions per population.
@@ -90,4 +94,6 @@ The Tableau viz contains 3 'stories' consisting of several dashboards each:
 * **Sealed Teeth**. For NHANES measures pertaining to the number of sealed teeth in people.
 
 
+## Project Status & Next Steps
 
+A more comprehensive analysis of oral health measures could be conducted with an original analysis using raw NHANES data.
