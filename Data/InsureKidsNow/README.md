@@ -1,6 +1,6 @@
 # Insure Kids Now (IKN) dental provider database
 
-The [InsureKidsNow.gov](https://www.insurekidsnow.gov/) website is designed to provide help inform caregivers about their Medicaid-enrolled child's dental benefit and to help them locate Medicaid-participating dentists. Given an address and search criteria, the website presents caregivers with a list of dentists and their contact information. A copy of this database was kindly provided to Positive Sum Health Informatics for the National Oral Health Data Portal project. The dataset could illuminate all sorts of aspects of our dental safety net. Although, as the database was not designed for public health analysis, it has its, it has its limitations. These limitations may be too great to include in the oral health data portal project at this time.
+The [InsureKidsNow.gov](https://www.insurekidsnow.gov/) website is designed to provide help inform caregivers about their Medicaid-enrolled child's dental benefit and to help them locate Medicaid-participating dentists. Given an address and search criteria, the website presents caregivers with a list of dentists and their contact information. A copy of this database was kindly provided to Positive Sum Health Informatics for the National Oral Health Data Portal project. The dataset could help illuminate access disparities, but it does have its limitations.
 
 ## Utility
 
@@ -28,13 +28,9 @@ The IKN database and the [dentist locator tool](https://www.insurekidsnow.gov/fi
 
 Each state is required submit data according to the following structure: each row is a unique combination of provider, coverage plan, and service location. This means a dentist enrolled in 2 plans at 3 sites would be represented on 6 rows.  
 
-#### Citation
+#### Data Use
 
-CMS does not have a recommended citation listed on their website. Positive Sum has inquired to see if there is a citation style they prefer.
-
-#### Data use agreements
-
-The IKN database was provided to Positive Sum without requiring a data use agreement.
+CMS does not have a recommended citation listed on their website. The IKN database was provided to Positive Sum without requiring a data use agreement.
 
 ## Data Structure
 
@@ -211,5 +207,9 @@ Positive Sum feels the IKN database is a fine tool for mapping where provider si
 
 The [Github repository folder](https://github.com/PositiveSumData/NationalOralHealthDataPortal/upload/master/Data/InsureKidsNow) for this dataset contains the R code file used to modify the original IKN data file into smaller files.
 
+## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/CMSInsureKidsNowDatabase/Orientation).
+
 ## Project Status & Next Steps
-The Tableau dashboard is up. 
+The Tableau dashboard is up. Feedback is welcome. We will request another copy of the database in 2021 to refresh.
