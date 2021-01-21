@@ -1,12 +1,12 @@
 # Youth Risk Behavior Survey
 
-The Youth Risk Behavior Survey (YRBS) is a biennial CDC-shepherded, state-administered survey of adolescent health behaviors. One of the questions asks whether the interviewee had a dental visit in the last year.
+The Youth Risk Behavior Survey (YRBS) is a biennial CDC-stewarded, state-administered survey of adolescent health behaviors. One of the questions asks whether the interviewee had a dental visit in the last year.
 
 ## Examples of questions this dataset could help answer
 
-* Which school districts had the highest percent of adolescents with an annual dental visit?
-* Has the rate of adolescents with an annual dental visit in New York changed in the past decade?
-* Do rates of annual dental visits among adolescents vary by age or grade?
+* Which school districts had the highest percent of high school students with an annual dental visit?
+* Has the rate of high school students with an annual dental visit in New York changed in the past decade?
+* Do rates of annual dental visits among high school students vary by age or grade?
 
 ## Utility
 
@@ -14,7 +14,7 @@ The Youth Risk behavior survey offers state-level detail and occasionally school
 
 ## Orientation & Stewardship  
 
-YRBS is designed adn operated by the CDC in condjunction with states, school districts, and territories. Consolidated datasets are published on the [CDC YRBS website](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) every other year for national, state, and school district levels. The complex sample design requires statistical software for analysis. The [CDC's YRBS Explorer"](https://yrbs-explorer.services.cdc.gov/#/) tool enables users to obtain pre-analyzed measures and population stratifications for a limited set of measures.
+YRBS is designed by the CDC and conducted in collaboration with states, school districts, and territories. Consolidated datasets are published on the [CDC YRBS website](https://www.cdc.gov/healthyyouth/data/yrbs/data.htm) every other year for national, state, and school district levels. The complex sample design requires statistical software for analysis. The [CDC's YRBS Explorer"](https://yrbs-explorer.services.cdc.gov/#/) tool enables users to obtain pre-analyzed measures and population stratifications for a limited set of measures.
 
 The YRBS explorer was used to obtain YRBS data for the National Oral Health Data Portal project. Data were downloaded in December, 2020.
 
@@ -24,7 +24,7 @@ The CDC suggests the following citation when using the YRBS Explorer:
 
 ## Data Structure
 
-The YRBS Explorer was used to obtain data tables for each race, grade, and year available. The button for downloading state grade data was working and was used to obtain a separate CSV for each year of data, which was manually combined together. The download button for race was not working, so data were copied out of the browswer and compiled manually.
+The YRBS Explorer was used to obtain data tables for each race, grade, and year available. The button for downloading state grade data was used to obtain a separate CSV for each year of data, which was manually combined together. The download button for race was not working, so data were copied out of the browswer and compiled manually.
 
 The following files are located in this Github repository folder:
 
@@ -38,10 +38,12 @@ The project may wish to go into raw YRBS files to obtain more population stratif
 
 ## Tableu Presentation
 
-The current Tableau viz contains two Stories: one for state level and one for school district level. Each story contains two dashboards: a geographic comparison on a selected mesasure, and a geography-specific presentation of all population stratifications at once.
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/ASTDDCOVID-19StateImpactDashboard/Orientation).
+
+The current Tableau viz is presented as four dashboards. Two cover school district data and two cover state level data. For each geographic level there is a dashboard comparing different geographics and a dashboard showing details within a geography.
 
 In the bottom left corner of both geographic comparison dashboards is a trend graph that appears once a user clicks on a geography from the dasbhoard.
 
 ## Status & Next Steps
 
-Consider going into the raw files to group years together or expand population stratifications.
+Consider going into the raw files to group years together or expand population stratifications. This could help bring confidence intervals down.
