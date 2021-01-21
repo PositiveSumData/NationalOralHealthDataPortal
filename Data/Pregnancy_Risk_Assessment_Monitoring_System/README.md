@@ -1,11 +1,11 @@
 # Pregnancy Risk Assessment Monitoring System
 
-The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.htm) is a CDC-shepherded, state-administered, biennial state-administered survey of pregnant or recently pregnant individuals' health attitudes and behaviors, covering several oral health topics.
+The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.htm) is a CDC-stwearded, state-administered, biennial state-administered survey of pregnant or recently pregnant individuals' health attitudes and behaviors that covering several oral health topics.
 
 ## Examples of questions this dataset could help answer
 
 * What percent of pregnant people in Missouri reported difficulty getting dental care during their pregnancy?
-* Were certain races or ethnicities in Tennessee more likely having had insurance to cover the cost of their pregnancies?
+* Were certain races or ethnicities in Tennessee more likely to have had insurance to cover the cost of their pregnancies?
 * Are people more likely to have had their teeth cleaned before their pregnancy than they are during their pregnancy?
 * Has the percent of people who had their teeth cleaned before their pregnancy in South Dakota changed over time?
 
@@ -22,9 +22,9 @@ The dataset is part of a complex survey design that requires statistical softwar
 ## Raw Data Structure
 The National Oral Health Data Portal Project has submitted a data request to the CDC for a long list of state indicators over time. While the request is being processed, the more limited pre-analyzed reports are included in this project. Two reports have been consolidated:
 
-* **[Selected 2016 thorugh 2017 Maternal and Child Health (MCH) Indicators]**(https://www.cdc.gov/prams/prams-data/mch-indicators.html). Includes the indicator [teeth cleaned during pregnancy by a dentist or dental hygienist].
+* **[Selected 2016 thorugh 2017 Maternal and Child Health (MCH) Indicators](https://www.cdc.gov/prams/prams-data/mch-indicators.html). Includes the indicator [teeth cleaned during pregnancy by a dentist or dental hygienist]**.
 
-* **[Selected 2012 through 2015 Maternal and Child Health (MCH) Indicators by State]**(https://www.cdc.gov/prams/prams-data/2015-mch-indicators.html). Include indicators [teeth cleaned during 12 months before pregnancy], [teeth cleaned during pregnancy], and [had dental insurance during pregnancy].
+* **[Selected 2012 through 2015 Maternal and Child Health (MCH) Indicators by State](https://www.cdc.gov/prams/prams-data/2015-mch-indicators.html)**. Include indicators [teeth cleaned during 12 months before pregnancy], [teeth cleaned during pregnancy], and [had dental insurance during pregnancy].
 
 
 Questions available in the full research dataset include:
@@ -73,7 +73,7 @@ Two files have been produced by consolidating the pre-analyzed reports from the 
 
 ## Code
 
-The file **PRAMS_CI_pivot_r_code.R** is available in this Github Repository folder. It takes in the PRAMS.csv file and outputs the PRAMS_CI.csv file.
+The file **PRAMS_CI_pivot_r_code.R** is available in this Github repository folder. It takes in the PRAMS.csv file and outputs the PRAMS_CI.csv file.
 
 ## Issues & decisions
 
@@ -83,6 +83,8 @@ Not all states have estimates in the reports used in the National Oral Health Da
 
 ## Tableau Presentation
 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/PregnancyRiskAssessmentMonitoringSystem/Orientation).
+
 The current Tableau viz contains three dashboards:
 
 * **National Dashboard**. 
@@ -91,5 +93,5 @@ The current Tableau viz contains three dashboards:
 
 ## Status & Next Steps
 
-The PRAMS project will be updated pending the data request open with the CDC.
+The PRAMS project will be updated pending completion of the CDC data analysis.
 
