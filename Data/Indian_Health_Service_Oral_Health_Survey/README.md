@@ -22,19 +22,19 @@ The survey has been conducted by the Indian Health Service (IHS) for many years 
 
 * [**THE ORAL HEALTH OF AMERICAN INDIAN AND ALASKA NATIVE CHILDREN AGED 1-5 YEARS: RESULTS OF THE 2018-19 IHS ORAL HEALTH SURVEY**](https://www.ihs.gov/doh/documents/surveillance/IHS_Data_Brief_Oral_Health_13-15_Year_Old_Follow-Up_to_2013_Survey.pdf) 
 
-#### Citation & Data use
+#### Citation & Data Use
 
 The IHS surveys are available for public download on the IHS dental portal. 
 
 The following citations are suggested within the text of each individual report:
 
-**The Oral Health of 13-15 Year Old American Indian and Alaska Native (AI/AN) Dental Clinic Patients – A Follow-Up Report to the 2013 Survey**: 
-Phipps KR, Ricks TL, Mork NP, and Lozon TL. The oral health of 13-15 year old American Indian and Alaska Native dental
+**The Oral Health of 13-15 Year Old American Indian and Alaska Native (AI/AN) Dental Clinic Patients – A Follow-Up Report to the 2013 Survey**
+> Phipps KR, Ricks TL, Mork NP, and Lozon TL. The oral health of 13-15 year old American Indian and Alaska Native dental
 clinic patients – a follow-up report to the 2013 survey. Indian Health Service data brief. Rockville, MD: Indian Health
 Service. 2020. 
 
-**THE ORAL HEALTH OF AMERICAN INDIAN AND ALASKA NATIVE CHILDREN AGED 1-5 YEARS: RESULTS OF THE 2018-19 IHS ORAL HEALTH SURVEY**: 
-Phipps KR, Ricks TL, Mork NP, and Lozon TL. The oral health of American Indian and Alaska Native children aged
+**THE ORAL HEALTH OF AMERICAN INDIAN AND ALASKA NATIVE CHILDREN AGED 1-5 YEARS: RESULTS OF THE 2018-19 IHS ORAL HEALTH SURVEY**
+> Phipps KR, Ricks TL, Mork NP, and Lozon TL. The oral health of American Indian and Alaska Native children aged
 1-5 years: results of the 2018-19 IHS oral health survey. Indian Health Service data brief. Rockville, MD: Indian
 Health Service. 2019.
 
@@ -49,13 +49,13 @@ The two reports have been manually consolidated into one CSV with the following 
 
 | population | age | statistic | measure | year | estimate | se | lower_CI | upper_CI |
 | ---------- | --- | --------- | ------- | ---- | -------- | -- | -------- | -------- |
-| AI / AN children | 13 -15 years | mean | DMFT | year | estimate | se | lower_CI | upper_CI |
+| AI / AN children | 13 -15 years | mean | DMFT | 2013 | 4.92 | 0.3 | 4.33 | 5.50 |
 
 95% confidence intervals are shown. When standard errors were presented in the reports but not confidence intervals, confidence intervals were generated using a 1.96 x se method. Values below zero or above one were truncated to not exceed the range.
 
 ## Issues & decisions
 
-Positive Sum would like to have combined the two reports into the same visualization to show prevlance of oral health conditions across ages for a single point in time, but because the survyes had a year or two between them, it was decided to keep them in separate graphs.
+Positive Sum would like to have combined the two reports into the same visualization to show prevalence of oral health conditions across ages for a single point in time, but because the survyes had a year or two between them, it was decided to keep them in separate graphs.
 
 ## Code
 
@@ -63,11 +63,13 @@ No code was used to automate the data collection process as the pdfs had unique 
 
 ## Tableau Presentation
 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/IndianHealthServiceOralHealthSurvey/Orientation).
+
 Two tableau dashboards are presented:
 
-**Prevlance Dashboard**. For all prevalence measures that showed the percent of a population with a condition.
+* **Prevalence Dashboard**. For all prevalence measures that showed the percent of a population with a condition.
 
-**DMFT Dashboard**. For all measures that used the count of teeth (decayed, missing, filled, etc..). This dashboard is presented in 4 windows showing permutations of data for [most current year only] vs [time series] and for [stacked area percent of total plot] vs [line plot]. The stacked area percent of total plots help show how the overal distributions of DMFT are changing over time or across ages. 
+* **DMFT Dashboard**. For all measures that used the count of teeth (decayed, missing, filled, etc..). This dashboard is presented in 4 windows showing permutations of data for [most current year only] vs [time series] and for [stacked area percent of total plot] vs [line plot]. The stacked area percent of total plots help show how the overal distributions of DMFT are changing over time or across ages. 
 
 
 ## Status & Next Steps
