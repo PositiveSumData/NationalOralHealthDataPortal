@@ -1,10 +1,10 @@
 # Health Resources & Services Administration (HRSA) Uniform Data System (UDS)
 
-Federally-qualified health centers (FQHC's) are HRSA-designated non-profit community health centers meeting certain program criteria and receive federal funding. A condition of such funding is submission of annual service data. HRSA aggregates all the health center data into annual reports available for public download. 
+Federally-qualified health centers (FQHC's) are HRSA-designated non-profit community health centers meeting certain program criteria and receiving special federal funding. A condition of such funding is submission of annual service data. HRSA aggregates all the health center data into annual reports available for public download. 
 
 ## Utility
 
-FQHCs serve primarily low-income families with primary care and (oftentimes) dental care. Analyzing annual UDS reports can give us insights into the type and counts of dental care services being provided. Data is reported at the FQHC organizational level which can be helpful for understanding community-level access, or data can be aggregated to state and national levels for broader analysis. The UDS is the source of one measure in the National Oral Health Surveillance System: "Population Receiving Oral Health Services at Federally Qualified Health Centers." 
+FQHCs serve primarily low-income families with primary care and (oftentimes) dental care. Analyzing annual UDS reports can give us insights into the type and counts of dental care services being provided. Data is reported at the FQHC organizational level which can be helpful for understanding community-level access. Or data can be aggregated to state and national levels for broader analysis. The UDS is the source of one measure in the National Oral Health Surveillance System: "Population Receiving Oral Health Services at Federally Qualified Health Centers." 
 
 ### Questions this dataset could help answer
 
@@ -18,7 +18,7 @@ FQHCs serve primarily low-income families with primary care and (oftentimes) den
 
 ## Orientation & Stewardship  
 
-HRSA posts annual UDS reports to their [Electronic Reading Room](https://www.hrsa.gov/foia/electronic-reading.html) in excel spreadsheets. As of May 2020, the most recently posted annual file was for 2018. The files are structured the same as the reporting form: with different 'tables' corresponding to different information categories listed as different sheets in a spreadsheet. Data previous to 2014 is only available by FOIA request, which HRSA provided going as far back as 1996.
+HRSA posts annual UDS reports to their [Electronic Reading Room](https://www.hrsa.gov/foia/electronic-reading.html) in excel spreadsheets. The files are structured the same as the reporting form: with different 'tables' corresponding to different information categories listed as different sheets in a spreadsheet. Data previous to 2014 is only available by FOIA request, which HRSA provided has Provided to Positive Sum going as far back as 1996.
 
 #### Data Use
 
@@ -46,9 +46,7 @@ HRSA does not make all of the UDS data public. They share only data they deemed 
 
 > The data in the blank rows of Tables 5, 8A, and 9D is being withheld under Exemption 4 of the FOIA, 5 U.S.C. 552(b)(4). This exemption protects against the release of proprietary confidential business and financial information, which, if disclosed, could provide potential competitors with an unfair advantage, including in future grant competitions.
 
-For an FQHC to make their proprietary Table 5, 8A, or 9D data public, they need to actively consent. From an exploratory data analysis, we see that 69 FQHCs consented to sharing their Table 5 data in 2018, compared to 1293 who did not.  This ratio is so small that including these tables in our project for analysis is not valuable. We therefore choose to focus on only Table 6A and 6B non-proprietary dental reporting. Although it is not mentioned in the legal disclaimer, Table 5A appears to be considered proprietary as well, because so many FQHCs having missing informatino. 
-
-A strategery for learning about these proprietary measures is to ask HRSA for state-aggregated data that shields the individual FQHCs. Another strategy is to pull these figures directly from health center data pages on the HRSA website. HRSA allows users to look up individual health centers and see top-line patient counts that are otherwise withheld from FOIAs.
+For an FQHC to make their proprietary Table 5, 8A, or 9D data public, they need to actively consent. From an exploratory data analysis, we see that 69 FQHCs consented to sharing their Table 5 data in 2018, compared to 1293 who did not.  This ratio is so small that including these tables in our project for analysis is not valuable. We therefore choose to focus on only Table 6A and 6B non-proprietary dental reporting. Although it is not mentioned in the legal disclaimer, Table 5A appears to be considered proprietary as well, because so many FQHCs having missing information. 
 
 ### Data continuity
 
@@ -67,21 +65,21 @@ We must also be careful of slight changes to column and sheet names over time. F
 
 ### Ignoring Tables 5, 5A, and 8A
 
-So few health centers elect to make their proprietary data public in TAbles 5, 5A, and 8A that we have decided it is not worth consolidating their data or producing dashboards.
+So few health centers elect to make their proprietary data public in Tables 5, 5A, and 8A that we have decided it is not worth consolidating their data or producing dashboards.
 
 ### Reporting Granularity & Geocoding
 
-Except for Table HealthCenterSiteInfo, which lists all a health centers locations, all other UDS data is aggregated to the organizational level. This helps us understand oral health care utilization within an organization, but cannot tell us about oral health care activities at the site level. We do not know which health center site locations offer dental services, nor do we know how dentist FTEs are distributed or what differences there might be in oral health care between sites. 
-
-Therefore we have decided not to map individual FQHC site locations. Doing so might help convey a sense of service area, but we would not want to mislead users into thinking there are oral health services offered when there are not.
+Except for Table HealthCenterSiteInfo, which lists all a health centers locations, all other UDS data is aggregated to the organizational level. This lets us learn about the oral health services provided by the whole organization, but does not let us see what volume of servivces are being provided at specific sites. We have decided not to map individual FQHC site locations. Doing so might help convey a sense of service area, but we would not want to mislead users into thinking there are oral health services offered when there are not.
 
 ### Organizational Continuity
 
-Within each UDS reporting year, FQHCs are assigned an ID number that helps link all the reporting tables together. This is called the BHCMISID in most recent years and the gi_lnggranteeid or Grantee ID in early years. These ID numbers change with new grant cycles. Health center funding is awarded in several-year chunks, and then a new number may be assigned in the next grant cycle if a health center keeps its funding. This cycling of FQHC ID's makes it challenging to examine an individual organization's oral health care trends over time, since there is not master index linking grant cycles. To address this issue, we submitted a FOIA request to HRSA on June 1, 2020 requesting a master key table to link organizations across years. This project will be updated if a master key is provided. Until then, the project will not design dashboards to show individual FQHC trends.
+Within each UDS reporting year, FQHCs are assigned an ID number that helps link all the reporting tables together. This is called the BHCMISID in most recent years and the gi_lnggranteeid or Grantee ID in early years. These ID numbers change with new grant cycles. Health center funding is awarded in several-year chunks, and then a new number may be assigned in the next grant cycle if a health center keeps its funding. This cycling of FQHC ID's makes it challenging to examine an individual organization's oral health care trends over time, since there is no master index linking grant cycles. To address this issue, we submitted a FOIA request to HRSA on June 1, 2020 requesting a master key table to link organizations across years. They replied that no such keys exist. 
 
-### Missing Denominator & Web-Scraping
+### Missing Total Patients Denominator
 
-Table 6A gives us the count of patients at every FQHC that received several types of oral health services. Ideally we would then calculate (1) the percent of patients at each FQHC who received each type of dental service, and (1) the percent of **dental** patients at each FQHC who received each type of dental service. These denominators are not located in Table 6A. The total count of health center patients is publicly available in Table 3B, but the total count of dental patients is hidden in Table 5, and therefore exempt from FOIAs. Interestingly, the data is publicly available on the HRSA website if one looks within the indiviual health center data pages. For example, we can see that Family Health Center, inc in Kalamazoo, Michigan served (9,580 dental patients)[https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&bid=056230&state=MI&year=2018] in 2018. Years 2016 and 2017 data are also publicly displayed for all health centers on the HRSA webpage. 
+Table 6A gives us the count of patients at every FQHC that received several types of oral health services. Ideally we would then calculate (1) the percent of patients at each FQHC who received each type of dental service, and (1) the percent of **dental** patients at each FQHC who received each type of dental service. But these denominators are not located in Table 6A. The total count of health center patients is publicly available in Table 3B, but the total count of dental patients is hidden in Table 5, and therefore exempt from FOIAs. 
+
+Interestingly, the data is publicly available on the HRSA website if one looks within the indiviual health center data pages. For example, we can see that Family Health Center, inc in Kalamazoo, Michigan served (9,580 dental patients)[https://bphc.hrsa.gov/uds/datacenter.aspx?q=d&bid=056230&state=MI&year=2018] in 2018. Data for 2017 and 2019 are also shown on the HRSA individual program pages. Perhaps this total patient data should be web-scraped and incorporated into the National Oral Health Data Portal. At the moment only the Electronic Reading Room UDS reports have been incorporated into the National Oral Health Data Portal.
 
 ### Potential for Patient Duplication
 
@@ -89,7 +87,7 @@ If patients attended more than one FQHC in a year, they may be counted more than
 
 ### Restricing Scope to Years 2004-2018
 
-In response to a FOIA request, HRSA provided data going back to 1996. However, the most useful dental services fields were not introduced until 2004, so we begin there. 
+In response to a FOIA request, HRSA provided data going back to 1996. However, the most useful dental services fields were not introduced until 2004, so we begin there with this project. 
 
 ## Design
 
@@ -107,11 +105,13 @@ This table gives the name and address of each health center organization in each
 
 This table gives the number at-risk children ages 6-9 (the denominator) and the number of at-risk children ages 6-9 who received a dental sealant (numerator) for each health center in each year since 2015, when this measure was introduced.
 
-
 ## Code
 
 The R code in this repository will extract meaningful data from UDS spreadsheets and web-scrape data from the HRSA website.
 
+## Tableau Presentation
+
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HRSAUniformDataSystem/Orientation).
 
 ## Project status & Next Steps
 
