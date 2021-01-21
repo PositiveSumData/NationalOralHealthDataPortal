@@ -18,7 +18,7 @@ Several of the measures collected in the Older Basic Screening Survey are part o
 
 States are responsible for funding and conducting the Basic Screening Surveys. These are most often conducted for child populations, but occasionally states will survey older adults as well. Some measures are similar to the child surveys, such as assessming treatment needs and untreated tooth deacay. But older adults aren't measured for dental sealant placement, and children aren't measured for denture use or soft tissue conditions like oral lesions and perdiontal care needs. 
 
-States often publish the results of their Basic Screening surveys as pdf documents primarily oriented for reading, with narrative text, small tables, and charts. Excel files or CSVs containing more database-structure data. 
+States often publish the results of their Basic Screening surveys as pdf documents primarily oriented for reading, with narrative text, small tables, and charts. Excel files or CSVs containing more database-structure data are not usually available.
 
 
 ## Data Structure
@@ -41,15 +41,17 @@ Two data files are included in this Github repository folder:
 
 **Few state surveys available**. Few states conduct older adult basic screening surveys. Only nine states have been included into one National Oral Health Data Portal dataset. These nine reflect states for which a survey was obtained that had been conducted since 2015. We chose 2015 as a cutoff for which data would still be useful for policy. To try to compare states on measures, all these state reports since 2015 have bene presented together. This is not ideal, since it cannot account for differences that may have arised between when Nebraska conducted their survey in 2019 and North Carolina conducted their survey in 2015-2016. 
 
-**Comprability across residency setting**. States choose one setting in which to visit seniors and record their oral health. These settings are usually nursing, assisted living, or congregate meal site facilities. It may not be appropriate to compare one state's performance in nursing facilities to another state's performance in congregate meal sites. These reports cannot be used to extrapolate about the oral health of an entire state's older adults. These facility differences are recorded in the Tableau visualizations.
+**Comprability across residency setting**. States choose a setting in which to visit older adults and record their oral health. These settings are usually nursing, assisted living, or congregate meal site facilities. It may not be appropriate to compare one state's performance in nursing facilities to another state's performance in congregate meal sites. These reports cannot be used to extrapolate about the oral health of an entire state's older adults. These facility differences are recorded in the Tableau visualizations.
 
 **Different dentition denominators**. State survey reports will usually indicate whether a prevalence applies to all the older adults it sampled or only to older adults of a certain dentition. For example, a state may present the percent, of older adults with at least one or more teeth, what percent had untreated decay. Whereas another state may record the prevalence of untreated decay among all adults sampled, regardless of whether they have any teeth. This presents a comparability challenge, because adults without any teeth are probably not going to have tooth decay. Such denominator differences are recorded in the Tableau visualizations. When state reports are unclear whether the population denominator is all adults or only dentate adults, we have assigned the value "all adults ages 65+\*" with the asterisk denoting we are unsure. 
 
 ## Tableau Presentation
 
+The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/OlderAdultBasicScreeningSurvey/Orientation).
+
 Two Tableau dashboards are presented:
 
-* **State Details Dashboard**. For examining avilable information for a selected state without comparing to other states.
+* **State Details Dashboard**. For examining available information for a selected state without comparing to other states.
 
 * **States Comparison Dashboard**. For examining differences between states. Since there are so few states and so many comparability challenges, we have chosen not to visualize a map. Rather, we present a table with the many different types of variables users should understand when comparing states against each other. 
 
