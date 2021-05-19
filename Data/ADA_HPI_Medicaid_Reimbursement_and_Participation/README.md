@@ -2,7 +2,7 @@
 
 This report from the ADA HPI delineates state-level dentist participation in Medicaid and the percent of private insurance fees that Medicaid typically covers.
 
-## Examples of questions this dataset could help answer
+## Examples of questions this dataset could help answer test
 
 * Which state has the highest participatoin of dentists in Medicaid?
 * What percent of Indiana adults participate in Medicaid?
