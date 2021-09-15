@@ -14,7 +14,7 @@ AHRF gives detailed demographic and service characteristics of the dental workfo
 
 ## Orientation & Stewardship  
 
-AHRFs are maintained by the Health Resources & Services Administration, which obtains much of the data from government agencies like the U.S. Census Bureau or Centers for Medicare & Medicaid Services; and by purchasing access to private datasets like the American Medical Association Masterfile and the American Dental Association Masterfile. County level dental workforce data comes from the ADA masterfile, usually on 2-year delay (the most recent county dentists detat in the 2020 AHRF came from the 2018 ADA masterfile). AHRF state-level data comes from the Centers for Medicare & Medicaid Services National Plan and Provider Enumeration System National Provider Identifier registry. 
+AHRFs are maintained by the Health Resources & Services Administration, which obtains much of the data from government agencies like the U.S. Census Bureau or Centers for Medicare & Medicaid Services; and by purchasing access to private datasets like the American Medical Association Masterfile and the American Dental Association Masterfile. County level dental workforce data comes from the ADA Masterfile, usually on 2-year delay (the most recent county dentist data in the 2020 AHRF came from the 2018 ADA Masterfile). AHRF state-level data comes from the Centers for Medicare & Medicaid Services National Plan and Provider Enumeration System National Provider Identifier registry. 
 
 #### Data Use
 
@@ -41,7 +41,7 @@ Two files were produced:
 
 ## Issues & decisions
 
-This project focused on county data only for now, since that's where most of the detail is. The state-level dental details are much more limited, coming from the NPI registry rather than the ADA masterfile. Positive Sum would like to know more about the validity of aggregating all county-level detail up to the state before making that visualization. Would it be ok to say that 23% of a state's dentists are under 35 if you add up all the dentists from all the counties and compute the share that are under 35?
+This project focused on county data only for now, since that's where most of the detail is. The state-level dental details are much more limited, coming from the NPI registry rather than the ADA Masterfile. Positive Sum would like to know more about the validity of aggregating all county-level detail up to the state before making that visualization. Would it be ok to say that 23% of a state's dentists are under 35 if you add up all the dentists from all the counties and compute the share that are under 35?
 
 ## Code
 
@@ -53,4 +53,4 @@ The presentation is located on [Tableau Public](https://public.tableau.com/profi
 
 ## Project status & Next Steps
 
-The project is currently using the 2018-2019 AHRF, which contains 2017 ADA masterfile dentist counts. The 2019-2020 updated file is available and needs to be incorporated into the project. Since the characater spaces will be entirely different than in the 2018-2019 file, it'll take some time to re-map them.
+The project is currently using the 2018-2019 AHRF, which contains 2017 ADA Masterfile dentist counts. The 2019-2020 updated file is available and needs to be incorporated into the project. Since the character spaces will be entirely different than in the 2018-2019 file, it'll take some time to re-map them.
