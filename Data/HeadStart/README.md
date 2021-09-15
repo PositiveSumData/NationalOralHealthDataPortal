@@ -1,10 +1,10 @@
 # Head Start Program Information (PIR) Reports
 
-Head Start is a federally-funded early childhood education program. Organizations receiving Head Start funding provide annual "Program Information Reports" that describes enrollment, staffing, provided services. These reports are aggregated and posted in an annual file on the Head Start website. There several oral health-related fields for children and people who are pregnant.
+Head Start is a federally-funded early childhood education program. Organizations receiving Head Start funding submit annual "Program Information Reports" that describe enrollment, staffing, provided services. These reports are aggregated and posted in an annual file on the Head Start website. There are several oral health-related fields for children and people who are pregnant.
 
 ## Utility
 
-Head Start sites serve primarily low-income children who may face increased barriers to accessing oral health care services. PIR reports are rare insights into these children's oral health status and utilization trends. PIR reports tell us the percent of children who needed and received dental treatment at specific program locatiosn. For children who did not receive an oral health service, the reports will explain the primary reason why.
+Head Start sites serve primarily low-income children who may face increased barriers to accessing oral health care services. PIR reports are rare insights into these children's oral health status and utilization trends. PIR reports tell us the percent of children who needed and received dental treatment at specific program location. For children who did not receive an oral health service, the reports will explain the primary reason why.
 
 ### Questions this dataset could help answer
 
@@ -64,7 +64,7 @@ The specific oral health questions being asked on forms has changed little betwe
 
 These columns were formatted such that only one 'Yes' answer was found across the columns, indicating which one was the most important reason. The remaining columns contained 'No.' Often all the columns contained 'No'. 
 
-In 2012, two new reason columns were introduced, but also all the reason columns changed from a C.17 to C.19 designation. 
+In 2012, two new reason columns were introduced. All the reason columns changed from a C.17 to C.19 designation. 
 
 In 2015, a new and preferred table structure was adopted, whereby a single field C.19.b contained the single most important reason. There were no other columns for each individual reason.
 
@@ -75,7 +75,7 @@ The Program Details sheet has not changed over time.
 ### Issues & decisions
 
 #### Database normalization
-In a completlely normalized dataabse, we would design separate database tables to house each of our unique entities:
+In a completely normalized database, we would design separate database tables to house each of our unique entities:
 * Grants
 * Grantees
 * Programs
@@ -95,7 +95,7 @@ The program entity shares similar challenges. Names are not consistent. Unique g
 
 We have decided to drop the idea of generating unique grantee and program tables for our project. Producing these tables would be a lot of work, certainly with incorrect judgment manually grouping names. Ignoring these entities still serves our overall project, however, because we are mostly interested in state-level aggregation and mapping. We do not need the ability to show utilization trends for a specific grantee or a specific program over time, and we are not trying to compare or analyze a Head Start site's performance. 
 
-Mapping may still be a little complicated. In the example from New York above, we have three programs across two different addresses. Are the two programs listed at 45 Jewett Ave in the same office? Or perhaps across the hall from each other in a larger office building. If we produce maps where these two locations are treated separately, then dots may overlap and obscure information we are trying to convey. 
+Mapping may still be a little complicated. Do entities that share an address belong to the same program? If the organizations are separate, or if they are located very close to each other, one site may occlude the other on a map. 
 
 We have made the decision to geocode all addresses for the most recent year. We expect users will only want to visualize a most recent map, so we can lessen the burden on our geocoder calls.
 
@@ -120,5 +120,5 @@ Major additions to the data include:
 * Renaming the main reasons children did not receive dental care
 
 ## Project Status & Next Steps
-More recent data are avaialble in the PIR database and needs to be incorporated into the National Oral Health Data Portal
+More recent data are available in the PIR database and needs to be incorporated into the National Oral Health Data Portal
 
