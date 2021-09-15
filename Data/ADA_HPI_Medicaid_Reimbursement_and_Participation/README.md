@@ -4,7 +4,7 @@ This report from the ADA HPI delineates state-level dentist participation in Med
 
 ## Examples of questions this dataset could help answer
 
-* Which state has the highest participatoin of dentists in Medicaid?
+* Which state has the highest participation of dentists in Medicaid?
 * What percent of Indiana adults participate in Medicaid?
 * Which states have the lowest typical reimbursement of Medicaid dental services compared to private insurance?
 
@@ -14,7 +14,7 @@ This dataset helps states understand two of the largest factors commonly discuss
 
 ## Orientation & Stewardship  
 
-The report was produced by the Health Policy Institute and is avaiable on their [website](https://www.ada.org/~/media/ADA/Science%20and%20Research/HPI/Files/HPIgraphic_0417_1.pdf?la=en).
+The report was produced by the Health Policy Institute and is available on their [website](https://www.ada.org/~/media/ADA/Science%20and%20Research/HPI/Files/HPIgraphic_0417_1.pdf?la=en).
 
 ## Original Data Structure
 
