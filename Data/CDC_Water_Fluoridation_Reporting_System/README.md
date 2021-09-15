@@ -4,8 +4,8 @@ Many states participate in the CDC's Water Fluoridation reporting System (WFRS),
 
 ## Examples of questions this dataset could help answer
 
-* Which New Hampshire counties have the highest percentage of people on adequately flouridated community water systems?
-* What percent of people in Indiana are on adquately fluoridate community water systems?
+* Which New Hampshire counties have the highest percentage of people on adequately fluoridated community water systems?
+* What percent of people in Indiana are on adequately fluoridate community water systems?
 * Which states have the highest rates of people with adequately fluoridated community water systems?
 
 ## Utility
@@ -30,14 +30,14 @@ They include this paragraph for more information:
 
 ## Original Data Structure
 
-Detailed community data is found on the microsite by by navigating to the [State Fluoridation Reports page](https://nccd.cdc.gov/DOH_MWF/Reports/Default.aspx). From here select a state and then click "Fluoridation Status Report" to reach a detailed data table. The table is formatted as follows with sample data from Iowa:
+Detailed community data is found on the microsite by navigating to the [State Fluoridation Reports page](https://nccd.cdc.gov/DOH_MWF/Reports/Default.aspx). From here select a state and then click "Fluoridation Status Report" to reach a detailed data table. The table is formatted as follows with sample data from Iowa:
 
 | PWS ID | PWS Name | County | Population Served | Fluoridated | Fluoride Conc. |
 | ------ | -------- | ------ | ----------------- | ----------- | -------------- |
 | IA-0105002 | Adair Municipal Water Supply | Adair (Primary) | 781 | No | 0.45 |
 | IA-0135046 | Fontanelle Water Works | Adair (Primary) | 742 | Yes | 0.70 |
 
-Each row is a unique year-water system. There are multiple row per county. These tables may be downloaded manually as an Excel file with the **Export** link. 
+Each row is a unique year-water system. There are multiple rows per county. These tables may be downloaded manually as an Excel file with the **Export** link. 
 
 The year of the fluoridation report reflects year from which the data was pulled from the WFRS database, not the year for which the data was submitted. The year of data submission is not shown and can be many years old
 
@@ -45,7 +45,7 @@ The CDC courteously provided a separate file for us in the Fall of 2020 containi
 
 ## Converted Data Structure
 
-In the Summer of 2020, reports for each state were dowloaded from MyWatersFluoride and aggregated manually into the file **fluoride_1.csv**, located in this Github repository folder. The same structure was maintained from what was downloaded from the CDC microsite.
+In the Summer of 2020, reports for each state were downloaded from MyWatersFluoride and aggregated manually into the file **fluoride_1.csv**, located in this Github repository folder. The same structure was maintained from what was downloaded from the CDC microsite.
 
 ## Issues & decisions
 
@@ -55,7 +55,7 @@ It's great that we get community-level data with this dataset. If shapefiles can
 
 Many states do not report to WFRS, so their data is not presented in the Tableau vizzes.
 
-The oldest data that we downloaded in the WFRS system comes from 2011 (Arizona, Wyoming, and Wasington DC). Feeling this might be too old for surveillance and policy-making, we felt we needed a cut-off date to show in the Tableau vizzes. We chose Jan 18, 2016, marking approximately 5 years old.
+The oldest data that we downloaded in the WFRS system comes from 2011 (Arizona, Wyoming, and Washington DC). Feeling this might be too old for surveillance and policy-making, we felt we needed a cut-off date to show in the Tableau vizzes. We chose Jan 18, 2016, marking approximately 5 years old.
 
 ## Code
 
@@ -75,4 +75,4 @@ Three dashboards are presented:
 
 ## Status & Next Steps
 
-New data will need to be downloaded periodically fron the CDC My Water's Fluoride Page, and periodically-refreshed 'update status' data from the CDC would be very helpful.
+New data will need to be downloaded periodically from the CDC My Water's Fluoride Page, and periodically-refreshed 'update status' data from the CDC would be very helpful.
