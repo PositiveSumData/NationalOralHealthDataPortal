@@ -40,7 +40,7 @@ Some of the SEDD-participating states make aggregated queries available through 
 While HCUPnet can be a great tool for conducting quick and free queries, it also has some major limitations:
 * Timeliness. SEDD data is often on a 4-year delay or more. As of May 2020, the most recent year for which national data was available was 2016. 2016 state-level data was still not yet available.
 * Subgroup categories. HCUPnet has pre-set population subgroups that do not match with the ASTDD-recommended subgroups, especially for age.
-* Completeness. Fewer than 20 states have queryable HCUPnet data.
+* Completeness. Fewer than 20 states have query-able HCUPnet data.
 
 
 #### Citations
@@ -70,9 +70,9 @@ There are generally two paths people take when they visit an emergency departmen
 HCUPnet examines an additional situation, length of hospital stay, but since we have chosen not to study admissions we will not prioritize that measure.
 
 Within discharges, we want to examine four measures:
-* Counts. E.g. the total # of discharges for a dental condition
-* ED rates. E.g. the # of people who were discharged from the ED for a dental condition / 10,000 people who visited the ED for any reason
-* Population rates. E.g. the # of people who were discharged from the ED for a dental condition / 100,000 population 
+* Counts. E.g., the total # of discharges for a dental condition
+* ED rates. E.g., the # of people who were discharged from the ED for a dental condition / 10,000 people who visited the ED for any reason
+* Population rates. E.g., the # of people who were discharged from the ED for a dental condition / 100,000 population 
 * Total charges. Used as an indicator of the overall cost of utilizing dental care in a hospital setting.
 
 ### Reason or diagnosis
@@ -122,7 +122,7 @@ Fields:
 
 #### source
 
-This table includes information pertaining to each dataset we have in our larger project. Each row is a different dataset, which has a steward (e.g. AHRQ), title (HCUPnet), and a url to where additional information can be found online and where a project description is located in our Github folder. This table gets linked to every dataset in our larger database. 
+This table includes information pertaining to each dataset we have in our larger project. Each row is a different dataset, which has a steward (e.g., AHRQ), title (HCUPnet), and a URL to where additional information can be found online and where a project description is located in our Github folder. This table gets linked to every dataset in our larger database. 
 
 Fields:
 * source_id
@@ -134,7 +134,7 @@ Fields:
 
 #### source_data_id 
 
-This is a bridge table, linking our ED_visit and E_population tables to our source table. The bridge table exists so that we only need to modify a given source once if, say, their url needs updating.
+This is a bridge table, linking our ED_visit and E_population tables to our source table. The bridge table exists so that we only need to modify a given source once if, say, their URL needs updating.
 
 Fields:
 * source_id
@@ -142,7 +142,7 @@ Fields:
 
 #### FIPS
 
-FIPS codes are federally-assigned, unique IDs for nearly every geography in the country. The FIPS code is a number for every geography except the country itself, which for international standardization reasons is simply *US*. Therefore the FIPS code can't be an integer.
+FIPS codes are federally-assigned, unique IDs for nearly every geography in the country. The FIPS code is a number for every geography except the country itself, which for international standardization reasons is simply *US*. Therefore, the FIPS code can't be an integer.
 
 * FIPS_code
 * geographic_type
