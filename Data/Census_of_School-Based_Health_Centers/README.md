@@ -20,7 +20,7 @@ The Census of School-Based Health Centers has 3 indicators that are part of the 
 
 ## Orientation & Stewardship  
 
-The Census of School-Based Health Centers is conducted by the School-Based Health Alliance on a periodic bases. The [most recent survey](https://www.sbh4all.org/wp-content/uploads/2019/05/2016-17-Census-Report-Final.pdf) was conducted during the 2016-2017 school year. Counts of state SBHCs were pulled from this national report. Counts of state SBHCs providing types of oral health services were not included in the report but were provided separately by the School-Based Health Alliance for this project.
+The Census of School-Based Health Centers is conducted by the School-Based Health Alliance on a periodic basis. The [most recent survey](https://www.sbh4all.org/wp-content/uploads/2019/05/2016-17-Census-Report-Final.pdf) was conducted during the 2016-2017 school year. Counts of state SBHCs were pulled from this national report. Counts of state SBHCs providing types of oral health services were not included in the report but were provided separately by the School-Based Health Alliance for this project.
 
 ## Data Structure
 
@@ -32,7 +32,7 @@ The file provided to ASTDD contains 4 columns:
 
 ## Consolidated Data Structure
 
-Included in this Github respository folder is the file **School Based Health Centers.csv** which contains three columns: [state], [service], and [school_count].
+Included in this Github repository folder is the file **School Based Health Centers.csv** which contains three columns: [state], [service], and [school_count].
 
 The file **census_counts_all_sbhcs.csv** contains state counts of SBHCs. 
 
@@ -48,6 +48,6 @@ Two dashboards are presented:
 
 * **States Service Comparison**. Showing all how all states perform on percent of SBHCs providing one of the three selected oral health services.
 
-* **States All Services Comparison**. Showing how all states perform on percent of SBHCs providng all three types of oral health services at once.
+* **States All Services Comparison**. Showing how all states perform on percent of SBHCs providing all three types of oral health services at once.
 
 
