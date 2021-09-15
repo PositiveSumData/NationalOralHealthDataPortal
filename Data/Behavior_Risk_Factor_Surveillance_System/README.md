@@ -7,7 +7,7 @@ The Behavior Risk Factor Surveillance System (BRFSS) is a CDC-stewarded, state-a
 * What percent of New Mexico adults have any/severe/complete tooth loss?
 * Are any race/ethnicities in Pennsylvania more likely to have visited the dentist than others?
 * Has the percent of Rhode Island adults who visited the dentist changed over time?
-* Which metro areas have the highest prevelance of complete tooth loss?
+* Which metro areas have the highest prevalence of complete tooth loss?
 
 ## Utility
 
@@ -31,11 +31,11 @@ BRFSS data is presented in two files in this Github repository folder:
 
 * **BRFSS_prime.csv**. Contains all the prevalence estimates for dental visits and tooth loss severity in one file. Each row is a unique year-geography-question-response-population_catogery-population_subcategory. 
 
-* **BRFSS_CI.csv**. Contains confience interval data unpivoted such that there are twice as many rows as in the BRFSS_prime file, with an upper 95% confidence interval row and a lower 95% confidenced interval row for every unique pair from BRFSS_prime. This file is formatted for data visualization software to draw confidence intervals. The CI_order column counts upwards from the lowest year in the lower CI, then the highest year in the lower CI, then the highest year in the upper CI, then the lowest year in the upper CI. This helps a program like Tableau 'connect the dots' in the shape of a polygon. 
+* **BRFSS_CI.csv**. Contains confidence interval data unpivoted such that there are twice as many rows as in the BRFSS_prime file, with an upper 95% confidence interval row and a lower 95% confidence interval row for every unique pair from BRFSS_prime. This file is formatted for data visualization software to draw confidence intervals. The CI_order column counts upwards from the lowest year in the lower CI, then the highest year in the lower CI, then the highest year in the upper CI, then the lowest year in the upper CI. This helps a program like Tableau 'connect the dots' in the shape of a polygon. 
 
 ## Issues & decisions
 
-Users should be aware that data is based on self-reported phone surveys. Clinicians have not verified reponsdent's tooth loss severity and administrative records cannot verifity dental visit frequency.
+Users should be aware that data is based on self-reported phone surveys. Clinicians have not verified respondent’s tooth loss severity and administrative records cannot verify dental visit frequency.
 
 Sample sizes in BRFSS can be quite low in states, leading to unstable estimates at the county level or lower, especially when slicing by population characteristics. Kathy Phipps has provided estimates for many large metropolitan areas without population stratifications because adding stratifications would reduce samples sample size. 
 
@@ -52,5 +52,5 @@ Four dashboards are presented:
 
 ## Status & Next Steps
 
-Because of sample size issues the confidence intervals on many estimates is quite large or even prohibited some analyses altogether (e.g. counties and many metro areas). Perhaps years could be grouped together to increase sample size in a future analysis.
+Because of sample size issues the confidence intervals on many estimates is quite large or even prohibited some analyses altogether (e.g., counties and many metro areas). Perhaps years could be grouped together to increase sample size in a future analysis.
 
