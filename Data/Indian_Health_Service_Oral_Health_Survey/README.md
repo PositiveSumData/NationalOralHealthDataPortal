@@ -1,11 +1,11 @@
 # Indian Health Service Oral Health Survey
 
-This dataset shows insights into the prevalence and tooth count of oral health conditions of American Indian and Alaska Native child populations in the United States.
+This dataset shares insights into the prevalence oral health conditions of American Indian and Alaska Native child populations in the United States.
 
 ## Examples of questions this dataset could help answer
 
-* Does prevlanece of decay experience change across ages in AI / AN children?
-* Which are higher among young AI / AN children: prevlence of untreated decay or prevlance of urgent care needed?
+* Does prevalence of decay experience change across ages in AI / AN children?
+* Which are higher among young AI / AN children: prevalence of untreated decay or prevalence of urgent care needed?
 * Have the percent of AI / AN children with sealants on primary molars changed over time?
 * Have the percent contributions of decayed, missing, and filled teeth to overall DMFT in AI / AN children changed over time or across ages?
 * How many filled teeth did the average AI / AN child age 13-15 have in 2019-2020?
@@ -30,8 +30,7 @@ The following citations are suggested within the text of each individual report:
 
 **The Oral Health of 13-15 Year Old American Indian and Alaska Native (AI/AN) Dental Clinic Patients – A Follow-Up Report to the 2013 Survey**
 > Phipps KR, Ricks TL, Mork NP, and Lozon TL. The oral health of 13-15 year old American Indian and Alaska Native dental
-clinic patients – a follow-up report to the 2013 survey. Indian Health Service data brief. Rockville, MD: Indian Health
-Service. 2020. 
+clinic patients – a follow-up report to the 2013 survey. Indian Health Service data brief. Rockville, MD: Indian Health Service. 2020. 
 
 **THE ORAL HEALTH OF AMERICAN INDIAN AND ALASKA NATIVE CHILDREN AGED 1-5 YEARS: RESULTS OF THE 2018-19 IHS ORAL HEALTH SURVEY**
 > Phipps KR, Ricks TL, Mork NP, and Lozon TL. The oral health of American Indian and Alaska Native children aged
@@ -55,7 +54,7 @@ The two reports have been manually consolidated into one CSV with the following 
 
 ## Issues & decisions
 
-Positive Sum would like to have combined the two reports into the same visualization to show prevalence of oral health conditions across ages for a single point in time, but because the survyes had a year or two between them, it was decided to keep them in separate graphs.
+Positive Sum would like to have combined the two reports into the same visualization to show prevalence of oral health conditions across ages for a single point in time, but because the surveys had a year or two between them, we decided to keep them in separate graphs.
 
 ## Code
 
@@ -69,7 +68,7 @@ Two tableau dashboards are presented:
 
 * **Prevalence Dashboard**. For all prevalence measures that showed the percent of a population with a condition.
 
-* **DMFT Dashboard**. For all measures that used the count of teeth (decayed, missing, filled, etc..). This dashboard is presented in 4 windows showing permutations of data for [most current year only] vs [time series] and for [stacked area percent of total plot] vs [line plot]. The stacked area percent of total plots help show how the overal distributions of DMFT are changing over time or across ages. 
+* **DMFT Dashboard**. For all measures that used the count of teeth (decayed, missing, filled, etc..). This dashboard is presented in 4 windows showing permutations of data for [most current year only] vs [time series] and for [stacked area percent of total plot] vs [line plot]. The stacked area percent of total plots help show how the overall distributions of DMFT are changing over time or across ages. 
 
 
 ## Status & Next Steps
