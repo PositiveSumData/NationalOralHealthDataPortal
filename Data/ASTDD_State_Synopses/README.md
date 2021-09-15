@@ -1,6 +1,6 @@
 # Association of State & Territorial Dental Directors State Synopses
 
-The ASTDD State Synopses are aggregated surveys of state dental directors describing state oral health program characteristics. 
+The ASTDD State Synopses are aggregated surveys from state dental directors describing state oral health program characteristics. 
 
 
 ## Examples of questions this dataset could help answer
@@ -19,7 +19,7 @@ The ASTDD state synopses are timely glimpses into the diversity of oral health p
 
 ASTDD annually administers surveys to dental directors, aggregating the findings into reports owned by ASTDD. These reports are posted on the ASTDD website and also shared with the CDC. The CDC aggregates some of the reporting measures into a single file on the [Chronic Disease data portal](https://chronicdata.cdc.gov/Oral-Health/ASTDD-Synopses-of-State-Oral-Health-Programs-Selec/vwmz-4ja3/data). 
 
-For the National Oral Health Data Portal Project we have used the CDC data file for most visualization since the file does most of the work of aggregating years of ASTDD PDF reports. Importantly, one indicator not included in the CDC portal is whether or not states have an ongoing oral health surveillance system in place approved by the Council of State & Territorial Epidemiologists (CSTE). This is the lone 'infrastructure indicator' in the State Oral Health Surveillance System. To report on this indicator we have gone directly to the [2020 ASTDD State Synopsis Summary Report](https://www.astdd.org/docs/2020-synopses-report.pdf).
+For the National Oral Health Data Portal Project, we have used the CDC data file for most visualization since the file does most of the work of aggregating years of ASTDD PDF reports. Importantly, one indicator not included in the CDC portal is whether or not states have an ongoing oral health surveillance system in place approved by the Council of State & Territorial Epidemiologists (CSTE). This is the lone 'infrastructure indicator' in the State Oral Health Surveillance System. To report on this indicator, we have gone directly to the [2020 ASTDD State Synopsis Summary Report](https://www.astdd.org/docs/2020-synopses-report.pdf).
 
 #### Data Use
 
@@ -59,20 +59,20 @@ Questions with breakouts include:
 | State dental director/program manager position requirement | Public health experience |
 | State dental director/program manager position requirement | Public health degree |
 | Statutory requirement or authority | For state dental director |
-| Statutory requirement or authority | For oral health program For oral health program |
+| Statutory requirement or authority | For oral health program for oral health program |
 | System for children with cleft lips/cleft palates | System for referring children with cleft lips/cleft palates to rehabilitative teams |
 | System for children with cleft lips/cleft palates | System for recording children with cleft lips, palates, and other craniofacial anomalies |
 
 
 ## Converted Data Structure
 
-To make the dataset more wieldy in Tableau, questions and breakouts have been combined such that the question-breakout pair "Prevention Programs - Dental screening programs" becomes a single unique question in the question column. The breakout column is deleted.
+To make the dataset wieldier in Tableau, questions and breakouts have been combined such that the question-breakout pair "Prevention Programs - Dental screening programs" becomes a single unique question in the question column. The breakout column is deleted.
 
 The converted file is located in this [Github repository folder](https://github.com/PositiveSumData/NationalOralHealthDataPortal/tree/master/Data/ASTDD_State_Synopses) as **state_synopses_all.csv**
 
 ## Issues & decisions
 
-Not all questions are answered for each state in a given year, but the missing values are few so this does not impact the usefullness of the dataset.
+Not all questions are answered for each state in a given year, but the missing values are few so this does not impact the usefulness of the dataset.
 
 ## Code
 
