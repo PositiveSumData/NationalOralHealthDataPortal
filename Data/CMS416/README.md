@@ -1,6 +1,6 @@
 # CMS 416 Reports
 
-As part of federal Medicaid and CHIP funding requirements, states report annual utilization of medical and dental care among the children covered under the Early and Periodic Screening, Diagnostic, and Treatment (EPSDT) benefits. These reports are knows as CMS 416 after the name of the reporting form used.
+As part of federal Medicaid and CHIP funding requirements, states report annual utilization of medical and dental care among the children covered under the Early and Periodic Screening, Diagnostic, and Treatment (EPSDT) benefits. These reports are known as CMS 416 after the name of the reporting form used.
 
 ## Utility
 
@@ -15,7 +15,7 @@ State CMS416 reports are the best publicly available source for Medicaid and CHI
 
 ## Orientation & Stewardship  
 
-States annually submit children’s Medicaid and CHIP utilization data to the Centers for Medicare and Medicaid Services (CMS). The submission forms are called 'CMS 416 reports,' and the collective dataset has become knowns as CMS416. The annual collections are made available on the CMS 'EPSDT' [website](https://www.medicaid.gov/medicaid/benefits/early-and-periodic-screening-diagnostic-and-treatment/index.html). The data are presented as spreadsheets. Data are periodically revised over time as states update their submissions or catch up to the submission process.  
+States annually submit children’s Medicaid and CHIP utilization data to the Centers for Medicare and Medicaid Services (CMS). The submission forms are called 'CMS 416 reports,' and the collective dataset has become knowns as ‘CMS 416’. The annual collections are made available on the CMS 'EPSDT' [website](https://www.medicaid.gov/medicaid/benefits/early-and-periodic-screening-diagnostic-and-treatment/index.html). The data are presented as spreadsheets. Data are periodically revised over time as states update their submissions or catch up to the submission process.  
 
 #### Data Use
 
@@ -25,7 +25,7 @@ The data is provided as-is by direct download. No user agreement is required.
 
 CMS 416 measures have been collected since 1995. The methodology, age categories, and measures have changed over the course of three main phases: 
 * 1995-1999. The only dental measure is 'received any dental.' The four age groups are: <1, 1-5, 6-14, 15-20. Dental utilization is defined by receipt of 'dental assessments.' Enrollees are those children who have been enrolled for any amount of time during the reporting period.
-* 2000-2009. The measures 'preventive dental' and 'dental treatment' are added. Age groups changed to seven categories: <1, 1-2, 3-5, 6-9, 10-14, 15-18, 19-20. Dental utilziation is defined by receipt of 'dental services.' 
+* 2000-2009. The measures 'preventive dental' and 'dental treatment' are added. Age groups changed to seven categories: <1, 1-2, 3-5, 6-9, 10-14, 15-18, 19-20. Dental utilization is defined by receipt of 'dental services.' 
 * 2010-present. The measures 'dental sealants,' 'dental diagnostic,' 'oral health services by a non-dentist', and 'any dental or oral health service' are added. The age groups for sealants are 6-9 and 10-14 only. Enrollees are those who were enrolled for 90 continuous days during the reporting period.
 
 Because the method for counting enrollees changed between 2009 and 2010, we have decided the data are not comparable and therefore it is best to restrict our dataset to years 2010-present.
@@ -56,7 +56,7 @@ The dental utilization measures all come from line 12 of the CMS416 form. They a
 
 States report their CMS416 counts in three types of enrollee categories: categorically needy (CN), medically needy (MN), and total. The categorically needy category includes most enrollees -- it denotes those people eligible for EPSDT benefits by virtue of their age and income categories. Medically needy enrollees are those receiving assistance paying medical costs through optional state programs outside of the regular EPSDT program. Many states will show zeros across their MN values because they do not offer MN benefits. A good explanation of the difference is found at the [West Virginia Department of Health and Human Resources](https://www.wvdhhr.org/bcf/policy/imm/new_manual/immanual/manual_pdf_files/chapter_16/ch16_4%20.pdf). 
 
-CMS416 reports capture data across 7 age groups: under 1, 1--2, 3--5, 6--9, 10--14, 15--18, 19--20, as well as a total aggregation column. A double-dash has been used instead of single dash here to avoid a spreadsheet assuming a date format. We deleted the "Total" age column so that to obtain the total we must add up all the separate ages together. Otherwise we risk double-counting people when we sum across the age column in Tableau. 
+CMS416 reports capture data across 7 age groups: under 1, 1--2, 3--5, 6--9, 10--14, 15--18, 19--20, as well as a total aggregation column. A double-dash has been used instead of single dash here to avoid a spreadsheet assuming a date format. We deleted the "Total" age column so that to obtain the total we must add up all the separate ages together. Otherwise, we risk double-counting people when we sum across the age column in Tableau. 
 
 The different 'lines' in the original dataset reflect different lines on the CMS416 submission form. We added a shorthand version of each line to make it easier to read.
 
@@ -84,10 +84,10 @@ The "Total" age value was removed. To retrieve the total number of children on a
 We include a couple of geography columns to help the user: the full name of the geography, the abbreviation, the FIPS code, and the type of geography. The type field can be used to filter for only the country level or territory level, for example. 
 
 ## Code
-The R code used to read in all the data and output our tables is located inthis Github repository folder in the file **CMS416_r_code.R**.
+The R code used to read in all the data and output our tables is located in this Github repository folder in the file **CMS416_r_code.R**.
 
 ## Data tables
-The processed data tables have been uploaded to this Github reposotory folder
+The processed data tables have been uploaded to this Github repository folder
 
 ## Tableau Presentation
 
@@ -102,4 +102,4 @@ The Tableau viz contains 5 dashboards:
 
 ## Project status
 
-The Tableau vis is up and ready for feedback. 
+The Tableau vis is up and ready for feedback.
