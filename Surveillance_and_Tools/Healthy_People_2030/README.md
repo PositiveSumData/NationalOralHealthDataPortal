@@ -34,11 +34,11 @@ Healthy People is a national health target-setting and progress monitoring proje
 | OH‑10 | Increase the proportion of children and adolescents who have received dental sealants on 1 or more of their primary or permanent molar teeth |
 | OH‑D01 | Increase the number of states and the District of Columbia that have an oral and craniofacial health surveillance system |
 
-Objectives were chosed that had reliable national datasets that could monitor achievement. State targets were not set, and most of the datasets used in HP 2030 do not have state breakouts. For example, the National Health & Nutrition Examination Survey (NHANES) doesn't have a large enough sample size to permit state-level reporting.
+Objectives were chosen that had reliable national datasets that could monitor achievement. State targets were not set, and most of the datasets used in HP 2030 do not have state breakouts. For example, the National Health & Nutrition Examination Survey (NHANES) doesn't have a large enough sample size to permit state-level reporting.
 
 ## Original Data Structures
 
-The HP2030 baselines have been established, and since it launched so recently that's currently all the data the project has so far. Data waere obtained by manually copying it from the HP2030 [oral conditions](https://health.gov/healthypeople/objectives-and-data/browse-objectives/oral-conditions) webpage. 
+The HP2030 baselines have been established, and since it launched so recently that's currently all the data the project has so far. Data were obtained by manually copying it from the HP2030 [oral conditions](https://health.gov/healthypeople/objectives-and-data/browse-objectives/oral-conditions) webpage. 
 
 ## Converted Data Structure
 
@@ -60,4 +60,4 @@ A single dashboard has been created presenting the targets and baseline for each
 
 ## Status & Next Steps
 
-While the baseline dashboard is up, the website will need to be continuosly monitored for progress updates.
+While the baseline dashboard is up, the website will need to be continuously monitored for progress updates.
