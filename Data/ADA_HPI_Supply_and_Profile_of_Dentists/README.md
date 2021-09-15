@@ -2,7 +2,7 @@
 
 The Supply and Profile of Dentists dataset gives counts and densities of professionally active dentists by country and state for each year since 2001.
 
-## Examplse of questions this dataset could help answer
+## Examples of questions this dataset could help answer
 
 * How many dentists were practicing in West Virginia in 2019?
 * Are counts of dentists increasing in Oklahoma since 2001? Going down? Flattening?
@@ -10,7 +10,7 @@ The Supply and Profile of Dentists dataset gives counts and densities of profess
 
 ## Utility
 
-This dataset gives a count of how many professionally active dentists there are in a state. The 'professionally active' designation helps distinguish from other datasets thay perhaps can tell how many dentists are licensed, but not necessarily how many are serving a meaningful number of patients.
+This dataset gives a count of how many professionally active dentists there are in a state. The 'professionally active' designation helps distinguish from other datasets that perhaps can tell how many dentists are licensed, but not necessarily how many are serving a meaningful number of patients.
 
 ## Orientation & Stewardship  
 
@@ -24,9 +24,9 @@ The dataset is publicly available for download from the HPI [website](https://ww
 
 Two files are available for download from the HPI website: 
 
-**Supply of Dentists in the U.S.: 2001-2019**. "Includes the number of dentists in the United States by state from 2001 to 2019, U.S. population figures, the number of dentists per 100,000 population, and the supply of dentists in the U.S. by age, gender, and practice area/specialty." A 5-table spreadsheet catalogs information for states, separating dentist counts, population counts, and dentist-per-population density. Age, gender, and specialty breakouts are provided for the country overall.
+**Supply of Dentists in the U.S.: 2001-2019**. Includes the number of dentists in the United States by state from 2001 to 2019, U.S. population figures, the number of dentists per 100,000 population, and the supply of dentists in the U.S. by age, gender, and practice area/specialty. A 5-table spreadsheet catalogs information for states, separating dentist counts, population counts, and dentist-per-population density. Age, gender, and specialty breakouts are provided for the country overall.
 
-**Dentist Profile Snapshot by State 2016**. "Report on state-by-state dentist demographic data, including breakdowns by age, race/ethnicity, Medicaid/CHIP participation, dental practice type affiliation, and supply per 100,000 population." Contains state breakouts by practice structure, public coverage acceptance, dentist race/ethnicity, dentist gender, and dentist age group. 
+**Dentist Profile Snapshot by State 2016**. Report on state-by-state dentist demographic data, including breakdowns by age, race/ethnicity, Medicaid/CHIP participation, dental practice type affiliation, and supply per 100,000 population. Contains state breakouts by practice structure, public coverage acceptance, dentist race/ethnicity, dentist gender, and dentist age group. 
 
 ## Converted Data Structure
 
