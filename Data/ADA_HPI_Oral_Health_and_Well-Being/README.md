@@ -16,7 +16,7 @@ The ADA HPI's 2016 survey of adults in each state illuminates peoples' attitudes
 
 ## Utility
 
-The ADA HPI Oral Health & Well-being survey is one of the rare datasets that explores people's percentions of their oral health and how oral health impacts their lives.
+The ADA HPI Oral Health & Well-being survey is one of the rare datasets that explores people's perceptions of their oral health and how oral health impacts their lives.
 
 ## Orientation & Stewardship  
 
@@ -33,7 +33,7 @@ The HPI dataset downloads as a 13-sheet Excel spreadsheet, mostly alternating be
 * Life in general is less satisfying due to condition of mouth and teeth.
 * Appearance of mouth and teeth affects ability to interview for a job.
 * How often have you experienced the following problems in the last 12 months dues to the condition of your mouth and teeth?
-* Attitudes toward oral health adn dental care.
+* Attitudes toward oral health and dental care.
 * Dental care utilization: what people say and what people do.
 * Reasons for not visiting the dentist more frequently, among those without a visit in the last 12 months.
 
@@ -43,7 +43,7 @@ The spreadsheet is designed to be viewed rather than incorporated into statistic
 
 ## Converted Data Structure
 
-The original 13-tab Excel file was converted into a 6-tab Excel file, **ADA_HPI_Oral_Health_and_Well-Being.xlsx**, with one tab for each topic except for 'dental care utiliation: what people say and what people do.' This topic was the only one not to contain state breakouts, so it was excluded for now.
+The original 13-tab Excel file was converted into a 6-tab Excel file, **ADA_HPI_Oral_Health_and_Well-Being.xlsx**, with one tab for each topic except for 'dental care utilization: what people say and what people do.' This topic was the only one not to contain state breakouts, so it was excluded for now.
 
 ## Issues & decisions
 
@@ -51,14 +51,14 @@ The project so far has focused on state breakouts, ignoring national data displa
 
 ## Code
 
-No code was used to process or compute data withd this dataset. Due to the unique structure of the original Excel files, data was processed manually.
+No code was used to process or compute data with this dataset. Due to the unique structure of the original Excel files, data was processed manually.
 
 ## Tableau Presentation
 
 The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/ADAHPIOralHealthWell-Being_16096272649150/Orientation
 ).
 
-The Tableau viz has one 'story' for each of the 6 state topics tabs. The topics with more complex information recieve more dashboards within a story. The most common type of viz consists of side by side bar graphs for each state by each income level. If there are multiples types on answers inside of each bar (seen by multiple colors on the same bar), when a parameter feature is available at the top of the page to help users sort by different characteristics. 
+The Tableau viz has one 'story' for each of the 6 state topics tabs. The topics with more complex information receive more dashboards within a story. The most common type of viz consists of side by side bar graphs for each state by each income level. If there are multiples types on answers inside of each bar (seen by multiple colors on the same bar), when a parameter feature is available at the top of the page to help users sort by different characteristics. 
 
 ## Status & Next Steps
 
