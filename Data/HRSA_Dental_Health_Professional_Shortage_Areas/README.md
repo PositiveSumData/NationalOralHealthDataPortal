@@ -6,7 +6,7 @@ Geographic boundaries in the United States are determined to have a shortage of 
 ## Questions this dataset could help answer
 
 * Which area in New Jersey has the highest designated shortage score?
-* How many dentist FTEs would be needed to ensure Idaohans have adequate access to dental care?
+* How many dentist FTEs would be needed to ensure Idahoans have adequate access to dental care?
 * What shortage area in North Dakota has the highest proportion of people to dentist?
 * How many dentist FTEs are currently servicing the low income population of Genessee County, Michigan?
 
@@ -32,11 +32,11 @@ Once a designation is made, a score is assigned using a formula with [4 criteria
 
 Dental areas can receive a score of up to 26 points. 
 
-These dental scores directly influece the [HRSA National Health Service Corps and Indian Health Service loan repayment programs](https://nhsc.hrsa.gov/scholarships/requirements-compliance/jobs-and-site-search/hpsa-score-class-year), which requires an area to meet a certain DHPSA threshold to be eligible to receive a Service Corps placement or for a provider to be eligible for loan repayment. DHPSA scores can also impact HRSA grant decisions for Federally-Qualified Health Centers.
+These dental scores directly influence the [HRSA National Health Service Corps and Indian Health Service loan repayment programs](https://nhsc.hrsa.gov/scholarships/requirements-compliance/jobs-and-site-search/hpsa-score-class-year), which requires an area to meet a certain DHPSA threshold to be eligible to receive a Service Corps placement or for a provider to be eligible for loan repayment. DHPSA scores can also impact HRSA grant decisions for Federally-Qualified Health Centers.
 
 ## Data Use
 
-DHPSA data files are available for free public dowload from the [HRSA data downloads page](https://data.hrsa.gov/data/download).
+DHPSA data files are available for free public download from the [HRSA data downloads page](https://data.hrsa.gov/data/download).
 
 ## Original Data Structure
 
@@ -54,20 +54,20 @@ No modifications were made to the original HRSA files listed above. These were i
 
 The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/HRSADentalHealthProfessionalShortageAreas_16091923631950/Orientation).
 
-In practice, DHPSAs are most often used to describe a geographiy's status: either being a DHPSA or not being a DHPSA. But there are so many deeper data points contained in the DHPSA files that can be useful, including the following measures:
+In practice, DHPSAs are most often used to describe a geography’s status: either being a DHPSA or not being a DHPSA. But there are so many deeper data points contained in the DHPSA files that can be useful, including the following measures:
 
 * Population to dental provider ratio
 * Total dental FTEs
-* Addditional dental FTEs needed
+* Additional dental FTEs needed
 * Population served by current dental workforce
 * Percent of people unserved
 * Population left unserved by inadequate dental workforce
 
-The Tableau dasbhboard tries to bring awareness to this richness by allowing users to update the charts per each different measure. 
+The Tableau dashboard tries to bring awareness to this richness by allowing users to update the charts per each different measure. 
 
 The dashboard also tries to help users understand that DHPSA designations may not apply to everyone living in an area. A DHPSA may apply to a specific population in a boundary, such as low income people or people who are migrant farmworkers. The Dashboard allows users to select by these features and filter the charts. 
 
-The Tableau dashboards use a 7-shade continuous purple scale for each measure fixed on the the country-level so that the colors do not change if a state or other type of filter is applied.
+The Tableau dashboards use a 7-shade continuous purple scale for each measure fixed on the country-level so that the colors do not change if a state or other type of filter is applied.
 
 ## Code
 
@@ -75,4 +75,4 @@ No code was used to modify or calculate any aspects of this dataset.
 
 ## Project status & Next Steps
 
-The Tableau dashboard as-is helps users compare individual DHPAs on different characteristics. It does not aggregate totals to the country or state such that a person could see how many total FTEs are needed in Louisiana overall. Such an additional dashboard hat would be a good next step to work on. 
+The Tableau dashboard as-is helps users compare individual DHPAs on different characteristics. It does not aggregate totals to the country or state such that a person could see how many total FTEs are needed in Louisiana overall. Such an additional dashboard that would be a good next step to work on.
