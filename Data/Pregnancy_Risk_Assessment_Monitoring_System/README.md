@@ -1,6 +1,6 @@
 # Pregnancy Risk Assessment Monitoring System
 
-The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.htm) is a CDC-stwearded, state-administered, biennial state-administered survey of pregnant or recently pregnant individuals' health attitudes and behaviors that covering several oral health topics.
+The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.htm) is a CDC-stewarded, state-administered, biennial state-administered survey of pregnant or recently pregnant individuals' health attitudes and behaviors that covering several oral health topics.
 
 ## Examples of questions this dataset could help answer
 
@@ -11,7 +11,7 @@ The [Pregnancy Risk Monitoring System (PRAMS)](https://www.cdc.gov/prams/index.h
 
 ## Utility
 
-PRAMS provides state-level data about oral health attitudes and service utilization for a a population group not covered by many other data sources. It asks more oral health questions than the other CDC surveys like the Behavior Risk Factor Surveillance System or the Youth Risk Behavior Survey.
+PRAMS provides state-level data about oral health attitudes and service utilization for a population group not covered by many other data sources. It asks more oral health questions than the other CDC surveys like the Behavior Risk Factor Surveillance System or the Youth Risk Behavior Survey.
 
 ## Orientation & Stewardship  
 
@@ -22,9 +22,9 @@ The dataset is part of a complex survey design that requires statistical softwar
 ## Raw Data Structure
 The National Oral Health Data Portal Project has submitted a data request to the CDC for a long list of state indicators over time. While the request is being processed, the more limited pre-analyzed reports are included in this project. Two reports have been consolidated:
 
-* **[Selected 2016 thorugh 2017 Maternal and Child Health (MCH) Indicators](https://www.cdc.gov/prams/prams-data/mch-indicators.html). Includes the indicator [teeth cleaned during pregnancy by a dentist or dental hygienist]**.
+* **[Selected 2016 through 2017 Maternal and Child Health (MCH) Indicators](https://www.cdc.gov/prams/prams-data/mch-indicators.html). Includes the indicator **teeth cleaned during pregnancy by a dentist or dental hygienist**.
 
-* **[Selected 2012 through 2015 Maternal and Child Health (MCH) Indicators by State](https://www.cdc.gov/prams/prams-data/2015-mch-indicators.html)**. Include indicators [teeth cleaned during 12 months before pregnancy], [teeth cleaned during pregnancy], and [had dental insurance during pregnancy].
+* **[Selected 2012 through 2015 Maternal and Child Health (MCH) Indicators by State](https://www.cdc.gov/prams/prams-data/2015-mch-indicators.html)**. Include indicators **teeth cleaned during 12 months before pregnancy**, **teeth cleaned during pregnancy**, and **had dental insurance during pregnancy**.
 
 
 Questions available in the full research dataset include:
@@ -69,7 +69,7 @@ Two files have been produced by consolidating the pre-analyzed reports from the 
 
 * **PRAMS.csv**. Each row is a unique state-measure-year, providing the estimates and confidence intervals.
 
-* **PRAMS_CI.csv**. Twice as long as the PRAMS.csv file above, this file has been unpivoted such that an upper and lower 95% confidence interval is given for each year-measure-state. This file can be used by visualiation software to help show confidence intervals.  An "Order" column provides a sequence of numbers that visualization software could use to 'connect the dots' and draw a confidence line or polygon.
+* **PRAMS_CI.csv**. Twice as long as the PRAMS.csv file above, this file has been unpivoted such that an upper and lower 95% confidence interval is given for each year-measure-state. This file can be used by visualization software to help show confidence intervals.  An "Order" column provides a sequence of numbers that visualization software could use to 'connect the dots' and draw a confidence line or polygon.
 
 ## Code
 
