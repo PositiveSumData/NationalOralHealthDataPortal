@@ -9,7 +9,7 @@ This dashboard aggregates 12 data sources covering 32 of the 36 NOHSS indicators
 
 ## Data Stewardship  
 
-The National Oral Health Surveillance System is a suite of publicly-available indicators approved by the Council of State & Territorial Epidemiologists (CSTE) to represent a comprehensive portrayal of a state's oral health status and system performance. The Associaton of State & Territorial Dental Directors (ASTDD) has taken the lead in helping develop and maintain these indicators over time, growing from an initial suite of 9 indicators in the late 1990s to 36 today. 
+The National Oral Health Surveillance System is a suite of publicly-available indicators approved by the Council of State & Territorial Epidemiologists (CSTE) to represent a comprehensive portrayal of a state's oral health status and system performance. The Association of State & Territorial Dental Directors (ASTDD) has taken the lead in helping develop and maintain these indicators over time, growing from an initial suite of 9 indicators in the late 1990s to 36 today. 
 
 The current list of indicators are stewarded by 5 separate agencies and organizations plus the basic screening survey, which states conduct individually, usually with assistance from ASTDD. 
 
@@ -52,9 +52,9 @@ The current list of indicators are stewarded by 5 separate agencies and organiza
 | States | BSS | Dental Treatment Need Among Adults Aged ≥65 Years Attending Congregate Meal Sites |
 | States | BSS | Dental Sealant Among 3rd Grade Children |
 
-On the CDC's [Oral Health Data Portal](https://chronicdata.cdc.gov/browse?category=Oral+Health), the CDC tracks NOHSS oral health indicators for which it is the data steward. The CDC also makes some state Basic Screening Survey data available, having consolidated it from states with the assistance of ASTDD. The dult Basic Screening Survey data is not available on the CDC Data Portal, however, and it is not includeded in the National Oral Health Data Portal project either, for reasons described below.
+On the CDC's [Oral Health Data Portal](https://chronicdata.cdc.gov/browse?category=Oral+Health), the CDC tracks NOHSS oral health indicators for which it is the data steward. The CDC also makes some state Basic Screening Survey data available, having consolidated it from states with the assistance of ASTDD. The adult Basic Screening Survey data is not available on the CDC Data Portal, however, and it is not included in the National Oral Health Data Portal project either, for reasons described below.
 
-The other data stewards do not appear to explicitly track or display NOHSS performance on their respesctive indicators.
+The other data stewards do not appear to explicitly track or display NOHSS performance on their respective indicators.
 
 To learn more about the history of NOHSS indicators, please see the pdf in this folder titled "state-based-oral-health-surveillance-systems-cste-whitepaper-oct-2013.pdf". A word doc in this folder also contains an official list of the current indicators.
 
@@ -66,9 +66,9 @@ To learn more about each of the data sources in NOHSS and how they were incorpor
 
 Two files have been created to consolidate the NOHSS indicators:
 
-* **NOHSS_prime.csv**. Each row is a uniqe state-indicator-year. 
+* **NOHSS_prime.csv**. Each row is a unique state-indicator-year. 
 
-* **NOHSS_CI.csv**. Each row is a unique state-indicator-year-confidence_level. This file is twice as tall as the 'prime' file because it has been unpivoted to contain a separate row for each data point in the 'prime' file so that data visualization software can display confience intervals.
+* **NOHSS_CI.csv**. Each row is a unique state-indicator-year-confidence_level. This file is twice as tall as the 'prime' file because it has been unpivoted to contain a separate row for each data point in the 'prime' file so that data visualization software can display confidence intervals.
 
 ## Issues & decisions
 
@@ -76,7 +76,7 @@ Two files have been created to consolidate the NOHSS indicators:
 
 The Older Adults Basic Screening Survey is the only data source not currently represented in this NOHSS dashboard. The primary reasons are:
 * There are so few states that have conducted the survey that most users won't see any data or won't be able to compare their state's performance.
-* For the surveys that are conducted, differences in population denominators (e.g. dentulum status, service location), and non-representativeness of the surveys mean that results are likely not comparable between states.
+* For the surveys that are conducted, differences in population denominators (e.g. dentulism status, service location), and non-representativeness of the surveys mean that results are likely not comparable between states.
 
 ### 'no data' for Child Basic Screening Survey 
 
@@ -84,15 +84,15 @@ After the Adult Basic Screening Survey, the *Child Basic Screening Survey* has t
 
 ### Using Most Recent Date
 
-In an effort to make what BSS is available comparable between states, the dasbhoard currently uses the most recent survey data available, even if it is quite old. This could be changed to only use a cutoff threshold if users suggest a good threshold. 
+In an effort to make what BSS is available comparable between states, the dashboard currently uses the most recent survey data available, even if it is quite old. This could be changed to only use a cutoff threshold if users suggest a good threshold. 
 
-The same applies accross datasets: the most recent year available is used. This means that the dashboard is showing data from different years at the same time. Users should be careful to look at the dashboard tooltips more more information on which dates they are seeing displayed for each data point.
+The same applies across datasets: the most recent year available is used. This means that the dashboard is showing data from different years at the same time. Users should be careful to look at the dashboard tooltips more information on which dates they are seeing displayed for each data point.
 
 ### Dealing with Different Axes
 
 Almost all the indicators are computed as a percent. This makes it easy to visualize most indicators on the same axis in the same chart. Three indicators use a different unit, and can be somewhat difficult to incorporate into the dashboard with the other indicators:
 
-* ASTDD State Synopses - Presence of an Approved Oral Health Surveillance System. This is a binary 'yes' / 'no' indicator. Therefore there is no data displayed on the continuous Gandt chart in pink/blue. In the dashboard maps, colors are used to show the binary possibilities. In the bar charts states either have 100=yes or 0=no. 
+* ASTDD State Synopses - Presence of an Approved Oral Health Surveillance System. This is a binary 'yes' / 'no' indicator. Therefore, there is no data displayed on the continuous Gantt chart in pink/blue. In the dashboard maps, colors are used to show the binary possibilities. In the bar charts states either have 100=yes or 0=no. 
 
 * Rates of oral cancer mortality or incidence per 100,000 people. These indicators are perhaps most appropriately displayed on their own log scale. But we are a bit lucky that the rates for these two indicators range between zero and 100 so that we can use them on the same chart as the other indicators, even if they are rather squished onto the lower end of the axis. For a more appropriate visualization of these indicators, please see the USCS dataset page of the National Oral Health Data Portal. 
 
