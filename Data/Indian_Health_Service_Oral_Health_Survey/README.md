@@ -24,7 +24,7 @@ The survey has been conducted by the Indian Health Service (IHS) for many years 
 
 #### Citation & Data Use
 
-The IHS surveys are available for public download on the IHS dental portal. 
+The IHS surveys are available for public download on the [IHS dental portal](https://www.ihs.gov/doh/). 
 
 The following citations are suggested within the text of each individual report:
 
