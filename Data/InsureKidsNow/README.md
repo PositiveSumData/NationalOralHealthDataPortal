@@ -32,6 +32,8 @@ Each state is required submit data according to a structure where each row is a 
 
 CMS does not have a recommended citation listed on their website. The IKN database was provided to Positive Sum without requiring a data use agreement.
 
+CMS provided the extract to our project in March, 2020. 
+
 ## Data Structure
 
 The IKN database was emailed to Positive Sum as a pipe-delimited text file. The file included the 27 fields that states may submit to the IKN Data Management System:
