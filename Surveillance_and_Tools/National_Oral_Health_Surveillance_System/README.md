@@ -114,7 +114,7 @@ The file **NOHSS_consolidator.R**, stored in this Github repository folder, help
 
 ## Tableau Presentation
 
-The presentation is located on [Tableau Public](https://public.tableau.com/profile/association.of.state.territorial.dental.directors#!/vizhome/NationalOralHealthSurveillanceSystem/Orientation).
+The presentation is located on [Tableau Public](https://public.tableau.com/views/NationalOralHealthSurveillanceSystem/Nav?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link).
 
 ## Status & Next Steps
 
