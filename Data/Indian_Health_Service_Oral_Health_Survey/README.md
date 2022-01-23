@@ -18,9 +18,9 @@ This dataset shares insights into the prevalence oral health conditions of Ameri
 
 The survey has been conducted by the Indian Health Service (IHS) for many years in tribal and IHS dental clinics. Periodic reports, whether showing the latest survey wave or aggregating previous waves, are published on the IHS dental portal. The National Oral Health Data Portal collected data from two reports on the IHS dental portal:
 
-* [**The Oral Health of 13-15 Year Old American Indian and Alaska Native (AI/AN) Dental Clinic Patients – A Follow-Up Report to the 2013 Survey**](https://www.ihs.gov/doh/documents/surveillance/2018-19%20Data%20Brief%20of%201-5%20Year-Old%20AI-AN%20Preschool%20Children.pdf)
+* [**The Oral Health of 13-15 Year Old American Indian and Alaska Native (AI/AN) Dental Clinic Patients – A Follow-Up Report to the 2013 Survey**](https://www.ihs.gov/doh/documents/surveillance/IHS_Data_Brief_Oral_Health_13-15_Year_Old_Follow-Up_to_2013_Survey.pdf)
 
-* [**THE ORAL HEALTH OF AMERICAN INDIAN AND ALASKA NATIVE CHILDREN AGED 1-5 YEARS: RESULTS OF THE 2018-19 IHS ORAL HEALTH SURVEY**](https://www.ihs.gov/doh/documents/surveillance/IHS_Data_Brief_Oral_Health_13-15_Year_Old_Follow-Up_to_2013_Survey.pdf) 
+* [**THE ORAL HEALTH OF AMERICAN INDIAN AND ALASKA NATIVE CHILDREN AGED 1-5 YEARS: RESULTS OF THE 2018-19 IHS ORAL HEALTH SURVEY**](https://www.ihs.gov/doh/documents/surveillance/2018-19%20Data%20Brief%20of%201-5%20Year-Old%20AI-AN%20Preschool%20Children.pdf) 
 
 #### Citation & Data Use
 
