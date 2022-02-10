@@ -1,6 +1,6 @@
 # CDC National Health & Nutrition Examination Survey (NHANES) via CDC Oral Health Surveillance Reports
 
-The CDC periodically releases a report of national oral health status trends. In [2019 a report](https://www.cdc.gov/oralhealth/publications/OHSR-2019-list-of-tables.html) titled "Trends in dental caries and sealants, tooth retention, and edentulism, United States 1999-2004 to 2011-206 was released, updating the previous [2007 report](https://www.cdc.gov/nchs/data/series/sr_11/sr11_248.pdf) titled "Trends in oral health status: United States, 1988-1994 and 1999-2004". Both reports use the National Health & Nutrition Examination Survey (NHANES) as the primary dataset. For the Oral Health Data Portal project, both reports have been combined to present trends across the three time periods: 1988-1994, 1999-2004, 2011-2016.
+The CDC periodically releases a report of national oral health status trends. In [2019 a report](https://www.cdc.gov/oralhealth/publications/OHSR-2019-list-of-tables.html) titled "Trends in dental caries and sealants, tooth retention, and edentulism, United States 1999-2004 to 2011-2016 was released, updating the previous [2007 report](https://www.cdc.gov/nchs/data/series/sr_11/sr11_248.pdf) titled "Trends in oral health status: United States, 1988-1994 and 1999-2004". Both reports use the National Health & Nutrition Examination Survey (NHANES) as the primary dataset. For the Oral Health Data Portal project, both reports have been combined to present trends across the three time periods: 1988-1994, 1999-2004, 2011-2016.
 
 ## Utility
 
