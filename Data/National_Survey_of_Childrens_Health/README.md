@@ -31,9 +31,9 @@ On the ChildHealthData website Johns Hopkins suggests the following information 
 The ChildHealthData portal lets users see a glimpse of data at a time: one survey question in one year for one population stratification for up to two states. For each selection we are given the percent of children responding with each answer, the 95% confidence interval, the sample count, and the estimated population size. The data are presented as a table on the webpage in html.
 
 The ability to web scrape the data comes from the URL structure of the ChildHealthData website. There are 3 parameters in the URL: 
-* **q**. The question-year(s). a 4-digit number ranging from 4561 to 7558. Even though the same questions are often asked across years, the developers have chosen to use a combined key representing a combination of year and question. There are 5 year(s) reported so far: 2016, 2017, 2018, 2016-2017, 2017-2018. The combined years will give lower confidence intervals because more data is included. 
+* **q**. The question-year(s). a 4-digit number ranging from 4561 to 8280. Even though the same questions are often asked across years, the developers have chosen to use a combined key representing a combination of year and question. There are 9 year(s) reported so far: 2016, 2017, 2018, 2016-2017, 2017-2018, 2018, 2018-2019, 2019, 2019-2020. The combined years will give lower confidence intervals because more data is included. 
 * **r**. The geography. A number from 1-52. These include all states, the United States as a whole, and Washington DC.
-* **g**. The population stratification. A 3-digit number ranging from 607 to 779. The codes represent a unique combination of year and group. Groups include names like 'family resilience', 'current insurance status', and 'well-functioning system of care'.
+* **g**. The population stratification. A 3-digit number ranging from 607 to 930. The codes represent a unique combination of year and group. Groups include names like 'family resilience', 'current insurance status', and 'well-functioning system of care'.
 
 For a key to decoding the parameters, see this [file](https://github.com/PositiveSumData/NationalOralHealthDataPortal/blob/master/Data/National_Survey_of_Childrens_Health/Key.xlsx) in the Github repository.
 
@@ -55,13 +55,15 @@ The reason for saving the confidence intervals in its own sheet is that data vis
 
 The data model is available as a LucidChart [here](https://app.lucidchart.com/invitations/accept/bec22ad3-1e54-4bcc-b82a-7a82d09bf4a6). 
 
-## Issues & decisions
+## Issues, Modifications & Decisions
 
 The ChildHealthData website warns that we should 'interpret with caution' when estimates have a confidence interval wider than 1.2x the percent estimate or a width larger than 20 percentage points, and on their website they flag such data with a grey color. We have not implemented a comparable warning indicator in our Tableau dashboards, but we could if we receive feedback that it would be helpful. We decided not to suppress the data but to show the entire confidence interval width, which we hope will visually cue people to interpret with caution.
 
 ChildHealthData goes a step farther when data has no variance, as in the case when all respondents report the same answer (e.g., 100% say 'yes' to a question). This tends to happen for rare and/or low sample size slices. ChildHealthData may suppress these data by 'dashing out' the table cells, though not always. If most of the data in a table is dashed out, they suppress the entire table so that you can only obtain the data by knowing the URL. In the National Oral Health Data Portal Project, we have chosen to suppress data when the lower confidence level equals the upper confidence level, indicating no variance. We suppressed the data inside the R code so it does not get entered into our output csv files. 
 
 Sometimes the wording of population groupings or survey answers are not consistently labelled on ChildHealthData.org, making some longitudinal comparisons initially difficult. For example, in 2016 the question regarding presence of toothaches had a possible response of 'No toothache' whereas in 2018 the possible response was 'No toothaches' (plural). To draw any trend lines in Tableau we need them to be the same. In the future, based on feedback, we may decide to modify the underlying data to create more consistency.
+
+To keep the names of variables consistent over time, we have modified the language scraped from the ChildHealthData.org website. It appears that the names of some answers, groups, and subgroups are slightly changed year to year but do not reflect actual changes to the survey instrument. For example, in some years there is a population group named "Care met medical home criteria," and in other years it is named "Care meets medical home criteria." Other examples are the answer "No toothache" compared to "No tootaches", or "Received both preventive care" compared to "Received both types of preventive care". To keep the original names would break our ability to observe trends over time in data visualization because the software would treat them as seaparate varaibles. We have modified some "original" fields to "final fields" in the excel key linked in this repository and have incorporated joins into our R code. These three sheets are "answer_mods", "subroupg_mods", and "group_mods".
 
 ## Code
 
