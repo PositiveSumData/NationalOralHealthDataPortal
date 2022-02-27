@@ -8,7 +8,7 @@ library(readxl) # for reading excel spreadsheets
 # Children's Health. The first couple steps pertain to web scraping. The final steps
 # pertain to tidying the data.
 
-
+setwd("E:/Postive Sum/HRSA/NSCH")
 ###########################################################################
 ##### Step 1: Set up lists 
 ###########################################################################
@@ -31,7 +31,15 @@ questions <- c(4561, 4569, 4570, 4650, 4688, 4689,
                6848, 6849, 6910, 6964, 6965, 6972, 
                7021, 7080, 7081, 7082, 7083, 7084, 
                7085, 7086, 7087, 7136, 7281, 7330, 
-               7332, 7333, 7334, 7534, 7558)
+               7332, 7333, 7334, 7534, 7558, 7610,
+               7611, 7613, 7612, 7614, 7678, 7725,
+               7726, 7727, 7728, 7729, 7730, 7731,
+               7732, 7794, 7709, 7712, 8447, 8448,
+               8449, 8450, 8451, 8607, 8608, 8614,
+               8611, 8610, 8612, 8613, 8609, 8615, 
+               8676, 8573, 8576, 8022, 8023, 8024, 
+               8025, 8026, 8213, 8214, 8215, 8216,
+               8217, 8218, 8219, 8220, 8221, 8280)
 
 # Because different years have different questions we prepare different 
 # question lists. We use a dummy code 99999 to later represent when there 
@@ -61,6 +69,23 @@ groups_2018 <- c(99999, 752, 756, 757, 758, 760, 762, 763,
                  782, 785, 771, 772, 773, 774, 776,
                  775, 777, 779) 
 
+groups_2018_2019 <- c(99999, 789, 793, 794, 796, 797, 799, 800,
+                      801, 803, 804, 805, 806, 807, 808,
+                      811, 812, 813, 814, 815, 816, 817,
+                      818, 819, 821)
+
+groups_2019 <- c(99999, 827, 831, 832, 861, 834, 835, 836, 837, 
+                 840, 841, 842, 846, 847, 849, 851, 852,
+                 853, 854, 855, 856, 857, 858)
+
+
+
+groups_2019_2020 <- c(99999, 910, 907, 913, 914, 916, 917, 899,
+                      918, 900, 901, 901, 919, 807, 922,
+                      924, 937, 926, 927, 902, 903, 904,
+                      905, 928, 930)
+
+
 
 
 ###########################################################################
@@ -81,13 +106,16 @@ for (r in 1:52) {
   # Question-years loop
   for (q in questions) {
     # change the group options depending on the year
-    if (q < 5273) {groups <- groups_2016
+    if (q < 5273) {groups <- groups_2016 
     } else if (q < 6465) {groups <- groups_2016_2017
     } else if (q < 6845) {groups <- groups_2017
     } else if (q < 6964) {groups <- groups_2017_2018
     } else if (q < 7080) {groups <- groups_2018
     } else if (q < 7330) {groups <- groups_2017_2018
-    } else if (q < 7559) {groups <- groups_2018}
+    } else if (q < 7559) {groups <- groups_2018
+    } else if (q < 8022) {groups <- groups_2018_2019
+    } else if (q < 8447) {groups <- groups_2019
+    } else if (q < 8577) {groups <- groups_2019_2020}
     
     # Groups loop
     for (g in groups) {
@@ -251,7 +279,7 @@ for (r in 1:52) {
                               population = pop_matrix[element, head])
           
         }}
-      Sys.sleep(18) # seconds to wait between each url loop so we don't overload their server
+      Sys.sleep(7) # seconds to wait between each url loop so we don't overload their server
     }}}
 
 ###########################################################################
@@ -264,8 +292,8 @@ for (r in 1:52) {
 # Convert master list to data frame and transpose
 nsch <- t(as.data.frame(master))
 
-write.csv(nsch, "nsch.csv", row.names = FALSE)
-write.csv(collection, "collection.csv", row.names = FALSE)
+
+write.csv(collection, "collection2.csv", row.names = FALSE)
 
 
 ###########################################################################
@@ -274,18 +302,21 @@ write.csv(collection, "collection.csv", row.names = FALSE)
 
 # Read in the different sheets from our excel 'key' table that helps us decode
 # our parameters.
-
+fips <- read_csv("E:/Postive Sum/HRSA/NSCH/state_fips.csv")
 key_q <- read_excel("key.xlsx", skip = 0, sheet = "q")
 key_r <- read_excel("Key.xlsx", skip = 0, sheet = "r")
 key_g <- read_excel("key.xlsx", skip = 0, sheet = "g")
-
+key_subgroup_mod <- read_excel("key.xlsx", skip = 0, sheet = "subgroup_mods")
+key_group_mod <- read_excel("key.xlsx", skip = 0, sheet = "group_mods")
+key_answer_mod <- read_excel("key.xlsx", skip = 0, sheet = "answer_mods")
 
 ###########################################################################
 ##### Step 6: Modify the output to prepare for visualization
 ###########################################################################
 
-nchs <- read.csv("nsch.csv", skip = 0, na = "--") %>%
+nsch <- bind_rows(nsch1, nsch2) %>%
   arrange(question) %>%
+  filter(!is.na(CI)) %>%
   separate(CI, c("lower", "upper"), "-") %>%
   mutate(lower = as.numeric(str_trim(lower)),
          upper = as.numeric(str_trim(upper))) %>%
@@ -293,15 +324,32 @@ nchs <- read.csv("nsch.csv", skip = 0, na = "--") %>%
   filter(width != 0) %>%
   #filter(width < 1.2*percent) %>%
   #filter(width < 20) %>%
-  
   left_join(key_q, by = c("question" = "q")) %>%
   left_join(key_r, by = c("geography" = "r")) %>%
-  left_join(key_g, by = c("group" = "g")) %>% 
-  mutate(geo_name = ifelse(geo_name == "Nationwide", "US", geo_name),
-         group = label) %>%
-  select(-width, -"possible_answers", -geography, -year_g, -question, -label) %>%
-  arrange(factor(year, levels = c("2017-2018", "2016-2017", "2018", "2017", "2016")))
-
+  left_join(key_g, by = c("group" = "g")) %>%
+  left_join(key_answer_mod, by = c("answer" = "original_answer")) %>%
+  left_join(key_subgroup_mod, by = c("subgroup" = "original_subgroup")) %>% 
+  left_join(key_group_mod, by = c("label" = "original_group")) %>%
+  mutate(g = group,
+         geo_name = ifelse(geo_name == "Nationwide", "United States", geo_name),
+         measure = paste0(question_short, " - ", answer),
+         answer = if_else(is.na(final_answer), answer, final_answer),
+         subgroup = if_else(is.na(final_subgroup), subgroup, final_subgroup),
+         group = if_else(is.na(final_group), label, final_group)) %>%
+  left_join(fips, by = c("geo_name" = "full_name")) %>%
+  filter(!is.na(question),
+         !is.na(percent),
+         !is.na(years),
+         !is.na(group),
+         !is.na(subgroup),
+         # Filter this groups because of labeling error / duplicate record from scrape
+         group != "Adverse childhood experiences - 9 items",
+         group != "Family structure -- 4 categories",
+         group != "Tooth decay/cavities") %>%
+  select(-width, -possible_answers, -geography, -question, -label, -g, 
+         -final_answer, -final_subgroup, -final_group, -measure) %>%
+  arrange(desc(years))
+  #arrange(factor(year, levels = c("2019-2020", "2018-2019", "2017-2018", "2016-2017", "2019", "2018", "2017", "2016")))
 
 ###########################################################################
 ##### Step 7: Break the dataframe into two components: main results and confidence intervals
@@ -309,8 +357,8 @@ nchs <- read.csv("nsch.csv", skip = 0, na = "--") %>%
 
 # nchs_prime contains most of our data. Each row is a unique geography, year, question,
 # answer, group, subgroup.
-nchs_prime <- nchs %>%
-  select(-upper, -lower)
+nsch_prime <- nsch
+
 
 # nchs_CI has two rows for each unique geography, year, question, answer, group, subgroup.
 # One row is for the upper confidence interval, one for the lower. We also add a column 
@@ -319,8 +367,8 @@ nchs_prime <- nchs %>%
 # count down. We choose a very large upper bound so that there is a large middle of available
 # orders if additional data gets added in the next year.
 
-nchs_CI <- nchs %>%
-  select(-population, -percent, -sample_size, -"question_long") %>%
+nsch_CI <- nsch %>%
+  select(-percent, -question_long) %>%
   pivot_longer(cols=c("lower", "upper"), values_to = "confidence_value", names_to = "confidence_level") %>%
   mutate(order = ifelse(confidence_level == "lower", 1:n(), 100000000 - 1:n()))
 
@@ -329,5 +377,7 @@ nchs_CI <- nchs %>%
 ##### Step 8: Save final output to csv
 ###########################################################################
 
-write.csv(nchs_prime, "nchs_prime.csv", row.names = FALSE, na = "")
-write.csv(nchs_CI, "nchs_CI.csv", row.names = FALSE, na = "")
+write_csv(nsch_prime, "nchs_prime.csv", na = "")
+write_csv(nsch_CI, "nchs_CI.csv", na = "")
+
+write_csv(nsch, "nsch_agg.csv")
